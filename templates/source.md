@@ -1,45 +1,49 @@
-# Source: {{title}}
+# 源材料：{{title}}
 
-## Metadata
+## 元信息
 
-- Type:
-- Author / creator:
-- URL / path:
-- Date added:
-- Status: raw
-- Related digests:
-- Related concepts:
+- 类型：
+- 作者 / 创建者：
+- URL / 本地路径：
+- 添加日期：
+- 状态：原始材料
+- 关联消化笔记：
+- 关联概念：
 
-## Why This Source Matters
+## 为什么这个材料重要
 
 
-## Source Map
+## 材料结构图
 
-Break the source into sections, chapters, timestamps, modules, or files.
+按章节、时间戳、模块、页面或文件拆分源材料。
 
-| Part | Location | Main idea | Digest file |
+| 部分 | 位置 | 核心意思 | 对应消化文件 |
 | --- | --- | --- | --- |
 | 1 |  |  |  |
 
-## Extraction Notes
+## 抽取笔记
 
-### Claims
-
-- 
-
-### Mechanisms
+### 原文事实
 
 - 
 
-### Examples
+### 关键主张
 
 - 
 
-### Terms
+### 机制
 
 - 
 
-### Open Questions
+### 例子
+
+- 
+
+### 术语
+
+- 
+
+### 开放问题
 
 - 
 

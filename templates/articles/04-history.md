@@ -1,31 +1,31 @@
-# {{title}}: Historical Development Explanation
+# {{title}}：历史发展解释
 
-## Present Object
-
-
-## Earlier Problem
-
-What problem existed before this object became necessary?
+## 当前对象
 
 
-## Earlier Approaches
+## 早期问题
 
-| Stage | Approach | What it solved | What it failed to solve |
+在这个对象出现之前，原来有什么问题？
+
+
+## 早期做法
+
+| 阶段 | 做法 | 解决了什么 | 没解决什么 |
 | --- | --- | --- | --- |
 | 1 |  |  |  |
 
-## Evolution Logic
+## 演化逻辑
 
-Describe the sequence of contradiction, correction, and replacement.
-
-
-## Why This Form Was Selected
+描述矛盾、修正、替代和否定之否定的过程。
 
 
-## What Trend It Represents
+## 为什么发展成这种形态
 
 
-## Unsourced Or Uncertain Historical Claims
+## 它代表的趋势
+
+
+## 未经来源确认的历史判断
 
 - 
 

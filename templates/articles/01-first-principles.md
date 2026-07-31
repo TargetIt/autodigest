@@ -1,32 +1,32 @@
-# {{title}}: First Principles Explanation
+# {{title}}：第一性原理解释
 
-## Target
-
-
-## Starting From Zero
-
-If this thing did not exist, what basic problem would force people to create something like it?
+## 待消化对象
 
 
-## Basic Constraints
+## 从零开始
+
+如果这个东西不存在，什么基础问题会迫使人们创造它？
+
+
+## 基础约束
 
 - 
 
-## Step-By-Step Derivation
+## 分步骤推导
 
 1. 
 2. 
 3. 
 
-## Core Mechanism
+## 核心机制
 
 
-## What This Explains Well
+## 这个视角解释清楚了什么
 
 
-## What This Does Not Explain Yet
+## 还有什么没解释
 
 
-## One-Sentence Reconstruction
+## 一句话重建
 
 

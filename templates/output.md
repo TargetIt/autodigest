@@ -1,34 +1,34 @@
-# Output: {{title}}
+# 输出计划：{{title}}
 
-## Audience
-
-
-## Purpose
+## 读者
 
 
-## Final Form
+## 目的
 
-- Essay
-- Study guide
-- Checklist
-- Diagram
-- Presentation
-- Code walkthrough
 
-## Outline
+## 最终形式
+
+- 文章
+- 学习指南
+- 清单
+- 图解
+- 演示文稿
+- 代码讲解
+
+## 大纲
 
 1. 
 2. 
 3. 
 
-## Draft
+## 草稿
 
 
-## Review Checklist
+## 检查清单
 
-- [ ] It explains the problem before the mechanism.
-- [ ] It defines important terms.
-- [ ] It includes at least one concrete example.
-- [ ] It distinguishes what is known from what is inferred.
-- [ ] It lists unresolved questions.
+- [ ] 先解释问题，再解释机制。
+- [ ] 定义重要术语。
+- [ ] 至少包含一个具体例子。
+- [ ] 区分已知事实和推测。
+- [ ] 列出未解决问题。
 

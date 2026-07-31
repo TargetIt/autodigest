@@ -1,39 +1,39 @@
-# Digest Prompt
+# Auto Digest 提示词
 
-Use this prompt when processing a complex source.
+使用下面提示词处理复杂材料。
 
 ```text
-I am learning the following material:
+我正在学习下面这个复杂对象：
 
-[paste source excerpt, notes, link summary, or transcript segment]
+[粘贴原文摘录、笔记、链接摘要、论文片段、文档片段或转写内容]
 
-Help me digest it using the Auto Digest workflow.
+请使用 Auto Digest 工作流帮我消化它。
 
-First build a neutral core model:
+先建立一个中性的核心模型：
 
-1. Define the target object.
-2. State the source boundary and what must not be invented.
-3. Extract key claims, mechanisms, concepts, examples, and open questions.
-4. Identify inputs, outputs, levels, modules, feedback loops, and information flows.
+1. 定义待消化对象。
+2. 说明资料边界：哪些来自原文，哪些不能编造。
+3. 抽取关键事实、主张、机制、概念、例子和开放问题。
+4. 识别输入、输出、层次、模块、反馈环和信息流。
 
-Then write eight explanation articles:
+然后写八篇中文解释文章：
 
-1. First principles: derive it from basic constraints and needs.
-2. Customer demand: explain it from raw customer need, success criteria, and foolproof usage.
-3. Everyday analogy: explain it to an elderly non-expert with a simple analogy, then map the analogy back to the real mechanism.
-4. Historical development: explain the evolution process and why this form was selected.
-5. Layered system: explain levels, modules, inputs, outputs, functions, and interfaces.
-6. Cybernetics: explain goals, feedback, measurement, adjustment, and stability.
-7. Information theory: explain representation, transformation, encoding, noise, and information flow.
-8. Demo: design a minimal end-to-end example that makes the mechanism visible.
+1. 第一性原理：从基础约束和原始需求一步步推导它。
+2. 客户需求：从客户原始痛点、成功标准和傻瓜式使用角度解释。
+3. 生活化类比：讲给非专业老人听，用简单比喻，但必须映射回真实机制。
+4. 历史发展：解释它的演化过程，以及为什么会发展成当前形态。
+5. 层次化系统：解释它的层次、模块、输入、输出、功能和接口。
+6. 控制论：解释目标、反馈、测量、调节和稳定性。
+7. 信息论：解释表示、编码、转换、噪声、不确定性和信息流。
+8. 最小 Demo：设计一个从头到尾跑通的最小例子，让核心机制可见。
 
-For every article:
+每篇文章都必须遵守：
 
-- Do not fabricate facts.
-- Keep the original principle intact.
-- Mark uncertain parts clearly.
-- Use concrete examples.
-- End with a short reconstruction in plain language.
-
-Write in Chinese unless the source terminology is better kept in English.
+- 默认使用中文。
+- 不编造事实。
+- 保持原始原理不变形。
+- 不确定的地方必须明确标注。
+- 使用具体例子。
+- 结尾用一段通俗中文重建理解。
 ```
+

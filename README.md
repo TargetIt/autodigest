@@ -1,124 +1,83 @@
 # autodigest
 
-`autodigest` is a personal learning repository and writing workflow for digesting complex concepts in a repeatable way.
+`autodigest` 是一个用于学习复杂概念的自动消化仓库。
 
-The goal is not to store everything. The goal is to turn difficult material into your own structured understanding:
+它的目标不是简单存资料，而是把复杂材料加工成你自己的结构化理解，并默认输出中文内容。
 
-1. Capture raw material.
-2. Identify the exact object to digest.
-3. Extract claims, concepts, mechanisms, examples, and open questions.
-4. Rebuild the idea from multiple angles.
-5. Produce several explanation articles that make the concept usable.
+核心动作：
 
-## Repository Layout
+1. 收集原始材料。
+2. 明确待消化对象。
+3. 抽取事实、概念、机制、例子和疑问。
+4. 按多个认知视角重新解释同一个对象。
+5. 产出几篇可复用的中文文章。
+
+## 仓库结构
 
 ```text
 autodigest/
-  inbox/       Raw notes, links, copied fragments, temporary ideas.
-  sources/     Source records for books, papers, talks, docs, code, or courses.
-  digests/     Processed learning notes, one digest per focused unit.
-  concepts/    Reusable concept pages, definitions, models, and distinctions.
-  outputs/     Final artifacts: essays, study guides, talks, diagrams, prompts.
-  prompts/     Prompts used for AI-assisted digestion.
-  scripts/     Small local automation.
-  templates/   Markdown templates.
-  workflows/   The fixed Auto Digest workflow.
+  inbox/       临时材料、链接、摘录、想法。
+  sources/     书、论文、视频、文档、代码、课程等源材料记录。
+  digests/     对单个知识单元的消化笔记。
+  concepts/    可复用概念页、定义、模型、区分。
+  outputs/     最终产出：文章、学习指南、图解、演讲稿等。
+  prompts/     AI 辅助消化提示词。
+  scripts/     小型本地自动化脚本。
+  templates/   中文 Markdown 模板。
+  workflows/   固定 Auto Digest 工作流。
 ```
 
-## Auto Digest Workflow
+## Auto Digest 工作流
 
-When you say "use Auto Digest" for a complex concept, process the target with this workflow:
+当你说“使用 Auto Digest 消化某个复杂概念”时，默认按这个流程处理：
 
-1. Define the digestion target.
-2. State the source boundary: what evidence is available and what must not be invented.
-3. Build a neutral core model of the concept.
-4. Rewrite the concept into eight explanation articles:
-   - first principles
-   - customer demand
-   - everyday analogy
-   - historical development
-   - layered system structure
-   - cybernetics and feedback
-   - information theory
-   - runnable demo
-5. Extract reusable concepts and unresolved questions.
-6. Turn the result into final outputs.
+1. 定义待消化对象。
+2. 明确资料边界：哪些来自原文，哪些不能编造。
+3. 建立一个中性的核心模型。
+4. 输出八类中文解释文章：
+   - 第一性原理解释
+   - 客户需求解释
+   - 生活化类比解释
+   - 历史发展解释
+   - 层次化/结构化/模块化解释
+   - 控制论/反馈解释
+   - 信息论解释
+   - 最小 Demo 解释
+5. 抽取可复用概念和未解决问题。
+6. 汇总成最终输出。
 
-The detailed workflow is in `workflows/autodigest.md`.
+详细工作流见 `workflows/autodigest.md`。
 
-## Start A New Auto Digest Packet
+## 创建一个新消化包
 
 ```bash
 python3 scripts/new_digest.py "Transformer Attention"
 ```
 
-This creates linked files in `sources/`, `digests/`, `concepts/`, and `outputs/<topic>/`.
+脚本会生成：
 
-The output folder contains the eight article drafts.
+- `sources/<主题>.md`
+- `digests/<主题>.md`
+- `concepts/<主题>.md`
+- `outputs/<主题>/` 下的八篇中文文章草稿
 
-## Manual Workflow
+## 消化标准
 
-### 1. Start From A Topic
+每次认真消化都要回答：
 
-Create a source file:
+- 这个东西解决什么问题？
+- 它由哪些核心部分组成？
+- 这些部分如何交互？
+- 最小可运行例子是什么？
+- 我还有哪些地方没搞懂？
+- 如果讲给低一个层次的人，应该怎么讲？
 
-```bash
-cp templates/source.md sources/my-topic.md
-```
+## Git 习惯
 
-Record:
-
-- What you are studying.
-- Why it matters.
-- Where the material comes from.
-- What kind of output you want.
-
-### 2. Create Digest Notes
-
-Use one digest note per narrow unit:
-
-```bash
-cp templates/digest.md digests/my-topic-part-1.md
-```
-
-A good digest unit is small enough that you can explain it clearly in 5 to 15 minutes.
-
-### 3. Promote Concepts
-
-When a term, mechanism, pattern, or distinction appears repeatedly, create a concept page:
-
-```bash
-cp templates/concept.md concepts/my-concept.md
-```
-
-Concept pages should become stable reference material.
-
-### 4. Produce Something
-
-Turn the processed material into an output:
-
-```bash
-cp templates/output.md outputs/my-topic-explained.md
-```
-
-Outputs are where understanding becomes communicable.
-
-## Digest Standard
-
-Every serious digest should answer:
-
-- What problem is this solving?
-- What are the core parts?
-- How do the parts interact?
-- What is the minimum runnable example or concrete case?
-- What do I still not understand?
-- How would I explain this to someone one level below me?
-
-## Git Habit
-
-Commit when a unit of understanding becomes clearer:
+当一个知识单元变得更清楚时提交：
 
 ```bash
 git add .
 git commit -m "Digest transformer attention basics"
 ```
+

@@ -1,36 +1,36 @@
-# {{title}}: Customer Demand Explanation
+# {{title}}：客户需求解释
 
-## Customer
-
-
-## Original Need
-
-What is the customer's raw, pre-technical need?
+## 客户是谁
 
 
-## Pain Before This Exists
+## 原始需求
+
+客户在还不知道技术方案之前，真正想解决什么问题？
+
+
+## 没有它之前的痛点
 
 - 
 
-## Successful Outcome
+## 成功标准
 
-What must be true for the customer to feel that the problem is solved?
+客户觉得“问题被解决了”时，必须满足什么条件？
 
 
-## Foolproof Usage
+## 傻瓜式使用流程
 
-Explain how the customer should use it without needing to understand the internal complexity.
+客户不需要理解内部复杂性，也应该能这样使用：
 
 1. 
 2. 
 3. 
 
-## How The System Satisfies The Need
+## 系统如何满足需求
 
 
-## Where It May Fail The Customer
+## 可能无法满足客户的地方
 
 
-## Product-Level Summary
+## 产品视角总结
 
 

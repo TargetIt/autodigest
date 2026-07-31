@@ -1,29 +1,29 @@
-# Concept: {{title}}
+# 概念：{{title}}
 
-## Definition
-
-
-## Why It Exists
+## 定义
 
 
-## How It Works
+## 它为什么存在
 
 
-## Common Confusions
+## 它如何工作
 
-| Confusion | Correction |
+
+## 常见误解
+
+| 误解 | 修正 |
 | --- | --- |
 |  |  |
 
-## Examples
+## 例子
 
 - 
 
-## Related Concepts
+## 相关概念
 
 - 
 
-## Source Evidence
+## 来源依据
 
 - 
 

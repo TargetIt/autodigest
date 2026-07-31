@@ -1,120 +1,120 @@
-# Auto Digest Workflow
+# Auto Digest 工作流
 
-Use this workflow whenever a complex concept, system, technology, product idea, or knowledge point needs to be digested.
+当一个复杂概念、复杂系统、技术方案、产品能力或知识点需要被消化时，使用这个工作流。
 
-The purpose is to rewrite one difficult object into several explanation articles from different cognitive angles. Each article should make the same object clearer without changing its real principles.
+目标是：把同一个难懂对象，从多个认知角度重写成几篇中文文章。每篇文章都要让对象更清楚，但不能改变它原来的真实原理。
 
-## Non-Negotiable Rules
+## 不可违反的规则
 
-- Do not invent facts, history, mechanisms, data, names, or causal claims.
-- Separate source facts, interpretation, analogy, and speculation.
-- Keep the original principle intact even when using simple language.
-- Prefer concrete examples over abstract adjectives.
-- If source material is insufficient, mark the missing part as an open question.
-- Each article must explain the same target object, not drift into a different topic.
+- 不编造事实、历史、机制、数据、人物、名称或因果关系。
+- 明确区分：原文事实、解释、类比、推测。
+- 即使用通俗语言，也必须保持原理不变形。
+- 优先使用具体例子，不堆抽象形容词。
+- 资料不足时，必须标注为“待确认”或“开放问题”。
+- 每篇文章都解释同一个对象，不能写着写着偏到另一个话题。
 
-## Input
+## 输入信息
 
-Before writing, collect:
+写作前先收集：
 
-- Target object:
-- Source material:
-- Reader:
-- Desired output:
-- Known constraints:
-- Questions I already have:
+- 待消化对象：
+- 原始材料：
+- 读者是谁：
+- 期望输出：
+- 已知约束：
+- 我当前的问题：
 
-## Phase 1: Object Definition
+## 阶段 1：定义对象
 
-Write a neutral definition:
+先写一个中性定义：
 
-- What is the object?
-- What problem does it address?
-- What is inside its boundary?
-- What is outside its boundary?
-- What would count as a wrong explanation?
+- 它是什么？
+- 它解决什么问题？
+- 它的边界内包含什么？
+- 它的边界外不包含什么？
+- 什么解释会把它讲错？
 
-## Phase 2: Core Model
+## 阶段 2：建立核心模型
 
-Build a compact model before writing articles:
+写文章前先建立一个紧凑模型：
 
-- Inputs:
-- Outputs:
-- Main components:
-- Key transformations:
-- Control or feedback loops:
-- Information representations:
-- Failure modes:
-- Minimal example:
+- 输入：
+- 输出：
+- 主要组成部分：
+- 关键转换过程：
+- 控制或反馈环：
+- 信息表示方式：
+- 失败模式：
+- 最小例子：
 
-## Phase 3: Eight Article Angles
+## 阶段 3：八个文章视角
 
-Create one article for each angle below.
+下面每个视角都产出一篇中文文章。
 
-### 1. First Principles
+### 1. 第一性原理
 
-Explain the target from the most basic constraints, needs, and mechanisms. Avoid jargon at the beginning. Derive the concept step by step.
+从最基础的约束、需求和机制出发解释待消化对象。开头尽量不用术语，而是一步一步推导为什么这个东西会被需要。
 
-Core question: If this thing did not exist, why would someone eventually need to invent it?
+核心问题：如果这个东西不存在，人们为什么最终会发明它？
 
-### 2. Customer Demand
+### 2. 客户需求
 
-Explain the target from the customer's original need, usage process, success criteria, and "foolproof" experience.
+从客户的原始需求、使用过程、成功标准和“傻瓜式使用”角度解释。
 
-Core question: What pain does the customer have, and how does this thing make the customer succeed without needing to understand internal complexity?
+核心问题：客户到底有什么痛点？这个东西如何让客户不用理解内部复杂性也能成功？
 
-### 3. Everyday Analogy
+### 3. 生活化类比
 
-Explain the target to an elderly non-expert using ordinary life examples. Analogies are allowed, but every analogy must be mapped back to the real mechanism.
+把对象讲给一个非专业的老奶奶、老太太或老大爷听。可以用生活比喻，但每个比喻都要映射回真实机制。
 
-Core question: What familiar life situation has the same structure, without distorting the original principle?
+核心问题：生活中有没有结构相似、但不歪曲原理的例子？
 
-### 4. Historical Development
+### 4. 历史发展
 
-Explain why this object appeared historically, what earlier approaches it negated or improved, and why the current form was selected.
+解释这个对象为什么会出现，它改进或否定了哪些早期做法，为什么历史趋势最终选择了现在这种形态。
 
-Core question: What sequence of problems and corrections led to this form?
+核心问题：经历了哪些问题、修正和替代，才发展成今天这样？
 
-### 5. Layered System Structure
+### 5. 层次化系统结构
 
-Explain the target as a system with levels, modules, interfaces, inputs, outputs, and functions.
+把对象当成系统，从层次、模块、接口、输入、输出、功能和边界来解释。
 
-Core question: What are the levels of abstraction, and what does each level hide or expose?
+核心问题：它有哪些抽象层？每一层隐藏什么、暴露什么？
 
-### 6. Cybernetics And Feedback
+### 6. 控制论与反馈
 
-Explain the target through control, feedback, error correction, goals, measurement, adjustment, and stability.
+从目标、测量、反馈、误差、调节、稳定性和故障诊断角度解释。
 
-Core question: What is being controlled, what feedback is observed, and how does the system adjust?
+核心问题：系统在控制什么？观察什么反馈？如何根据反馈调整？
 
-### 7. Information Theory
+### 7. 信息论
 
-Explain the target through representation, encoding, decoding, compression, noise, uncertainty, transformation, and information flow.
+从表示、编码、解码、压缩、噪声、不确定性、转换和信息流角度解释。
 
-Core question: What information exists at each stage, how is it represented, and how is it transformed?
+核心问题：每个阶段的信息是什么？如何表示？如何转换？转换中丢失或获得了什么？
 
-### 8. Demo
+### 8. 最小 Demo
 
-Design a minimal demo that makes the system run from beginning to end. The demo should be small, concrete, and faithful to the real mechanism.
+设计一个最小但完整的例子，从输入到输出跑通一次，让复杂系统的核心机制可见。
 
-Core question: What is the smallest working example that reveals the whole system?
+核心问题：最小的工作例子是什么，能让人一眼看懂整个系统如何运作？
 
-## Phase 4: Consistency Check
+## 阶段 4：一致性检查
 
-After writing all articles, check:
+写完后检查：
 
-- Do all articles describe the same object?
-- Did any analogy introduce false mechanics?
-- Are customer promises realistic?
-- Are historical claims sourced or marked uncertain?
-- Are levels, feedback loops, and information flows consistent with the core model?
-- Does the demo actually exercise the important mechanism?
+- 八篇文章是否讲的是同一个对象？
+- 有没有类比引入了错误机制？
+- 客户价值承诺是否现实？
+- 历史描述是否有依据，没依据的地方是否标注为推测？
+- 层次、反馈环和信息流是否与核心模型一致？
+- Demo 是否真的覆盖了关键机制？
 
-## Phase 5: Final Extraction
+## 阶段 5：最终沉淀
 
-Create or update:
+最后创建或更新：
 
-- Concept pages for reusable ideas.
-- Output pages for polished articles.
-- Open questions for future research.
+- 可复用概念页。
+- 最终输出文章。
+- 开放问题列表。
 

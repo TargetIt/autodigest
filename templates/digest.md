@@ -1,43 +1,43 @@
-# Digest: {{title}}
+# 消化笔记：{{title}}
 
-## One-Sentence Understanding
-
-
-## Problem
-
-What problem, confusion, or capability does this unit address?
+## 一句话理解
 
 
-## Core Model
+## 问题
 
-Explain the idea as a system of parts.
+这个知识单元解决什么问题、混淆或能力缺口？
 
 
-## Step-By-Step
+## 核心模型
+
+把它解释成一个由多个部分组成的系统。
+
+
+## 分步骤机制
 
 1. 
 2. 
 3. 
 
-## Concrete Example
+## 具体例子
 
 
-## My Reconstruction
+## 我的重建
 
-Rewrite the idea in your own words without looking at the source.
+不看原文，用自己的话重新解释这个东西。
 
 
-## Connections
+## 关联
 
-- Related sources:
-- Related concepts:
-- Related outputs:
+- 关联源材料：
+- 关联概念：
+- 关联输出：
 
-## Questions
+## 还没搞懂的问题
 
 - 
 
-## Next Action
+## 下一步
 
 - 
 

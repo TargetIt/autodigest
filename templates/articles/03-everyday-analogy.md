@@ -1,28 +1,28 @@
-# {{title}}: Everyday Analogy Explanation
+# {{title}}：生活化类比解释
 
-## Reader
+## 读者
 
-An elderly non-expert who needs a plain explanation without technical shortcuts.
+非专业老人，需要不用术语也能理解，但不能歪曲原理。
 
-## Plain Version
-
-
-## Life Analogy
+## 大白话版本
 
 
-## Mapping Back To The Real Thing
+## 生活类比
 
-| Analogy part | Real part | Limit of the analogy |
+
+## 类比和真实机制的映射
+
+| 类比部分 | 真实部分 | 类比的边界 |
 | --- | --- | --- |
 |  |  |  |
 
-## What Must Not Be Misunderstood
+## 不能误解的地方
 
 - 
 
-## Simple Example
+## 简单例子
 
 
-## Final Plain Explanation
+## 最终通俗解释
 
 

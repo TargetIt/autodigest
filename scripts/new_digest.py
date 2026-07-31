@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a linked Auto Digest packet."""
+"""创建一组关联的 Auto Digest 中文消化文件。"""
 
 from __future__ import annotations
 
@@ -27,13 +27,14 @@ def write_from_template(path: Path, template_name: str, title: str) -> bool:
         return False
     content = read_template(template_name).replace("{{title}}", title)
     content = content.replace("Date added:", f"Date added: {date.today().isoformat()}")
+    content = content.replace("添加日期：", f"添加日期：{date.today().isoformat()}")
     path.write_text(content, encoding="utf-8")
     return True
 
 
 def main() -> int:
     if len(sys.argv) < 2:
-        print("Usage: python3 scripts/new_digest.py \"Topic Title\"")
+        print("用法：python3 scripts/new_digest.py \"主题名称\"")
         return 2
 
     title = " ".join(sys.argv[1:]).strip()
@@ -43,15 +44,15 @@ def main() -> int:
         (ROOT / "sources" / f"{slug}.md", "source.md"),
         (ROOT / "digests" / f"{slug}.md", "digest.md"),
         (ROOT / "concepts" / f"{slug}.md", "concept.md"),
-        (ROOT / "outputs" / slug / "00-output-plan.md", "output.md"),
-        (ROOT / "outputs" / slug / "01-first-principles.md", "articles/01-first-principles.md"),
-        (ROOT / "outputs" / slug / "02-customer-demand.md", "articles/02-customer-demand.md"),
-        (ROOT / "outputs" / slug / "03-everyday-analogy.md", "articles/03-everyday-analogy.md"),
-        (ROOT / "outputs" / slug / "04-history.md", "articles/04-history.md"),
-        (ROOT / "outputs" / slug / "05-layered-system.md", "articles/05-layered-system.md"),
-        (ROOT / "outputs" / slug / "06-cybernetics-feedback.md", "articles/06-cybernetics-feedback.md"),
-        (ROOT / "outputs" / slug / "07-information-theory.md", "articles/07-information-theory.md"),
-        (ROOT / "outputs" / slug / "08-demo.md", "articles/08-demo.md"),
+        (ROOT / "outputs" / slug / "00-输出计划.md", "output.md"),
+        (ROOT / "outputs" / slug / "01-第一性原理.md", "articles/01-first-principles.md"),
+        (ROOT / "outputs" / slug / "02-客户需求.md", "articles/02-customer-demand.md"),
+        (ROOT / "outputs" / slug / "03-生活化类比.md", "articles/03-everyday-analogy.md"),
+        (ROOT / "outputs" / slug / "04-历史发展.md", "articles/04-history.md"),
+        (ROOT / "outputs" / slug / "05-层次化系统.md", "articles/05-layered-system.md"),
+        (ROOT / "outputs" / slug / "06-控制论与反馈.md", "articles/06-cybernetics-feedback.md"),
+        (ROOT / "outputs" / slug / "07-信息论.md", "articles/07-information-theory.md"),
+        (ROOT / "outputs" / slug / "08-最小Demo.md", "articles/08-demo.md"),
     ]
 
     created = []
@@ -64,11 +65,11 @@ def main() -> int:
             skipped.append(path.relative_to(ROOT))
 
     if created:
-        print("Created:")
+        print("已创建：")
         for path in created:
             print(f"  {path}")
     if skipped:
-        print("Skipped existing:")
+        print("已跳过已存在文件：")
         for path in skipped:
             print(f"  {path}")
 

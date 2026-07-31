@@ -1,32 +1,32 @@
-# {{title}}: Information Theory Explanation
+# {{title}}：信息论解释
 
-## Object As Information Processing
+## 把对象看成信息处理过程
 
 
-## Representations
+## 信息表示
 
-| Stage | What is represented | Format / signal | What is lost or gained |
+| 阶段 | 表示什么 | 格式 / 信号 | 丢失或获得了什么 |
 | --- | --- | --- | --- |
 | 1 |  |  |  |
 
-## Encoding And Decoding
+## 编码与解码
 
 
-## Transformations
+## 信息转换
 
 1. 
 2. 
 3. 
 
-## Noise, Uncertainty, And Ambiguity
+## 噪声、不确定性与歧义
 
 - 
 
-## Compression Or Abstraction
+## 压缩或抽象
 
-What details are removed, summarized, or hidden?
+哪些细节被移除、概括或隐藏？
 
 
-## Information Flow Summary
+## 信息流总结
 
 

@@ -1,44 +1,44 @@
-# {{title}}: Cybernetics And Feedback Explanation
+# {{title}}：控制论与反馈解释
 
-## Goal
+## 目标
 
-What state or result is the system trying to maintain or reach?
-
-
-## Controlled Variable
+系统想维持或达到什么状态？
 
 
-## Sensor / Measurement
-
-What does the system observe?
+## 被控制变量
 
 
-## Feedback Signal
+## 传感 / 测量
 
-What tells the system whether it is doing well or poorly?
-
-
-## Controller / Decision Rule
-
-How does the system decide what adjustment to make?
+系统观察什么？
 
 
-## Actuator / Action
+## 反馈信号
 
-What changes does the system apply?
+什么信号告诉系统做得好还是不好？
 
 
-## Negative Feedback Loop
+## 控制器 / 决策规则
 
-1. Measure:
-2. Compare:
-3. Adjust:
-4. Observe again:
+系统如何决定下一步调整？
 
-## Stability And Failure
+
+## 执行器 / 动作
+
+系统实际改变什么？
+
+
+## 负反馈环
+
+1. 测量：
+2. 比较：
+3. 调整：
+4. 再观察：
+
+## 稳定性与失败
 
 - 
 
-## Feedback Summary
+## 反馈视角总结
 
 

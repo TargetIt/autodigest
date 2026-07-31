@@ -1,42 +1,42 @@
-# {{title}}: Minimal Demo Explanation
+# {{title}}：最小 Demo 解释
 
-## Demo Goal
+## Demo 目标
 
-What should the demo make visible?
-
-
-## Minimal Setup
-
-- Input:
-- Components:
-- Output:
-
-## Demo Story
-
-Describe the smallest concrete example from beginning to end.
+这个 Demo 应该让什么机制变得可见？
 
 
-## Step-By-Step Run
+## 最小设置
+
+- 输入：
+- 组件：
+- 输出：
+
+## Demo 故事
+
+用最小的具体例子，从开始到结束讲一遍。
+
+
+## 分步骤运行
 
 1. 
 2. 
 3. 
 
-## What Each Step Reveals
+## 每一步揭示了什么
 
-| Step | What happens | What principle it demonstrates |
+| 步骤 | 发生了什么 | 展示了什么原理 |
 | --- | --- | --- |
 | 1 |  |  |
 
-## Optional Code Or Pseudocode
+## 可选代码或伪代码
 
 ```text
 
 ```
 
-## Why This Demo Is Faithful
+## 为什么这个 Demo 没有歪曲原理
 
 
-## What The Demo Leaves Out
+## Demo 省略了什么
 
 

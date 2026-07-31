@@ -1,37 +1,37 @@
-# {{title}}: Layered System Explanation
+# {{title}}：层次化系统解释
 
-## System Boundary
+## 系统边界
 
 
-## Inputs And Outputs
+## 输入与输出
 
-| Type | Description |
+| 类型 | 描述 |
 | --- | --- |
-| Input |  |
-| Output |  |
+| 输入 |  |
+| 输出 |  |
 
-## Levels
+## 层次
 
-| Level | Responsibility | Input | Output | Hidden details |
+| 层次 | 职责 | 输入 | 输出 | 隐藏的细节 |
 | --- | --- | --- | --- | --- |
 | 1 |  |  |  |  |
 
-## Modules
+## 模块
 
-| Module | Function | Depends on | Provides |
+| 模块 | 功能 | 依赖 | 提供 |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## End-To-End Flow
+## 端到端流程
 
 1. 
 2. 
 3. 
 
-## Failure Modes
+## 失败模式
 
 - 
 
-## Structural Summary
+## 结构化总结
 
 

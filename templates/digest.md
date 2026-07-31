@@ -1,0 +1,43 @@
+# Digest: {{title}}
+
+## One-Sentence Understanding
+
+
+## Problem
+
+What problem, confusion, or capability does this unit address?
+
+
+## Core Model
+
+Explain the idea as a system of parts.
+
+
+## Step-By-Step
+
+1. 
+2. 
+3. 
+
+## Concrete Example
+
+
+## My Reconstruction
+
+Rewrite the idea in your own words without looking at the source.
+
+
+## Connections
+
+- Related sources:
+- Related concepts:
+- Related outputs:
+
+## Questions
+
+- 
+
+## Next Action
+
+- 
+

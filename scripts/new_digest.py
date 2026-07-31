@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a linked source, digest, and output packet."""
+"""Create a linked Auto Digest packet."""
 
 from __future__ import annotations
 
@@ -42,12 +42,22 @@ def main() -> int:
     files = [
         (ROOT / "sources" / f"{slug}.md", "source.md"),
         (ROOT / "digests" / f"{slug}.md", "digest.md"),
-        (ROOT / "outputs" / f"{slug}.md", "output.md"),
+        (ROOT / "concepts" / f"{slug}.md", "concept.md"),
+        (ROOT / "outputs" / slug / "00-output-plan.md", "output.md"),
+        (ROOT / "outputs" / slug / "01-first-principles.md", "articles/01-first-principles.md"),
+        (ROOT / "outputs" / slug / "02-customer-demand.md", "articles/02-customer-demand.md"),
+        (ROOT / "outputs" / slug / "03-everyday-analogy.md", "articles/03-everyday-analogy.md"),
+        (ROOT / "outputs" / slug / "04-history.md", "articles/04-history.md"),
+        (ROOT / "outputs" / slug / "05-layered-system.md", "articles/05-layered-system.md"),
+        (ROOT / "outputs" / slug / "06-cybernetics-feedback.md", "articles/06-cybernetics-feedback.md"),
+        (ROOT / "outputs" / slug / "07-information-theory.md", "articles/07-information-theory.md"),
+        (ROOT / "outputs" / slug / "08-demo.md", "articles/08-demo.md"),
     ]
 
     created = []
     skipped = []
     for path, template in files:
+        path.parent.mkdir(parents=True, exist_ok=True)
         if write_from_template(path, template, title):
             created.append(path.relative_to(ROOT))
         else:
@@ -67,4 +77,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

@@ -1,14 +1,14 @@
 # autodigest
 
-`autodigest` is a personal learning repository for digesting complex topics in a repeatable way.
+`autodigest` is a personal learning repository and writing workflow for digesting complex concepts in a repeatable way.
 
 The goal is not to store everything. The goal is to turn difficult material into your own structured understanding:
 
 1. Capture raw material.
-2. Split it into digestible units.
+2. Identify the exact object to digest.
 3. Extract claims, concepts, mechanisms, examples, and open questions.
-4. Rebuild the idea in your own language.
-5. Produce reusable notes, explanations, checklists, diagrams, or essays.
+4. Rebuild the idea from multiple angles.
+5. Produce several explanation articles that make the concept usable.
 
 ## Repository Layout
 
@@ -22,9 +22,41 @@ autodigest/
   prompts/     Prompts used for AI-assisted digestion.
   scripts/     Small local automation.
   templates/   Markdown templates.
+  workflows/   The fixed Auto Digest workflow.
 ```
 
-## Core Workflow
+## Auto Digest Workflow
+
+When you say "use Auto Digest" for a complex concept, process the target with this workflow:
+
+1. Define the digestion target.
+2. State the source boundary: what evidence is available and what must not be invented.
+3. Build a neutral core model of the concept.
+4. Rewrite the concept into eight explanation articles:
+   - first principles
+   - customer demand
+   - everyday analogy
+   - historical development
+   - layered system structure
+   - cybernetics and feedback
+   - information theory
+   - runnable demo
+5. Extract reusable concepts and unresolved questions.
+6. Turn the result into final outputs.
+
+The detailed workflow is in `workflows/autodigest.md`.
+
+## Start A New Auto Digest Packet
+
+```bash
+python3 scripts/new_digest.py "Transformer Attention"
+```
+
+This creates linked files in `sources/`, `digests/`, `concepts/`, and `outputs/<topic>/`.
+
+The output folder contains the eight article drafts.
+
+## Manual Workflow
 
 ### 1. Start From A Topic
 
@@ -71,16 +103,6 @@ cp templates/output.md outputs/my-topic-explained.md
 
 Outputs are where understanding becomes communicable.
 
-## Automation
-
-Create a new learning packet with:
-
-```bash
-python3 scripts/new_digest.py "Transformer Attention"
-```
-
-This creates linked files in `sources/`, `digests/`, and `outputs/`.
-
 ## Digest Standard
 
 Every serious digest should answer:
@@ -100,4 +122,3 @@ Commit when a unit of understanding becomes clearer:
 git add .
 git commit -m "Digest transformer attention basics"
 ```
-

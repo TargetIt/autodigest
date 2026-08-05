@@ -54,7 +54,8 @@ def main() -> int:
         (ROOT / "outputs" / slug / "07-信息论.md", "articles/07-information-theory.md"),
         (ROOT / "outputs" / slug / "08-最小Demo.md", "articles/08-demo.md"),
         (ROOT / "outputs" / slug / "09-数据结构.md", "articles/09-data-structures.md"),
-        (ROOT / "outputs" / slug / "10-检视记录.md", "review.md"),
+        (ROOT / "outputs" / slug / "10-费曼式消化.md", "articles/10-feynman.md"),
+        (ROOT / "outputs" / slug / "11-检视记录.md", "review.md"),
     ]
 
     created = []

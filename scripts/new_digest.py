@@ -39,23 +39,23 @@ def main() -> int:
 
     title = " ".join(sys.argv[1:]).strip()
     slug = slugify(title)
+    digest_dir = ROOT / "digests" / slug
 
     files = [
         (ROOT / "sources" / f"{slug}.md", "source.md"),
-        (ROOT / "digests" / f"{slug}.md", "digest.md"),
         (ROOT / "concepts" / f"{slug}.md", "concept.md"),
-        (ROOT / "outputs" / slug / "00-输出计划.md", "output.md"),
-        (ROOT / "outputs" / slug / "01-第一性原理.md", "articles/01-first-principles.md"),
-        (ROOT / "outputs" / slug / "02-客户需求.md", "articles/02-customer-demand.md"),
-        (ROOT / "outputs" / slug / "03-生活化类比.md", "articles/03-everyday-analogy.md"),
-        (ROOT / "outputs" / slug / "04-历史发展.md", "articles/04-history.md"),
-        (ROOT / "outputs" / slug / "05-层次化系统.md", "articles/05-layered-system.md"),
-        (ROOT / "outputs" / slug / "06-控制论与反馈.md", "articles/06-cybernetics-feedback.md"),
-        (ROOT / "outputs" / slug / "07-信息论.md", "articles/07-information-theory.md"),
-        (ROOT / "outputs" / slug / "08-最小Demo.md", "articles/08-demo.md"),
-        (ROOT / "outputs" / slug / "09-数据结构.md", "articles/09-data-structures.md"),
-        (ROOT / "outputs" / slug / "10-费曼式消化.md", "articles/10-feynman.md"),
-        (ROOT / "outputs" / slug / "11-检视记录.md", "review.md"),
+        (digest_dir / "00-核心消化.md", "digest.md"),
+        (digest_dir / "01-第一性原理.md", "articles/01-first-principles.md"),
+        (digest_dir / "02-客户需求.md", "articles/02-customer-demand.md"),
+        (digest_dir / "03-生活化类比.md", "articles/03-everyday-analogy.md"),
+        (digest_dir / "04-历史发展.md", "articles/04-history.md"),
+        (digest_dir / "05-层次化系统.md", "articles/05-layered-system.md"),
+        (digest_dir / "06-控制论与反馈.md", "articles/06-cybernetics-feedback.md"),
+        (digest_dir / "07-信息论.md", "articles/07-information-theory.md"),
+        (digest_dir / "08-最小Demo.md", "articles/08-demo.md"),
+        (digest_dir / "09-数据结构.md", "articles/09-data-structures.md"),
+        (digest_dir / "10-费曼式消化.md", "articles/10-feynman.md"),
+        (digest_dir / "11-检视记录.md", "review.md"),
     ]
 
     created = []

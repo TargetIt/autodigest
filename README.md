@@ -18,7 +18,7 @@
 autodigest/
   inbox/       临时材料、链接、摘录、想法。
   sources/     书、论文、视频、文档、代码、课程等源材料记录。
-  digests/     对单个知识单元的消化笔记。
+  digests/     按主题分目录保存核心消化、十篇视角文章和检视记录。
   concepts/    可复用概念页、定义、模型、区分。
   outputs/     最终产出：文章、学习指南、图解、演讲稿等。
   prompts/     AI 辅助消化提示词。
@@ -66,9 +66,31 @@ python3 scripts/new_digest.py "Transformer Attention"
 脚本会生成：
 
 - `sources/<主题>.md`
-- `digests/<主题>.md`
 - `concepts/<主题>.md`
-- `outputs/<主题>/` 下的十篇中文文章草稿
+- `digests/<主题>/00-核心消化.md`
+- `digests/<主题>/01-第一性原理.md` 至 `10-费曼式消化.md`
+- `digests/<主题>/11-检视记录.md`
+
+目录示例：
+
+```text
+digests/
+  transformer-attention/
+    00-核心消化.md
+    01-第一性原理.md
+    02-客户需求.md
+    03-生活化类比.md
+    04-历史发展.md
+    05-层次化系统.md
+    06-控制论与反馈.md
+    07-信息论.md
+    08-最小Demo.md
+    09-数据结构.md
+    10-费曼式消化.md
+    11-检视记录.md
+```
+
+`outputs/` 不属于自动创建的消化包。完成消化后，需要进一步整理成文章、学习指南、图解或演讲稿时，再把最终成品放入 `outputs/`。
 
 ## 消化标准
 

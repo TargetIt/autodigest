@@ -13,7 +13,7 @@
 
 ## 2. Ofori01/show-me 的引用与布局检查
 
-固定 SHA：`62c8905665be8ff6f51df05eaccf6b38e1c183e1`。审阅导入与脚本后，在该源码目录执行，未安装依赖、未启动服务、未使用模型生成新地图。
+固定 SHA：`62c8905665be8ff6f51df05eaccf6b38e1c183e1`。审阅导入与脚本后，在该源码目录执行，未安装依赖、未启动服务、未使用模型生成新地图。源码现位于 [`Research/repos/Ofori01/show-me/`](../repos/Ofori01/show-me/)。
 
 ```bash
 node skills/show-me/scripts/self-test.mjs --repo skills/show-me
@@ -57,7 +57,7 @@ validate:
 
 ## 3. draw.io MCP 的图形查询测试
 
-固定 SHA：`3398377f740d47faa0245b107b886e856fa3930f`。在该仓库根目录运行：
+固定 SHA：`3398377f740d47faa0245b107b886e856fa3930f`。在该仓库根目录运行；源码现位于 [`Research/repos/jgraph/drawio-mcp/`](../repos/jgraph/drawio-mcp/)：
 
 ```bash
 node --test mcp-tool-server/test/shape-search.test.js
@@ -89,3 +89,19 @@ node --test mcp-tool-server/test/shape-search.test.js
 本次没有运行其余上游测试全套，没有连接远端 MCP/云工作区，没有调用付费模型或语音服务，没有为 39 个项目逐一构建最终产物。对这些路径使用“源码存在、静态确认、官方说明”等强度，不使用“亲测全部可用”。
 
 尤其没有测量真实学习者的成绩、保持率或迁移能力。功能与代码审查能够帮助选择值得试用的工具；证明学习收益还需要同材料、同问题和新例子的对照实践。
+
+## 6. 目录补全与源码迁移
+
+此前已将原有内容移入 `tool/`，但下载源码仍在临时缓存，`Research/` 中只有报告与证据。本次将 40 份源码移入 `Research/repos/<owner>/<repo>/`，以 Git 子模块固定到调研版本；根目录 `.gitmodules` 和父仓 gitlink 共同记录地址及版本。
+
+- `tool/` 的 30 个受版本控制文件逐项核对，无缺失、无改动；其 Git 树与迁移提交 `42b1f0f` 完全相同。
+- 27 个原 Git 检出保留所有文件内容、文件模式与符号链接；13 个归档快照保留原有文件字节，补齐固定版本缺失文件并恢复上游执行位。原下载快照信息移到 [`download-snapshots/`](download-snapshots/)。
+- 逐项核对 40 个 HEAD、父仓 gitlink、子模块 URL 和干净状态；源码引用索引中的 236 条记录在新路径下重新核对 SHA-256 和行号。
+- 部分原检出是稀疏检出，保留调研所需源码范围；具体状态在[检出清单](source-checkouts.json)。重新初始化子模块默认检出固定版本的完整受控文件；文档说明了现有稀疏检出的展开方法。
+- 本次检查不执行上游代码，不重跑此前功能测试。父仓提交子模块引用，不把所有上游源码文件复制为父仓普通文件；普通 clone 或 ZIP 下载不能代替子模块初始化。
+
+从 AutoDigest 仓库根目录复核源码位置、提交和引用文件：
+
+```bash
+python3 Research/scripts/verify_source_checkouts.py
+```

@@ -1,0 +1,120 @@
+[submodule "d2lang/d2"]
+	path = Research/repos/d2lang/d2
+	url = https://github.com/d2lang/d2.git
+[submodule "mingrammer/diagrams"]
+	path = Research/repos/mingrammer/diagrams
+	url = https://github.com/mingrammer/diagrams.git
+[submodule "jgraph/drawio"]
+	path = Research/repos/jgraph/drawio
+	url = https://github.com/jgraph/drawio.git
+[submodule "excalidraw/excalidraw"]
+	path = Research/repos/excalidraw/excalidraw
+	url = https://github.com/excalidraw/excalidraw.git
+[submodule "antvis/Infographic"]
+	path = Research/repos/antvis/Infographic
+	url = https://github.com/antvis/Infographic.git
+[submodule "yuzutech/kroki"]
+	path = Research/repos/yuzutech/kroki
+	url = https://github.com/yuzutech/kroki.git
+[submodule "markmap/markmap"]
+	path = Research/repos/markmap/markmap
+	url = https://github.com/markmap/markmap.git
+[submodule "mermaid-js/mermaid"]
+	path = Research/repos/mermaid-js/mermaid
+	url = https://github.com/mermaid-js/mermaid.git
+[submodule "plantuml/plantuml"]
+	path = Research/repos/plantuml/plantuml
+	url = https://github.com/plantuml/plantuml.git
+[submodule "tldraw/tldraw"]
+	path = Research/repos/tldraw/tldraw
+	url = https://github.com/tldraw/tldraw.git
+[submodule "xyflow/xyflow"]
+	path = Research/repos/xyflow/xyflow
+	url = https://github.com/xyflow/xyflow.git
+[submodule "DayuanJiang/next-ai-draw-io"]
+	path = Research/repos/DayuanJiang/next-ai-draw-io
+	url = https://github.com/DayuanJiang/next-ai-draw-io.git
+[submodule "apache/echarts"]
+	path = Research/repos/apache/echarts
+	url = https://github.com/apache/echarts.git
+[submodule "coleam00/excalidraw-diagram-skill"]
+	path = Research/repos/coleam00/excalidraw-diagram-skill
+	url = https://github.com/coleam00/excalidraw-diagram-skill.git
+[submodule "ericblue/visual-explainer-skill"]
+	path = Research/repos/ericblue/visual-explainer-skill
+	url = https://github.com/ericblue/visual-explainer-skill.git
+[submodule "excalidraw/cli"]
+	path = Research/repos/excalidraw/cli
+	url = https://github.com/excalidraw/cli.git
+[submodule "excalidraw/excalidraw-mcp"]
+	path = Research/repos/excalidraw/excalidraw-mcp
+	url = https://github.com/excalidraw/excalidraw-mcp.git
+[submodule "jgraph/drawio-mcp"]
+	path = Research/repos/jgraph/drawio-mcp
+	url = https://github.com/jgraph/drawio-mcp.git
+[submodule "NickyLam/Visualizer-Skill"]
+	path = Research/repos/NickyLam/Visualizer-Skill
+	url = https://github.com/NickyLam/Visualizer-Skill.git
+[submodule "Ofori01/show-me"]
+	path = Research/repos/Ofori01/show-me
+	url = https://github.com/Ofori01/show-me.git
+[submodule "bentossell/visualise"]
+	path = Research/repos/bentossell/visualise
+	url = https://github.com/bentossell/visualise.git
+[submodule "humanlayer/skills"]
+	path = Research/repos/humanlayer/skills
+	url = https://github.com/humanlayer/skills.git
+[submodule "konraddzbik/architecture-diagram-skill"]
+	path = Research/repos/konraddzbik/architecture-diagram-skill
+	url = https://github.com/konraddzbik/architecture-diagram-skill.git
+[submodule "mattpocock/skills"]
+	path = Research/repos/mattpocock/skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "naorsabag/openhop"]
+	path = Research/repos/naorsabag/openhop
+	url = https://github.com/naorsabag/openhop.git
+[submodule "nicobailon/visual-explainer"]
+	path = Research/repos/nicobailon/visual-explainer
+	url = https://github.com/nicobailon/visual-explainer.git
+[submodule "theolundqvist/justshowme"]
+	path = Research/repos/theolundqvist/justshowme
+	url = https://github.com/theolundqvist/justshowme.git
+[submodule "3b1b/manim"]
+	path = Research/repos/3b1b/manim
+	url = https://github.com/3b1b/manim.git
+[submodule "ManimCommunity/manim"]
+	path = Research/repos/ManimCommunity/manim
+	url = https://github.com/ManimCommunity/manim.git
+[submodule "d3/d3"]
+	path = Research/repos/d3/d3
+	url = https://github.com/d3/d3.git
+[submodule "d3/d3-selection"]
+	path = Research/repos/d3/d3-selection
+	url = https://github.com/d3/d3-selection.git
+[submodule "marimo-team/marimo"]
+	path = Research/repos/marimo-team/marimo
+	url = https://github.com/marimo-team/marimo.git
+[submodule "motion-canvas/motion-canvas"]
+	path = Research/repos/motion-canvas/motion-canvas
+	url = https://github.com/motion-canvas/motion-canvas.git
+[submodule "ncase/loopy"]
+	path = Research/repos/ncase/loopy
+	url = https://github.com/ncase/loopy.git
+[submodule "observablehq/framework"]
+	path = Research/repos/observablehq/framework
+	url = https://github.com/observablehq/framework.git
+[submodule "observablehq/plot"]
+	path = Research/repos/observablehq/plot
+	url = https://github.com/observablehq/plot.git
+[submodule "quarto-dev/quarto-cli"]
+	path = Research/repos/quarto-dev/quarto-cli
+	url = https://github.com/quarto-dev/quarto-cli.git
+[submodule "stevenpetryk/mafs"]
+	path = Research/repos/stevenpetryk/mafs
+	url = https://github.com/stevenpetryk/mafs.git
+[submodule "unconed/mathbox"]
+	path = Research/repos/unconed/mathbox
+	url = https://github.com/unconed/mathbox.git
+[submodule "vega/vega-lite"]
+	path = Research/repos/vega/vega-lite
+	url = https://github.com/vega/vega-lite.git

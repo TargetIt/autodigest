@@ -2,6 +2,8 @@
 
 调研日期：**2026 年 10 月 15 日，Asia/Shanghai**。覆盖 **39 个 GitHub 仓库**，包括解释型 skill、Agent 绘图集成、结构图工具、数学动画、交互实验和数据探索工具。
 
+**目录入口：**原有 AutoDigest 内容在 [`../tool/`](../tool/)，本次报告、证据和下载源码都在 `Research/` 下。下载的 40 份源码（39 个主仓库 + `d3/d3-selection`）位于 [`repos/<owner>/<repo>/`](repos/README.md)，以固定提交的 Git 子模块保存。首次克隆后需初始化子模块才能在本地查看源码，具体命令见[源码目录说明](repos/README.md)。
+
 **优先建议：用 ShowMe 选择恰当的表达方式，用 Mermaid 或 Excalidraw 讲清结构，用 Mafs 或 marimo 检验参数变化，用带追问的教学流程确认自己真的理解了。** 工具各有分工，装得多不等于理解得深；最值得保留的是可修改的源文件、可复算的例子和能回到材料的依据。
 
 导航：[ShowMe 的身份](#1-showme-具体指什么) · [按问题选工具](#2-先按自己的理解障碍选工具) · [39 个仓库总览](#3-仓库总览与关注度) · [重点项目](#4-最值得深入看的几条路线) · [源码核实发现](#5-源码核实后需要纠正的印象) · [接入 AutoDigest](#6-如何用于-autodigest) · [方法与证据](#7-调研方法-证据与复核)
@@ -184,6 +186,7 @@ Eric Blue 的 skill 把内容转成详细图像提示并调用图片 API，适�
 - [原始字段快照](evidence/github-metadata.json) 与 [仓库清单](evidence/repositories.json)：保留采集时间和每个 API endpoint。
 - [验证记录](evidence/validation.md)：执行了什么、通过了什么，以及不能从测试推出什么。
 - [源码引用索引](evidence/source-index.json)：汇集固定 commit 的源码链接，用于复核文件与行号。
+- [下载源码与恢复方法](repos/README.md)：40 个本地源码入口及子模块初始化说明；[检出清单](evidence/source-checkouts.json)记录路径、固定版本和迁移核验结果。
 
 源码笔记中的链接尽量固定到 **commit SHA + 文件 + 行号**。主文的仓库首页链接便于继续探索；后续版本可能变化，应以固定版本证据理解本报告的判断。**默认分支源码中的功能，不代表当前 npm/PyPI 包或 GitHub release 已包含。** 多包仓库的 `latest_release` 还可能是其中一个子包：本次 Mermaid 的该字段对应 tiny，xyflow 对应 Svelte，不能把它们当成整个仓库所有包的最新版本。
 

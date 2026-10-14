@@ -1,0 +1,736 @@
+{
+  "recorded_at_utc": "2026-10-14T20:27:28+00:00",
+  "primary_repository_count": 39,
+  "supporting_dependency": "d3/d3-selection",
+  "repository_count": 40,
+  "storage": "Git submodules: parent .gitmodules stores URLs and paths; parent gitlinks pin reviewed commits. Upstream source files are not ordinary blobs in the parent repository.",
+  "checkout_note": "The sparse settings below describe the existing local worktrees; new submodule initialization defaults to a full checkout. Upstream nested submodules are outside this download scope.",
+  "original_tool_tree_sha": "c81bfb9121ae080e7a2e0982397c41f4f3e13294",
+  "repositories": [
+    {
+      "repository": "3b1b/manim",
+      "path": "Research/repos/3b1b/manim",
+      "url": "https://github.com/3b1b/manim.git",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 148,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 182,
+        "upstream_files_added": 34,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/3b1b__manim.json"
+      }
+    },
+    {
+      "repository": "antvis/Infographic",
+      "path": "Research/repos/antvis/Infographic",
+      "url": "https://github.com/antvis/Infographic.git",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/src/runtime/Infographic.tsx",
+        "/src/syntax/parser.ts",
+        "/src/renderer/renderer.ts",
+        "/src/ssr/renderer.ts",
+        "/src/options/parser.ts",
+        "/skills/infographic-creator/SKILL.md",
+        "/skills/infographic-syntax-creator/SKILL.md"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 17,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "apache/echarts",
+      "path": "Research/repos/apache/echarts",
+      "url": "https://github.com/apache/echarts.git",
+      "commit_sha": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 2182,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "bentossell/visualise",
+      "path": "Research/repos/bentossell/visualise",
+      "url": "https://github.com/bentossell/visualise.git",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 7,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "path": "Research/repos/coleam00/excalidraw-diagram-skill",
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill.git",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 9,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "d2lang/d2",
+      "path": "Research/repos/d2lang/d2",
+      "url": "https://github.com/d2lang/d2.git",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/d2lib/d2.go",
+        "/d2compiler/compile.go",
+        "/d2renderers/d2svg/d2svg.go",
+        "/d2layouts/d2layouts.go",
+        "/d2layouts/d2talalayout/README.md",
+        "/d2layouts/d2talalayout/adapter.go"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 21,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "d3/d3",
+      "path": "Research/repos/d3/d3",
+      "url": "https://github.com/d3/d3.git",
+      "commit_sha": "ca958d45217b4c15332d971b935451a6d4c978f4",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 142,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 175,
+        "upstream_files_added": 33,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/d3__d3.json"
+      }
+    },
+    {
+      "repository": "d3/d3-selection",
+      "path": "Research/repos/d3/d3-selection",
+      "url": "https://github.com/d3/d3-selection.git",
+      "commit_sha": "d8ea8005f87ca72496d748a91ab6e0ccbe1a2011",
+      "role": "supporting_dependency",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 106,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 108,
+        "upstream_files_added": 2,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/d3__d3-selection.json"
+      }
+    },
+    {
+      "repository": "DayuanJiang/next-ai-draw-io",
+      "path": "Research/repos/DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io.git",
+      "commit_sha": "623eb91e579465dabe2794da5aac2dfaceba0f71",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 451,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "ericblue/visual-explainer-skill",
+      "path": "Research/repos/ericblue/visual-explainer-skill",
+      "url": "https://github.com/ericblue/visual-explainer-skill.git",
+      "commit_sha": "811b823653f0d1d9b1d2bc6f7c13df952f0216e7",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 24,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "excalidraw/cli",
+      "path": "Research/repos/excalidraw/cli",
+      "url": "https://github.com/excalidraw/cli.git",
+      "commit_sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 55,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "excalidraw/excalidraw",
+      "path": "Research/repos/excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw.git",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/excalidraw/data/json.ts",
+        "/packages/excalidraw/scene/export.ts",
+        "/packages/excalidraw/renderer/staticSvgScene.ts",
+        "/packages/excalidraw/renderer/staticScene.ts",
+        "/packages/excalidraw/package.json"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 32,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "excalidraw/excalidraw-mcp",
+      "path": "Research/repos/excalidraw/excalidraw-mcp",
+      "url": "https://github.com/excalidraw/excalidraw-mcp.git",
+      "commit_sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 32,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "humanlayer/skills",
+      "path": "Research/repos/humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills.git",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 102,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "jgraph/drawio",
+      "path": "Research/repos/jgraph/drawio",
+      "url": "https://github.com/jgraph/drawio.git",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/src/main/webapp/js/grapheditor/Graph.js",
+        "/src/main/webapp/js/grapheditor/EditorUi.js",
+        "/src/main/webapp/js/diagramly/EditorUi.js"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 13,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "jgraph/drawio-mcp",
+      "path": "Research/repos/jgraph/drawio-mcp",
+      "url": "https://github.com/jgraph/drawio-mcp.git",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 114,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "path": "Research/repos/konraddzbik/architecture-diagram-skill",
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill.git",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 20,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "ManimCommunity/manim",
+      "path": "Research/repos/ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim.git",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 489,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 1399,
+        "upstream_files_added": 910,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/ManimCommunity__manim.json",
+        "line_endings_note": "Newly supplemented docs/make.bat has CRLF in the codeload archive as specified by .gitattributes; normalized content matches the fixed Git blob. It was not one of the original downloaded files."
+      }
+    },
+    {
+      "repository": "marimo-team/marimo",
+      "path": "Research/repos/marimo-team/marimo",
+      "url": "https://github.com/marimo-team/marimo.git",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 4834,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 5260,
+        "upstream_files_added": 426,
+        "original_executable_modes_restored": 6,
+        "snapshot_metadata": "Research/evidence/download-snapshots/marimo-team__marimo.json"
+      }
+    },
+    {
+      "repository": "markmap/markmap",
+      "path": "Research/repos/markmap/markmap",
+      "url": "https://github.com/markmap/markmap.git",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/markmap-lib/src/transform.ts",
+        "/packages/markmap-view/src/view.ts",
+        "/packages/markmap-cli/src/index.ts",
+        "/packages/markmap-lib/package.json"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 22,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "mattpocock/skills",
+      "path": "Research/repos/mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills.git",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 189,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "mermaid-js/mermaid",
+      "path": "Research/repos/mermaid-js/mermaid",
+      "url": "https://github.com/mermaid-js/mermaid.git",
+      "commit_sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/mermaid/src/Diagram.ts",
+        "/packages/mermaid/src/mermaidAPI.ts",
+        "/packages/mermaid/src/diagrams/flowchart/flowRenderer-v3-unified.ts",
+        "/packages/mermaid/src/diagrams/flowchart/flowDiagram.ts"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 37,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "mingrammer/diagrams",
+      "path": "Research/repos/mingrammer/diagrams",
+      "url": "https://github.com/mingrammer/diagrams.git",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/diagrams/__init__.py"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 13,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "motion-canvas/motion-canvas",
+      "path": "Research/repos/motion-canvas/motion-canvas",
+      "url": "https://github.com/motion-canvas/motion-canvas.git",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 945,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 1059,
+        "upstream_files_added": 114,
+        "original_executable_modes_restored": 1,
+        "snapshot_metadata": "Research/evidence/download-snapshots/motion-canvas__motion-canvas.json"
+      }
+    },
+    {
+      "repository": "naorsabag/openhop",
+      "path": "Research/repos/naorsabag/openhop",
+      "url": "https://github.com/naorsabag/openhop.git",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 176,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "ncase/loopy",
+      "path": "Research/repos/ncase/loopy",
+      "url": "https://github.com/ncase/loopy.git",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 77,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 257,
+        "upstream_files_added": 180,
+        "original_executable_modes_restored": 3,
+        "snapshot_metadata": "Research/evidence/download-snapshots/ncase__loopy.json"
+      }
+    },
+    {
+      "repository": "NickyLam/Visualizer-Skill",
+      "path": "Research/repos/NickyLam/Visualizer-Skill",
+      "url": "https://github.com/NickyLam/Visualizer-Skill.git",
+      "commit_sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 9,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "nicobailon/visual-explainer",
+      "path": "Research/repos/nicobailon/visual-explainer",
+      "url": "https://github.com/nicobailon/visual-explainer.git",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 52,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "observablehq/framework",
+      "path": "Research/repos/observablehq/framework",
+      "url": "https://github.com/observablehq/framework.git",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 1289,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 1556,
+        "upstream_files_added": 267,
+        "original_executable_modes_restored": 3,
+        "snapshot_metadata": "Research/evidence/download-snapshots/observablehq__framework.json"
+      }
+    },
+    {
+      "repository": "observablehq/plot",
+      "path": "Research/repos/observablehq/plot",
+      "url": "https://github.com/observablehq/plot.git",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 810,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 1910,
+        "upstream_files_added": 1100,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/observablehq__plot.json"
+      }
+    },
+    {
+      "repository": "Ofori01/show-me",
+      "path": "Research/repos/Ofori01/show-me",
+      "url": "https://github.com/Ofori01/show-me.git",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 29,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "plantuml/plantuml",
+      "path": "Research/repos/plantuml/plantuml",
+      "url": "https://github.com/plantuml/plantuml.git",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/src/main/java/net/sourceforge/plantuml/SourceStringReader.java",
+        "/src/main/java/net/sourceforge/plantuml/PSystemBuilder.java",
+        "/src/main/java/net/sourceforge/plantuml/BlockUmlBuilder.java",
+        "/license-variants/README.md",
+        "/plantuml-mcp-js/server.js",
+        "/plantuml-mcp-js/package.json",
+        "/plantuml-mcp-js/README.md",
+        "/plantuml-mcp-js/LICENSE"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 40,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "quarto-dev/quarto-cli",
+      "path": "Research/repos/quarto-dev/quarto-cli",
+      "url": "https://github.com/quarto-dev/quarto-cli.git",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 4976,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 7700,
+        "upstream_files_added": 2724,
+        "original_executable_modes_restored": 7,
+        "snapshot_metadata": "Research/evidence/download-snapshots/quarto-dev__quarto-cli.json"
+      }
+    },
+    {
+      "repository": "stevenpetryk/mafs",
+      "path": "Research/repos/stevenpetryk/mafs",
+      "url": "https://github.com/stevenpetryk/mafs.git",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 204,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 469,
+        "upstream_files_added": 265,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/stevenpetryk__mafs.json"
+      }
+    },
+    {
+      "repository": "theolundqvist/justshowme",
+      "path": "Research/repos/theolundqvist/justshowme",
+      "url": "https://github.com/theolundqvist/justshowme.git",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 54,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "tldraw/tldraw",
+      "path": "Research/repos/tldraw/tldraw",
+      "url": "https://github.com/tldraw/tldraw.git",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/editor/src/lib/exports/exportToSvg.tsx",
+        "/packages/editor/src/lib/license/LicenseManager.ts",
+        "/packages/editor/src/lib/editor/shapes/ShapeUtil.ts",
+        "/packages/editor/src/lib/license/LicenseProvider.tsx"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 32,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "unconed/mathbox",
+      "path": "Research/repos/unconed/mathbox",
+      "url": "https://github.com/unconed/mathbox.git",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 425,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 429,
+        "upstream_files_added": 4,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/unconed__mathbox.json"
+      }
+    },
+    {
+      "repository": "vega/vega-lite",
+      "path": "Research/repos/vega/vega-lite",
+      "url": "https://github.com/vega/vega-lite.git",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "migration": {
+        "input_format": "selected_source_archive",
+        "original_file_count": 1933,
+        "original_bytes_preserved": true,
+        "original_content_changed_count": 0,
+        "working_tree_files_after": 3454,
+        "upstream_files_added": 1521,
+        "original_executable_modes_restored": 0,
+        "snapshot_metadata": "Research/evidence/download-snapshots/vega__vega-lite.json"
+      }
+    },
+    {
+      "repository": "xyflow/xyflow",
+      "path": "Research/repos/xyflow/xyflow",
+      "url": "https://github.com/xyflow/xyflow.git",
+      "commit_sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/react/src/container/NodeRenderer/index.tsx",
+        "/packages/react/src/container/EdgeRenderer/index.tsx",
+        "/packages/system/src/xydrag/XYDrag.ts",
+        "/packages/react/src/types/nodes.ts",
+        "/examples/react/src/examples/Layouting/index.tsx"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 22,
+        "original_bytes_and_modes_preserved": true
+      }
+    },
+    {
+      "repository": "yuzutech/kroki",
+      "path": "Research/repos/yuzutech/kroki",
+      "url": "https://github.com/yuzutech/kroki.git",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/server/src/main/java/io/kroki/server/Server.java",
+        "/server/src/main/java/io/kroki/server/action/Commander.java",
+        "/server/src/main/java/io/kroki/server/action/Delegator.java",
+        "/server/src/main/java/io/kroki/server/decode/SourceDecoder.java",
+        "/server/pom.xml",
+        "/server/src/main/java/io/kroki/server/decode/Zlib.java",
+        "/server/src/main/java/io/kroki/server/service/DiagramRegistry.java",
+        "/server/src/main/java/io/kroki/server/service/DiagramHandler.java"
+      ],
+      "migration": {
+        "input_format": "git_checkout",
+        "original_file_count": 28,
+        "original_bytes_and_modes_preserved": true
+      }
+    }
+  ]
+}

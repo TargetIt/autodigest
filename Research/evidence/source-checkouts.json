@@ -1,8 +1,8 @@
 {
   "recorded_at_utc": "2026-10-14T20:27:28+00:00",
-  "primary_repository_count": 39,
+  "primary_repository_count": 40,
   "supporting_dependency": "d3/d3-selection",
-  "repository_count": 40,
+  "repository_count": 41,
   "storage": "Git submodules: parent .gitmodules stores URLs and paths; parent gitlinks pin reviewed commits. Upstream source files are not ordinary blobs in the parent repository.",
   "checkout_note": "The sparse settings below describe the existing local worktrees; new submodule initialization defaults to a full checkout. Upstream nested submodules are outside this download scope.",
   "original_tool_tree_sha": "c81bfb9121ae080e7a2e0982397c41f4f3e13294",
@@ -731,6 +731,21 @@
         "original_file_count": 28,
         "original_bytes_and_modes_preserved": true
       }
+    },
+    {
+      "repository": "tt-a1i/archify",
+      "path": "Research/repos/tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify.git",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:41:13+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git submodule clone into Research/repos; no temporary source checkout",
+        "content_modified": false
+      }
     }
-  ]
+  ],
+  "updated_at_utc": "2026-10-14T20:42:34+00:00"
 }

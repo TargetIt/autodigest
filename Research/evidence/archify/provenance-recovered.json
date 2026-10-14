@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "1d352c54-575a-4505-8804-f32abc306860",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "Research/repos/tt-a1i/archify/archify/examples/web-app.architecture.json",
+  "output": "Research/evidence/archify/sample-web-app.html",
+  "specification": {
+    "sha256": "95e051b27a9e4a3307e194c0f666fca4af51470be7e2228d400ff48aea5b353b",
+    "bytes": 3197
+  },
+  "artifact": {
+    "sha256": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+    "bytes": 823705
+  }
+}

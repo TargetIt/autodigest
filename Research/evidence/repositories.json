@@ -37,5 +37,6 @@
   "quarto-dev/quarto-cli",
   "d3/d3",
   "vega/vega-lite",
-  "apache/echarts"
+  "apache/echarts",
+  "tt-a1i/archify"
 ]

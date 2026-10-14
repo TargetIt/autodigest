@@ -256,6 +256,30 @@
       "url": "https://www.tldraw.com/",
       "status": 200,
       "resolved": "https://www.tldraw.com/"
+    },
+    {
+      "url": "https://archify.si/",
+      "status": 200,
+      "resolved": "https://archify.si/",
+      "checked_at_utc": "2026-10-14T20:46:09+00:00"
+    },
+    {
+      "url": "https://archify.si/gallery.html",
+      "status": 308,
+      "resolved": "https://archify.si/gallery.html",
+      "checked_at_utc": "2026-10-14T20:46:09+00:00",
+      "recheck": {
+        "status": 403,
+        "checked_at_utc": "2026-10-14T20:47:51+00:00",
+        "note": "Second GET with Python default User-Agent returned HTTP 403. Official README points to this URL; live gallery interaction was not validated."
+      }
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/releases/tag/v3.1.0",
+      "status": 200,
+      "resolved": "https://github.com/tt-a1i/archify/releases/tag/v3.1.0",
+      "checked_at_utc": "2026-10-14T20:46:09+00:00"
     }
-  ]
+  ],
+  "incremental_checked_at_utc": "2026-10-14T20:46:09+00:00"
 }

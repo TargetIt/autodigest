@@ -1,6 +1,6 @@
 # 调研下载源码
 
-此目录保存本次调研下载的 **40 份源码**：报告中的 39 个主仓库，以及核对 D3 数据绑定实现时使用的 `d3/d3-selection`。每份源码位于 `<owner>/<repo>/`，作为 Git 子模块固定到报告审阅的 commit，不跟随上游默认分支自动更新。
+此目录保存本次调研下载的 **41 份源码**：报告中的 40 个主仓库，以及核对 D3 数据绑定实现时使用的 `d3/d3-selection`。每份源码位于 `<owner>/<repo>/`，作为 Git 子模块固定到报告审阅的 commit，不跟随上游默认分支自动更新。
 
 AutoDigest 的目录分工为：
 
@@ -35,7 +35,7 @@ git submodule update --init --depth 1 --jobs 4
 git submodule update --init --depth 1 -- Research/repos/humanlayer/skills
 ```
 
-首次克隆并取得全部 40 个直接子模块：
+首次克隆并取得全部 41 个直接子模块：
 
 ```bash
 git clone https://github.com/TargetIt/autodigest.git
@@ -47,7 +47,7 @@ git submodule update --init --depth 1 --jobs 4
 
 ## 当前检出范围与核验
 
-原先的下载由 Git 检出和源码归档组成，本次均已移入本目录。部分大型 Git 仓库沿用调研时的**稀疏检出**，本地只展开选定源码和文档；每份仓库仍固定到完整上游提交。归档转为 Git 仓库时，保留已有文件内容，补齐缺失路径并恢复原始执行位。逐仓状态见 [`source-checkouts.json`](../evidence/source-checkouts.json)。
+原先的 40 份下载由 Git 检出和源码归档组成，已移入本目录；新增的 Archify 直接下载到本目录。部分大型 Git 仓库沿用调研时的**稀疏检出**，本地只展开选定源码和文档；每份仓库仍固定到完整上游提交。归档转为 Git 仓库时，保留已有文件内容，补齐缺失路径并恢复原始执行位。逐仓状态见 [`source-checkouts.json`](../evidence/source-checkouts.json)。
 
 子模块版本能够从上游重新获取；本次本地使用的稀疏配置属于检出设置，不会随父仓提交传播。新初始化的子模块默认展开完整受控文件。若要展开当前已有的稀疏检出，例如 D2：
 
@@ -55,7 +55,7 @@ git submodule update --init --depth 1 --jobs 4
 git -C Research/repos/d2lang/d2 sparse-checkout disable
 ```
 
-从 AutoDigest 仓库根目录执行以下命令，可核对 40 个子模块的版本、地址、干净状态，以及 236 条源码引用的文件哈希和行号；此脚本不运行上游代码：
+从 AutoDigest 仓库根目录执行以下命令，可核对 41 个子模块的版本、地址、干净状态，以及源码索引中全部引用的文件哈希和行号；此脚本不运行上游代码：
 
 ```bash
 python3 Research/scripts/verify_source_checkouts.py
@@ -107,3 +107,4 @@ python3 Research/scripts/verify_source_checkouts.py
 | [vega/vega-lite](https://github.com/vega/vega-lite) | [打开目录](vega/vega-lite/) | [85fab8d12c87](https://github.com/vega/vega-lite/tree/85fab8d12c873b3b224ef9a33c807642953325ba) |
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | [打开目录](xyflow/xyflow/) | [3d35b5731757](https://github.com/xyflow/xyflow/tree/3d35b57317576b0916c0bfeaaedd573aaacc2839) |
 | [yuzutech/kroki](https://github.com/yuzutech/kroki) | [打开目录](yuzutech/kroki/) | [d161fd8e5735](https://github.com/yuzutech/kroki/tree/d161fd8e5735131f986da59f8f359c72f3fa770c) |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | [打开目录](tt-a1i/archify/) | [d0c8c7e9f4e0](https://github.com/tt-a1i/archify/tree/d0c8c7e9f4e06f303389f804208d387f27019ef5) |

@@ -1,0 +1,146 @@
+[
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/examples/web-app.architecture.json",
+    "lines": "L1-L41",
+    "local_path": "Research/repos/tt-a1i/archify/archify/examples/web-app.architecture.json",
+    "sha256": "95e051b27a9e4a3307e194c0f666fca4af51470be7e2228d400ff48aea5b353b",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/examples/web-app.architecture.json#L1-L41"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L4233-L4250",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4233-L4250"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L6919-L6953",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L6919-L6953"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/renderers/shared/cli.mjs",
+    "lines": "L47-L110",
+    "local_path": "Research/repos/tt-a1i/archify/archify/renderers/shared/cli.mjs",
+    "sha256": "9df5e6efb3dddc50b72d0daf3ca9d2b611bab31c5f1076f6769bd94999c5688c",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/cli.mjs#L47-L110"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/renderers/shared/validator.mjs",
+    "lines": "L38-L78",
+    "local_path": "Research/repos/tt-a1i/archify/archify/renderers/shared/validator.mjs",
+    "sha256": "f5cf5b9aa3623a456e9a07f0c5f08fe09a0a67d3ba356e32937c3287c75c3bc9",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/validator.mjs#L38-L78"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/renderers/architecture/render-architecture.mjs",
+    "lines": "L795-L825",
+    "local_path": "Research/repos/tt-a1i/archify/archify/renderers/architecture/render-architecture.mjs",
+    "sha256": "50bf6f0748446ba99c4236e29e2e39755d5a2b8894fb598f104f7b3107063ca3",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/architecture/render-architecture.mjs#L795-L825"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/delivery-update.mjs",
+    "lines": "L48-L60",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/delivery-update.mjs",
+    "sha256": "d5ad7d6d7d949a8a8c37af4f80d79a8b4e057245e30ba11866efb40c6771dafa",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/delivery-update.mjs#L48-L60"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/renderers/shared/brand-marks.mjs",
+    "lines": "L597-L625",
+    "local_path": "Research/repos/tt-a1i/archify/archify/renderers/shared/brand-marks.mjs",
+    "sha256": "87436fa956c98dc9bbabf826d5f254587c1b3e7a829883f4098e04c62f4b5345",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/brand-marks.mjs#L597-L625"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/renderers/shared/repository-evidence.mjs",
+    "lines": "L154-L160",
+    "local_path": "Research/repos/tt-a1i/archify/archify/renderers/shared/repository-evidence.mjs",
+    "sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L154-L160"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L4618-L4628",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4618-L4628"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L4814-L4830",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4814-L4830"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L4845-L4885",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4845-L4885"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L4951-L4992",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4951-L4992"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "archify/bin/archify.mjs",
+    "lines": "L5470-L5500",
+    "local_path": "Research/repos/tt-a1i/archify/archify/bin/archify.mjs",
+    "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L5470-L5500"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "test/cli.test.mjs",
+    "lines": "L1285-L1314",
+    "local_path": "Research/repos/tt-a1i/archify/test/cli.test.mjs",
+    "sha256": "8ebcfa6ebd440f13bd18443f6107b06dcd6fa3dcce9afd64a3aa1e63e083561c",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/test/cli.test.mjs#L1285-L1314"
+  },
+  {
+    "repo": "tt-a1i/archify",
+    "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+    "path": "test/helpers/xml.mjs",
+    "lines": "L1-L2",
+    "local_path": "Research/repos/tt-a1i/archify/test/helpers/xml.mjs",
+    "sha256": "21c8c86df4feaf0f3e9411ccf4f53574714d27c85fa9750fe794aadaccdba813",
+    "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/test/helpers/xml.mjs#L1-L2"
+  }
+]

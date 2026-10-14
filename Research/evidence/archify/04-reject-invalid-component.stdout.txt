@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "validate",
+  "stage": "render",
+  "type": "architecture",
+  "input": "Research/evidence/archify/invalid-component.architecture.json",
+  "error": "architecture schema validation failed:\n  /components/0/type (id/label: \"users\") must be equal to one of the allowed values {\"allowedValues\":[\"frontend\",\"backend\",\"database\",\"cloud\",\"security\",\"messagebus\",\"external\"]}",
+  "diagnostics": [
+    {
+      "code": "schema/enum",
+      "severity": "error",
+      "message": "/components/0/type (id/label: \"users\") must be equal to one of the allowed values",
+      "subject": {
+        "diagramType": "architecture",
+        "path": "/components/0/type",
+        "identity": "users"
+      },
+      "evidence": {
+        "keyword": "enum",
+        "allowedValues": [
+          "frontend",
+          "backend",
+          "database",
+          "cloud",
+          "security",
+          "messagebus",
+          "external"
+        ]
+      },
+      "supportedFixes": [
+        "choose one of the allowed values"
+      ]
+    }
+  ]
+}

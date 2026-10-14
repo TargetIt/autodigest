@@ -1,0 +1,314 @@
+{
+  "repository": "tt-a1i/archify",
+  "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+  "method": "Manual selected CLI branch review plus lightweight static import-string scan; not a JavaScript parser or full security audit",
+  "entry_modules": [
+    "archify/bin/archify.mjs",
+    "archify/bin/delivery-update.mjs",
+    "archify/renderers/architecture/render-architecture.mjs",
+    "archify/renderers/shared/sidecar-path.mjs",
+    "archify/renderers/shared/output-path.mjs",
+    "archify/renderers/shared/atomic-output.mjs",
+    "archify/renderers/shared/path-semantics.mjs",
+    "archify/renderers/shared/i18n.mjs",
+    "archify/renderers/shared/owned-temp-directory.mjs",
+    "archify/scripts/check-render-output.mjs"
+  ],
+  "module_count": 33,
+  "external_package_imports_found": [],
+  "modules": [
+    {
+      "path": "archify/bin/archify.mjs",
+      "sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "imports": [
+        "node:child_process",
+        "node:crypto",
+        "node:fs",
+        "node:os",
+        "node:path",
+        "node:url"
+      ]
+    },
+    {
+      "path": "archify/bin/delivery-update.mjs",
+      "sha256": "d5ad7d6d7d949a8a8c37af4f80d79a8b4e057245e30ba11866efb40c6771dafa",
+      "imports": [
+        "node:child_process",
+        "node:path",
+        "node:url"
+      ]
+    },
+    {
+      "path": "archify/renderers/architecture/grid.mjs",
+      "sha256": "f6de99c32436feed3378b0ddef516bb4732ff27a89c543b50635d4d14a15a55a",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/architecture/render-architecture.mjs",
+      "sha256": "50bf6f0748446ba99c4236e29e2e39755d5a2b8894fb598f104f7b3107063ca3",
+      "imports": [
+        "node:path",
+        "node:url",
+        "../shared/utils.mjs",
+        "../shared/node-card-style.mjs",
+        "../shared/cli.mjs",
+        "../shared/layout-report.mjs",
+        "../shared/diagnostics.mjs",
+        "../shared/legend.mjs",
+        "../shared/text-fit.mjs",
+        "../shared/brand-marks.mjs",
+        "../shared/desktop-readability.mjs",
+        "../shared/i18n.mjs",
+        "./grid.mjs",
+        "./routing.mjs",
+        "../shared/automatic-labels.mjs",
+        "../shared/route-quality.mjs",
+        "../shared/geometry.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/architecture/routing.mjs",
+      "sha256": "908ddaf85caaa2d5d4a17c0544489ad9500614914c64a1d2ee2b96c4cc9ad4b3",
+      "imports": [
+        "../shared/geometry.mjs",
+        "../shared/route-quality.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/atomic-output.mjs",
+      "sha256": "f804d66d1801ac2dadc9d0a4c334645cfbb7a8cd1a7de112ddfb952c056a580b",
+      "imports": [
+        "node:crypto",
+        "node:fs",
+        "node:path",
+        "./output-path.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/automatic-labels.mjs",
+      "sha256": "3f3b63cd9cfd242968a739ca703291d7788567ec5699b5e7d6a11a4079e15917",
+      "imports": [
+        "./geometry.mjs",
+        "./spatial-grid.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/brand-marks.mjs",
+      "sha256": "87436fa956c98dc9bbabf826d5f254587c1b3e7a829883f4098e04c62f4b5345",
+      "imports": [
+        "node:crypto",
+        "node:dns/promises",
+        "node:http",
+        "node:https",
+        "node:net",
+        "./generated-brand-marks.mjs",
+        "./diagnostics.mjs",
+        "./utils.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/cli.mjs",
+      "sha256": "9df5e6efb3dddc50b72d0daf3ca9d2b611bab31c5f1076f6769bd94999c5688c",
+      "imports": [
+        "node:crypto",
+        "node:fs",
+        "node:path",
+        "./utils.mjs",
+        "./validator.mjs",
+        "./repository-evidence.mjs",
+        "./diagnostics.mjs",
+        "./engineering-profiles.mjs",
+        "./output-path.mjs",
+        "./atomic-output.mjs",
+        "./i18n.mjs",
+        "./brand-marks.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/desktop-readability.mjs",
+      "sha256": "55ee7aba702d7883a08b6e54b39b00d5a17918a0c6bcf0c0fea19034f4de8990",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/diagnostics.mjs",
+      "sha256": "4635119e65f77f28f0a81c038642c7d7de318ba9400073f37decd59df258dcd6",
+      "imports": [
+        "node:fs",
+        "node:path"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/engineering-profiles.mjs",
+      "sha256": "7e99f9d5423f66cc9ab6224da56dc2d5aa6c6faec29178034794e9db6b5b2889",
+      "imports": [
+        "./diagnostics.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/generated-brand-marks.mjs",
+      "sha256": "0f157d229c12df6f53763a3b88684baa5803a52484c49c4d34ec40b8743beea2",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/generated-validators.mjs",
+      "sha256": "c57ab36392b7ce10a293ea1d75de7d675f4f8d8c5717845c3018fb7eda01b87b",
+      "imports": [
+        "./portable-path.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/geometry.mjs",
+      "sha256": "818f6c000595f11a915cce2f73b5deb1a82ececf6c578a22bee70099988ea7a5",
+      "imports": [
+        "./diagnostics.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/i18n.mjs",
+      "sha256": "1e6601157babd70c455dcddc93868f4665e56e7e723708d95dcc791dd1b636b9",
+      "imports": [
+        "node:fs",
+        "node:url"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/layout-report.mjs",
+      "sha256": "979da7226c5080cb16fb352236d5705cc79c06c15d0a3550b95963af02c63b6e",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/legend.mjs",
+      "sha256": "c33fcb54cc5aa60d788154036daa165f85d2e06d28aa9f1d4a73705fa278de70",
+      "imports": [
+        "./diagnostics.mjs",
+        "./geometry.mjs",
+        "./utils.mjs",
+        "./i18n.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/node-card-style.mjs",
+      "sha256": "80a0d473b936ee198e73cb89addd43a6344fb81da94f9fc88c53ae759cbf748d",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/output-path.mjs",
+      "sha256": "7422139101abd93493918898a97bed06f2212bfd411d3514cd229b6d57a3797e",
+      "imports": [
+        "node:path",
+        "./path-semantics.mjs",
+        "./portable-path.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/owned-temp-directory.mjs",
+      "sha256": "fb94515f8cd4b6b28799a7367745235822e2169534b8200791600ce7c3953a0e",
+      "imports": [
+        "node:fs",
+        "node:os",
+        "node:path",
+        "node:timers/promises",
+        "./path-semantics.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/path-semantics.mjs",
+      "sha256": "4ef002af9061c06634a07de6d199fd7d13e6c50561c792fd018118bf3e065f52",
+      "imports": [
+        "node:crypto",
+        "node:fs",
+        "node:path"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/portable-path.mjs",
+      "sha256": "26130cbcdae9b9f082486aeb5feec9c5fe57905d2ed8e30c8081b9710e2e8ac3",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "imports": [
+        "node:child_process",
+        "node:fs",
+        "node:path",
+        "./diagnostics.mjs",
+        "./path-semantics.mjs",
+        "./repository-location.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/repository-location.mjs",
+      "sha256": "344044d8240a093919894bd63278652bd01b3717c5b49fb174a6f77bea28b839",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/route-quality.mjs",
+      "sha256": "c9cb9aae3a1623667f0490ba755bbc0ba57e5957e7ea56379d872eb1f2bb2090",
+      "imports": [
+        "./diagnostics.mjs",
+        "./geometry.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/sidecar-path.mjs",
+      "sha256": "c23cac8bcc265a74e2920c58d0968d1ffa06c1328bdd9cfd07755d4df2f22974",
+      "imports": [
+        "node:crypto"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/spatial-grid.mjs",
+      "sha256": "e728bf6a729972f95ae09e368ea370490d10ff94d49debe2fab2e9bac923ee1a",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/svg-path-analysis.mjs",
+      "sha256": "4c498ef5ba090a2d658c2ce3d80145f4cc63da9462f547b621206250096957c5",
+      "imports": []
+    },
+    {
+      "path": "archify/renderers/shared/text-fit.mjs",
+      "sha256": "ebd499072ef4fe31c9aabf45a01c204a9c2c142d45f087c3240673f90f477038",
+      "imports": [
+        "./utils.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/utils.mjs",
+      "sha256": "d0e8692b8acdc6993578c5d4aeb67065effdf5bf4cf2cd127bf561c677af38f5",
+      "imports": [
+        "./i18n.mjs"
+      ]
+    },
+    {
+      "path": "archify/renderers/shared/validator.mjs",
+      "sha256": "f5cf5b9aa3623a456e9a07f0c5f08fe09a0a67d3ba356e32937c3287c75c3bc9",
+      "imports": [
+        "./generated-validators.mjs",
+        "./diagnostics.mjs"
+      ]
+    },
+    {
+      "path": "archify/scripts/check-render-output.mjs",
+      "sha256": "89b977928a525006eb4ffeb07f3b7607a31cd850c3c8cb47fa85e276f3b5c093",
+      "imports": [
+        "node:fs",
+        "../renderers/shared/svg-path-analysis.mjs",
+        "../renderers/shared/utils.mjs",
+        "node:crypto",
+        "node:path",
+        "../renderers/shared/geometry.mjs",
+        "../renderers/shared/desktop-readability.mjs"
+      ]
+    }
+  ],
+  "upstream_test_decision": "Read test/cli.test.mjs render-failure preservation test. Did not import or execute it: helpers/xml.mjs imports parse5 and saxes. Our runner uses Python standard library and existing Node only.",
+  "network_branches": [
+    "delivery-update.mjs:51 returns before spawning update child when ARCHIFY_UPDATE_CHECK_DISABLED=1",
+    "brand-marks.mjs:604 returns for each node without brand; official fixture has no brand entries",
+    "repository-evidence.mjs:155 returns without git for the fixture, which has no repository evidence",
+    "No --open, browser-check, visual-check, finalize, brands capture or model integration commands executed"
+  ],
+  "guard": "no-network.cjs blocks common Node HTTP/HTTPS/TCP/DNS/fetch APIs in the process and Node children; no attempts observed, not an OS sandbox"
+}

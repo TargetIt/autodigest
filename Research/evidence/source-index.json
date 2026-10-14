@@ -1,8 +1,8 @@
 {
   "method": "Validated pinned GitHub source links against locally retrieved source at the recorded SHA; line bounds and file SHA-256 recorded. This verifies citation location, not semantic entailment.",
-  "primary_repository_count": 39,
+  "primary_repository_count": 40,
   "supporting_dependency": "d3/d3-selection is inspected as a D3 implementation dependency, not an additional main tool.",
-  "source_link_count": 236,
+  "source_link_count": 274,
   "sources": [
     {
       "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/LICENSE.md#L1-L21",
@@ -2797,6 +2797,510 @@
       "file_sha256": "d489eaefba935c17270f13b84d8bd6f2447bbd6e466bce7683e8acaf0699ce9e",
       "cited_by": [
         "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/LICENSE#L1-L22",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 22,
+      "file_lines": 22,
+      "file_sha256": "b799ab081703e7821ae5096d2c1abdf14bbdc75e8ea1c4045998c36ed6db9706",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/README.md#L463-L473",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "README.md",
+      "line_start": 463,
+      "line_end": 473,
+      "file_lines": 507,
+      "file_sha256": "d2f58e5df0f39339584bf596c216e5d720884f5aed9e6608c13c7a5f512fc153",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/README_ZH.md",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "README_ZH.md",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 513,
+      "file_sha256": "9abcc7c4eea4438d40dd95987b5872b4ae827f33f0ce042b1b9c21f10429d6f7",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/THIRD_PARTY_NOTICES.md#L51-L62",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "line_start": 51,
+      "line_end": 62,
+      "file_lines": 69,
+      "file_sha256": "0b7fb59365dc21c93b0f62526d74ee913aeec9ae532c112bc76afa7edcd56e14",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/THIRD_PARTY_NOTICES.md#L8-L39",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "line_start": 8,
+      "line_end": 39,
+      "file_lines": 69,
+      "file_sha256": "0b7fb59365dc21c93b0f62526d74ee913aeec9ae532c112bc76afa7edcd56e14",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/SKILL.md#L50-L63",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/SKILL.md",
+      "line_start": 50,
+      "line_end": 63,
+      "file_lines": 125,
+      "file_sha256": "55c126d68c1fbef114ccdef8dd0e7f046419dc9203ac7f6dab1728f6bab3ca71",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/SKILL.md#L69-L77",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/SKILL.md",
+      "line_start": 69,
+      "line_end": 77,
+      "file_lines": 125,
+      "file_sha256": "55c126d68c1fbef114ccdef8dd0e7f046419dc9203ac7f6dab1728f6bab3ca71",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/SKILL.md#L79-L95",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/SKILL.md",
+      "line_start": 79,
+      "line_end": 95,
+      "file_lines": 125,
+      "file_sha256": "55c126d68c1fbef114ccdef8dd0e7f046419dc9203ac7f6dab1728f6bab3ca71",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4233-L4250",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 4233,
+      "line_end": 4250,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4618-L4628",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 4618,
+      "line_end": 4628,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4814-L4830",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 4814,
+      "line_end": 4830,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4845-L4885",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 4845,
+      "line_end": 4885,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L4951-L4992",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 4951,
+      "line_end": 4992,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L5470-L5500",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 5470,
+      "line_end": 5500,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/archify.mjs#L6919-L6953",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/archify.mjs",
+      "line_start": 6919,
+      "line_end": 6953,
+      "file_lines": 7138,
+      "file_sha256": "5737a0e720579722b167456b3eb4dd301699b8685ef8f3669975e3fd18c15408",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/delivery-update.mjs#L48-L60",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/delivery-update.mjs",
+      "line_start": 48,
+      "line_end": 60,
+      "file_lines": 91,
+      "file_sha256": "d5ad7d6d7d949a8a8c37af4f80d79a8b4e057245e30ba11866efb40c6771dafa",
+      "cited_by": [
+        "Research/notes/archify.md",
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/finalize.mjs#L20-L22",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/finalize.mjs",
+      "line_start": 20,
+      "line_end": 22,
+      "file_lines": 1009,
+      "file_sha256": "fcdf818198f04b825e2a0f2892d0794768c16adac635482cbb8eb8ff61242484",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/bin/visual-check.mjs#L2461-L2480",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/bin/visual-check.mjs",
+      "line_start": 2461,
+      "line_end": 2480,
+      "file_lines": 2685,
+      "file_sha256": "dfec28e3e6666c835cb60f4d34ccabc8a831915dbbfe363de8cffe11de6fae81",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/examples/web-app.architecture.json#L1-L41",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/examples/web-app.architecture.json",
+      "line_start": 1,
+      "line_end": 41,
+      "file_lines": 41,
+      "file_sha256": "95e051b27a9e4a3307e194c0f666fca4af51470be7e2228d400ff48aea5b353b",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/package.json#L1-L13",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/package.json",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 38,
+      "file_sha256": "f4d9639f975c3778dcdc87321c184c4d94be05b41eabcce5fef1759cb7bd2482",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/architecture/grid.mjs#L1-L30",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/architecture/grid.mjs",
+      "line_start": 1,
+      "line_end": 30,
+      "file_lines": 62,
+      "file_sha256": "f6de99c32436feed3378b0ddef516bb4732ff27a89c543b50635d4d14a15a55a",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/architecture/render-architecture.mjs#L13-L42",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/architecture/render-architecture.mjs",
+      "line_start": 13,
+      "line_end": 42,
+      "file_lines": 1204,
+      "file_sha256": "50bf6f0748446ba99c4236e29e2e39755d5a2b8894fb598f104f7b3107063ca3",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/architecture/render-architecture.mjs#L795-L825",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/architecture/render-architecture.mjs",
+      "line_start": 795,
+      "line_end": 825,
+      "file_lines": 1204,
+      "file_sha256": "50bf6f0748446ba99c4236e29e2e39755d5a2b8894fb598f104f7b3107063ca3",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/brand-marks.mjs#L597-L625",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/brand-marks.mjs",
+      "line_start": 597,
+      "line_end": 625,
+      "file_lines": 706,
+      "file_sha256": "87436fa956c98dc9bbabf826d5f254587c1b3e7a829883f4098e04c62f4b5345",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/cli.mjs#L47-L110",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/cli.mjs",
+      "line_start": 47,
+      "line_end": 110,
+      "file_lines": 429,
+      "file_sha256": "9df5e6efb3dddc50b72d0daf3ca9d2b611bab31c5f1076f6769bd94999c5688c",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L154-L160",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 154,
+      "line_end": 160,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L154-L200",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 154,
+      "line_end": 200,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L231-L248",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 231,
+      "line_end": 248,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L271-L275",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 271,
+      "line_end": 275,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L305-L355",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 305,
+      "line_end": 355,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/repository-evidence.mjs#L373-L390",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/repository-evidence.mjs",
+      "line_start": 373,
+      "line_end": 390,
+      "file_lines": 393,
+      "file_sha256": "8b3d778afb014ace93371b362b49dafb9e6703c4f9b1bb7c6fb11dad966b5105",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/validator.mjs#L38-L78",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/validator.mjs",
+      "line_start": 38,
+      "line_end": 78,
+      "file_lines": 83,
+      "file_sha256": "f5cf5b9aa3623a456e9a07f0c5f08fe09a0a67d3ba356e32937c3287c75c3bc9",
+      "cited_by": [
+        "Research/evidence/archify/README.md",
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/archify/renderers/shared/validator.mjs#L38-L81",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "archify/renderers/shared/validator.mjs",
+      "line_start": 38,
+      "line_end": 81,
+      "file_lines": 83,
+      "file_sha256": "f5cf5b9aa3623a456e9a07f0c5f08fe09a0a67d3ba356e32937c3287c75c3bc9",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/test/cli.test.mjs#L1285-L1314",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "test/cli.test.mjs",
+      "line_start": 1285,
+      "line_end": 1314,
+      "file_lines": 4791,
+      "file_sha256": "8ebcfa6ebd440f13bd18443f6107b06dcd6fa3dcce9afd64a3aa1e63e083561c",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/test/helpers/xml.mjs#L1-L2",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "test/helpers/xml.mjs",
+      "line_start": 1,
+      "line_end": 2,
+      "file_lines": 37,
+      "file_sha256": "21c8c86df4feaf0f3e9411ccf4f53574714d27c85fa9750fe794aadaccdba813",
+      "cited_by": [
+        "Research/evidence/archify/source-index.json"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/viewer/export.js#L768-L797",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "viewer/export.js",
+      "line_start": 768,
+      "line_end": 797,
+      "file_lines": 1411,
+      "file_sha256": "98dd1fb3d7d9267e294a1dfa401c6d803b3a882b1d091df4dc4b80b7ee52c5c4",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/viewer/route-probe.js#L1-L5",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "viewer/route-probe.js",
+      "line_start": 1,
+      "line_end": 5,
+      "file_lines": 1019,
+      "file_sha256": "9e590ece0316bfde0b3ee1dfa9fac1a6897d7d813939ba939eb5832630318e6e",
+      "cited_by": [
+        "Research/notes/archify.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/viewer/route-probe.js#L307-L333",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "viewer/route-probe.js",
+      "line_start": 307,
+      "line_end": 333,
+      "file_lines": 1019,
+      "file_sha256": "9e590ece0316bfde0b3ee1dfa9fac1a6897d7d813939ba939eb5832630318e6e",
+      "cited_by": [
+        "Research/notes/archify.md"
       ]
     },
     {

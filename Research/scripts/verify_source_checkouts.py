@@ -19,14 +19,23 @@ def git(path, *args):
 
 
 def main():
-    checkouts = json.loads((EVIDENCE / "source-checkouts.json").read_text())["repositories"]
+    manifest = json.loads((EVIDENCE / "source-checkouts.json").read_text())
+    checkouts = manifest["repositories"]
+    primary_repositories = json.loads((EVIDENCE / "repositories.json").read_text())
+    expected_repositories = set(primary_repositories) | {manifest["supporting_dependency"]}
     source_index = json.loads((EVIDENCE / "source-index.json").read_text())
     sources = source_index["sources"]
     failures = []
     repositories = [row["repository"] for row in checkouts]
-    expected_paths = {"Research/repos/" + repo for repo in repositories}
-    if len(repositories) != 40 or len(set(repositories)) != 40:
-        failures.append("checkout manifest must contain 40 distinct repositories")
+    expected_paths = {"Research/repos/" + repo for repo in expected_repositories}
+    if len(primary_repositories) != len(set(primary_repositories)):
+        failures.append("primary repository catalog contains duplicates")
+    if manifest["primary_repository_count"] != len(primary_repositories) or source_index["primary_repository_count"] != len(primary_repositories):
+        failures.append("primary repository counts differ from the catalog")
+    if manifest["repository_count"] != len(expected_repositories):
+        failures.append("manifest repository count differs from primary catalog plus dependency")
+    if len(repositories) != len(expected_repositories) or set(repositories) != expected_repositories:
+        failures.append("checkout manifest must contain every primary repository and supporting dependency exactly once")
     if set(repositories) != {source["repository"] for source in sources}:
         failures.append("checkout manifest and source index repository sets differ")
     if len(sources) != source_index["source_link_count"]:
@@ -44,7 +53,7 @@ def main():
     ]
     if gitlinks != expected_paths:
         failures.append("parent gitlink paths differ from checkout manifest")
-    if len(configured_paths) != 40 or set(configured_paths) != expected_paths:
+    if len(configured_paths) != len(expected_paths) or set(configured_paths) != expected_paths:
         failures.append(".gitmodules paths differ from checkout manifest")
     locations = {}
     for row in checkouts:

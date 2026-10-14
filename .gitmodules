@@ -118,3 +118,6 @@
 [submodule "vega/vega-lite"]
 	path = Research/repos/vega/vega-lite
 	url = https://github.com/vega/vega-lite.git
+[submodule "tt-a1i/archify"]
+	path = Research/repos/tt-a1i/archify
+	url = https://github.com/tt-a1i/archify.git

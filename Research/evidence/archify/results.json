@@ -1,0 +1,201 @@
+{
+  "repository": "tt-a1i/archify",
+  "commit": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+  "runtime": "v22.23.2",
+  "platform": "Darwin arm64",
+  "fixture": "archify/examples/web-app.architecture.json",
+  "fixture_sha256": "95e051b27a9e4a3307e194c0f666fca4af51470be7e2228d400ff48aea5b353b",
+  "network_update_check": "disabled by ARCHIFY_UPDATE_CHECK_DISABLED=1",
+  "network_guard_attempts": 0,
+  "network_guard_limit": "Node API guard, not OS-level network isolation or a general security audit",
+  "artifact": {
+    "path": "Research/evidence/archify/sample-web-app.html",
+    "bytes": 823705,
+    "sha256": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc"
+  },
+  "lastgood_preserved_on_render_failure": true,
+  "failed_provenance_rejected": true,
+  "recovered_provenance": "current",
+  "upstream_worktree_status": "",
+  "receipt_redaction": "Absolute Research directory prefix replaced with Research in stored text receipts only",
+  "cases": [
+    {
+      "name": "01-validate-official",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "ok": true,
+      "stage": null,
+      "diagnostic_codes": [],
+      "elapsed_seconds": 0.158,
+      "artifact_sha256_before": null,
+      "artifact_sha256_after": null,
+      "update": null,
+      "validation": null
+    },
+    {
+      "name": "02-render-official",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "ok": null,
+      "stage": null,
+      "diagnostic_codes": [],
+      "elapsed_seconds": 0.101,
+      "artifact_sha256_before": null,
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc"
+    },
+    {
+      "name": "03-deliver-official",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "ok": true,
+      "stage": null,
+      "diagnostic_codes": [],
+      "elapsed_seconds": 0.178,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": {
+        "status": "unavailable",
+        "installedVersion": null,
+        "availableVersion": null,
+        "releaseNotes": null,
+        "checkedAt": null,
+        "source": null,
+        "noticeRequired": false,
+        "noticeText": null,
+        "reason": "disabled"
+      },
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "name": "04-reject-invalid-component",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "ok": false,
+      "stage": "render",
+      "diagnostic_codes": [
+        "schema/enum"
+      ],
+      "elapsed_seconds": 0.084,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": null,
+      "validation": null
+    },
+    {
+      "name": "05-reject-invalid-reference",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "ok": false,
+      "stage": "render",
+      "diagnostic_codes": [
+        "architecture/unknown-endpoint",
+        "layout/constraint"
+      ],
+      "elapsed_seconds": 0.103,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": null,
+      "validation": null
+    },
+    {
+      "name": "06-deliver-invalid-reference",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "ok": false,
+      "stage": "render",
+      "diagnostic_codes": [
+        "architecture/unknown-endpoint",
+        "layout/constraint"
+      ],
+      "elapsed_seconds": 0.122,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": {
+        "status": "unavailable",
+        "installedVersion": null,
+        "availableVersion": null,
+        "releaseNotes": null,
+        "checkedAt": null,
+        "source": null,
+        "noticeRequired": false,
+        "noticeText": null,
+        "reason": "disabled"
+      },
+      "validation": null
+    },
+    {
+      "name": "07-check-failed-provenance",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "ok": false,
+      "stage": null,
+      "diagnostic_codes": [
+        "delivery/provenance-failed"
+      ],
+      "elapsed_seconds": 0.039,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": null,
+      "validation": null
+    },
+    {
+      "name": "08-recover-valid-delivery",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "ok": true,
+      "stage": null,
+      "diagnostic_codes": [],
+      "elapsed_seconds": 0.182,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": {
+        "status": "unavailable",
+        "installedVersion": null,
+        "availableVersion": null,
+        "releaseNotes": null,
+        "checkedAt": null,
+        "source": null,
+        "noticeRequired": false,
+        "noticeText": null,
+        "reason": "disabled"
+      },
+      "validation": {
+        "checksPassed": 9,
+        "checkCount": 9,
+        "compositionProfile": "showcase",
+        "compositionStatus": "pass",
+        "errors": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "name": "09-check-recovered-delivery",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "ok": true,
+      "stage": null,
+      "diagnostic_codes": [],
+      "elapsed_seconds": 0.081,
+      "artifact_sha256_before": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "artifact_sha256_after": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+      "update": null,
+      "validation": null
+    }
+  ],
+  "not_tested": [
+    "browser rendering or interaction",
+    "browser-check/finalize",
+    "visual review",
+    "network brand capture",
+    "other diagram families",
+    "concurrent delivery/races/crashes",
+    "model output or knowledge correctness"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "validate",
+  "stage": "render",
+  "type": "architecture",
+  "input": "Research/evidence/archify/invalid-reference.architecture.json",
+  "error": "Architecture layout validation failed:\n- Connection \"HTTPS\" references unknown target \"missing-node-for-research-check\".\n- Connection \"HTTPS\" endpoint \"missing-node-for-research-check\" does not name a declared component.",
+  "diagnostics": [
+    {
+      "code": "architecture/unknown-endpoint",
+      "severity": "error",
+      "message": "Connection \"HTTPS\" references unknown target \"missing-node-for-research-check\".",
+      "subject": {
+        "diagramType": "architecture",
+        "connection": "users-to-cdn",
+        "path": "/connections/0/to",
+        "from": "users",
+        "to": "missing-node-for-research-check"
+      },
+      "evidence": {
+        "endpoint": "target",
+        "unknownNodeId": "missing-node-for-research-check",
+        "availableNodeIds": [
+          "api",
+          "auth",
+          "cache",
+          "cdn",
+          "db",
+          "lb",
+          "queue",
+          "s3",
+          "users",
+          "worker"
+        ]
+      },
+      "supportedFixes": [
+        "set /connections/0/to to verified node id \"api\"",
+        "set /connections/0/to to verified node id \"auth\"",
+        "set /connections/0/to to verified node id \"cache\""
+      ]
+    },
+    {
+      "code": "layout/constraint",
+      "severity": "error",
+      "message": "Connection \"HTTPS\" endpoint \"missing-node-for-research-check\" does not name a declared component.",
+      "subject": {
+        "diagramType": "architecture"
+      },
+      "evidence": {},
+      "supportedFixes": []
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # GitHub 仓库元数据与源码版本
 
-采集区间：2026-10-14T19:11:04+00:00 至 2026-10-14T19:11:29+00:00（UTC）。北京时间为 2026-10-15 03:11 左右。
+原 39 仓采集区间：2026-10-14T19:11:04+00:00 至 2026-10-14T19:11:29+00:00（UTC）。北京时间为 2026-10-15 03:11 左右。Archify 单独增补于 2026-10-14T20:41:13+00:00（北京时间 04:41:13）；原批次数字保持不变。
 
-全部为仓库级指标；合集 Star 不代表单项 skill。下表“许可检测”是 GitHub API 原值，具体文件解释见四份源码笔记。默认分支 HEAD 日期与 release 日期分列，不用 pushed_at 或 updated_at 代替代码维护时间。
+全部为仓库级指标；合集 Star 不代表单项 skill。下表“许可检测”是 GitHub API 原值，具体文件解释见分组源码笔记及 Archify 专项补充。默认分支 HEAD 日期与 release 日期分列，不用 pushed_at 或 updated_at 代替代码维护时间。
 
 **latest release 是仓库 API 返回值，不一定是主库版本。** 多包仓可能返回子包版本，例如本次 Mermaid 对应 tiny、xyflow 对应 Svelte。空值只说明 endpoint 返回 404，不代表停止维护。
 
@@ -47,8 +47,9 @@
 | [d3/d3](https://github.com/d3/d3) | 113,752 | 22,632 | 2026-05-28 | [v7.9.0](https://github.com/d3/d3/releases/tag/v7.9.0) · 2024-03-12 | ISC | [ca958d45217b](https://github.com/d3/d3/commit/ca958d45217b4c15332d971b935451a6d4c978f4) |
 | [vega/vega-lite](https://github.com/vega/vega-lite) | 5,517 | 726 | 2026-10-08 | [v6.5.0](https://github.com/vega/vega-lite/releases/tag/v6.5.0) · 2026-10-08 | BSD-3-Clause | [85fab8d12c87](https://github.com/vega/vega-lite/commit/85fab8d12c873b3b224ef9a33c807642953325ba) |
 | [apache/echarts](https://github.com/apache/echarts) | 67,509 | 19,816 | 2026-10-04 | [6.1.0](https://github.com/apache/echarts/releases/tag/6.1.0) · 2026-05-19 | Apache-2.0 | [34f4d927eafe](https://github.com/apache/echarts/commit/34f4d927eafe251f26f63afd3aeefa30f2feba30) |
+| [tt-a1i/archify](https://github.com/tt-a1i/archify) | 83,478 | 5,647 | 2026-10-14 | [v3.1.0](https://github.com/tt-a1i/archify/releases/tag/v3.1.0) · 2026-10-13 | MIT | [d0c8c7e9f4e0](https://github.com/tt-a1i/archify/commit/d0c8c7e9f4e06f303389f804208d387f27019ef5) |
 
-本次 39 个主仓采集时均未归档；这不构成未来维护承诺。默认分支代码不一定已经进入最新 release/npm/PyPI 分发包。
+当前收录的 40 个主仓在各自采集时均未归档；这不构成未来维护承诺。默认分支代码不一定已经进入最新 release/npm/PyPI 分发包。
 
 需要结合源文件解释的许可检测：bentossell/visualise 的 README 声明 MIT；coleam00/excalidraw-diagram-skill 未见 LICENSE；Excalidraw MCP 的 README/package 声明 MIT 但未见独立 LICENSE；PlantUML 有多种发行许可；Quarto CLI 的 COPYING.md 为 MIT；tldraw 使用自有许可。draw.io 图形资产也有独立条件。
 

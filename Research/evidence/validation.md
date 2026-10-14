@@ -2,7 +2,7 @@
 
 日期：2026-10-15（Asia/Shanghai）。环境：Node.js `v22.23.2`、Python `3.9.6`。以下区分来源核查、程序行为检查与未执行范围，避免把“读过代码”写成“所有功能已实测”。
 
-## 1. 元数据与源码引用
+## 1. 首批元数据与源码引用（39 个主仓）
 
 - 通过 GitHub REST API 采集 39 个主仓的仓库信息、默认分支 HEAD 和 latest release，保留 endpoint 及 UTC 时间；39 个源码审阅 SHA 均与本次 API 的 HEAD 一致。
 - 汇总表的 39 个 Star 数逐行对照 JSON，仓库不重复；HumanLayer、Matt Pocock 明确标为合集 Star。
@@ -90,7 +90,7 @@ node --test mcp-tool-server/test/shape-search.test.js
 
 尤其没有测量真实学习者的成绩、保持率或迁移能力。功能与代码审查能够帮助选择值得试用的工具；证明学习收益还需要同材料、同问题和新例子的对照实践。
 
-## 6. 目录补全与源码迁移
+## 6. 初次目录补全与源码迁移（Archify 增补前）
 
 此前已将原有内容移入 `tool/`，但下载源码仍在临时缓存，`Research/` 中只有报告与证据。本次将 40 份源码移入 `Research/repos/<owner>/<repo>/`，以 Git 子模块固定到调研版本；根目录 `.gitmodules` 和父仓 gitlink 共同记录地址及版本。
 
@@ -105,3 +105,11 @@ node --test mcp-tool-server/test/shape-search.test.js
 ```bash
 python3 Research/scripts/verify_source_checkouts.py
 ```
+
+## 7. Archify 增补
+
+在首批 39 仓之外增加 `tt-a1i/archify`，当前共 40 个主仓、41 个源码子模块（含 `d3/d3-selection`）。Archify 的 API 快照采于 2026-10-14T20:41:13+00:00，原 39 仓的数字和采集时间保留不变。本次新增源码引用与首批引用统一保存在 [source-index.json](source-index.json)。
+
+固定源码 SHA 为 `d0c8c7e9f4e06f303389f804208d387f27019ef5`，晚于所记录的 v3.1.0 release；没有对发行 ZIP 复测。9 次局部 CLI 调用符合预期：有效架构输入生成并交付 HTML，非法类型和未知连接端点被拒绝，渲染失败保留旧 HTML 且失效交付状态无法通过严格检查，恢复交付后通过。
+
+环境为 Node `v22.23.2`；未安装依赖、未调用模型，更新检查显式禁用。没有测试浏览器显示、交互、导出、其余九类图或完整 `finalize`。已查看两张上游样例截图，未对本次生成的 HTML 做视觉验收。详细输入、退出码、哈希、源码依据和可重放脚本见 [Archify 实测记录](archify/README.md)。

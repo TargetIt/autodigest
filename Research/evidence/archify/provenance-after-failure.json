@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "3e6fee55-d875-4f9d-b293-0beeca23fac8",
+  "status": "failed",
+  "command": "deliver",
+  "stage": "render",
+  "input": "Research/evidence/archify/invalid-reference.architecture.json",
+  "output": "Research/evidence/archify/sample-web-app.html",
+  "artifact": {
+    "sha256": "48b8012b0bfeeaf4fbffac8072cebf820f239010657bcf1cd53621d5298b03dc",
+    "bytes": 823705
+  },
+  "error": "Architecture layout validation failed:\n- Connection \"HTTPS\" references unknown target \"missing-node-for-research-check\".\n- Connection \"HTTPS\" endpoint \"missing-node-for-research-check\" does not name a declared component."
+}

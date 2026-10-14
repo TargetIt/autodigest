@@ -1,0 +1,261 @@
+{
+  "checked_at_utc": "2026-10-14T19:20:25+00:00",
+  "method": "Public documentation/demo entry reachability; reused checks from this research session. HTTP 429 means rate limiting, not a confirmed broken link. Does not test app behavior.",
+  "links": [
+    {
+      "url": "https://3b1b.github.io/manim/",
+      "status": 200,
+      "resolved": "https://3b1b.github.io/manim/"
+    },
+    {
+      "url": "https://app.diagrams.net/",
+      "status": 200,
+      "resolved": "https://app.diagrams.net/"
+    },
+    {
+      "url": "https://d2lang.com/",
+      "status": 200,
+      "resolved": "https://d2lang.com/"
+    },
+    {
+      "url": "https://d3js.org/",
+      "status": 200,
+      "resolved": "https://d3js.org/"
+    },
+    {
+      "url": "https://diagrams.mingrammer.com/",
+      "status": 200,
+      "resolved": "https://diagrams.mingrammer.com/"
+    },
+    {
+      "url": "https://docs.excalidraw.com/",
+      "status": 200,
+      "resolved": "https://docs.excalidraw.com/"
+    },
+    {
+      "url": "https://docs.kroki.io/",
+      "status": 200,
+      "resolved": "https://docs.kroki.io/"
+    },
+    {
+      "url": "https://docs.manim.community/",
+      "status": 200,
+      "resolved": "https://docs.manim.community/en/stable/"
+    },
+    {
+      "url": "https://docs.manim.community/en/stable/examples.html",
+      "status": 200,
+      "resolved": "https://docs.manim.community/en/stable/examples.html"
+    },
+    {
+      "url": "https://docs.marimo.io/",
+      "status": 200,
+      "resolved": "https://docs.marimo.io/"
+    },
+    {
+      "url": "https://docs.marimo.io/examples/",
+      "status": 200,
+      "resolved": "https://docs.marimo.io/examples/"
+    },
+    {
+      "url": "https://excalidraw.com/",
+      "status": 200,
+      "resolved": "https://excalidraw.com/"
+    },
+    {
+      "url": "https://get.diagrams.net/",
+      "status": 200,
+      "resolved": "https://github.com/jgraph/drawio-desktop/releases/tag/v32.4.1"
+    },
+    {
+      "url": "https://gitlab.com/graphviz/graphviz",
+      "status": 200,
+      "resolved": "https://gitlab.com/graphviz/graphviz"
+    },
+    {
+      "url": "https://graphviz.org/download/source/",
+      "status": 200,
+      "resolved": "https://graphviz.org/download/source/"
+    },
+    {
+      "url": "https://graphviz.org/license/",
+      "status": 200,
+      "resolved": "https://graphviz.org/license/"
+    },
+    {
+      "url": "https://infographic.antv.vision/",
+      "status": 200,
+      "resolved": "https://infographic.antv.vision/"
+    },
+    {
+      "url": "https://infographic.antv.vision/gallery",
+      "status": 200,
+      "resolved": "https://infographic.antv.vision/gallery"
+    },
+    {
+      "url": "https://kroki.io/",
+      "status": 200,
+      "resolved": "https://kroki.io/"
+    },
+    {
+      "url": "https://mafs.dev/",
+      "status": 200,
+      "resolved": "https://mafs.dev/"
+    },
+    {
+      "url": "https://mafs.dev/guides/interaction/movable-points",
+      "status": 200,
+      "resolved": "https://mafs.dev/guides/interaction/movable-points"
+    },
+    {
+      "url": "https://marimo.io/gallery/",
+      "status": 200,
+      "resolved": "https://marimo.io/gallery/"
+    },
+    {
+      "url": "https://markmap.js.org/",
+      "status": 200,
+      "resolved": "https://markmap.js.org/"
+    },
+    {
+      "url": "https://mathbox.org/",
+      "status": 200,
+      "resolved": "https://mathbox.org/"
+    },
+    {
+      "url": "https://mathbox.org/math/quat.html",
+      "status": 200,
+      "resolved": "https://mathbox.org/math/quat.html"
+    },
+    {
+      "url": "https://mermaid.js.org/",
+      "status": 200,
+      "resolved": "https://mermaid.js.org/"
+    },
+    {
+      "url": "https://mermaid.live/",
+      "status": 200,
+      "resolved": "https://mermaid.live/"
+    },
+    {
+      "url": "https://motion-canvas.io/",
+      "status": 200,
+      "resolved": "https://motion-canvas.io/"
+    },
+    {
+      "url": "https://naorsabag.github.io/openhop/",
+      "status": 200,
+      "resolved": "https://naorsabag.github.io/openhop/"
+    },
+    {
+      "url": "https://ncase.me/loopy/",
+      "status": 200,
+      "resolved": "https://ncase.me/loopy/"
+    },
+    {
+      "url": "https://ncase.me/loopy/v1.1/pages/examples/",
+      "status": 200,
+      "resolved": "https://ncase.me/loopy/v1.1/pages/examples/"
+    },
+    {
+      "url": "https://observablehq.com/@d3/gallery",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": 429
+    },
+    {
+      "url": "https://observablehq.com/@observablehq/plot-gallery",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": 429
+    },
+    {
+      "url": "https://observablehq.com/framework/",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": 429
+    },
+    {
+      "url": "https://observablehq.com/plot/",
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": 429
+    },
+    {
+      "url": "https://ofori01.github.io/show-me/",
+      "status": 200,
+      "resolved": "https://ofori01.github.io/show-me/"
+    },
+    {
+      "url": "https://plantuml.com/",
+      "status": 200,
+      "resolved": "https://plantuml.com/"
+    },
+    {
+      "url": "https://play.d2lang.com/",
+      "status": 200,
+      "resolved": "https://play.d2lang.com/"
+    },
+    {
+      "url": "https://quarto.org/",
+      "status": 200,
+      "resolved": "https://quarto.org/"
+    },
+    {
+      "url": "https://quarto.org/docs/interactive/ojs/",
+      "status": 200,
+      "resolved": "https://quarto.org/docs/interactive/ojs/"
+    },
+    {
+      "url": "https://reactflow.dev/",
+      "status": 200,
+      "resolved": "https://reactflow.dev/"
+    },
+    {
+      "url": "https://svelteflow.dev/",
+      "status": 200,
+      "resolved": "https://svelteflow.dev/"
+    },
+    {
+      "url": "https://theolundqvist.github.io/justshowme/examples/event-loop.html",
+      "status": 200,
+      "resolved": "https://theolundqvist.github.io/justshowme/examples/event-loop.html"
+    },
+    {
+      "url": "https://theolundqvist.github.io/justshowme/examples/takeoff.html",
+      "status": 200,
+      "resolved": "https://theolundqvist.github.io/justshowme/examples/takeoff.html"
+    },
+    {
+      "url": "https://tldraw.dev/",
+      "status": 200,
+      "resolved": "https://tldraw.dev/"
+    },
+    {
+      "url": "https://tldraw.dev/community/license",
+      "status": 200,
+      "resolved": "https://tldraw.dev/community/license"
+    },
+    {
+      "url": "https://vega.github.io/editor/#/examples/vega-lite/bar",
+      "status": 200,
+      "resolved": "https://vega.github.io/editor/#/examples/vega-lite/bar"
+    },
+    {
+      "url": "https://vega.github.io/vega-lite/docs/",
+      "status": 200,
+      "resolved": "https://vega.github.io/vega-lite/docs/"
+    },
+    {
+      "url": "https://vega.github.io/vega-lite/examples/",
+      "status": 200,
+      "resolved": "https://vega.github.io/vega-lite/examples/"
+    },
+    {
+      "url": "https://www.humanlayer.com/blog/show-me-skill",
+      "status": 200,
+      "resolved": "https://www.humanlayer.com/blog/show-me-skill"
+    },
+    {
+      "url": "https://www.tldraw.com/",
+      "status": 200,
+      "resolved": "https://www.tldraw.com/"
+    }
+  ]
+}

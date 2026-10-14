@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "collection_started_at_utc": "2026-10-14T19:11:04+00:00",
+  "collection_finished_at_utc": "2026-10-14T19:11:29+00:00",
+  "method": "GitHub REST API through gh api; metrics are repository-level, not skill-level",
+  "notes": [
+    "open_issues_count includes open pull requests; it is not a defect count",
+    "updated_at can change without code changes; default_branch_head.committed_at is supplied separately",
+    "latest_release null means the endpoint returned 404, not that the project is inactive",
+    "repository.license is GitHub detection; the source license must be reviewed separately",
+    "latest_release can describe a monorepo subpackage rather than the entire project"
+  ],
+  "repositories": [
+    {
+      "requested_slug": "humanlayer/skills",
+      "retrieved_at_utc": "2026-10-14T19:11:07+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/humanlayer/skills",
+        "head_commit": "https://api.github.com/repos/humanlayer/skills/commits/main",
+        "latest_release": "https://api.github.com/repos/humanlayer/skills/releases/latest"
+      },
+      "repository": {
+        "id": 1184901356,
+        "full_name": "humanlayer/skills",
+        "html_url": "https://github.com/humanlayer/skills",
+        "description": null,
+        "homepage": null,
+        "stargazers_count": 5268,
+        "forks_count": 176,
+        "subscribers_count": 12,
+        "open_issues_count": 9,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-03-18T03:23:23Z",
+        "updated_at": "2026-10-14T18:32:21Z",
+        "pushed_at": "2026-10-08T21:54:25Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 165,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+        "html_url": "https://github.com/humanlayer/skills/commit/653b6411c1f70c275a18e37673b042ff99f67ceb",
+        "committed_at": "2026-10-08T21:54:25Z",
+        "subject": "Merge pull request #13 from humanlayer/portable-rpi"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "nicobailon/visual-explainer",
+      "retrieved_at_utc": "2026-10-14T19:11:06+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/nicobailon/visual-explainer",
+        "head_commit": "https://api.github.com/repos/nicobailon/visual-explainer/commits/main",
+        "latest_release": "https://api.github.com/repos/nicobailon/visual-explainer/releases/latest"
+      },
+      "repository": {
+        "id": 1159484260,
+        "full_name": "nicobailon/visual-explainer",
+        "html_url": "https://github.com/nicobailon/visual-explainer",
+        "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+        "homepage": null,
+        "stargazers_count": 10427,
+        "forks_count": 676,
+        "subscribers_count": 44,
+        "open_issues_count": 2,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-02-16T19:33:52Z",
+        "updated_at": "2026-10-14T17:54:04Z",
+        "pushed_at": "2026-10-13T21:41:14Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 3421,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+        "html_url": "https://github.com/nicobailon/visual-explainer/commit/33a6b4d43958d2d152c9cb13762af802062fade5",
+        "committed_at": "2026-10-12T05:49:37Z",
+        "subject": "fix: stop rewriting $$ spans on render (#116)"
+      },
+      "latest_release": {
+        "tag_name": "v0.12.0",
+        "name": "v0.12.0",
+        "html_url": "https://github.com/nicobailon/visual-explainer/releases/tag/v0.12.0",
+        "published_at": "2026-10-02T21:34:36Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "bentossell/visualise",
+      "retrieved_at_utc": "2026-10-14T19:11:07+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/bentossell/visualise",
+        "head_commit": "https://api.github.com/repos/bentossell/visualise/commits/main",
+        "latest_release": "https://api.github.com/repos/bentossell/visualise/releases/latest"
+      },
+      "repository": {
+        "id": 1180254768,
+        "full_name": "bentossell/visualise",
+        "html_url": "https://github.com/bentossell/visualise",
+        "description": "Agent skill for rendering inline interactive visuals — SVG diagrams, HTML widgets, charts, and explainers — in agent conversations.",
+        "homepage": null,
+        "stargazers_count": 484,
+        "forks_count": 24,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "language": null,
+        "license": null,
+        "created_at": "2026-03-12T21:27:19Z",
+        "updated_at": "2026-10-13T06:15:46Z",
+        "pushed_at": "2026-03-12T22:03:27Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 20,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+        "html_url": "https://github.com/bentossell/visualise/commit/35cd185b58af5db2f9d0fe13d9872b544a467483",
+        "committed_at": "2026-03-12T22:03:26Z",
+        "subject": "docs: add client support note to README"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "naorsabag/openhop",
+      "retrieved_at_utc": "2026-10-14T19:11:07+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/naorsabag/openhop",
+        "head_commit": "https://api.github.com/repos/naorsabag/openhop/commits/master",
+        "latest_release": "https://api.github.com/repos/naorsabag/openhop/releases/latest"
+      },
+      "repository": {
+        "id": 1208097462,
+        "full_name": "naorsabag/openhop",
+        "html_url": "https://github.com/naorsabag/openhop",
+        "description": "Interactive data-flow diagrams your AI agent can write. One SKILL.md — install in Claude Code, Cursor, Codex, and 11+ other clients via `npx openskills install naorsabag/openhop`.",
+        "homepage": "https://naorsabag.github.io/openhop/",
+        "stargazers_count": 48,
+        "forks_count": 2,
+        "subscribers_count": 1,
+        "open_issues_count": 23,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-04-11T20:16:12Z",
+        "updated_at": "2026-10-05T10:00:03Z",
+        "pushed_at": "2026-10-11T19:18:12Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "animation",
+          "architecture",
+          "claude-code",
+          "claude-code-skill",
+          "code-visualization",
+          "codex",
+          "cursor",
+          "data-flow",
+          "developer-tools",
+          "diagram",
+          "flow-chart",
+          "llm-tools",
+          "mermaid-alternative",
+          "skills",
+          "yaml"
+        ],
+        "size": 83234,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+        "html_url": "https://github.com/naorsabag/openhop/commit/927015aebbeeb2559e6296946b57b2594c9a1d37",
+        "committed_at": "2026-09-04T09:51:04Z",
+        "subject": "fix(ci): replace broken npm audit gate with Trivy (#232)"
+      },
+      "latest_release": {
+        "tag_name": "v0.3.7",
+        "name": "v0.3.7",
+        "html_url": "https://github.com/naorsabag/openhop/releases/tag/v0.3.7",
+        "published_at": "2026-06-20T18:46:46Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "Ofori01/show-me",
+      "retrieved_at_utc": "2026-10-14T19:11:09+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/Ofori01/show-me",
+        "head_commit": "https://api.github.com/repos/Ofori01/show-me/commits/main",
+        "latest_release": "https://api.github.com/repos/Ofori01/show-me/releases/latest"
+      },
+      "repository": {
+        "id": 1344863555,
+        "full_name": "Ofori01/show-me",
+        "html_url": "https://github.com/Ofori01/show-me",
+        "description": "Point it at a codebase. Get back an isometric map you can check — every claim cites a file, a line, and the text found there.",
+        "homepage": null,
+        "stargazers_count": 6,
+        "forks_count": 0,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-08-24T11:11:29Z",
+        "updated_at": "2026-08-31T14:40:26Z",
+        "pushed_at": "2026-08-25T10:06:09Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "agent-skill",
+          "architecture",
+          "claude-code",
+          "codebase-visualization",
+          "documentation-as-code",
+          "isometric"
+        ],
+        "size": 214,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+        "html_url": "https://github.com/Ofori01/show-me/commit/62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+        "committed_at": "2026-08-25T10:06:05Z",
+        "subject": "Release 0.1.3"
+      },
+      "latest_release": {
+        "tag_name": "v0.1.3",
+        "name": "v0.1.3 — less clerical work",
+        "html_url": "https://github.com/Ofori01/show-me/releases/tag/v0.1.3",
+        "published_at": "2026-08-25T10:07:01Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "konraddzbik/architecture-diagram-skill",
+      "retrieved_at_utc": "2026-10-14T19:11:09+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/konraddzbik/architecture-diagram-skill",
+        "head_commit": "https://api.github.com/repos/konraddzbik/architecture-diagram-skill/commits/main",
+        "latest_release": "https://api.github.com/repos/konraddzbik/architecture-diagram-skill/releases/latest"
+      },
+      "repository": {
+        "id": 1241017476,
+        "full_name": "konraddzbik/architecture-diagram-skill",
+        "html_url": "https://github.com/konraddzbik/architecture-diagram-skill",
+        "description": "Build click-through, animated system architecture diagrams as a single HTML file. Drop it into a workshop, design review, or onboarding doc and let people watch the data flow instead of reading static boxes-and-arrows.",
+        "homepage": "",
+        "stargazers_count": 118,
+        "forks_count": 15,
+        "subscribers_count": 0,
+        "open_issues_count": 19,
+        "language": "HTML",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-05-16T21:26:20Z",
+        "updated_at": "2026-10-14T07:47:36Z",
+        "pushed_at": "2026-10-10T22:02:08Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "claude-code",
+          "claude-skills",
+          "copilot-skills",
+          "opencode-skills",
+          "skills"
+        ],
+        "size": 160,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+        "html_url": "https://github.com/konraddzbik/architecture-diagram-skill/commit/cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+        "committed_at": "2026-10-10T22:02:02Z",
+        "subject": "v1.4.0: full system review — rendering, runtime, security, a11y, UX (#24)"
+      },
+      "latest_release": {
+        "tag_name": "v1.4.0",
+        "name": "v1.4.0 — full system review: rendering, runtime, security, a11y, UX",
+        "html_url": "https://github.com/konraddzbik/architecture-diagram-skill/releases/tag/v1.4.0",
+        "published_at": "2026-10-10T22:02:44Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "NickyLam/Visualizer-Skill",
+      "retrieved_at_utc": "2026-10-14T19:11:09+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/NickyLam/Visualizer-Skill",
+        "head_commit": "https://api.github.com/repos/NickyLam/Visualizer-Skill/commits/main",
+        "latest_release": "https://api.github.com/repos/NickyLam/Visualizer-Skill/releases/latest"
+      },
+      "repository": {
+        "id": 1287340820,
+        "full_name": "NickyLam/Visualizer-Skill",
+        "html_url": "https://github.com/NickyLam/Visualizer-Skill",
+        "description": "a skill for generate diagram sag based on workbuddy visualizer tool",
+        "homepage": null,
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "language": null,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-07-02T15:42:54Z",
+        "updated_at": "2026-07-02T15:56:24Z",
+        "pushed_at": "2026-07-02T15:56:18Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 21,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+        "html_url": "https://github.com/NickyLam/Visualizer-Skill/commit/409cc699c56bbdfc2b52a70509c24642585c0d5f",
+        "committed_at": "2026-07-02T15:56:13Z",
+        "subject": "Add Claude Code architecture diagram and fix GitHub SVG rendering"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "theolundqvist/justshowme",
+      "retrieved_at_utc": "2026-10-14T19:11:09+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/theolundqvist/justshowme",
+        "head_commit": "https://api.github.com/repos/theolundqvist/justshowme/commits/main",
+        "latest_release": "https://api.github.com/repos/theolundqvist/justshowme/releases/latest"
+      },
+      "repository": {
+        "id": 1266276624,
+        "full_name": "theolundqvist/justshowme",
+        "html_url": "https://github.com/theolundqvist/justshowme",
+        "description": "Make your AI agent answer with interactive diagrams and slide decks instead of markdown — and attach them to your PRs",
+        "homepage": "https://theolundqvist.github.io/justshowme/",
+        "stargazers_count": 9,
+        "forks_count": 0,
+        "subscribers_count": 0,
+        "open_issues_count": 1,
+        "language": "HTML",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-06-11T13:22:50Z",
+        "updated_at": "2026-10-06T08:19:23Z",
+        "pushed_at": "2026-10-06T08:19:24Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 18646,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+        "html_url": "https://github.com/theolundqvist/justshowme/commit/b7e20e8966d852f95c470179ee0b23f5abbab936",
+        "committed_at": "2026-10-06T08:19:17Z",
+        "subject": "feat(skills): add videoviz narrated explainer videos (#5)"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "mattpocock/skills",
+      "retrieved_at_utc": "2026-10-14T19:11:11+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/mattpocock/skills",
+        "head_commit": "https://api.github.com/repos/mattpocock/skills/commits/main",
+        "latest_release": "https://api.github.com/repos/mattpocock/skills/releases/latest"
+      },
+      "repository": {
+        "id": 1148788086,
+        "full_name": "mattpocock/skills",
+        "html_url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "homepage": "https://aihero.dev/skills",
+        "stargazers_count": 290977,
+        "forks_count": 24408,
+        "subscribers_count": 1535,
+        "open_issues_count": 176,
+        "language": "Shell",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-02-03T11:15:53Z",
+        "updated_at": "2026-10-14T19:10:05Z",
+        "pushed_at": "2026-10-13T08:46:40Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 2016,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "49dd158d1076134a641b33efb035946536778336",
+        "html_url": "https://github.com/mattpocock/skills/commit/49dd158d1076134a641b33efb035946536778336",
+        "committed_at": "2026-10-09T10:56:49Z",
+        "subject": "wizard: template fixes (#1220, #1142, #1081, #1041, #1003) (#1237)"
+      },
+      "latest_release": {
+        "tag_name": "v1.3.1",
+        "name": "v1.3.1",
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.1",
+        "published_at": "2026-10-04T12:48:18Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "coleam00/excalidraw-diagram-skill",
+      "retrieved_at_utc": "2026-10-14T19:11:11+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/coleam00/excalidraw-diagram-skill",
+        "head_commit": "https://api.github.com/repos/coleam00/excalidraw-diagram-skill/commits/main",
+        "latest_release": "https://api.github.com/repos/coleam00/excalidraw-diagram-skill/releases/latest"
+      },
+      "repository": {
+        "id": 1169920711,
+        "full_name": "coleam00/excalidraw-diagram-skill",
+        "html_url": "https://github.com/coleam00/excalidraw-diagram-skill",
+        "description": "Skill to give Claude Code (and any coding agent) the ability to generate beautiful and practical Excalidraw diagrams.",
+        "homepage": null,
+        "stargazers_count": 5014,
+        "forks_count": 581,
+        "subscribers_count": 28,
+        "open_issues_count": 34,
+        "language": "Python",
+        "license": null,
+        "created_at": "2026-03-01T12:36:44Z",
+        "updated_at": "2026-10-14T18:11:15Z",
+        "pushed_at": "2026-03-01T13:36:16Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 18,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+        "html_url": "https://github.com/coleam00/excalidraw-diagram-skill/commit/8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+        "committed_at": "2026-03-01T13:36:15Z",
+        "subject": "Better setup"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "excalidraw/excalidraw-mcp",
+      "retrieved_at_utc": "2026-10-14T19:11:12+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/excalidraw/excalidraw-mcp",
+        "head_commit": "https://api.github.com/repos/excalidraw/excalidraw-mcp/commits/main",
+        "latest_release": "https://api.github.com/repos/excalidraw/excalidraw-mcp/releases/latest"
+      },
+      "repository": {
+        "id": 1150127283,
+        "full_name": "excalidraw/excalidraw-mcp",
+        "html_url": "https://github.com/excalidraw/excalidraw-mcp",
+        "description": "Fast and streamable Excalidraw MCP App",
+        "homepage": "https://mcp.excalidraw.com",
+        "stargazers_count": 5520,
+        "forks_count": 522,
+        "subscribers_count": 15,
+        "open_issues_count": 62,
+        "language": "TypeScript",
+        "license": null,
+        "created_at": "2026-02-04T23:04:00Z",
+        "updated_at": "2026-10-14T04:14:15Z",
+        "pushed_at": "2026-03-24T12:27:09Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 30648,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+        "html_url": "https://github.com/excalidraw/excalidraw-mcp/commit/157aa23ceb1976008aadc89eb05e3444060f09d6",
+        "committed_at": "2026-03-24T12:27:09Z",
+        "subject": "fix: mobile fullscreen layout — safe area insets + export button (#55)"
+      },
+      "latest_release": {
+        "tag_name": "v0.3.2",
+        "name": "v0.3.2",
+        "html_url": "https://github.com/excalidraw/excalidraw-mcp/releases/tag/v0.3.2",
+        "published_at": "2026-02-09T15:40:21Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "jgraph/drawio-mcp",
+      "retrieved_at_utc": "2026-10-14T19:11:12+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/jgraph/drawio-mcp",
+        "head_commit": "https://api.github.com/repos/jgraph/drawio-mcp/commits/main",
+        "latest_release": "https://api.github.com/repos/jgraph/drawio-mcp/releases/latest"
+      },
+      "repository": {
+        "id": 1148214569,
+        "full_name": "jgraph/drawio-mcp",
+        "html_url": "https://github.com/jgraph/drawio-mcp",
+        "description": null,
+        "homepage": null,
+        "stargazers_count": 5642,
+        "forks_count": 348,
+        "subscribers_count": 24,
+        "open_issues_count": 0,
+        "language": "JavaScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2026-02-02T17:56:33Z",
+        "updated_at": "2026-10-14T15:27:15Z",
+        "pushed_at": "2026-10-13T16:41:13Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 11232,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "3398377f740d47faa0245b107b886e856fa3930f",
+        "html_url": "https://github.com/jgraph/drawio-mcp/commit/3398377f740d47faa0245b107b886e856fa3930f",
+        "committed_at": "2026-10-13T16:41:11Z",
+        "subject": "chore(app-server): bump version to 1.1.1"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "excalidraw/cli",
+      "retrieved_at_utc": "2026-10-14T19:11:13+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/excalidraw/cli",
+        "head_commit": "https://api.github.com/repos/excalidraw/cli/commits/master",
+        "latest_release": "https://api.github.com/repos/excalidraw/cli/releases/latest"
+      },
+      "repository": {
+        "id": 1410371421,
+        "full_name": "excalidraw/cli",
+        "html_url": "https://github.com/excalidraw/cli",
+        "description": "Official Excalidraw CLI for humans and agents",
+        "homepage": null,
+        "stargazers_count": 149,
+        "forks_count": 6,
+        "subscribers_count": 2,
+        "open_issues_count": 1,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-10-08T13:17:24Z",
+        "updated_at": "2026-10-14T18:08:04Z",
+        "pushed_at": "2026-10-08T17:22:58Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [],
+        "size": 149,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+        "html_url": "https://github.com/excalidraw/cli/commit/55fe7f494837078781a062c4d3faf29c159ebec5",
+        "committed_at": "2026-10-08T17:19:56Z",
+        "subject": "chore: release 0.2.0"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "DayuanJiang/next-ai-draw-io",
+      "retrieved_at_utc": "2026-10-14T19:11:14+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io",
+        "head_commit": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io/commits/main",
+        "latest_release": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io/releases/latest"
+      },
+      "repository": {
+        "id": 953521037,
+        "full_name": "DayuanJiang/next-ai-draw-io",
+        "html_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+        "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "homepage": "https://next-ai-drawio.jiang.jp/",
+        "stargazers_count": 36245,
+        "forks_count": 3853,
+        "subscribers_count": 149,
+        "open_issues_count": 37,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2025-03-23T15:03:48Z",
+        "updated_at": "2026-10-14T16:35:52Z",
+        "pushed_at": "2026-10-14T16:54:00Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "ai",
+          "diagrams",
+          "productivity"
+        ],
+        "size": 10557,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "623eb91e579465dabe2794da5aac2dfaceba0f71",
+        "html_url": "https://github.com/DayuanJiang/next-ai-draw-io/commit/623eb91e579465dabe2794da5aac2dfaceba0f71",
+        "committed_at": "2026-10-12T14:28:58Z",
+        "subject": "ci(docker): allow a manual run on main to rebuild the image for App Runner (#992)"
+      },
+      "latest_release": {
+        "tag_name": "v0.5.0",
+        "name": "v0.5.0",
+        "html_url": "https://github.com/DayuanJiang/next-ai-draw-io/releases/tag/v0.5.0",
+        "published_at": "2026-10-10T03:06:27Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "ericblue/visual-explainer-skill",
+      "retrieved_at_utc": "2026-10-14T19:11:14+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/ericblue/visual-explainer-skill",
+        "head_commit": "https://api.github.com/repos/ericblue/visual-explainer-skill/commits/main",
+        "latest_release": "https://api.github.com/repos/ericblue/visual-explainer-skill/releases/latest"
+      },
+      "repository": {
+        "id": 1199001682,
+        "full_name": "ericblue/visual-explainer-skill",
+        "html_url": "https://github.com/ericblue/visual-explainer-skill",
+        "description": "A Claude Code skill that transforms any content or Mermaid diagram into stunning visual explanations — whiteboard sketches, infographics, mind maps, and   more — powered by OpenAI or Gemini image generation.",
+        "homepage": "",
+        "stargazers_count": 56,
+        "forks_count": 8,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "language": "Makefile",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-04-02T01:02:39Z",
+        "updated_at": "2026-10-13T12:21:53Z",
+        "pushed_at": "2026-04-03T06:24:13Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 36734,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "811b823653f0d1d9b1d2bc6f7c13df952f0216e7",
+        "html_url": "https://github.com/ericblue/visual-explainer-skill/commit/811b823653f0d1d9b1d2bc6f7c13df952f0216e7",
+        "committed_at": "2026-04-03T06:23:23Z",
+        "subject": "Bump version to 1.3.0 in metadata.json"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "mermaid-js/mermaid",
+      "retrieved_at_utc": "2026-10-14T19:11:14+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/mermaid-js/mermaid",
+        "head_commit": "https://api.github.com/repos/mermaid-js/mermaid/commits/develop",
+        "latest_release": "https://api.github.com/repos/mermaid-js/mermaid/releases/latest"
+      },
+      "repository": {
+        "id": 26066727,
+        "full_name": "mermaid-js/mermaid",
+        "html_url": "https://github.com/mermaid-js/mermaid",
+        "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+        "homepage": "https://mermaid.ai/open-source/",
+        "stargazers_count": 90653,
+        "forks_count": 9348,
+        "subscribers_count": 645,
+        "open_issues_count": 1883,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2014-11-01T23:52:32Z",
+        "updated_at": "2026-10-14T18:24:36Z",
+        "pushed_at": "2026-10-14T18:00:15Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "develop",
+        "topics": [
+          "diagrams",
+          "diagrams-as-code",
+          "documentation",
+          "flowchart",
+          "javascript",
+          "mindmap",
+          "typescript",
+          "uml-diagrams"
+        ],
+        "size": 282221,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+        "html_url": "https://github.com/mermaid-js/mermaid/commit/e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+        "committed_at": "2026-10-14T08:44:56Z",
+        "subject": "Merge pull request #8443 from mermaid-js/bug/8442_agentflow-short-input-form"
+      },
+      "latest_release": {
+        "tag_name": "@mermaid-js/tiny@12.2.0",
+        "name": "@mermaid-js/tiny@12.2.0",
+        "html_url": "https://github.com/mermaid-js/mermaid/releases/tag/%40mermaid-js/tiny%4012.2.0",
+        "published_at": "2026-10-13T08:32:56Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "excalidraw/excalidraw",
+      "retrieved_at_utc": "2026-10-14T19:11:15+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/excalidraw/excalidraw",
+        "head_commit": "https://api.github.com/repos/excalidraw/excalidraw/commits/master",
+        "latest_release": "https://api.github.com/repos/excalidraw/excalidraw/releases/latest"
+      },
+      "repository": {
+        "id": 231283452,
+        "full_name": "excalidraw/excalidraw",
+        "html_url": "https://github.com/excalidraw/excalidraw",
+        "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+        "homepage": "https://excalidraw.com",
+        "stargazers_count": 133875,
+        "forks_count": 15672,
+        "subscribers_count": 516,
+        "open_issues_count": 3286,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2020-01-02T01:04:43Z",
+        "updated_at": "2026-10-14T18:26:45Z",
+        "pushed_at": "2026-10-14T16:29:26Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "canvas",
+          "collaboration",
+          "diagrams",
+          "drawing",
+          "hacktoberfest",
+          "productivity",
+          "whiteboard"
+        ],
+        "size": 107337,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+        "html_url": "https://github.com/excalidraw/excalidraw/commit/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+        "committed_at": "2026-10-14T16:29:25Z",
+        "subject": "fix(editor): detect line height from the migrated font props on restore (#12033)"
+      },
+      "latest_release": {
+        "tag_name": "v0.18.1",
+        "name": "v0.18.1",
+        "html_url": "https://github.com/excalidraw/excalidraw/releases/tag/v0.18.1",
+        "published_at": "2026-04-21T08:43:20Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "jgraph/drawio",
+      "retrieved_at_utc": "2026-10-14T19:11:16+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/jgraph/drawio",
+        "head_commit": "https://api.github.com/repos/jgraph/drawio/commits/dev",
+        "latest_release": "https://api.github.com/repos/jgraph/drawio/releases/latest"
+      },
+      "repository": {
+        "id": 67508428,
+        "full_name": "jgraph/drawio",
+        "html_url": "https://github.com/jgraph/drawio",
+        "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
+        "homepage": "https://www.drawio.com",
+        "stargazers_count": 8763,
+        "forks_count": 1315,
+        "subscribers_count": 52,
+        "open_issues_count": 38,
+        "language": "JavaScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2016-09-06T12:59:15Z",
+        "updated_at": "2026-10-14T18:44:26Z",
+        "pushed_at": "2026-10-08T21:48:25Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "dev",
+        "topics": [
+          "diagram",
+          "javascript",
+          "whiteboard"
+        ],
+        "size": 1833353,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+        "html_url": "https://github.com/jgraph/drawio/commit/9034053fba80a435e27d68d374bc564b83917ae9",
+        "committed_at": "2026-10-08T21:48:17Z",
+        "subject": "32.4.1 release"
+      },
+      "latest_release": {
+        "tag_name": "v32.4.1",
+        "name": "v32.4.1",
+        "html_url": "https://github.com/jgraph/drawio/releases/tag/v32.4.1",
+        "published_at": "2026-10-08T21:49:28Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "d2lang/d2",
+      "retrieved_at_utc": "2026-10-14T19:11:17+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/d2lang/d2",
+        "head_commit": "https://api.github.com/repos/d2lang/d2/commits/master",
+        "latest_release": "https://api.github.com/repos/d2lang/d2/releases/latest"
+      },
+      "repository": {
+        "id": 533087958,
+        "full_name": "d2lang/d2",
+        "html_url": "https://github.com/d2lang/d2",
+        "description": "D2 is a modern diagram scripting language that turns text to diagrams.",
+        "homepage": "https://d2lang.com",
+        "stargazers_count": 25616,
+        "forks_count": 766,
+        "subscribers_count": 79,
+        "open_issues_count": 535,
+        "language": "Go",
+        "license": {
+          "key": "mpl-2.0",
+          "name": "Mozilla Public License 2.0",
+          "spdx_id": "MPL-2.0",
+          "url": "https://api.github.com/licenses/mpl-2.0",
+          "node_id": "MDc6TGljZW5zZTE0"
+        },
+        "created_at": "2022-09-05T23:12:27Z",
+        "updated_at": "2026-10-14T17:51:26Z",
+        "pushed_at": "2026-10-11T23:37:43Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "developer-tools",
+          "diagramming",
+          "diagrams",
+          "go",
+          "golang",
+          "software-architecture",
+          "text-to-diagram"
+        ],
+        "size": 525550,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+        "html_url": "https://github.com/d2lang/d2/commit/6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+        "committed_at": "2026-10-11T23:37:38Z",
+        "subject": "Merge pull request #2881 from d2lang/agent/isometric-renderer"
+      },
+      "latest_release": {
+        "tag_name": "v0.9.0",
+        "name": "v0.9.0",
+        "html_url": "https://github.com/d2lang/d2/releases/tag/v0.9.0",
+        "published_at": "2026-09-07T22:16:40Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "plantuml/plantuml",
+      "retrieved_at_utc": "2026-10-14T19:11:17+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/plantuml/plantuml",
+        "head_commit": "https://api.github.com/repos/plantuml/plantuml/commits/master",
+        "latest_release": "https://api.github.com/repos/plantuml/plantuml/releases/latest"
+      },
+      "repository": {
+        "id": 1051476,
+        "full_name": "plantuml/plantuml",
+        "html_url": "https://github.com/plantuml/plantuml",
+        "description": "Generate diagrams from textual description",
+        "homepage": "https://plantuml.com",
+        "stargazers_count": 13364,
+        "forks_count": 1236,
+        "subscribers_count": 148,
+        "open_issues_count": 589,
+        "language": "Java",
+        "license": {
+          "key": "lgpl-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "spdx_id": "LGPL-3.0",
+          "url": "https://api.github.com/licenses/lgpl-3.0",
+          "node_id": "MDc6TGljZW5zZTEy"
+        },
+        "created_at": "2010-11-04T15:55:50Z",
+        "updated_at": "2026-10-14T16:49:10Z",
+        "pushed_at": "2026-10-13T22:46:16Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "diagram",
+          "diagram-as-code",
+          "diagrams",
+          "diagrams-as-code",
+          "java",
+          "plantuml",
+          "uml",
+          "uml-diagram"
+        ],
+        "size": 1376931,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+        "html_url": "https://github.com/plantuml/plantuml/commit/8678962c537bfb854073fc15394ac0b5ed5ea83e",
+        "committed_at": "2026-10-13T22:32:03Z",
+        "subject": "🧪 browser-test: ignore data-source-line when comparing themed SVGs"
+      },
+      "latest_release": {
+        "tag_name": "v1.2026.8",
+        "name": "v1.2026.8",
+        "html_url": "https://github.com/plantuml/plantuml/releases/tag/v1.2026.8",
+        "published_at": "2026-09-05T16:45:11Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "markmap/markmap",
+      "retrieved_at_utc": "2026-10-14T19:11:18+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/markmap/markmap",
+        "head_commit": "https://api.github.com/repos/markmap/markmap/commits/master",
+        "latest_release": "https://api.github.com/repos/markmap/markmap/releases/latest"
+      },
+      "repository": {
+        "id": 233568787,
+        "full_name": "markmap/markmap",
+        "html_url": "https://github.com/markmap/markmap",
+        "description": "Build mindmaps with plain text",
+        "homepage": "https://markmap.js.org/",
+        "stargazers_count": 13167,
+        "forks_count": 1015,
+        "subscribers_count": 81,
+        "open_issues_count": 60,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2020-01-13T10:23:34Z",
+        "updated_at": "2026-10-14T16:12:36Z",
+        "pushed_at": "2026-09-12T02:47:33Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "markmap",
+          "mindmap"
+        ],
+        "size": 1787,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+        "html_url": "https://github.com/markmap/markmap/commit/122bf0500ee7aca4f023c2465f7e26bf023eec52",
+        "committed_at": "2026-09-12T02:46:42Z",
+        "subject": "fix(view): support autoFit in JSON options"
+      },
+      "latest_release": {
+        "tag_name": "v0.18.0",
+        "name": "v0.18.0",
+        "html_url": "https://github.com/markmap/markmap/releases/tag/v0.18.0",
+        "published_at": "2024-12-19T06:31:27Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "mingrammer/diagrams",
+      "retrieved_at_utc": "2026-10-14T19:11:19+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/mingrammer/diagrams",
+        "head_commit": "https://api.github.com/repos/mingrammer/diagrams/commits/master",
+        "latest_release": "https://api.github.com/repos/mingrammer/diagrams/releases/latest"
+      },
+      "repository": {
+        "id": 237791077,
+        "full_name": "mingrammer/diagrams",
+        "html_url": "https://github.com/mingrammer/diagrams",
+        "description": ":art: Diagram as Code for prototyping cloud system architectures",
+        "homepage": "https://diagrams.mingrammer.com",
+        "stargazers_count": 42725,
+        "forks_count": 2731,
+        "subscribers_count": 402,
+        "open_issues_count": 397,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2020-02-02T15:23:24Z",
+        "updated_at": "2026-10-14T14:00:49Z",
+        "pushed_at": "2026-10-08T18:12:26Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "architecture",
+          "diagram",
+          "diagram-as-code",
+          "graphviz"
+        ],
+        "size": 74075,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+        "html_url": "https://github.com/mingrammer/diagrams/commit/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+        "committed_at": "2026-10-01T16:12:34Z",
+        "subject": "feat(gcp): add Workload Identity Pool icon (#1227)"
+      },
+      "latest_release": {
+        "tag_name": "v0.25.1",
+        "name": "v0.25.1",
+        "html_url": "https://github.com/mingrammer/diagrams/releases/tag/v0.25.1",
+        "published_at": "2025-11-22T02:30:19Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "xyflow/xyflow",
+      "retrieved_at_utc": "2026-10-14T19:11:19+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/xyflow/xyflow",
+        "head_commit": "https://api.github.com/repos/xyflow/xyflow/commits/main",
+        "latest_release": "https://api.github.com/repos/xyflow/xyflow/releases/latest"
+      },
+      "repository": {
+        "id": 197018189,
+        "full_name": "xyflow/xyflow",
+        "html_url": "https://github.com/xyflow/xyflow",
+        "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+        "homepage": "https://xyflow.com",
+        "stargazers_count": 38665,
+        "forks_count": 2552,
+        "subscribers_count": 138,
+        "open_issues_count": 155,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2019-07-15T14:47:30Z",
+        "updated_at": "2026-10-14T17:52:45Z",
+        "pushed_at": "2026-10-12T16:54:31Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "flowchart",
+          "graph",
+          "javascript",
+          "node-based-ui",
+          "react",
+          "react-flow",
+          "svelte",
+          "svelte-flow",
+          "typescript",
+          "typescript-library",
+          "workflow"
+        ],
+        "size": 46786,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+        "html_url": "https://github.com/xyflow/xyflow/commit/3d35b57317576b0916c0bfeaaedd573aaacc2839",
+        "committed_at": "2026-09-24T12:38:12Z",
+        "subject": "Merge pull request #6034 from xyflow/changeset-release/main"
+      },
+      "latest_release": {
+        "tag_name": "@xyflow/svelte@1.7.0",
+        "name": "@xyflow/svelte@1.7.0",
+        "html_url": "https://github.com/xyflow/xyflow/releases/tag/%40xyflow/svelte%401.7.0",
+        "published_at": "2026-09-24T12:40:02Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "yuzutech/kroki",
+      "retrieved_at_utc": "2026-10-14T19:11:19+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/yuzutech/kroki",
+        "head_commit": "https://api.github.com/repos/yuzutech/kroki/commits/main",
+        "latest_release": "https://api.github.com/repos/yuzutech/kroki/releases/latest"
+      },
+      "repository": {
+        "id": 165063056,
+        "full_name": "yuzutech/kroki",
+        "html_url": "https://github.com/yuzutech/kroki",
+        "description": "Creates diagrams from textual descriptions!",
+        "homepage": "https://kroki.io",
+        "stargazers_count": 4368,
+        "forks_count": 324,
+        "subscribers_count": 26,
+        "open_issues_count": 141,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2019-01-10T13:17:19Z",
+        "updated_at": "2026-10-14T17:18:49Z",
+        "pushed_at": "2026-10-07T08:55:23Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "api",
+          "blockdiag",
+          "bpmn",
+          "bytefield",
+          "c4",
+          "diagrams",
+          "ditaa",
+          "erd",
+          "excalidraw",
+          "graphviz",
+          "hacktoberfest",
+          "images",
+          "mermaid",
+          "pikchr",
+          "plantuml",
+          "svgbob",
+          "text",
+          "uml",
+          "umlet",
+          "wavedrom"
+        ],
+        "size": 105319,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+        "html_url": "https://github.com/yuzutech/kroki/commit/d161fd8e5735131f986da59f8f359c72f3fa770c",
+        "committed_at": "2026-10-07T08:55:22Z",
+        "subject": "feat(docs): add ZopDay to hosting providers"
+      },
+      "latest_release": {
+        "tag_name": "v0.33.0",
+        "name": "v0.33.0",
+        "html_url": "https://github.com/yuzutech/kroki/releases/tag/v0.33.0",
+        "published_at": "2026-10-05T18:03:57Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "antvis/Infographic",
+      "retrieved_at_utc": "2026-10-14T19:11:21+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/antvis/Infographic",
+        "head_commit": "https://api.github.com/repos/antvis/Infographic/commits/main",
+        "latest_release": "https://api.github.com/repos/antvis/Infographic/releases/latest"
+      },
+      "repository": {
+        "id": 1054812421,
+        "full_name": "antvis/Infographic",
+        "html_url": "https://github.com/antvis/Infographic",
+        "description": "🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!",
+        "homepage": "https://infographic.antv.vision",
+        "stargazers_count": 6996,
+        "forks_count": 562,
+        "subscribers_count": 18,
+        "open_issues_count": 27,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2025-09-11T11:13:39Z",
+        "updated_at": "2026-10-14T15:45:03Z",
+        "pushed_at": "2026-08-21T14:04:18Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "ai",
+          "antv",
+          "infographic",
+          "llm",
+          "visualization"
+        ],
+        "size": 3937,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "2ea1894255e4002c7735586778be86d13ec30346",
+        "html_url": "https://github.com/antvis/Infographic/commit/2ea1894255e4002c7735586778be86d13ec30346",
+        "committed_at": "2026-08-21T14:01:22Z",
+        "subject": "chore: update release support oidc publish (#254)"
+      },
+      "latest_release": {
+        "tag_name": "0.2.19",
+        "name": "0.2.19",
+        "html_url": "https://github.com/antvis/Infographic/releases/tag/0.2.19",
+        "published_at": "2026-05-06T06:13:29Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "tldraw/tldraw",
+      "retrieved_at_utc": "2026-10-14T19:11:21+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/tldraw/tldraw",
+        "head_commit": "https://api.github.com/repos/tldraw/tldraw/commits/main",
+        "latest_release": "https://api.github.com/repos/tldraw/tldraw/releases/latest"
+      },
+      "repository": {
+        "id": 365739812,
+        "full_name": "tldraw/tldraw",
+        "html_url": "https://github.com/tldraw/tldraw",
+        "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+        "homepage": "https://tldraw.dev",
+        "stargazers_count": 50919,
+        "forks_count": 3568,
+        "subscribers_count": 172,
+        "open_issues_count": 583,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2021-05-09T11:48:37Z",
+        "updated_at": "2026-10-14T16:07:31Z",
+        "pushed_at": "2026-10-14T16:13:27Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "canvas",
+          "collaboration",
+          "design",
+          "diagram",
+          "drawing",
+          "infinite",
+          "multiplayer",
+          "react",
+          "sdk",
+          "sketch",
+          "sync",
+          "whiteboard"
+        ],
+        "size": 1594322,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+        "html_url": "https://github.com/tldraw/tldraw/commit/694791e0acebc0f9df4a16a5880b72d128f8a621",
+        "committed_at": "2026-10-14T09:25:15Z",
+        "subject": "docs(agents): describe the isolated pnpm linker in the dependency rules (#11077)"
+      },
+      "latest_release": {
+        "tag_name": "v5.5.2",
+        "name": "v5.5.2",
+        "html_url": "https://github.com/tldraw/tldraw/releases/tag/v5.5.2",
+        "published_at": "2026-10-02T13:35:52Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "ManimCommunity/manim",
+      "retrieved_at_utc": "2026-10-14T19:11:21+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/ManimCommunity/manim",
+        "head_commit": "https://api.github.com/repos/ManimCommunity/manim/commits/main",
+        "latest_release": "https://api.github.com/repos/ManimCommunity/manim/releases/latest"
+      },
+      "repository": {
+        "id": 265122478,
+        "full_name": "ManimCommunity/manim",
+        "html_url": "https://github.com/ManimCommunity/manim",
+        "description": "A community-maintained Python framework for creating mathematical animations. ",
+        "homepage": "https://www.manim.community",
+        "stargazers_count": 41533,
+        "forks_count": 3191,
+        "subscribers_count": 65,
+        "open_issues_count": 494,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2020-05-19T02:37:13Z",
+        "updated_at": "2026-10-14T18:12:33Z",
+        "pushed_at": "2026-10-12T22:20:45Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "animations",
+          "hacktoberfest",
+          "manim",
+          "math",
+          "python"
+        ],
+        "size": 48198,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+        "html_url": "https://github.com/ManimCommunity/manim/commit/622520d34190062f32d68af066c80f1c937fc8bf",
+        "committed_at": "2026-10-12T22:20:44Z",
+        "subject": "fix(docs): remove redundant backslash escaping in raw docstrings (#5063)"
+      },
+      "latest_release": {
+        "tag_name": "v0.22.0",
+        "name": "Manim v0.22.0",
+        "html_url": "https://github.com/ManimCommunity/manim/releases/tag/v0.22.0",
+        "published_at": "2026-10-08T13:26:58Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "3b1b/manim",
+      "retrieved_at_utc": "2026-10-14T19:11:22+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/3b1b/manim",
+        "head_commit": "https://api.github.com/repos/3b1b/manim/commits/master",
+        "latest_release": "https://api.github.com/repos/3b1b/manim/releases/latest"
+      },
+      "repository": {
+        "id": 32689863,
+        "full_name": "3b1b/manim",
+        "html_url": "https://github.com/3b1b/manim",
+        "description": "Animation engine for explanatory math videos",
+        "homepage": null,
+        "stargazers_count": 95073,
+        "forks_count": 7795,
+        "subscribers_count": 961,
+        "open_issues_count": 502,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2015-03-22T18:50:58Z",
+        "updated_at": "2026-10-14T19:08:00Z",
+        "pushed_at": "2026-09-09T16:23:48Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "3b1b-videos",
+          "animation",
+          "explanatory-math-videos",
+          "python"
+        ],
+        "size": 77331,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+        "html_url": "https://github.com/3b1b/manim/commit/fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+        "committed_at": "2026-09-09T16:23:48Z",
+        "subject": "Add VideoMobject and Sprite (#2521)"
+      },
+      "latest_release": {
+        "tag_name": "v1.7.2",
+        "name": "v1.7.2",
+        "html_url": "https://github.com/3b1b/manim/releases/tag/v1.7.2",
+        "published_at": "2024-12-13T02:58:56Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "motion-canvas/motion-canvas",
+      "retrieved_at_utc": "2026-10-14T19:11:23+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/motion-canvas/motion-canvas",
+        "head_commit": "https://api.github.com/repos/motion-canvas/motion-canvas/commits/main",
+        "latest_release": "https://api.github.com/repos/motion-canvas/motion-canvas/releases/latest"
+      },
+      "repository": {
+        "id": 520955562,
+        "full_name": "motion-canvas/motion-canvas",
+        "html_url": "https://github.com/motion-canvas/motion-canvas",
+        "description": "Visualize Your Ideas With Code",
+        "homepage": "https://motion-canvas.io",
+        "stargazers_count": 19327,
+        "forks_count": 840,
+        "subscribers_count": 91,
+        "open_issues_count": 175,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2022-08-03T16:30:14Z",
+        "updated_at": "2026-10-14T16:59:16Z",
+        "pushed_at": "2026-07-02T20:01:32Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "animation",
+          "presentation",
+          "visualization"
+        ],
+        "size": 11047,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+        "html_url": "https://github.com/motion-canvas/motion-canvas/commit/7b91435c301d530351dcf5ebb91dd139c002e405",
+        "committed_at": "2026-07-02T20:01:32Z",
+        "subject": "refactor(docs): update domain (#1231)"
+      },
+      "latest_release": {
+        "tag_name": "v3.17.2",
+        "name": "v3.17.2",
+        "html_url": "https://github.com/motion-canvas/motion-canvas/releases/tag/v3.17.2",
+        "published_at": "2024-12-14T20:26:49Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "stevenpetryk/mafs",
+      "retrieved_at_utc": "2026-10-14T19:11:23+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/stevenpetryk/mafs",
+        "head_commit": "https://api.github.com/repos/stevenpetryk/mafs/commits/main",
+        "latest_release": "https://api.github.com/repos/stevenpetryk/mafs/releases/latest"
+      },
+      "repository": {
+        "id": 288341090,
+        "full_name": "stevenpetryk/mafs",
+        "html_url": "https://github.com/stevenpetryk/mafs",
+        "description": "React components for interactive math",
+        "homepage": "https://mafs.dev",
+        "stargazers_count": 3444,
+        "forks_count": 100,
+        "subscribers_count": 17,
+        "open_issues_count": 28,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2020-08-18T03:05:00Z",
+        "updated_at": "2026-10-13T03:07:40Z",
+        "pushed_at": "2025-03-30T21:48:54Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "math",
+          "react",
+          "visualization"
+        ],
+        "size": 22408,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+        "html_url": "https://github.com/stevenpetryk/mafs/commit/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+        "committed_at": "2025-03-30T21:48:47Z",
+        "subject": "Upgrade dependencies"
+      },
+      "latest_release": {
+        "tag_name": "v0.21.0",
+        "name": "v0.21.x - Images!",
+        "html_url": "https://github.com/stevenpetryk/mafs/releases/tag/v0.21.0",
+        "published_at": "2024-10-20T22:52:50Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "unconed/mathbox",
+      "retrieved_at_utc": "2026-10-14T19:11:24+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/unconed/mathbox",
+        "head_commit": "https://api.github.com/repos/unconed/mathbox/commits/master",
+        "latest_release": "https://api.github.com/repos/unconed/mathbox/releases/latest"
+      },
+      "repository": {
+        "id": 43287511,
+        "full_name": "unconed/mathbox",
+        "html_url": "https://github.com/unconed/mathbox",
+        "description": "Presentation-quality WebGL math graphing",
+        "homepage": null,
+        "stargazers_count": 1505,
+        "forks_count": 126,
+        "subscribers_count": 36,
+        "open_issues_count": 12,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2015-09-28T07:55:08Z",
+        "updated_at": "2026-10-08T06:28:50Z",
+        "pushed_at": "2023-05-05T10:26:50Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [],
+        "size": 16989,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+        "html_url": "https://github.com/unconed/mathbox/commit/f80933e114ed8051c8182fe09b83837696b4f0e9",
+        "committed_at": "2023-01-25T19:53:06Z",
+        "subject": "Fix README links"
+      },
+      "latest_release": {
+        "tag_name": "v2.3.1",
+        "name": "v2.3.1",
+        "html_url": "https://github.com/unconed/mathbox/releases/tag/v2.3.1",
+        "published_at": "2023-01-21T14:51:30Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "observablehq/plot",
+      "retrieved_at_utc": "2026-10-14T19:11:24+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/observablehq/plot",
+        "head_commit": "https://api.github.com/repos/observablehq/plot/commits/main",
+        "latest_release": "https://api.github.com/repos/observablehq/plot/releases/latest"
+      },
+      "repository": {
+        "id": 308464842,
+        "full_name": "observablehq/plot",
+        "html_url": "https://github.com/observablehq/plot",
+        "description": "A concise API for exploratory data visualization implementing a layered grammar of graphics",
+        "homepage": "https://observablehq.com/plot/",
+        "stargazers_count": 5404,
+        "forks_count": 250,
+        "subscribers_count": 45,
+        "open_issues_count": 350,
+        "language": "HTML",
+        "license": {
+          "key": "isc",
+          "name": "ISC License",
+          "spdx_id": "ISC",
+          "url": "https://api.github.com/licenses/isc",
+          "node_id": "MDc6TGljZW5zZTEw"
+        },
+        "created_at": "2020-10-29T22:30:31Z",
+        "updated_at": "2026-10-13T23:37:59Z",
+        "pushed_at": "2026-09-01T17:19:43Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "charts",
+          "d3",
+          "data-visualization",
+          "svg",
+          "visualization"
+        ],
+        "size": 97625,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "535723d5e433727720d9b673c31622821bb03210",
+        "html_url": "https://github.com/observablehq/plot/commit/535723d5e433727720d9b673c31622821bb03210",
+        "committed_at": "2026-09-01T17:19:34Z",
+        "subject": "remove link rel=canonical"
+      },
+      "latest_release": {
+        "tag_name": "v0.6.17",
+        "name": "v0.6.17",
+        "html_url": "https://github.com/observablehq/plot/releases/tag/v0.6.17",
+        "published_at": "2025-02-14T16:05:17Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "observablehq/framework",
+      "retrieved_at_utc": "2026-10-14T19:11:26+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/observablehq/framework",
+        "head_commit": "https://api.github.com/repos/observablehq/framework/commits/main",
+        "latest_release": "https://api.github.com/repos/observablehq/framework/releases/latest"
+      },
+      "repository": {
+        "id": 697495192,
+        "full_name": "observablehq/framework",
+        "html_url": "https://github.com/observablehq/framework",
+        "description": "A static site generator for data apps, dashboards, reports, and more. Observable Framework combines JavaScript on the front-end for interactive graphics with any language on the back-end for data analysis.",
+        "homepage": "https://observablehq.com/framework/",
+        "stargazers_count": 3663,
+        "forks_count": 209,
+        "subscribers_count": 29,
+        "open_issues_count": 181,
+        "language": "TypeScript",
+        "license": {
+          "key": "isc",
+          "name": "ISC License",
+          "spdx_id": "ISC",
+          "url": "https://api.github.com/licenses/isc",
+          "node_id": "MDc6TGljZW5zZTEw"
+        },
+        "created_at": "2023-09-27T21:06:30Z",
+        "updated_at": "2026-10-14T01:55:36Z",
+        "pushed_at": "2026-05-15T21:33:09Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "d3",
+          "dashboard",
+          "framework",
+          "markdown",
+          "static-site-generator",
+          "visualization"
+        ],
+        "size": 44260,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+        "html_url": "https://github.com/observablehq/framework/commit/85e843e6acfa3dbe93129c125156352c9c50b697",
+        "committed_at": "2026-05-15T21:33:06Z",
+        "subject": "fix pages dist"
+      },
+      "latest_release": {
+        "tag_name": "v1.13.4",
+        "name": "v1.13.4",
+        "html_url": "https://github.com/observablehq/framework/releases/tag/v1.13.4",
+        "published_at": "2026-03-02T21:36:28Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "marimo-team/marimo",
+      "retrieved_at_utc": "2026-10-14T19:11:26+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/marimo-team/marimo",
+        "head_commit": "https://api.github.com/repos/marimo-team/marimo/commits/main",
+        "latest_release": "https://api.github.com/repos/marimo-team/marimo/releases/latest"
+      },
+      "repository": {
+        "id": 678526156,
+        "full_name": "marimo-team/marimo",
+        "html_url": "https://github.com/marimo-team/marimo",
+        "description": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
+        "homepage": "https://marimo.io",
+        "stargazers_count": 23173,
+        "forks_count": 1334,
+        "subscribers_count": 69,
+        "open_issues_count": 622,
+        "language": "Python",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2023-08-14T18:56:20Z",
+        "updated_at": "2026-10-14T18:44:03Z",
+        "pushed_at": "2026-10-14T19:10:09Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "artificial-intelligence",
+          "dag",
+          "data-science",
+          "data-visualization",
+          "dataflow",
+          "developer-tools",
+          "machine-learning",
+          "notebooks",
+          "pipeline",
+          "python",
+          "reactive",
+          "sql",
+          "web-app"
+        ],
+        "size": 231110,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+        "html_url": "https://github.com/marimo-team/marimo/commit/58be5a93f384dc0fa6e130f98c8688999df74305",
+        "committed_at": "2026-10-14T18:43:54Z",
+        "subject": "Complete host conformance fixture schema mappings (#11233)"
+      },
+      "latest_release": {
+        "tag_name": "0.25.1",
+        "name": "0.25.1",
+        "html_url": "https://github.com/marimo-team/marimo/releases/tag/0.25.1",
+        "published_at": "2026-10-01T21:17:52Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "ncase/loopy",
+      "retrieved_at_utc": "2026-10-14T19:11:27+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/ncase/loopy",
+        "head_commit": "https://api.github.com/repos/ncase/loopy/commits/gh-pages",
+        "latest_release": "https://api.github.com/repos/ncase/loopy/releases/latest"
+      },
+      "repository": {
+        "id": 83473249,
+        "full_name": "ncase/loopy",
+        "html_url": "https://github.com/ncase/loopy",
+        "description": "A tool for thinking in systems",
+        "homepage": "http://ncase.me/loopy/",
+        "stargazers_count": 1749,
+        "forks_count": 249,
+        "subscribers_count": 56,
+        "open_issues_count": 29,
+        "language": "JavaScript",
+        "license": {
+          "key": "cc0-1.0",
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdx_id": "CC0-1.0",
+          "url": "https://api.github.com/licenses/cc0-1.0",
+          "node_id": "MDc6TGljZW5zZTY="
+        },
+        "created_at": "2017-02-28T19:53:20Z",
+        "updated_at": "2026-10-13T20:29:44Z",
+        "pushed_at": "2024-07-08T08:50:23Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "gh-pages",
+        "topics": [],
+        "size": 2805,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+        "html_url": "https://github.com/ncase/loopy/commit/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+        "committed_at": "2019-04-17T19:00:06Z",
+        "subject": "ui move"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "quarto-dev/quarto-cli",
+      "retrieved_at_utc": "2026-10-14T19:11:27+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/quarto-dev/quarto-cli",
+        "head_commit": "https://api.github.com/repos/quarto-dev/quarto-cli/commits/main",
+        "latest_release": "https://api.github.com/repos/quarto-dev/quarto-cli/releases/latest"
+      },
+      "repository": {
+        "id": 298579934,
+        "full_name": "quarto-dev/quarto-cli",
+        "html_url": "https://github.com/quarto-dev/quarto-cli",
+        "description": "Open-source scientific and technical publishing system built on Pandoc.",
+        "homepage": "https://quarto.org",
+        "stargazers_count": 6086,
+        "forks_count": 469,
+        "subscribers_count": 29,
+        "open_issues_count": 1901,
+        "language": "JavaScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2020-09-25T13:25:46Z",
+        "updated_at": "2026-10-14T16:12:45Z",
+        "pushed_at": "2026-10-14T18:22:52Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 328533,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+        "html_url": "https://github.com/quarto-dev/quarto-cli/commit/b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+        "committed_at": "2026-10-14T16:12:37Z",
+        "subject": "Resolve og:image and feed image paths against their source file (#15053)"
+      },
+      "latest_release": {
+        "tag_name": "v1.10.19",
+        "name": "v1.10.19",
+        "html_url": "https://github.com/quarto-dev/quarto-cli/releases/tag/v1.10.19",
+        "published_at": "2026-10-06T08:59:49Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "d3/d3",
+      "retrieved_at_utc": "2026-10-14T19:11:28+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/d3/d3",
+        "head_commit": "https://api.github.com/repos/d3/d3/commits/main",
+        "latest_release": "https://api.github.com/repos/d3/d3/releases/latest"
+      },
+      "repository": {
+        "id": 943149,
+        "full_name": "d3/d3",
+        "html_url": "https://github.com/d3/d3",
+        "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+        "homepage": "https://d3js.org",
+        "stargazers_count": 113752,
+        "forks_count": 22632,
+        "subscribers_count": 3534,
+        "open_issues_count": 20,
+        "language": "Shell",
+        "license": {
+          "key": "isc",
+          "name": "ISC License",
+          "spdx_id": "ISC",
+          "url": "https://api.github.com/licenses/isc",
+          "node_id": "MDc6TGljZW5zZTEw"
+        },
+        "created_at": "2010-09-27T17:22:42Z",
+        "updated_at": "2026-10-14T17:17:42Z",
+        "pushed_at": "2026-05-28T14:43:01Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "chart",
+          "charts",
+          "d3",
+          "data-visualization",
+          "svg",
+          "visualization"
+        ],
+        "size": 59348,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "ca958d45217b4c15332d971b935451a6d4c978f4",
+        "html_url": "https://github.com/d3/d3/commit/ca958d45217b4c15332d971b935451a6d4c978f4",
+        "committed_at": "2026-05-28T14:43:00Z",
+        "subject": "docs: Incorrect alt text copied from the Observable Framework repository; it should describe D3 downloads. (#4122)"
+      },
+      "latest_release": {
+        "tag_name": "v7.9.0",
+        "name": "",
+        "html_url": "https://github.com/d3/d3/releases/tag/v7.9.0",
+        "published_at": "2024-03-12T22:18:19Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "vega/vega-lite",
+      "retrieved_at_utc": "2026-10-14T19:11:28+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/vega/vega-lite",
+        "head_commit": "https://api.github.com/repos/vega/vega-lite/commits/main",
+        "latest_release": "https://api.github.com/repos/vega/vega-lite/releases/latest"
+      },
+      "repository": {
+        "id": 26931359,
+        "full_name": "vega/vega-lite",
+        "html_url": "https://github.com/vega/vega-lite",
+        "description": "A concise grammar of interactive graphics, built on Vega.",
+        "homepage": "https://vega.github.io/vega-lite/",
+        "stargazers_count": 5517,
+        "forks_count": 726,
+        "subscribers_count": 84,
+        "open_issues_count": 818,
+        "language": "TypeScript",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "created_at": "2014-11-20T20:52:04Z",
+        "updated_at": "2026-10-14T10:20:58Z",
+        "pushed_at": "2026-10-14T01:26:54Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "charts",
+          "declarative-language",
+          "plot",
+          "vega",
+          "vega-lite",
+          "visual-analysis",
+          "visualization",
+          "visualization-grammar"
+        ],
+        "size": 361138,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+        "html_url": "https://github.com/vega/vega-lite/commit/85fab8d12c873b3b224ef9a33c807642953325ba",
+        "committed_at": "2026-10-08T14:35:59Z",
+        "subject": "ci: do not run check workflow on tag pushes (#9954)"
+      },
+      "latest_release": {
+        "tag_name": "v6.5.0",
+        "name": "Release 6.5.0",
+        "html_url": "https://github.com/vega/vega-lite/releases/tag/v6.5.0",
+        "published_at": "2026-10-08T14:27:59Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "apache/echarts",
+      "retrieved_at_utc": "2026-10-14T19:11:29+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/apache/echarts",
+        "head_commit": "https://api.github.com/repos/apache/echarts/commits/master",
+        "latest_release": "https://api.github.com/repos/apache/echarts/releases/latest"
+      },
+      "repository": {
+        "id": 9185792,
+        "full_name": "apache/echarts",
+        "html_url": "https://github.com/apache/echarts",
+        "description": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+        "homepage": "https://echarts.apache.org",
+        "stargazers_count": 67509,
+        "forks_count": 19816,
+        "subscribers_count": 1959,
+        "open_issues_count": 1487,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2013-04-03T03:18:59Z",
+        "updated_at": "2026-10-14T17:15:59Z",
+        "pushed_at": "2026-10-13T09:27:20Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "apache",
+          "canvas",
+          "charting-library",
+          "charts",
+          "data-visualization",
+          "data-viz",
+          "echarts",
+          "svg",
+          "visualization"
+        ],
+        "size": 271263,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+        "html_url": "https://github.com/apache/echarts/commit/34f4d927eafe251f26f63afd3aeefa30f2feba30",
+        "committed_at": "2026-10-04T10:59:16Z",
+        "subject": "Merge pull request #21777 from apache/dependabot/npm_and_yarn/multi-b04dc22ff7"
+      },
+      "latest_release": {
+        "tag_name": "6.1.0",
+        "name": "6.1.0",
+        "html_url": "https://github.com/apache/echarts/releases/tag/6.1.0",
+        "published_at": "2026-05-19T17:38:29Z",
+        "prerelease": false,
+        "draft": false
+      }
+    }
+  ]
+}

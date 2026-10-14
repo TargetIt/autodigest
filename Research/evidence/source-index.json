@@ -1,0 +1,3076 @@
+{
+  "method": "Validated pinned GitHub source links against locally retrieved source at the recorded SHA; line bounds and file SHA-256 recorded. This verifies citation location, not semantic entailment.",
+  "primary_repository_count": 39,
+  "supporting_dependency": "d3/d3-selection is inspected as a D3 implementation dependency, not an additional main tool.",
+  "source_link_count": 236,
+  "sources": [
+    {
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/LICENSE.md#L1-L21",
+      "repository": "3b1b/manim",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "LICENSE.md",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "fe450f4b69c56c80e4ba2f3226174d1af417e7c1728362ed81a8f6c0b909eb43",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md#L13-L27",
+      "repository": "3b1b/manim",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "README.md",
+      "line_start": 13,
+      "line_end": 27,
+      "file_lines": 188,
+      "file_sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/example_scenes.py#L281-L338",
+      "repository": "3b1b/manim",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "example_scenes.py",
+      "line_start": 281,
+      "line_end": 338,
+      "file_lines": 736,
+      "file_sha256": "4782d4290d4fd76850c8e13b54fcf56679738b415f724a45a07b610af7960669",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/manimlib/scene/scene.py#L241-L272",
+      "repository": "3b1b/manim",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "manimlib/scene/scene.py",
+      "line_start": 241,
+      "line_end": 272,
+      "file_lines": 947,
+      "file_sha256": "7d5892c514f7ad6d3eea27a56d0863b487f474a98cc977f232787c1c28df562a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/tests/test_coordinate_systems.py#L28-L48",
+      "repository": "3b1b/manim",
+      "commit_sha": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "tests/test_coordinate_systems.py",
+      "line_start": 28,
+      "line_end": 48,
+      "file_lines": 52,
+      "file_sha256": "eef69b0feb425f9738105b6aaf008eddaea5e4103326732ed46baa4ad71d6358",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/623eb91e579465dabe2794da5aac2dfaceba0f71/hooks/use-diagram-tool-handlers.ts#L227-L337",
+      "repository": "DayuanJiang/next-ai-draw-io",
+      "commit_sha": "623eb91e579465dabe2794da5aac2dfaceba0f71",
+      "path": "hooks/use-diagram-tool-handlers.ts",
+      "line_start": 227,
+      "line_end": 337,
+      "file_lines": 594,
+      "file_sha256": "cf79106bf0caad6e1b66c6224f55c8817d26b1674247a7fbdcf57747d29a17ef",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/623eb91e579465dabe2794da5aac2dfaceba0f71/lib/chat-tools.ts#L13-L110",
+      "repository": "DayuanJiang/next-ai-draw-io",
+      "commit_sha": "623eb91e579465dabe2794da5aac2dfaceba0f71",
+      "path": "lib/chat-tools.ts",
+      "line_start": 13,
+      "line_end": 110,
+      "file_lines": 138,
+      "file_sha256": "95f7b0b8b1ef457d0f4bb6c2a2edb7d96c62398c4332c71f1e3820c6b328360c",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/README.md#L138-L140",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "README.md",
+      "line_start": 138,
+      "line_end": 140,
+      "file_lines": 140,
+      "file_sha256": "41cac8aeb33a726c1b0a70d10233ee06d9cd73c6df0bace8145637d75c5fc283",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/README.md#L20-L38",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "README.md",
+      "line_start": 20,
+      "line_end": 38,
+      "file_lines": 140,
+      "file_sha256": "41cac8aeb33a726c1b0a70d10233ee06d9cd73c6df0bace8145637d75c5fc283",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/manim/animation/transform.py#L200-L250",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "manim/animation/transform.py",
+      "line_start": 200,
+      "line_end": 250,
+      "file_lines": 958,
+      "file_sha256": "54f719428e4fb306c5b6252bca035d2197ab4e6a617223f5399849db92ea95bf",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/manim/mobject/value_tracker.py#L21-L63",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "manim/mobject/value_tracker.py",
+      "line_start": 21,
+      "line_end": 63,
+      "file_lines": 242,
+      "file_sha256": "3711b5dc03bcde4c8204e5e26d22cb9b74040bae9bf4c01571ede8d435eb07e9",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/manim/scene/scene.py#L1384-L1417",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "manim/scene/scene.py",
+      "line_start": 1384,
+      "line_end": 1417,
+      "file_lines": 1966,
+      "file_sha256": "0396056a0f59184e7e0f48488a9ab4a30fbad328c96813f3b3655025d4622305",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/pyproject.toml#L23-L51",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "pyproject.toml",
+      "line_start": 23,
+      "line_end": 51,
+      "file_lines": 221,
+      "file_sha256": "33a5af845969336e80fd263e45aad44ca1c1ea73d7540dc2cc9ef7b36be9f9d4",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ManimCommunity/manim/blob/622520d34190062f32d68af066c80f1c937fc8bf/tests/module/mobject/test_value_tracker.py#L19-L24",
+      "repository": "ManimCommunity/manim",
+      "commit_sha": "622520d34190062f32d68af066c80f1c937fc8bf",
+      "path": "tests/module/mobject/test_value_tracker.py",
+      "line_start": 19,
+      "line_end": 24,
+      "file_lines": 150,
+      "file_sha256": "272a1b1d9d0211f31da1e61ca7367aadf1bd4d8df1c042f4ed6f7092d9f014e1",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/NickyLam/Visualizer-Skill/blob/409cc699c56bbdfc2b52a70509c24642585c0d5f/LICENSE#L1-L13",
+      "repository": "NickyLam/Visualizer-Skill",
+      "commit_sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "d3578226ce2561280693f45e3eed7929b585f43239c4d0e2af5e06376fe34067",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/NickyLam/Visualizer-Skill/blob/409cc699c56bbdfc2b52a70509c24642585c0d5f/SKILL.md#L133-L166",
+      "repository": "NickyLam/Visualizer-Skill",
+      "commit_sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+      "path": "SKILL.md",
+      "line_start": 133,
+      "line_end": 166,
+      "file_lines": 217,
+      "file_sha256": "7ea013b9c9113145fbebc99dd6eabcdb52bc56fd058b3b364a199a797c5290df",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/NickyLam/Visualizer-Skill/blob/409cc699c56bbdfc2b52a70509c24642585c0d5f/SKILL.md#L40-L62",
+      "repository": "NickyLam/Visualizer-Skill",
+      "commit_sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+      "path": "SKILL.md",
+      "line_start": 40,
+      "line_end": 62,
+      "file_lines": 217,
+      "file_sha256": "7ea013b9c9113145fbebc99dd6eabcdb52bc56fd058b3b364a199a797c5290df",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/NickyLam/Visualizer-Skill/blob/409cc699c56bbdfc2b52a70509c24642585c0d5f/SKILL.md#L43-L59",
+      "repository": "NickyLam/Visualizer-Skill",
+      "commit_sha": "409cc699c56bbdfc2b52a70509c24642585c0d5f",
+      "path": "SKILL.md",
+      "line_start": 43,
+      "line_end": 59,
+      "file_lines": 217,
+      "file_sha256": "7ea013b9c9113145fbebc99dd6eabcdb52bc56fd058b3b364a199a797c5290df",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/LICENSE#L1-L13",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "3ccf89fa16fa3ad37228d91952c2f1933f077c56a8056d9e0bddea51c638e464",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/package.json#L26-L40",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "package.json",
+      "line_start": 26,
+      "line_end": 40,
+      "file_lines": 45,
+      "file_sha256": "f4f476946e98042193f7b81bdedeb9959cabd25eca9a33856977ec32168b7dfc",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/SKILL.md#L20-L60",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/SKILL.md",
+      "line_start": 20,
+      "line_end": 60,
+      "file_lines": 358,
+      "file_sha256": "0feff001ffee351901c1aafd10264a682cdd128b638d3f02a2cc695c0b558d4d",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/SKILL.md#L67-L88",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/SKILL.md",
+      "line_start": 67,
+      "line_end": 88,
+      "file_lines": 358,
+      "file_sha256": "0feff001ffee351901c1aafd10264a682cdd128b638d3f02a2cc695c0b558d4d",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/layout-test.mjs#L74-L143",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/layout-test.mjs",
+      "line_start": 74,
+      "line_end": 143,
+      "file_lines": 158,
+      "file_sha256": "4debcc5d43f496646b13f046091220cede9a60a418412dc28de10c71d4884490",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/render.mjs#L2-L10",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/render.mjs",
+      "line_start": 2,
+      "line_end": 10,
+      "file_lines": 342,
+      "file_sha256": "ea759352a9ba447593681298d0b7a449b37cabc540a7058cd3f96e0929743728",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/self-test.mjs#L73-L172",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/self-test.mjs",
+      "line_start": 73,
+      "line_end": 172,
+      "file_lines": 204,
+      "file_sha256": "0a36994e487d1dbda8df672dc8649f57abe25c9c3bb9711aa274c2022ff90d04",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/validate.mjs#L110-L119",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/validate.mjs",
+      "line_start": 110,
+      "line_end": 119,
+      "file_lines": 673,
+      "file_sha256": "776b06b858459f927e6c952a36bfb871b04f870afd1d29ecf9f4cc5237bf1030",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/validate.mjs#L402-L424",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/validate.mjs",
+      "line_start": 402,
+      "line_end": 424,
+      "file_lines": 673,
+      "file_sha256": "776b06b858459f927e6c952a36bfb871b04f870afd1d29ecf9f4cc5237bf1030",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Ofori01/show-me/blob/62c8905665be8ff6f51df05eaccf6b38e1c183e1/skills/show-me/scripts/validate.mjs#L44-L69",
+      "repository": "Ofori01/show-me",
+      "commit_sha": "62c8905665be8ff6f51df05eaccf6b38e1c183e1",
+      "path": "skills/show-me/scripts/validate.mjs",
+      "line_start": 44,
+      "line_end": 69,
+      "file_lines": 673,
+      "file_sha256": "776b06b858459f927e6c952a36bfb871b04f870afd1d29ecf9f4cc5237bf1030",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/LICENSE#L1-L21",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "cacec99fa5f02241b33906689924718962f4991cd6eada3624f56c6bd4f3ff28",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/skills/infographic-creator/SKILL.md#L20-L94",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "skills/infographic-creator/SKILL.md",
+      "line_start": 20,
+      "line_end": 94,
+      "file_lines": 484,
+      "file_sha256": "00d0f5da0d7f17e8d23e9e06ce67f31d187b0c190f118aed50fa7cc736dcbc8b",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/skills/infographic-syntax-creator/SKILL.md#L8-L31",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "skills/infographic-syntax-creator/SKILL.md",
+      "line_start": 8,
+      "line_end": 31,
+      "file_lines": 32,
+      "file_sha256": "5d954cc22ea77bbd142c6cd257fd346b1bd50b06369f40d50c39c76cef2f4b4a",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/src/runtime/Infographic.tsx#L135-L164",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "src/runtime/Infographic.tsx",
+      "line_start": 135,
+      "line_end": 164,
+      "file_lines": 236,
+      "file_sha256": "02bf955942a4cd1ee3bb887cd674c1d577ff0dfb18e0f8528f6d3b9de3886ce2",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/src/runtime/Infographic.tsx#L184-L196",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "src/runtime/Infographic.tsx",
+      "line_start": 184,
+      "line_end": 196,
+      "file_lines": 236,
+      "file_sha256": "02bf955942a4cd1ee3bb887cd674c1d577ff0dfb18e0f8528f6d3b9de3886ce2",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/src/runtime/Infographic.tsx#L99-L118",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "src/runtime/Infographic.tsx",
+      "line_start": 99,
+      "line_end": 118,
+      "file_lines": 236,
+      "file_sha256": "02bf955942a4cd1ee3bb887cd674c1d577ff0dfb18e0f8528f6d3b9de3886ce2",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/src/ssr/renderer.ts#L8-L49",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "src/ssr/renderer.ts",
+      "line_start": 8,
+      "line_end": 49,
+      "file_lines": 72,
+      "file_sha256": "7c8767bf8849df294387d1b2e19586e855f815f264d58856284de4aea6485e49",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/antvis/Infographic/blob/2ea1894255e4002c7735586778be86d13ec30346/src/syntax/parser.ts#L169-L201",
+      "repository": "antvis/Infographic",
+      "commit_sha": "2ea1894255e4002c7735586778be86d13ec30346",
+      "path": "src/syntax/parser.ts",
+      "line_start": 169,
+      "line_end": 201,
+      "file_lines": 328,
+      "file_sha256": "652679a2150cc3d124548c27089f5f7eb1ff1fe9bcb699bcd16f4a0a2d462c88",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/apache/echarts/blob/34f4d927eafe251f26f63afd3aeefa30f2feba30/src/core/echarts.ts#L724-L791",
+      "repository": "apache/echarts",
+      "commit_sha": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+      "path": "src/core/echarts.ts",
+      "line_start": 724,
+      "line_end": 791,
+      "file_lines": 3434,
+      "file_sha256": "330d96079db4b29e6a58be35d651c8933c5646621ecee162b932c6661d88a907",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/apache/echarts/blob/34f4d927eafe251f26f63afd3aeefa30f2feba30/src/data/helper/transform.ts#L333-L427",
+      "repository": "apache/echarts",
+      "commit_sha": "34f4d927eafe251f26f63afd3aeefa30f2feba30",
+      "path": "src/data/helper/transform.ts",
+      "line_start": 333,
+      "line_end": 427,
+      "file_lines": 543,
+      "file_sha256": "1d9acc4f00429247bb374d475ea47be3b50e6804df76f5474ad3b6043becea44",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/bentossell/visualise/blob/35cd185b58af5db2f9d0fe13d9872b544a467483/README.md#L45-L51",
+      "repository": "bentossell/visualise",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "path": "README.md",
+      "line_start": 45,
+      "line_end": 51,
+      "file_lines": 55,
+      "file_sha256": "b7f348185e88ee7156a8256639fc083765abc9c1ed998d05b0abd65bce5ee0fb",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/bentossell/visualise/blob/35cd185b58af5db2f9d0fe13d9872b544a467483/README.md#L53-L55",
+      "repository": "bentossell/visualise",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "path": "README.md",
+      "line_start": 53,
+      "line_end": 55,
+      "file_lines": 55,
+      "file_sha256": "b7f348185e88ee7156a8256639fc083765abc9c1ed998d05b0abd65bce5ee0fb",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/bentossell/visualise/blob/35cd185b58af5db2f9d0fe13d9872b544a467483/SKILL.md#L21-L39",
+      "repository": "bentossell/visualise",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "path": "SKILL.md",
+      "line_start": 21,
+      "line_end": 39,
+      "file_lines": 119,
+      "file_sha256": "711d0d42b8e614bdf434a4ca046c9644f7dcaabe4c6dfbd3366848a37082c1da",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/bentossell/visualise/blob/35cd185b58af5db2f9d0fe13d9872b544a467483/SKILL.md#L60-L79",
+      "repository": "bentossell/visualise",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "path": "SKILL.md",
+      "line_start": 60,
+      "line_end": 79,
+      "file_lines": 119,
+      "file_sha256": "711d0d42b8e614bdf434a4ca046c9644f7dcaabe4c6dfbd3366848a37082c1da",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/bentossell/visualise/blob/35cd185b58af5db2f9d0fe13d9872b544a467483/references/client-implementation.md#L23-L63",
+      "repository": "bentossell/visualise",
+      "commit_sha": "35cd185b58af5db2f9d0fe13d9872b544a467483",
+      "path": "references/client-implementation.md",
+      "line_start": 23,
+      "line_end": 63,
+      "file_lines": 241,
+      "file_sha256": "6bb4c8df7c834c1a72f28757d2c09eaa28789428a76cc11d10dd3d92115a6b33",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/8646fcc9f74f38539c6cdb4c969723336a96ddcd/SKILL.md#L34-L82",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "path": "SKILL.md",
+      "line_start": 34,
+      "line_end": 82,
+      "file_lines": 552,
+      "file_sha256": "f737a9720455fddca9532fbaeb148e49e2746fd37250fa4cf54aa48a807ce1a5",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/8646fcc9f74f38539c6cdb4c969723336a96ddcd/SKILL.md#L447-L505",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "path": "SKILL.md",
+      "line_start": 447,
+      "line_end": 505,
+      "file_lines": 552,
+      "file_sha256": "f737a9720455fddca9532fbaeb148e49e2746fd37250fa4cf54aa48a807ce1a5",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/8646fcc9f74f38539c6cdb4c969723336a96ddcd/references/render_excalidraw.py#L21-L35",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "path": "references/render_excalidraw.py",
+      "line_start": 21,
+      "line_end": 35,
+      "file_lines": 189,
+      "file_sha256": "bffa85424183907d32ccf337cc2dcb7fdd778c63439648b998e2b02a18e6279f",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/8646fcc9f74f38539c6cdb4c969723336a96ddcd/references/render_excalidraw.py#L87-L166",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "path": "references/render_excalidraw.py",
+      "line_start": 87,
+      "line_end": 166,
+      "file_lines": 189,
+      "file_sha256": "bffa85424183907d32ccf337cc2dcb7fdd778c63439648b998e2b02a18e6279f",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill/blob/8646fcc9f74f38539c6cdb4c969723336a96ddcd/references/render_template.html#L15-L41",
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "commit_sha": "8646fcc9f74f38539c6cdb4c969723336a96ddcd",
+      "path": "references/render_template.html",
+      "line_start": 15,
+      "line_end": 41,
+      "file_lines": 57,
+      "file_sha256": "4820b815dd0635db450f2b7a0b0375c61755bdc6827024a34bea77ba4e078db5",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/LICENSE.txt#L1-L6",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "LICENSE.txt",
+      "line_start": 1,
+      "line_end": 6,
+      "file_lines": 375,
+      "file_sha256": "97933e571f92c0b21e09a59fe67d7ce9a77d3eac5efe5f341756d5f93d191775",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/README.md#L185-L204",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "README.md",
+      "line_start": 185,
+      "line_end": 204,
+      "file_lines": 325,
+      "file_sha256": "0e4cfd27e588214f9a81e9ddcc7d0633d1c6dbac890e528be7923da3e0000452",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/d2layouts/d2talalayout/README.md#L15-L27",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "d2layouts/d2talalayout/README.md",
+      "line_start": 15,
+      "line_end": 27,
+      "file_lines": 69,
+      "file_sha256": "a0e3a226a251983e162745d4f96329e3b0a1141decc8507f6371c0489af94ed8",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/d2layouts/d2talalayout/README.md#L67-L69",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "d2layouts/d2talalayout/README.md",
+      "line_start": 67,
+      "line_end": 69,
+      "file_lines": 69,
+      "file_sha256": "a0e3a226a251983e162745d4f96329e3b0a1141decc8507f6371c0489af94ed8",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/d2lib/d2.go#L184-L229",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "d2lib/d2.go",
+      "line_start": 184,
+      "line_end": 229,
+      "file_lines": 349,
+      "file_sha256": "aacf0c98d44e2d506069d7ee72ab31c072b474e9a26fb0a2d5d95409653fd7a7",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/d2lib/d2.go#L326-L329",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "d2lib/d2.go",
+      "line_start": 326,
+      "line_end": 329,
+      "file_lines": 349,
+      "file_sha256": "aacf0c98d44e2d506069d7ee72ab31c072b474e9a26fb0a2d5d95409653fd7a7",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d2lang/d2/blob/6a7b4837838a3907604a1d9eec57ee98b6f3cd01/d2lib/d2.go#L72-L124",
+      "repository": "d2lang/d2",
+      "commit_sha": "6a7b4837838a3907604a1d9eec57ee98b6f3cd01",
+      "path": "d2lib/d2.go",
+      "line_start": 72,
+      "line_end": 124,
+      "file_lines": 349,
+      "file_sha256": "aacf0c98d44e2d506069d7ee72ab31c072b474e9a26fb0a2d5d95409653fd7a7",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3-selection/blob/d8ea8005f87ca72496d748a91ab6e0ccbe1a2011/src/selection/data.js#L31-L72",
+      "repository": "d3/d3-selection",
+      "commit_sha": "d8ea8005f87ca72496d748a91ab6e0ccbe1a2011",
+      "path": "src/selection/data.js",
+      "line_start": 31,
+      "line_end": 72,
+      "file_lines": 128,
+      "file_sha256": "4fe03082fde4214bae9abd4ba10eae1f85a4471f95327f61487d69ede8ea5c61",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3-selection/blob/d8ea8005f87ca72496d748a91ab6e0ccbe1a2011/src/selection/join.js#L1-L15",
+      "repository": "d3/d3-selection",
+      "commit_sha": "d8ea8005f87ca72496d748a91ab6e0ccbe1a2011",
+      "path": "src/selection/join.js",
+      "line_start": 1,
+      "line_end": 15,
+      "file_lines": 15,
+      "file_sha256": "3c81094b03d2d5224ed162fc1919d2d1d87f84f272019cd13dfe126367464175",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3-selection/blob/d8ea8005f87ca72496d748a91ab6e0ccbe1a2011/test/selection/join-test.js#L5-L35",
+      "repository": "d3/d3-selection",
+      "commit_sha": "d8ea8005f87ca72496d748a91ab6e0ccbe1a2011",
+      "path": "test/selection/join-test.js",
+      "line_start": 5,
+      "line_end": 35,
+      "file_lines": 56,
+      "file_sha256": "5e779ee92609622203ef21bebd199b28a781bf897f0b05d0ae5f8dcd46041c43",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3/blob/ca958d45217b4c15332d971b935451a6d4c978f4/LICENSE#L1-L13",
+      "repository": "d3/d3",
+      "commit_sha": "ca958d45217b4c15332d971b935451a6d4c978f4",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 13,
+      "file_sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3/blob/ca958d45217b4c15332d971b935451a6d4c978f4/docs/getting-started.md#L30-L65",
+      "repository": "d3/d3",
+      "commit_sha": "ca958d45217b4c15332d971b935451a6d4c978f4",
+      "path": "docs/getting-started.md",
+      "line_start": 30,
+      "line_end": 65,
+      "file_lines": 422,
+      "file_sha256": "4e76393725bd5015a61c9ecaaeac7cccf9f33c9949172993614caad82c2ff208",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/d3/d3/blob/ca958d45217b4c15332d971b935451a6d4c978f4/src/index.js#L1-L30",
+      "repository": "d3/d3",
+      "commit_sha": "ca958d45217b4c15332d971b935451a6d4c978f4",
+      "path": "src/index.js",
+      "line_start": 1,
+      "line_end": 30,
+      "file_lines": 30,
+      "file_sha256": "0e14c593df847034f8312f2ece3e5adbf403e077b6db93a3947c7d3bd0b6f83b",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ericblue/visual-explainer-skill/blob/811b823653f0d1d9b1d2bc6f7c13df952f0216e7/skill/visual-explainer.md#L1-L44",
+      "repository": "ericblue/visual-explainer-skill",
+      "commit_sha": "811b823653f0d1d9b1d2bc6f7c13df952f0216e7",
+      "path": "skill/visual-explainer.md",
+      "line_start": 1,
+      "line_end": 44,
+      "file_lines": 690,
+      "file_sha256": "72fd8258fca40c838f2a9b877897b6e70a1bb4be3c7b9cccacbb35b963a2a971",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ericblue/visual-explainer-skill/blob/811b823653f0d1d9b1d2bc6f7c13df952f0216e7/skill/visual-explainer.md#L527-L590",
+      "repository": "ericblue/visual-explainer-skill",
+      "commit_sha": "811b823653f0d1d9b1d2bc6f7c13df952f0216e7",
+      "path": "skill/visual-explainer.md",
+      "line_start": 527,
+      "line_end": 590,
+      "file_lines": 690,
+      "file_sha256": "72fd8258fca40c838f2a9b877897b6e70a1bb4be3c7b9cccacbb35b963a2a971",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/cli/blob/55fe7f494837078781a062c4d3faf29c159ebec5/src/commands/render.ts#L78-L90",
+      "repository": "excalidraw/cli",
+      "commit_sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+      "path": "src/commands/render.ts",
+      "line_start": 78,
+      "line_end": 90,
+      "file_lines": 142,
+      "file_sha256": "32c2fe30c35b26d85f6241de54ee966c02121936b167c787bb6c4b2c673812a2",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/cli/blob/55fe7f494837078781a062c4d3faf29c159ebec5/src/fonts.ts#L22-L89",
+      "repository": "excalidraw/cli",
+      "commit_sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+      "path": "src/fonts.ts",
+      "line_start": 22,
+      "line_end": 89,
+      "file_lines": 130,
+      "file_sha256": "ebd1c1a1f70397dfa82a2bc1f9007273c30e0a87f17b528da3900216105cdb30",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/cli/blob/55fe7f494837078781a062c4d3faf29c159ebec5/src/render.ts#L112-L178",
+      "repository": "excalidraw/cli",
+      "commit_sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+      "path": "src/render.ts",
+      "line_start": 112,
+      "line_end": 178,
+      "file_lines": 204,
+      "file_sha256": "bfb780fbe7855dca7dda0d50902b915e890e38dba6be27df811e69f8c9f3cded",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/cli/blob/55fe7f494837078781a062c4d3faf29c159ebec5/test/render-validation.test.ts#L15-L65",
+      "repository": "excalidraw/cli",
+      "commit_sha": "55fe7f494837078781a062c4d3faf29c159ebec5",
+      "path": "test/render-validation.test.ts",
+      "line_start": 15,
+      "line_end": 65,
+      "file_lines": 145,
+      "file_sha256": "8f4270c24c0a9d8fd96741cbd3ab81dabce2505871c43260d2714ae3aff74dc5",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw-mcp/blob/157aa23ceb1976008aadc89eb05e3444060f09d6/src/checkpoint-store.ts#L24-L132",
+      "repository": "excalidraw/excalidraw-mcp",
+      "commit_sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+      "path": "src/checkpoint-store.ts",
+      "line_start": 24,
+      "line_end": 132,
+      "file_lines": 143,
+      "file_sha256": "9c6b3faf636f6c4fbcf43c334002ddc342c1753da25f4782fb3755cd29454686",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw-mcp/blob/157aa23ceb1976008aadc89eb05e3444060f09d6/src/mcp-app.tsx#L804-L830",
+      "repository": "excalidraw/excalidraw-mcp",
+      "commit_sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+      "path": "src/mcp-app.tsx",
+      "line_start": 804,
+      "line_end": 830,
+      "file_lines": 1006,
+      "file_sha256": "69b4f83b2fabafd957f8c7c9a0c50f165f5296eba3a1a1a39b140c151ef5e213",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw-mcp/blob/157aa23ceb1976008aadc89eb05e3444060f09d6/src/server.ts#L401-L475",
+      "repository": "excalidraw/excalidraw-mcp",
+      "commit_sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+      "path": "src/server.ts",
+      "line_start": 401,
+      "line_end": 475,
+      "file_lines": 696,
+      "file_sha256": "150db717f8e5037f7d64de89b5ac3c3151c65b66056827adc2f5c22a5a9e6d2b",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw-mcp/blob/157aa23ceb1976008aadc89eb05e3444060f09d6/src/server.ts#L550-L592",
+      "repository": "excalidraw/excalidraw-mcp",
+      "commit_sha": "157aa23ceb1976008aadc89eb05e3444060f09d6",
+      "path": "src/server.ts",
+      "line_start": 550,
+      "line_end": 592,
+      "file_lines": 696,
+      "file_sha256": "150db717f8e5037f7d64de89b5ac3c3151c65b66056827adc2f5c22a5a9e6d2b",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw/blob/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e/LICENSE#L1-L21",
+      "repository": "excalidraw/excalidraw",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "1352d204fdb90d5e482c13139d848bc2c9300a9a7de358a0a558a23e72d0d8be",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw/blob/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e/packages/excalidraw/data/json.ts#L52-L74",
+      "repository": "excalidraw/excalidraw",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "path": "packages/excalidraw/data/json.ts",
+      "line_start": 52,
+      "line_end": 74,
+      "file_lines": 159,
+      "file_sha256": "d38e58836b569507a40f6f3a745d600c589202a43627762ee7a578331a3d514d",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw/blob/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e/packages/excalidraw/scene/export.ts#L232-L267",
+      "repository": "excalidraw/excalidraw",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "path": "packages/excalidraw/scene/export.ts",
+      "line_start": 232,
+      "line_end": 267,
+      "file_lines": 587,
+      "file_sha256": "b0a1e6200370627478f2f370dd31cab071b7293275c6e12bfd2a0c2d2dd614c0",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw/blob/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e/packages/excalidraw/scene/export.ts#L363-L387",
+      "repository": "excalidraw/excalidraw",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "path": "packages/excalidraw/scene/export.ts",
+      "line_start": 363,
+      "line_end": 387,
+      "file_lines": 587,
+      "file_sha256": "b0a1e6200370627478f2f370dd31cab071b7293275c6e12bfd2a0c2d2dd614c0",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/excalidraw/excalidraw/blob/4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e/packages/excalidraw/scene/export.ts#L471-L490",
+      "repository": "excalidraw/excalidraw",
+      "commit_sha": "4c37956ba5f04ec342a9d9d5891a38f22c5b7b4e",
+      "path": "packages/excalidraw/scene/export.ts",
+      "line_start": 471,
+      "line_end": 490,
+      "file_lines": 587,
+      "file_sha256": "b0a1e6200370627478f2f370dd31cab071b7293275c6e12bfd2a0c2d2dd614c0",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/humanlayer/skills/blob/653b6411c1f70c275a18e37673b042ff99f67ceb/LICENSE#L1-L13",
+      "repository": "humanlayer/skills",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "5f13c18ea00ea5c1384f41745feeca774079164f7f59a92e4ac0899ad217b26f",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/humanlayer/skills/blob/653b6411c1f70c275a18e37673b042ff99f67ceb/plugins/show-me/skills/show-me/SKILL.md",
+      "repository": "humanlayer/skills",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "path": "plugins/show-me/skills/show-me/SKILL.md",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 128,
+      "file_sha256": "434a2346cc95e313b0d367d477dda2e23ba642dd2181757415a09500664af100",
+      "cited_by": [
+        "Research/README.md"
+      ]
+    },
+    {
+      "url": "https://github.com/humanlayer/skills/blob/653b6411c1f70c275a18e37673b042ff99f67ceb/plugins/show-me/skills/show-me/SKILL.md#L1-L7",
+      "repository": "humanlayer/skills",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "path": "plugins/show-me/skills/show-me/SKILL.md",
+      "line_start": 1,
+      "line_end": 7,
+      "file_lines": 128,
+      "file_sha256": "434a2346cc95e313b0d367d477dda2e23ba642dd2181757415a09500664af100",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/humanlayer/skills/blob/653b6411c1f70c275a18e37673b042ff99f67ceb/plugins/show-me/skills/show-me/SKILL.md#L118-L128",
+      "repository": "humanlayer/skills",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "path": "plugins/show-me/skills/show-me/SKILL.md",
+      "line_start": 118,
+      "line_end": 128,
+      "file_lines": 128,
+      "file_sha256": "434a2346cc95e313b0d367d477dda2e23ba642dd2181757415a09500664af100",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/humanlayer/skills/blob/653b6411c1f70c275a18e37673b042ff99f67ceb/plugins/show-me/skills/show-me/SKILL.md#L7-L118",
+      "repository": "humanlayer/skills",
+      "commit_sha": "653b6411c1f70c275a18e37673b042ff99f67ceb",
+      "path": "plugins/show-me/skills/show-me/SKILL.md",
+      "line_start": 7,
+      "line_end": 118,
+      "file_lines": 128,
+      "file_sha256": "434a2346cc95e313b0d367d477dda2e23ba642dd2181757415a09500664af100",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-mcp/blob/3398377f740d47faa0245b107b886e856fa3930f/README.md",
+      "repository": "jgraph/drawio-mcp",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "path": "README.md",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 245,
+      "file_sha256": "d99d45898653072d004cc45e75c4d0d7d221ddb15719ea68c5e95aa0247f05b9",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-mcp/blob/3398377f740d47faa0245b107b886e856fa3930f/mcp-app-server/src/shared.js#L6811-L6877",
+      "repository": "jgraph/drawio-mcp",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "path": "mcp-app-server/src/shared.js",
+      "line_start": 6811,
+      "line_end": 6877,
+      "file_lines": 7202,
+      "file_sha256": "6a25c1f13a562760f099c218075858439a9d948eeb30dfc204eddb42c34f9f25",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-mcp/blob/3398377f740d47faa0245b107b886e856fa3930f/mcp-tool-server/src/elk-pass.js#L1-L20",
+      "repository": "jgraph/drawio-mcp",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "path": "mcp-tool-server/src/elk-pass.js",
+      "line_start": 1,
+      "line_end": 20,
+      "file_lines": 125,
+      "file_sha256": "09510f856fe3c21028416d620755b08e44804d6653370e6aaf73346462da429a",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-mcp/blob/3398377f740d47faa0245b107b886e856fa3930f/shared/icon-search.js#L1-L25",
+      "repository": "jgraph/drawio-mcp",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "path": "shared/icon-search.js",
+      "line_start": 1,
+      "line_end": 25,
+      "file_lines": 208,
+      "file_sha256": "ede234e404c58effd3b2abb79cb1432407eee87684537659e2cbe962eda139ab",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio-mcp/blob/3398377f740d47faa0245b107b886e856fa3930f/shared/shape-search.js#L1-L100",
+      "repository": "jgraph/drawio-mcp",
+      "commit_sha": "3398377f740d47faa0245b107b886e856fa3930f",
+      "path": "shared/shape-search.js",
+      "line_start": 1,
+      "line_end": 100,
+      "file_lines": 431,
+      "file_sha256": "1441d3e87c039e9a0f7ef70817d66c00242432a8d2dd8c5a8a83a3a9df95ce7c",
+      "cited_by": [
+        "Research/notes/agent-diagram-integrations.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/LICENSE#L1-L9",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 9,
+      "file_lines": 201,
+      "file_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/README.md#L25-L39",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "README.md",
+      "line_start": 25,
+      "line_end": 39,
+      "file_lines": 51,
+      "file_sha256": "7d728dc2b3f67bb48126bf194bdb31d831bff9c081f421456522f5ceadc5d299",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/README.md#L7-L19",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "README.md",
+      "line_start": 7,
+      "line_end": 19,
+      "file_lines": 51,
+      "file_sha256": "7d728dc2b3f67bb48126bf194bdb31d831bff9c081f421456522f5ceadc5d299",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/src/main/webapp/js/diagramly/EditorUi.js#L2489-L2511",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "src/main/webapp/js/diagramly/EditorUi.js",
+      "line_start": 2489,
+      "line_end": 2511,
+      "file_lines": 35275,
+      "file_sha256": "abc055558c8a4ad4f5494fe714af673605e941afb9ba94df5beb1ca98792d539",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/src/main/webapp/js/diagramly/EditorUi.js#L8795-L8809",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "src/main/webapp/js/diagramly/EditorUi.js",
+      "line_start": 8795,
+      "line_end": 8809,
+      "file_lines": 35275,
+      "file_sha256": "abc055558c8a4ad4f5494fe714af673605e941afb9ba94df5beb1ca98792d539",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/jgraph/drawio/blob/9034053fba80a435e27d68d374bc564b83917ae9/src/main/webapp/js/grapheditor/Graph.js#L3325-L3359",
+      "repository": "jgraph/drawio",
+      "commit_sha": "9034053fba80a435e27d68d374bc564b83917ae9",
+      "path": "src/main/webapp/js/grapheditor/Graph.js",
+      "line_start": 3325,
+      "line_end": 3359,
+      "file_lines": 36791,
+      "file_sha256": "a08eeeb494621e604e45e617e63f131142c6af3b803701dbecd6a67c8bc78226",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/LICENSE#L1-L13",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "c6cd9b164293e261e2aff945912fb7a83ec1c613888d4c50d3e5817b48d7dca7",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/scripts/check.js#L59-L122",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "scripts/check.js",
+      "line_start": 59,
+      "line_end": 122,
+      "file_lines": 131,
+      "file_sha256": "bcd6717e39444235edf0e9c1368c8d6ffbfb3a0b7045fdea89b9a6a8ed114f1c",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/SKILL.md#L122-L137",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/SKILL.md",
+      "line_start": 122,
+      "line_end": 137,
+      "file_lines": 316,
+      "file_sha256": "0fe7241fed2ac14ff6b0d444cbb4ed996bc7f86b3d6ac9685cb6d5241a6245a0",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/SKILL.md#L284-L304",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/SKILL.md",
+      "line_start": 284,
+      "line_end": 304,
+      "file_lines": 316,
+      "file_sha256": "0fe7241fed2ac14ff6b0d444cbb4ed996bc7f86b3d6ac9685cb6d5241a6245a0",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/SKILL.md#L33-L45",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/SKILL.md",
+      "line_start": 33,
+      "line_end": 45,
+      "file_lines": 316,
+      "file_sha256": "0fe7241fed2ac14ff6b0d444cbb4ed996bc7f86b3d6ac9685cb6d5241a6245a0",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/SKILL.md#L78-L108",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/SKILL.md",
+      "line_start": 78,
+      "line_end": 108,
+      "file_lines": 316,
+      "file_sha256": "0fe7241fed2ac14ff6b0d444cbb4ed996bc7f86b3d6ac9685cb6d5241a6245a0",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/assets/template.html#L2212-L2244",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/assets/template.html",
+      "line_start": 2212,
+      "line_end": 2244,
+      "file_lines": 2273,
+      "file_sha256": "15d36b94b07d2f11ab27b6507e4684b01df2dc74dd9929cdfee54c7de9598c38",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/konraddzbik/architecture-diagram-skill/blob/cd94e972682dfacd7c741f9096cacc90d5cc5c41/skills/architecture-diagram/assets/template.html#L5-L14",
+      "repository": "konraddzbik/architecture-diagram-skill",
+      "commit_sha": "cd94e972682dfacd7c741f9096cacc90d5cc5c41",
+      "path": "skills/architecture-diagram/assets/template.html",
+      "line_start": 5,
+      "line_end": 14,
+      "file_lines": 2273,
+      "file_sha256": "15d36b94b07d2f11ab27b6507e4684b01df2dc74dd9929cdfee54c7de9598c38",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/LICENSE#L1-L4",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 4,
+      "file_lines": 202,
+      "file_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/docs/guides/wasm.md#L5-L35",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "docs/guides/wasm.md",
+      "line_start": 5,
+      "line_end": 35,
+      "file_lines": 252,
+      "file_sha256": "a408eb6fcf2ab5464293b9cb3b46f09875789b2bde13ce2c117246a9699b384b",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/examples/ui/slider.py#L1-L28",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "examples/ui/slider.py",
+      "line_start": 1,
+      "line_end": 28,
+      "file_lines": 28,
+      "file_sha256": "0717ead75272d0823948e1de5fc83db95147165228df86e964d4291ea94cb80a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/marimo/_runtime/dataflow/__init__.py#L132-L167",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "marimo/_runtime/dataflow/__init__.py",
+      "line_start": 132,
+      "line_end": 167,
+      "file_lines": 296,
+      "file_sha256": "876b4c3d940056cb618f829686556f91a358b29fc959fa399e9b4dd2445604be",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/marimo/_runtime/dataflow/graph.py#L92-L128",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "marimo/_runtime/dataflow/graph.py",
+      "line_start": 92,
+      "line_end": 128,
+      "file_lines": 429,
+      "file_sha256": "1397dadacdb5d958b7b0f301d197a6d1d717491897a7d5536dace395f11482c2",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/pyproject.toml#L12-L63",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "pyproject.toml",
+      "line_start": 12,
+      "line_end": 63,
+      "file_lines": 627,
+      "file_sha256": "c65346a7c0a2bc01e1165b5c8363aff523da18c43d3b9d6a65259b9d407545d1",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/marimo-team/marimo/blob/58be5a93f384dc0fa6e130f98c8688999df74305/tests/_runtime/test_dataflow.py#L456-L478",
+      "repository": "marimo-team/marimo",
+      "commit_sha": "58be5a93f384dc0fa6e130f98c8688999df74305",
+      "path": "tests/_runtime/test_dataflow.py",
+      "line_start": 456,
+      "line_end": 478,
+      "file_lines": 1811,
+      "file_sha256": "27e84bd01bb1f73e7998c427f2f31ef3add3355c43e4556c75f900929249ef93",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/markmap/markmap/blob/122bf0500ee7aca4f023c2465f7e26bf023eec52/LICENSE#L1-L21",
+      "repository": "markmap/markmap",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "6595d9ee0cf25c14d247e7d78f82f9e3b291bb6a2265e34cb084dc46bdab7cf4",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/markmap/markmap/blob/122bf0500ee7aca4f023c2465f7e26bf023eec52/packages/markmap-cli/src/index.ts#L68-L105",
+      "repository": "markmap/markmap",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "path": "packages/markmap-cli/src/index.ts",
+      "line_start": 68,
+      "line_end": 105,
+      "file_lines": 107,
+      "file_sha256": "8d1c447cb4a0c2348259bccc238f4b7aa340ba1a33731ad0f851f9529c706a3a",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/markmap/markmap/blob/122bf0500ee7aca4f023c2465f7e26bf023eec52/packages/markmap-lib/src/transform.ts#L62-L84",
+      "repository": "markmap/markmap",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "path": "packages/markmap-lib/src/transform.ts",
+      "line_start": 62,
+      "line_end": 84,
+      "file_lines": 123,
+      "file_sha256": "65e8581c334fb7c93c6e92e7a0c433ed78e523f28f94a9633e88f49af6d68c31",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/markmap/markmap/blob/122bf0500ee7aca4f023c2465f7e26bf023eec52/packages/markmap-view/src/view.ts#L142-L159",
+      "repository": "markmap/markmap",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "path": "packages/markmap-view/src/view.ts",
+      "line_start": 142,
+      "line_end": 159,
+      "file_lines": 779,
+      "file_sha256": "34a615f956cf5697dbfffa868188c800a3e15834ef6f1c519397f0271383f7bb",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/markmap/markmap/blob/122bf0500ee7aca4f023c2465f7e26bf023eec52/packages/markmap-view/src/view.ts#L221-L247",
+      "repository": "markmap/markmap",
+      "commit_sha": "122bf0500ee7aca4f023c2465f7e26bf023eec52",
+      "path": "packages/markmap-view/src/view.ts",
+      "line_start": 221,
+      "line_end": 247,
+      "file_lines": 779,
+      "file_sha256": "34a615f956cf5697dbfffa868188c800a3e15834ef6f1c519397f0271383f7bb",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/LICENSE#L1-L13",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/LEARNING-RECORD-FORMAT.md#L29-L42",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/LEARNING-RECORD-FORMAT.md",
+      "line_start": 29,
+      "line_end": 42,
+      "file_lines": 46,
+      "file_sha256": "701fa34b6748aa89e6c960ffb815257f481a7d77fb2900f9028f7edf3fdd6052",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/MISSION-FORMAT.md#L25-L31",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/MISSION-FORMAT.md",
+      "line_start": 25,
+      "line_end": 31,
+      "file_lines": 31,
+      "file_sha256": "8cacbb3c0644d3ae0ea4965564797099401a6930a23f7cf462918576587f2418",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/SKILL.md#L10-L18",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/SKILL.md",
+      "line_start": 10,
+      "line_end": 18,
+      "file_lines": 140,
+      "file_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/SKILL.md#L22-L45",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/SKILL.md",
+      "line_start": 22,
+      "line_end": 45,
+      "file_lines": 140,
+      "file_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/SKILL.md#L63-L69",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/SKILL.md",
+      "line_start": 63,
+      "line_end": 69,
+      "file_lines": 140,
+      "file_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/SKILL.md#L8-L20",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/SKILL.md",
+      "line_start": 8,
+      "line_end": 20,
+      "file_lines": 140,
+      "file_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mattpocock/skills/blob/49dd158d1076134a641b33efb035946536778336/skills/productivity/teach/SKILL.md#L91-L110",
+      "repository": "mattpocock/skills",
+      "commit_sha": "49dd158d1076134a641b33efb035946536778336",
+      "path": "skills/productivity/teach/SKILL.md",
+      "line_start": 91,
+      "line_end": 110,
+      "file_lines": 140,
+      "file_sha256": "550482c2d674b085c9043b87bfdc14a8f2ec453c736119e7fcbb1e9332bffeba",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mermaid-js/mermaid/blob/e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6/LICENSE#L1-L21",
+      "repository": "mermaid-js/mermaid",
+      "commit_sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "ec9fb67dcb25eccc416ed56e1aab819222c805a2a4bfe4cb19e7556bf2ffde80",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mermaid-js/mermaid/blob/e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6/packages/mermaid/src/Diagram.ts#L19-L96",
+      "repository": "mermaid-js/mermaid",
+      "commit_sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+      "path": "packages/mermaid/src/Diagram.ts",
+      "line_start": 19,
+      "line_end": 96,
+      "file_lines": 106,
+      "file_sha256": "38ae9e46ea095bf4c76e4d12f2042f71aed4fa8f3810443c8db5f2f15dc7e609",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mermaid-js/mermaid/blob/e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6/packages/mermaid/src/diagrams/flowchart/flowRenderer-v3-unified.ts#L20-L44",
+      "repository": "mermaid-js/mermaid",
+      "commit_sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+      "path": "packages/mermaid/src/diagrams/flowchart/flowRenderer-v3-unified.ts",
+      "line_start": 20,
+      "line_end": 44,
+      "file_lines": 57,
+      "file_sha256": "b34a8d730d0ed39df008a538280de1ce5b5b00feadd8be507c7dea566c67b642",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mermaid-js/mermaid/blob/e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6/packages/mermaid/src/mermaidAPI.ts#L626-L681",
+      "repository": "mermaid-js/mermaid",
+      "commit_sha": "e28fbd9ded0a07ba9569e51be4764c1ad4daa8f6",
+      "path": "packages/mermaid/src/mermaidAPI.ts",
+      "line_start": 626,
+      "line_end": 681,
+      "file_lines": 795,
+      "file_sha256": "8a2c16049850db1fa83395adf9fb379f4c35b194c93bd0005cf6cb7c056e2e97",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams/blob/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8/LICENSE#L1-L21",
+      "repository": "mingrammer/diagrams",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "7ffc67310fadf9c4e1f2d3c95bb3a83b117a93056fe1d40ef25928677b4c5a37",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams/blob/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8/diagrams/__init__.py#L183-L218",
+      "repository": "mingrammer/diagrams",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "path": "diagrams/__init__.py",
+      "line_start": 183,
+      "line_end": 218,
+      "file_lines": 642,
+      "file_sha256": "12d6330980fbf5540041bb30f500da762d60ed7df2a3951b71d0b21ab7c54e4b",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams/blob/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8/diagrams/__init__.py#L226-L265",
+      "repository": "mingrammer/diagrams",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "path": "diagrams/__init__.py",
+      "line_start": 226,
+      "line_end": 265,
+      "file_lines": 642,
+      "file_sha256": "12d6330980fbf5540041bb30f500da762d60ed7df2a3951b71d0b21ab7c54e4b",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams/blob/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8/diagrams/__init__.py#L435-L458",
+      "repository": "mingrammer/diagrams",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "path": "diagrams/__init__.py",
+      "line_start": 435,
+      "line_end": 458,
+      "file_lines": 642,
+      "file_sha256": "12d6330980fbf5540041bb30f500da762d60ed7df2a3951b71d0b21ab7c54e4b",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/mingrammer/diagrams/blob/9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8/pyproject.toml#L5-L17",
+      "repository": "mingrammer/diagrams",
+      "commit_sha": "9df75e65c03bf9f3da8c0ddbacc33d4ecf5e31e8",
+      "path": "pyproject.toml",
+      "line_start": 5,
+      "line_end": 17,
+      "file_lines": 60,
+      "file_sha256": "2f7a5a3504b9c03c61e41507e29f4202ece1d438186ceba20d3fe625c2f7bc17",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE#L1-L21",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md#L18-L29",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "README.md",
+      "line_start": 18,
+      "line_end": 29,
+      "file_lines": 136,
+      "file_sha256": "9895daa20be79849a312b5cb5b9ed36db2d1a6dfe9731b5e53a67b222abe9cd9",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/flow/all.ts#L5-L25",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "packages/core/src/flow/all.ts",
+      "line_start": 5,
+      "line_end": 25,
+      "file_lines": 25,
+      "file_sha256": "b2b49258158fc1f09c9e8fbba2aad22de8834c600abeda3c52b8e37a549e5b38",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/flow/scheduling.test.ts#L16-L43",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "packages/core/src/flow/scheduling.test.ts",
+      "line_start": 16,
+      "line_end": 43,
+      "file_lines": 81,
+      "file_sha256": "bc9567189c8231155db00d094050c66a21c3a331b53f5a92dc3dc9beed9b49f7",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/core/src/signals/SignalContext.ts#L263-L279",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "packages/core/src/signals/SignalContext.ts",
+      "line_start": 263,
+      "line_end": 279,
+      "file_lines": 386,
+      "file_sha256": "561ee53ceae348a3074197ab298bfb283b633b1c274d1f25c2804bba5801c5f4",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/packages/examples/src/scenes/quickstart.tsx#L1-L22",
+      "repository": "motion-canvas/motion-canvas",
+      "commit_sha": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "packages/examples/src/scenes/quickstart.tsx",
+      "line_start": 1,
+      "line_end": 22,
+      "file_lines": 22,
+      "file_sha256": "c8be9712f4ff7d0000f72ed6dfc16b83272f85e944a1787a031d3e0c059e4f81",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/.github/workflows/ci.yml#L12-L44",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": ".github/workflows/ci.yml",
+      "line_start": 12,
+      "line_end": 44,
+      "file_lines": 94,
+      "file_sha256": "67eea9f066f0e3857026ef2eff29c33767de79bff95a1e1fc5d7c6e0cfef6666",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/.github/workflows/pages.yml#L34-L42",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": ".github/workflows/pages.yml",
+      "line_start": 34,
+      "line_end": 42,
+      "file_lines": 58,
+      "file_sha256": "b81e62a501b15b82a184c89eabffcdfedabd8253ab13ade54463532cd4848e33",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/LICENSE#L1-L13",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "dfb08259418993a46f0523f46c636bef295f581532e38ac8aff762f1b7418020",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/README.md#L88-L94",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "README.md",
+      "line_start": 88,
+      "line_end": 94,
+      "file_lines": 207,
+      "file_sha256": "9dc78b237c9cbcb91412464b34a990d0cee2d09b614ecb328fad1861f15dfafc",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/package.json#L38-L49",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "package.json",
+      "line_start": 38,
+      "line_end": 49,
+      "file_lines": 54,
+      "file_sha256": "8fbc4366ae549535b4c06d3f012313685127ed477e424a7da62b8c647d72b328",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/server/src/store.ts#L25-L73",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/server/src/store.ts",
+      "line_start": 25,
+      "line_end": 73,
+      "file_lines": 138,
+      "file_sha256": "c9c2c202c556c5d8c9c55836cf238b868d76f7e19badf27d37a1d4e7425db078",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/shared/__tests__/schema.test.ts#L72-L98",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/shared/__tests__/schema.test.ts",
+      "line_start": 72,
+      "line_end": 98,
+      "file_lines": 350,
+      "file_sha256": "c6851c0c66ced44a00dffaa0509d1c666eb051335ab4b656b65736afde5d5c95",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/shared/src/validator.ts#L53-L179",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/shared/src/validator.ts",
+      "line_start": 53,
+      "line_end": 179,
+      "file_lines": 215,
+      "file_sha256": "33fa87ba4dd8e50acd4274a6a9ed3f9263c28818b4876c427c779bbeab5d7436",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/web/package.json#L38-L64",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/web/package.json",
+      "line_start": 38,
+      "line_end": 64,
+      "file_lines": 69,
+      "file_sha256": "69de1e371bc7645da8009ce65a445837db50f3a8c0ea328eef96b10688aef642",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/web/src/lib/share-url.ts#L77-L80",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/web/src/lib/share-url.ts",
+      "line_start": 77,
+      "line_end": 80,
+      "file_lines": 126,
+      "file_sha256": "f5c847eab23e56184fb92e3616d0aff8ecb8340b5d79aad3c94d93a5ef297c69",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/web/src/lib/umami-gating.ts#L1-L7",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/web/src/lib/umami-gating.ts",
+      "line_start": 1,
+      "line_end": 7,
+      "file_lines": 7,
+      "file_sha256": "50dbd406cc16b705ad6908840a16932a84a968646c663faed67f8344b169d50d",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/packages/web/src/lib/umami.ts#L53-L59",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "packages/web/src/lib/umami.ts",
+      "line_start": 53,
+      "line_end": 59,
+      "file_lines": 59,
+      "file_sha256": "e30013c256dbe72a01c3063ad100aa639f08e9901c834edc1eab8f166d5b38be",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/naorsabag/openhop/blob/927015aebbeeb2559e6296946b57b2594c9a1d37/skills/openhop/SKILL.md#L21-L46",
+      "repository": "naorsabag/openhop",
+      "commit_sha": "927015aebbeeb2559e6296946b57b2594c9a1d37",
+      "path": "skills/openhop/SKILL.md",
+      "line_start": 21,
+      "line_end": 46,
+      "file_lines": 465,
+      "file_sha256": "c921f7699d1bae8d79420fe2008dac5fce1856aa0a60d1ae05b4222f0f1573bd",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/LICENSE.txt#L1-L17",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "LICENSE.txt",
+      "line_start": 1,
+      "line_end": 17,
+      "file_lines": 116,
+      "file_sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/README.md#L11-L24",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "README.md",
+      "line_start": 11,
+      "line_end": 24,
+      "file_lines": 24,
+      "file_sha256": "0e722d9ea0b97cf4f9a4e16f0e20b3d09e97eccf041ab2edd9e99f0d21e987e8",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/v1.1/js/Edge.js#L36-L119",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "v1.1/js/Edge.js",
+      "line_start": 36,
+      "line_end": 119,
+      "file_lines": 518,
+      "file_sha256": "1c0478577095a7204bdfacab0b27a23085769267d132a228f225ee98c69065df",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/v1.1/js/Loopy.js#L175-L200",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "v1.1/js/Loopy.js",
+      "line_start": 175,
+      "line_end": 200,
+      "file_lines": 295,
+      "file_sha256": "ed7f38901ccbd04a640d563b837cd91cd4e09e4bf2a95d10702932dcb29aaace",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/v1.1/js/Model.js#L249-L322",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "v1.1/js/Model.js",
+      "line_start": 249,
+      "line_end": 322,
+      "file_lines": 545,
+      "file_sha256": "2942d159d09d20fc2bd421001cd6f3ced3ff74fcb22fd06a308ee01f49d2ed69",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ncase/loopy/blob/2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9/v1.1/js/Node.js#L106-L129",
+      "repository": "ncase/loopy",
+      "commit_sha": "2d8e13f0a006f4024f27ad1712d7f9c2c1ad7cd9",
+      "path": "v1.1/js/Node.js",
+      "line_start": 106,
+      "line_end": 129,
+      "file_lines": 337,
+      "file_sha256": "19cacbc1d16733d59f0b9cdc6b9a2b116b903d4341440bcaa0737a37e8854afb",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/LICENSE#L1-L13",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "871b3c6c64e030c0647ca33543716bdae9511ae2d6a85d6f4ce63783bab52c8f",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/README.md#L432-L451",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "README.md",
+      "line_start": 432,
+      "line_end": 451,
+      "file_lines": 535,
+      "file_sha256": "ecab20cd3ef2ca0def23a0a425a608f1bf1eb97814d3c9c7040e05f1e82cec35",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/package.json#L1-L8",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "package.json",
+      "line_start": 1,
+      "line_end": 8,
+      "file_lines": 84,
+      "file_sha256": "a91d669772a9c7afc24261fc4a6c41d7054bdb52347c7da91981c32917dde2dd",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/package.json#L51-L70",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "package.json",
+      "line_start": 51,
+      "line_end": 70,
+      "file_lines": 84,
+      "file_sha256": "a91d669772a9c7afc24261fc4a6c41d7054bdb52347c7da91981c32917dde2dd",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/SKILL.md#L31-L67",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/SKILL.md",
+      "line_start": 31,
+      "line_end": 67,
+      "file_lines": 155,
+      "file_sha256": "61a695d74c80000b116e6bceae49001b3e4a2f6ce43d01910776f7001d582b66",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/commands/fact-check.md#L1-L13",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/commands/fact-check.md",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 13,
+      "file_sha256": "0ec0fbcb103ed6bfe24f6cf082fa20c5d1d29dfca281be577c9cb2988b1e27da",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/mcp/server.mjs#L135-L162",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/mcp/server.mjs",
+      "line_start": 135,
+      "line_end": 162,
+      "file_lines": 458,
+      "file_sha256": "b9e0a9f6499ff5010305f2d05024ab8d5eb4f87a53b2d4038e7e0d9b9f90ad7d",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/plan/render.mjs#L123-L149",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/plan/render.mjs",
+      "line_start": 123,
+      "line_end": 149,
+      "file_lines": 723,
+      "file_sha256": "a4b2c39e70ceda069ade74f30e3585dec4685fbc3bf21d1832732b6d1fabd895",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/plan/render.mjs#L234-L277",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/plan/render.mjs",
+      "line_start": 234,
+      "line_end": 277,
+      "file_lines": 723,
+      "file_sha256": "a4b2c39e70ceda069ade74f30e3585dec4685fbc3bf21d1832732b6d1fabd895",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/pptx/README.md#L1-L13",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/pptx/README.md",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 32,
+      "file_sha256": "2d607caa8c6d151e52baad18810134043a77e6c53eeb9725f835c9be1a2d695a",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/quick/render.mjs#L175-L188",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/quick/render.mjs",
+      "line_start": 175,
+      "line_end": 188,
+      "file_lines": 209,
+      "file_sha256": "5f07740a7945a0b7275c7d8e9e99c5909d5351a89ea65217554fbb774a20b560",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/quick/render.mjs#L55-L147",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/quick/render.mjs",
+      "line_start": 55,
+      "line_end": 147,
+      "file_lines": 209,
+      "file_sha256": "5f07740a7945a0b7275c7d8e9e99c5909d5351a89ea65217554fbb774a20b560",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/references/diagrams.md#L76-L89",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/references/diagrams.md",
+      "line_start": 76,
+      "line_end": 89,
+      "file_lines": 153,
+      "file_sha256": "c4a3e044152d57896685386398a4242c9885cee105dd088cc5f2ee3e5a611857",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/nicobailon/visual-explainer/blob/33a6b4d43958d2d152c9cb13762af802062fade5/plugins/visual-explainer/references/video.md#L59-L76",
+      "repository": "nicobailon/visual-explainer",
+      "commit_sha": "33a6b4d43958d2d152c9cb13762af802062fade5",
+      "path": "plugins/visual-explainer/references/video.md",
+      "line_start": 59,
+      "line_end": 76,
+      "file_lines": 99,
+      "file_sha256": "767a93bdf76003f813a397c2ae7ad2d953b4e86316d022a08080e22c90e9867b",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/LICENSE#L1-L13",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 13,
+      "file_sha256": "33a25191a182e33b31d86ad87a1b338934cefd1268d783d95785b2190d4fce7f",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/docs/data-loaders.md#L5-L25",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "docs/data-loaders.md",
+      "line_start": 5,
+      "line_end": 25,
+      "file_lines": 324,
+      "file_sha256": "ea8b75d6435a897b52ec8d6994f4b6373d2c0501e7f5106ca1eab9182e3b2e2f",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/docs/reactivity.md#L5-L45",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "docs/reactivity.md",
+      "line_start": 5,
+      "line_end": 45,
+      "file_lines": 410,
+      "file_sha256": "eca78799a2ca1f746df598e4a93cc8c4be7ac08c0277d7cc529b86a2f5b75fac",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/src/client/main.js#L25-L65",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "src/client/main.js",
+      "line_start": 25,
+      "line_end": 65,
+      "file_lines": 196,
+      "file_sha256": "9aba059eac8be64a0f616d3f2e6aed9abe39639ce25b9c2e2641fb2d07050302",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/src/javascript/transpile.ts#L31-L54",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "src/javascript/transpile.ts",
+      "line_start": 31,
+      "line_end": 54,
+      "file_lines": 260,
+      "file_sha256": "abd2239b15a3c27838605cb752f0d007a11cb42c384748f9924466a340db95e6",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/framework/blob/85e843e6acfa3dbe93129c125156352c9c50b697/test/javascript/transpile-test.ts#L30-L95",
+      "repository": "observablehq/framework",
+      "commit_sha": "85e843e6acfa3dbe93129c125156352c9c50b697",
+      "path": "test/javascript/transpile-test.ts",
+      "line_start": 30,
+      "line_end": 95,
+      "file_lines": 220,
+      "file_sha256": "a592513db215f64c7b21bae306e3e2fd394ebde8043b767fef0941ab301298e5",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/LICENSE#L1-L13",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 13,
+      "file_sha256": "4b295e011e0e046170041b5b46f1349393aeceb95797793a55bd21dbb543363a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/docs/transforms/bin.md#L17-L39",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "docs/transforms/bin.md",
+      "line_start": 17,
+      "line_end": 39,
+      "file_lines": 372,
+      "file_sha256": "64433fe020920c5f6c91f1a092b3343a3917cb2a5929148971ba6ad153a3c29a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/src/interactions/pointer.js#L125-L183",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "src/interactions/pointer.js",
+      "line_start": 125,
+      "line_end": 183,
+      "file_lines": 208,
+      "file_sha256": "28936a247a9b32bc4d304339bec7e0cb6e94c7fa32c70ed93fa76af7fb9561d0",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/src/plot.js#L126-L161",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "src/plot.js",
+      "line_start": 126,
+      "line_end": 161,
+      "file_lines": 745,
+      "file_sha256": "a2fa9c63bda0ad1d7ddc5b067b7616091db70deeaaf2abc413964e1c7427ba1e",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/src/plot.js#L282-L294",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "src/plot.js",
+      "line_start": 282,
+      "line_end": 294,
+      "file_lines": 745,
+      "file_sha256": "a2fa9c63bda0ad1d7ddc5b067b7616091db70deeaaf2abc413964e1c7427ba1e",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/observablehq/plot/blob/535723d5e433727720d9b673c31622821bb03210/test/transforms/bin-test.js#L1-L36",
+      "repository": "observablehq/plot",
+      "commit_sha": "535723d5e433727720d9b673c31622821bb03210",
+      "path": "test/transforms/bin-test.js",
+      "line_start": 1,
+      "line_end": 36,
+      "file_lines": 36,
+      "file_sha256": "d18c0dc13de8f14eb2dd9a83dae4b33205250b232800d1d50644c860c34a4115",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/LICENSES.md#L1-L37",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "LICENSES.md",
+      "line_start": 1,
+      "line_end": 37,
+      "file_lines": 41,
+      "file_sha256": "e4b3dd02a8b330544a6312e03b29f76c961f872ba4b7e2bb33f3b9c454bfbe2e",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/plantuml-mcp-js/README.md#L20-L72",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "plantuml-mcp-js/README.md",
+      "line_start": 20,
+      "line_end": 72,
+      "file_lines": 350,
+      "file_sha256": "05af042030fd5ba0a449e0ba197d17ac9a28821ad19775fd02ae1991875a4a35",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/plantuml-mcp-js/package.json#L1-L39",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "plantuml-mcp-js/package.json",
+      "line_start": 1,
+      "line_end": 39,
+      "file_lines": 41,
+      "file_sha256": "323d957e99f6e8c76e0b6e71f5caecc7ac972a1670effa792bd230b34175afa4",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/plantuml-mcp-js/server.js#L100-L178",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "plantuml-mcp-js/server.js",
+      "line_start": 100,
+      "line_end": 178,
+      "file_lines": 218,
+      "file_sha256": "0abf113ba5226cc77b39288f1c71068a1869ebed4c3e79f88aa8a11cc5a02334",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/plantuml-mcp-js/server.js#L182-L215",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "plantuml-mcp-js/server.js",
+      "line_start": 182,
+      "line_end": 215,
+      "file_lines": 218,
+      "file_sha256": "0abf113ba5226cc77b39288f1c71068a1869ebed4c3e79f88aa8a11cc5a02334",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/src/main/java/net/sourceforge/plantuml/PSystemBuilder.java#L242-L276",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "src/main/java/net/sourceforge/plantuml/PSystemBuilder.java",
+      "line_start": 242,
+      "line_end": 276,
+      "file_lines": 295,
+      "file_sha256": "82880d2cc5a973f4ec10568bcb382163ba097bbae9d9c1ee087c91d0171952eb",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/src/main/java/net/sourceforge/plantuml/SourceStringReader.java#L101-L106",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "src/main/java/net/sourceforge/plantuml/SourceStringReader.java",
+      "line_start": 101,
+      "line_end": 106,
+      "file_lines": 284,
+      "file_sha256": "69711df4c3fd597d7f5206e08b7b12ea690e5120dbd0ed693e106fd06a5771fd",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml/plantuml/blob/8678962c537bfb854073fc15394ac0b5ed5ea83e/src/main/java/net/sourceforge/plantuml/SourceStringReader.java#L174-L198",
+      "repository": "plantuml/plantuml",
+      "commit_sha": "8678962c537bfb854073fc15394ac0b5ed5ea83e",
+      "path": "src/main/java/net/sourceforge/plantuml/SourceStringReader.java",
+      "line_start": 174,
+      "line_end": 198,
+      "file_lines": 284,
+      "file_sha256": "69711df4c3fd597d7f5206e08b7b12ea690e5120dbd0ed693e106fd06a5771fd",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/COPYING.md#L1-L21",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "COPYING.md",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "6b985ce085f33a39f96d12321cfbcee03aa2ad4249755f534537f38019dfa123",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/README.md#L10-L24",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "README.md",
+      "line_start": 10,
+      "line_end": 24,
+      "file_lines": 64,
+      "file_sha256": "1b7270ad7da65a2c95a6e4a777a433a5e77b29972ddec623ce1aa6218723e615",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/src/command/render/render-files.ts#L220-L239",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "src/command/render/render-files.ts",
+      "line_start": 220,
+      "line_end": 239,
+      "file_lines": 783,
+      "file_sha256": "862c902a2d97517177a6d69823aaa9f15ac06275215deda6211027600e7a0a8a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/src/execute/ojs/compile.ts#L123-L154",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "src/execute/ojs/compile.ts",
+      "line_start": 123,
+      "line_end": 154,
+      "file_lines": 964,
+      "file_sha256": "d79fb4aa124d1fdb053bc62afcb3371c32a5b82161a0280575c30fa2eedcd7c1",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/tests/docs/ojs/test-ojs.qmd#L1-L21",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "tests/docs/ojs/test-ojs.qmd",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "13201f2986b8b0a4fb55ceacbe0457a314d1a3c1a0b61eb06b0b0d4a030698d8",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/quarto-dev/quarto-cli/blob/b86f98d382940bef6c65f37ea0bdfba844f19b6d/tests/integration/playwright/tests/ojs-define.spec.ts#L1-L23",
+      "repository": "quarto-dev/quarto-cli",
+      "commit_sha": "b86f98d382940bef6c65f37ea0bdfba844f19b6d",
+      "path": "tests/integration/playwright/tests/ojs-define.spec.ts",
+      "line_start": 1,
+      "line_end": 23,
+      "file_lines": 23,
+      "file_sha256": "31cce2c811f50683ebf5f3db0884cd84c76804f127020e8ca987f68e332aa62d",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/stevenpetryk/mafs/blob/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae/LICENSE#L1-L7",
+      "repository": "stevenpetryk/mafs",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 7,
+      "file_lines": 7,
+      "file_sha256": "2df6b091ebb454628156404687f3d4a0aaef49421ef6ffdc96a83b3bdb061505",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/stevenpetryk/mafs/blob/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae/docs/components/guide-examples/MovableCircle.tsx#L11-L25",
+      "repository": "stevenpetryk/mafs",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "path": "docs/components/guide-examples/MovableCircle.tsx",
+      "line_start": 11,
+      "line_end": 25,
+      "file_lines": 25,
+      "file_sha256": "960f40970b3820cc90461cba89250711d4c273c09d65a1dba61f6a3890639ca5",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/stevenpetryk/mafs/blob/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae/package.json#L80-L89",
+      "repository": "stevenpetryk/mafs",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "path": "package.json",
+      "line_start": 80,
+      "line_end": 89,
+      "file_lines": 91,
+      "file_sha256": "a582fe3856b816f3de02a25a990154ac8935e21027a899b129e2cd0e27883820",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/stevenpetryk/mafs/blob/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae/src/display/Plot/PlotUtils.test.ts#L1-L24",
+      "repository": "stevenpetryk/mafs",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "path": "src/display/Plot/PlotUtils.test.ts",
+      "line_start": 1,
+      "line_end": 24,
+      "file_lines": 24,
+      "file_sha256": "c2bf96f112efed43d04705d11cef68deface896a89d031f0035f5b77d62faf96",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/stevenpetryk/mafs/blob/e74a3ef465f4ddc98704814d2ae18b73a6cd9dae/src/interaction/useMovablePoint.tsx#L6-L58",
+      "repository": "stevenpetryk/mafs",
+      "commit_sha": "e74a3ef465f4ddc98704814d2ae18b73a6cd9dae",
+      "path": "src/interaction/useMovablePoint.tsx",
+      "line_start": 6,
+      "line_end": 58,
+      "file_lines": 59,
+      "file_sha256": "c5133f44393fbd1cfc4da7236c252dbec72935c1caaad5591285dde42ae231af",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/LICENSE#L1-L13",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 13,
+      "file_lines": 21,
+      "file_sha256": "beecf8744b0cb9c0055fd485eeeef8ff76e10e1ff792ed532a48c8a16f18fb8d",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/README.md#L14-L54",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "README.md",
+      "line_start": 14,
+      "line_end": 54,
+      "file_lines": 100,
+      "file_sha256": "b079587d4458dab7b02a06c5d66c9c40719bc9c622f405b512685b7fd7a0b554",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/README.md#L98-L100",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "README.md",
+      "line_start": 98,
+      "line_end": 100,
+      "file_lines": 100,
+      "file_sha256": "b079587d4458dab7b02a06c5d66c9c40719bc9c622f405b512685b7fd7a0b554",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/pixelviz/scripts/capture.mjs#L43-L60",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/pixelviz/scripts/capture.mjs",
+      "line_start": 43,
+      "line_end": 60,
+      "file_lines": 124,
+      "file_sha256": "a5146fbdf00191ed0cf27f72ab8c882b2be440f9e2b0ef2cb3a3a1fc0ee8e63c",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/videoviz/package.json#L1-L17",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/videoviz/package.json",
+      "line_start": 1,
+      "line_end": 17,
+      "file_lines": 17,
+      "file_sha256": "049064c1d487c1a6a903aa8078077e6ccb9362b4af8cc50c5abc4d90a6fc6199",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/videoviz/scripts/check.mjs#L26-L81",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/videoviz/scripts/check.mjs",
+      "line_start": 26,
+      "line_end": 81,
+      "file_lines": 132,
+      "file_sha256": "ffc149739ee95ca2b6792086f4634c9c3f5bfd817bdb741f36b847cbfd16b755",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/videoviz/scripts/voice.py#L141-L167",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/videoviz/scripts/voice.py",
+      "line_start": 141,
+      "line_end": 167,
+      "file_lines": 373,
+      "file_sha256": "b455f392a45ddd9589f61951803d252efc984cd47d19bb4062e7ca3a749fdb02",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/visualize/SKILL.md#L16-L39",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/visualize/SKILL.md",
+      "line_start": 16,
+      "line_end": 39,
+      "file_lines": 90,
+      "file_sha256": "cf12fe2d9a0782d3f9b3d7c55cdafb73707747265bc274f41c05cbe28f8dbf71",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/visualize/SKILL.md#L52-L74",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/visualize/SKILL.md",
+      "line_start": 52,
+      "line_end": 74,
+      "file_lines": 90,
+      "file_sha256": "cf12fe2d9a0782d3f9b3d7c55cdafb73707747265bc274f41c05cbe28f8dbf71",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/visualize/scripts/shoot-slides.mjs#L18-L66",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/visualize/scripts/shoot-slides.mjs",
+      "line_start": 18,
+      "line_end": 66,
+      "file_lines": 69,
+      "file_sha256": "e8013d8d7bbd0f1d1cfe2bc0bda701000e41dac0b57c1cb5fd4b94b633ed9232",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/theolundqvist/justshowme/blob/b7e20e8966d852f95c470179ee0b23f5abbab936/skills/visualize/workflows/design-slides.workflow.js#L1-L20",
+      "repository": "theolundqvist/justshowme",
+      "commit_sha": "b7e20e8966d852f95c470179ee0b23f5abbab936",
+      "path": "skills/visualize/workflows/design-slides.workflow.js",
+      "line_start": 1,
+      "line_end": 20,
+      "file_lines": 202,
+      "file_sha256": "670e9fe46933fef942cdecaa81bcfc600749afed0011c88b9f4d4e82139943a1",
+      "cited_by": [
+        "Research/notes/showme-skills.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tldraw/tldraw/blob/694791e0acebc0f9df4a16a5880b72d128f8a621/LICENSE.md#L15-L50",
+      "repository": "tldraw/tldraw",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "path": "LICENSE.md",
+      "line_start": 15,
+      "line_end": 50,
+      "file_lines": 70,
+      "file_sha256": "9578fcddc20e404b6a29f44b6fea81d8b331698c0e7e9be34132d6f4394fa533",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tldraw/tldraw/blob/694791e0acebc0f9df4a16a5880b72d128f8a621/packages/editor/src/lib/editor/shapes/ShapeUtil.ts#L189-L232",
+      "repository": "tldraw/tldraw",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "path": "packages/editor/src/lib/editor/shapes/ShapeUtil.ts",
+      "line_start": 189,
+      "line_end": 232,
+      "file_lines": 1155,
+      "file_sha256": "548849356889412e9c0797ed4ffd81a759d91fb71ccf233cf266763455be5710",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tldraw/tldraw/blob/694791e0acebc0f9df4a16a5880b72d128f8a621/packages/editor/src/lib/exports/exportToSvg.tsx#L15-L74",
+      "repository": "tldraw/tldraw",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "path": "packages/editor/src/lib/exports/exportToSvg.tsx",
+      "line_start": 15,
+      "line_end": 74,
+      "file_lines": 137,
+      "file_sha256": "80ea40c8027b6c420e091254593bb494115a3556a41fe8448e8c5b8efc60a01e",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tldraw/tldraw/blob/694791e0acebc0f9df4a16a5880b72d128f8a621/packages/editor/src/lib/license/LicenseManager.ts#L344-L370",
+      "repository": "tldraw/tldraw",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "path": "packages/editor/src/lib/license/LicenseManager.ts",
+      "line_start": 344,
+      "line_end": 370,
+      "file_lines": 763,
+      "file_sha256": "d489eaefba935c17270f13b84d8bd6f2447bbd6e466bce7683e8acaf0699ce9e",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tldraw/tldraw/blob/694791e0acebc0f9df4a16a5880b72d128f8a621/packages/editor/src/lib/license/LicenseManager.ts#L688-L719",
+      "repository": "tldraw/tldraw",
+      "commit_sha": "694791e0acebc0f9df4a16a5880b72d128f8a621",
+      "path": "packages/editor/src/lib/license/LicenseManager.ts",
+      "line_start": 688,
+      "line_end": 719,
+      "file_lines": 763,
+      "file_sha256": "d489eaefba935c17270f13b84d8bd6f2447bbd6e466bce7683e8acaf0699ce9e",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/LICENSE.md#L1-L18",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "LICENSE.md",
+      "line_start": 1,
+      "line_end": 18,
+      "file_lines": 18,
+      "file_sha256": "2b2b43d060aef83c9007a5264d5cbd67984d09b72c2f3e6bc1b2359e08707d59",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/README.md#L11-L34",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "README.md",
+      "line_start": 11,
+      "line_end": 34,
+      "file_lines": 248,
+      "file_sha256": "0349ffeafb807663a8ed42476065ab03738133ea3f3dd1428ef98981e951db58",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/examples/math/quat.html#L105-L140",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "examples/math/quat.html",
+      "line_start": 105,
+      "line_end": 140,
+      "file_lines": 169,
+      "file_sha256": "f8d1da5b79282e61370e7ec27ce4bf3e547430e592df4f92a5f776abe2429a77",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/package.json#L42-L49",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "package.json",
+      "line_start": 42,
+      "line_end": 49,
+      "file_lines": 83,
+      "file_sha256": "5bd33ec4b5b8a56dd77bc0943bd24d674cdf685e13d7fc8dd6b13bb344591923",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/src/primitives/types/data/interval.js#L29-L72",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "src/primitives/types/data/interval.js",
+      "line_start": 29,
+      "line_end": 72,
+      "file_lines": 94,
+      "file_sha256": "328b7ce64c2d55930521766a3e9761ab5c5270a020c91ecb6dc7620e78b2974d",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/unconed/mathbox/blob/f80933e114ed8051c8182fe09b83837696b4f0e9/test/primitives/types/data/array.spec.ts#L1-L26",
+      "repository": "unconed/mathbox",
+      "commit_sha": "f80933e114ed8051c8182fe09b83837696b4f0e9",
+      "path": "test/primitives/types/data/array.spec.ts",
+      "line_start": 1,
+      "line_end": 26,
+      "file_lines": 26,
+      "file_sha256": "288e00037e28beeb9e3324fe01eb2eaf14e94d79ef866148e3b704402217411a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/LICENSE#L1-L27",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 27,
+      "file_lines": 27,
+      "file_sha256": "f618900fd0d64046963b29f40590cdd1e341a2f41449f99110d82fd81fea808c",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/examples/specs/interactive_brush.vl.json#L1-L19",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "examples/specs/interactive_brush.vl.json",
+      "line_start": 1,
+      "line_end": 19,
+      "file_lines": 19,
+      "file_sha256": "40a2c4f60aa5d60872b0489e7c1a0fed5410621db13139af341d4412bb879259",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/package.json#L135-L149",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "package.json",
+      "line_start": 135,
+      "line_end": 149,
+      "file_lines": 150,
+      "file_sha256": "6e702fb398bb612cb76a569581916075d1db3b5dda87f5814414d41a18ecfbb5",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/compile/compile.ts#L72-L132",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "src/compile/compile.ts",
+      "line_start": 72,
+      "line_end": 132,
+      "file_lines": 243,
+      "file_sha256": "112939b7f1c1f6a6264a7cdddb0df08318ef5ffe0a88d05d8121db2cb007ee0a",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/src/compile/selection/interval.ts#L26-L98",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "src/compile/selection/interval.ts",
+      "line_start": 26,
+      "line_end": 98,
+      "file_lines": 354,
+      "file_sha256": "6df60aa5745fbe37198b31a2ca256ac9126a40a4077aadb93bcb3f5ba04d5db8",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/vega/vega-lite/blob/85fab8d12c873b3b224ef9a33c807642953325ba/test/compile/selection/interval.test.ts#L7-L52",
+      "repository": "vega/vega-lite",
+      "commit_sha": "85fab8d12c873b3b224ef9a33c807642953325ba",
+      "path": "test/compile/selection/interval.test.ts",
+      "line_start": 7,
+      "line_end": 52,
+      "file_lines": 1097,
+      "file_sha256": "1b20413f502d6da6a09d8417ee826073cc9f158341f720642f5c4bc96d060612",
+      "cited_by": [
+        "Research/notes/interactive-learning.md"
+      ]
+    },
+    {
+      "url": "https://github.com/xyflow/xyflow/blob/3d35b57317576b0916c0bfeaaedd573aaacc2839/LICENSE#L1-L21",
+      "repository": "xyflow/xyflow",
+      "commit_sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "023119ac20fb1c8c9930abe0bcd196989a1960388529a96fc43cebf96f07c9ff",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/xyflow/xyflow/blob/3d35b57317576b0916c0bfeaaedd573aaacc2839/examples/react/src/examples/Layouting/index.tsx#L24-L72",
+      "repository": "xyflow/xyflow",
+      "commit_sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+      "path": "examples/react/src/examples/Layouting/index.tsx",
+      "line_start": 24,
+      "line_end": 72,
+      "file_lines": 120,
+      "file_sha256": "d04c9a874b83649d609924d59963a48625dc419f3f120fce4110cd75f504e37f",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/xyflow/xyflow/blob/3d35b57317576b0916c0bfeaaedd573aaacc2839/packages/react/src/container/EdgeRenderer/index.tsx#L58-L89",
+      "repository": "xyflow/xyflow",
+      "commit_sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+      "path": "packages/react/src/container/EdgeRenderer/index.tsx",
+      "line_start": 58,
+      "line_end": 89,
+      "file_lines": 98,
+      "file_sha256": "2728519466067cf3110e9808b94e2d4db8fa551fe8f58c942cc3c9ba2047dd21",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/xyflow/xyflow/blob/3d35b57317576b0916c0bfeaaedd573aaacc2839/packages/react/src/container/NodeRenderer/index.tsx#L38-L94",
+      "repository": "xyflow/xyflow",
+      "commit_sha": "3d35b57317576b0916c0bfeaaedd573aaacc2839",
+      "path": "packages/react/src/container/NodeRenderer/index.tsx",
+      "line_start": 38,
+      "line_end": 94,
+      "file_lines": 103,
+      "file_sha256": "345da0c2c545e44b00935f8d105f278839ac5c21b2bf5ac8d7bd0f4e9740836a",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yuzutech/kroki/blob/d161fd8e5735131f986da59f8f359c72f3fa770c/LICENSE#L1-L21",
+      "repository": "yuzutech/kroki",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "be2152bc5dfe4ec0f97fa36e5b9774bd6bd5eb0339511a6fd078cad50f764fb4",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yuzutech/kroki/blob/d161fd8e5735131f986da59f8f359c72f3fa770c/server/src/main/java/io/kroki/server/Server.java#L99-L125",
+      "repository": "yuzutech/kroki",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "path": "server/src/main/java/io/kroki/server/Server.java",
+      "line_start": 99,
+      "line_end": 125,
+      "file_lines": 356,
+      "file_sha256": "49544b88d1894aa6e4f3e03abdea3cba5d23ffe076280165719121ecf4f56121",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yuzutech/kroki/blob/d161fd8e5735131f986da59f8f359c72f3fa770c/server/src/main/java/io/kroki/server/action/Commander.java#L27-L76",
+      "repository": "yuzutech/kroki",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "path": "server/src/main/java/io/kroki/server/action/Commander.java",
+      "line_start": 27,
+      "line_end": 76,
+      "file_lines": 112,
+      "file_sha256": "2325f6eeee044448e3cb48e9edee30fcebb0d4ad2394301936ab7954c30864f3",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yuzutech/kroki/blob/d161fd8e5735131f986da59f8f359c72f3fa770c/server/src/main/java/io/kroki/server/action/Delegator.java#L65-L82",
+      "repository": "yuzutech/kroki",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "path": "server/src/main/java/io/kroki/server/action/Delegator.java",
+      "line_start": 65,
+      "line_end": 82,
+      "file_lines": 121,
+      "file_sha256": "b2b46341fc687cba6a2a632fe2fe05335d3b31519c38e8e57129b57afb63196a",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yuzutech/kroki/blob/d161fd8e5735131f986da59f8f359c72f3fa770c/server/src/main/java/io/kroki/server/service/DiagramHandler.java#L49-L101",
+      "repository": "yuzutech/kroki",
+      "commit_sha": "d161fd8e5735131f986da59f8f359c72f3fa770c",
+      "path": "server/src/main/java/io/kroki/server/service/DiagramHandler.java",
+      "line_start": 49,
+      "line_end": 101,
+      "file_lines": 209,
+      "file_sha256": "0c2403030ae7eff7e3c0478d33b6664c440721159b92dc4b4363c4ce2d909a72",
+      "cited_by": [
+        "Research/notes/diagram-tools.md"
+      ]
+    }
+  ]
+}

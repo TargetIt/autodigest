@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import re
 import sys
-from datetime import date
 from pathlib import Path
 
 
@@ -26,8 +25,6 @@ def write_from_template(path: Path, template_name: str, title: str) -> bool:
     if path.exists():
         return False
     content = read_template(template_name).replace("{{title}}", title)
-    content = content.replace("Date added:", f"Date added: {date.today().isoformat()}")
-    content = content.replace("添加日期：", f"添加日期：{date.today().isoformat()}")
     path.write_text(content, encoding="utf-8")
     return True
 
@@ -42,16 +39,10 @@ def main() -> int:
     digest_dir = ROOT / "digests" / slug
 
     files = [
-        (ROOT / "sources" / f"{slug}.md", "source.md"),
-        (ROOT / "concepts" / f"{slug}.md", "concept.md"),
-        (digest_dir / "00-源信息账本.md", "source-ledger.md"),
-        (digest_dir / "01-核心解释.md", "digest.md"),
-        (digest_dir / "02-最小例子.md", "minimal-example.md"),
-        (digest_dir / "03-误解与反例.md", "misconceptions.md"),
-        (digest_dir / "04-追问修复.md", "questions.md"),
-        (digest_dir / "05-可选视角扩展.md", "view-selection.md"),
-        (digest_dir / "06-检视记录.md", "review.md"),
-        (digest_dir / "07-最终输出草稿.md", "output.md"),
+        (digest_dir / "00-输入锚定.md", "input.md"),
+        (digest_dir / "01-核心消化.md", "core.md"),
+        (digest_dir / "02-视角扩展.md", "views.md"),
+        (digest_dir / "03-检视与输出.md", "review-output.md"),
     ]
 
     created = []

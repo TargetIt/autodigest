@@ -1,0 +1,160 @@
+[
+  {
+    "repository": "liam-hq/liam",
+    "sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+    "local_path": "Research/repos/liam-hq/liam",
+    "status": "include",
+    "include_reason": "Schema parser to interactive ERD with static-site CLI, distinct from a general diagram renderer.",
+    "metadata_snapshot": {
+      "requested_slug": "liam-hq/liam",
+      "retrieved_at_utc": "2026-10-14T20:55:59+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/liam-hq/liam",
+        "head_commit": "https://api.github.com/repos/liam-hq/liam/commits/main",
+        "latest_release": "https://api.github.com/repos/liam-hq/liam/releases/latest"
+      },
+      "repository": {
+        "id": 839216423,
+        "full_name": "liam-hq/liam",
+        "html_url": "https://github.com/liam-hq/liam",
+        "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+        "homepage": "https://liambx.com",
+        "stargazers_count": 5138,
+        "forks_count": 241,
+        "subscribers_count": 18,
+        "open_issues_count": 26,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2024-08-07T07:11:45Z",
+        "updated_at": "2026-10-13T22:54:34Z",
+        "pushed_at": "2026-10-14T17:55:14Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "data-visualization",
+          "database",
+          "database-schema",
+          "documentation",
+          "documentation-tool",
+          "entity-relationship-diagram",
+          "er-diagram",
+          "erd",
+          "nodejs",
+          "orm",
+          "postgresql",
+          "prisma",
+          "react-flow",
+          "reactjs",
+          "ruby-on-rails",
+          "sql",
+          "tbls",
+          "typescript",
+          "visualization",
+          "webassembly"
+        ],
+        "size": 150515,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+        "html_url": "https://github.com/liam-hq/liam/commit/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+        "committed_at": "2026-10-13T22:49:04Z",
+        "subject": "Merge pull request #4140 from liam-hq/renovate/npm-modelcontextprotocol-sdk-vulnerability"
+      },
+      "latest_release": {
+        "tag_name": "@liam-hq/cli@0.7.24",
+        "name": "@liam-hq/cli@0.7.24",
+        "html_url": "https://github.com/liam-hq/liam/releases/tag/%40liam-hq/cli%400.7.24",
+        "published_at": "2025-11-25T02:37:34Z",
+        "prerelease": false,
+        "draft": false
+      }
+    }
+  },
+  {
+    "repository": "toeverything/AFFiNE",
+    "sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+    "local_path": "Research/repos/toeverything/AFFiNE",
+    "status": "include",
+    "include_reason": "Document and canvas knowledge workspace with actual mind-map layout and editing; adjacent knowledge-understanding use case, not an automatic architecture analyzer.",
+    "metadata_snapshot": {
+      "requested_slug": "toeverything/AFFiNE",
+      "retrieved_at_utc": "2026-10-14T20:55:57+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/toeverything/AFFiNE",
+        "head_commit": "https://api.github.com/repos/toeverything/AFFiNE/commits/canary",
+        "latest_release": "https://api.github.com/repos/toeverything/AFFiNE/releases/latest"
+      },
+      "repository": {
+        "id": 519859998,
+        "full_name": "toeverything/AFFiNE",
+        "html_url": "https://github.com/toeverything/AFFiNE",
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "homepage": "https://affine.pro",
+        "stargazers_count": 73505,
+        "forks_count": 5358,
+        "subscribers_count": 297,
+        "open_issues_count": 772,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2022-07-31T18:45:21Z",
+        "updated_at": "2026-10-14T19:49:23Z",
+        "pushed_at": "2026-10-12T09:51:10Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "canary",
+        "topics": [
+          "app",
+          "crdt",
+          "editor",
+          "electron",
+          "knowledge-base",
+          "markdown",
+          "miro",
+          "notes",
+          "notion",
+          "notion-alternative",
+          "rust",
+          "rust-lang",
+          "rust-language",
+          "table",
+          "tableview",
+          "whiteboard",
+          "wiki",
+          "workspace"
+        ],
+        "size": 454981,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+        "html_url": "https://github.com/toeverything/AFFiNE/commit/0b69a6da21e8fd35beb85667bb8496d9b3852238",
+        "committed_at": "2026-10-11T14:49:18Z",
+        "subject": "fix(server): blob sync timing (#15704)"
+      },
+      "latest_release": {
+        "tag_name": "v0.27.4",
+        "name": "0.27.4",
+        "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+        "published_at": "2026-08-18T16:51:39Z",
+        "prerelease": false,
+        "draft": false
+      }
+    }
+  }
+]

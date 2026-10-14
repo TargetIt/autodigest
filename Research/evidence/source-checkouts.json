@@ -1,8 +1,8 @@
 {
   "recorded_at_utc": "2026-10-14T20:27:28+00:00",
-  "primary_repository_count": 40,
+  "primary_repository_count": 60,
   "supporting_dependency": "d3/d3-selection",
-  "repository_count": 41,
+  "repository_count": 61,
   "storage": "Git submodules: parent .gitmodules stores URLs and paths; parent gitlinks pin reviewed commits. Upstream source files are not ordinary blobs in the parent repository.",
   "checkout_note": "The sparse settings below describe the existing local worktrees; new submodule initialization defaults to a full checkout. Upstream nested submodules are outside this download scope.",
   "original_tool_tree_sha": "c81bfb9121ae080e7a2e0982397c41f4f3e13294",
@@ -745,7 +745,478 @@
         "method": "Direct shallow Git submodule clone into Research/repos; no temporary source checkout",
         "content_modified": false
       }
+    },
+    {
+      "repository": "likec4/likec4",
+      "path": "Research/repos/likec4/likec4",
+      "url": "https://github.com/likec4/likec4.git",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/packages/",
+        "!/packages/*/",
+        "/packages/core/",
+        "!/packages/core/*/",
+        "/packages/core/src/",
+        "!/packages/core/src/*/",
+        "/packages/generators/",
+        "!/packages/generators/*/",
+        "/packages/language-server/",
+        "!/packages/language-server/*/",
+        "/packages/layouts/",
+        "!/packages/layouts/*/",
+        "/packages/likec4/",
+        "!/packages/likec4/*/",
+        "/packages/mcp/",
+        "!/packages/mcp/*/",
+        "/packages/core/src/compute-view/",
+        "/packages/core/src/manual-layout/",
+        "/packages/generators/src/",
+        "/packages/language-server/src/",
+        "/packages/layouts/src/",
+        "/packages/likec4/src/",
+        "/packages/mcp/src/"
+      ]
+    },
+    {
+      "repository": "structurizr/structurizr",
+      "path": "Research/repos/structurizr/structurizr",
+      "url": "https://github.com/structurizr/structurizr.git",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/structurizr-application/",
+        "!/structurizr-application/*/",
+        "/structurizr-application/src/",
+        "!/structurizr-application/src/*/",
+        "/structurizr-application/src/main/",
+        "!/structurizr-application/src/main/*/",
+        "/structurizr-autolayout/",
+        "!/structurizr-autolayout/*/",
+        "/structurizr-autolayout/src/",
+        "!/structurizr-autolayout/src/*/",
+        "/structurizr-autolayout/src/main/",
+        "!/structurizr-autolayout/src/main/*/",
+        "/structurizr-core/",
+        "!/structurizr-core/*/",
+        "/structurizr-core/src/",
+        "!/structurizr-core/src/*/",
+        "/structurizr-core/src/main/",
+        "!/structurizr-core/src/main/*/",
+        "/structurizr-dsl/",
+        "!/structurizr-dsl/*/",
+        "/structurizr-dsl/src/",
+        "!/structurizr-dsl/src/*/",
+        "/structurizr-dsl/src/main/",
+        "!/structurizr-dsl/src/main/*/",
+        "/structurizr-export/",
+        "!/structurizr-export/*/",
+        "/structurizr-export/src/",
+        "!/structurizr-export/src/*/",
+        "/structurizr-export/src/main/",
+        "!/structurizr-export/src/main/*/",
+        "/structurizr-mcp/",
+        "!/structurizr-mcp/*/",
+        "/structurizr-mcp/src/",
+        "!/structurizr-mcp/src/*/",
+        "/structurizr-mcp/src/main/",
+        "!/structurizr-mcp/src/main/*/",
+        "/structurizr-application/src/main/java/",
+        "/structurizr-autolayout/src/main/java/",
+        "/structurizr-core/src/main/java/",
+        "/structurizr-dsl/src/main/java/",
+        "/structurizr-export/src/main/java/",
+        "/structurizr-mcp/src/main/java/"
+      ]
+    },
+    {
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "path": "Research/repos/plantuml-stdlib/C4-PlantUML",
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML.git",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/"
+      ]
+    },
+    {
+      "repository": "archimatetool/archi",
+      "path": "Research/repos/archimatetool/archi",
+      "url": "https://github.com/archimatetool/archi.git",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/com.archimatetool.hammer/",
+        "!/com.archimatetool.hammer/*/",
+        "/com.archimatetool.model/",
+        "!/com.archimatetool.model/*/",
+        "/com.archimatetool.reports/",
+        "!/com.archimatetool.reports/*/",
+        "/com.archimatetool.reports.commandline/",
+        "!/com.archimatetool.reports.commandline/*/",
+        "/org.opengroup.archimate.xmlexchange/",
+        "!/org.opengroup.archimate.xmlexchange/*/",
+        "/com.archimatetool.editor.product/",
+        "/com.archimatetool.hammer/src/",
+        "/com.archimatetool.model/src/",
+        "/com.archimatetool.reports.commandline/src/",
+        "/com.archimatetool.reports/src/",
+        "/org.opengroup.archimate.xmlexchange/src/"
+      ]
+    },
+    {
+      "repository": "patrickchugh/terravision",
+      "path": "Research/repos/patrickchugh/terravision",
+      "url": "https://github.com/patrickchugh/terravision.git",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:38+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/skills/",
+        "!/skills/*/",
+        "/docs/",
+        "/hcl2/",
+        "/modules/",
+        "/skills/terravision-cloud-diagrams/",
+        "/terravision/"
+      ]
+    },
+    {
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "path": "Research/repos/ahmedkhaleel2004/gitdiagram",
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram.git",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "CodeBoarding/CodeBoarding",
+      "path": "Research/repos/CodeBoarding/CodeBoarding",
+      "url": "https://github.com/CodeBoarding/CodeBoarding.git",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "abhigyanpatwari/GitNexus",
+      "path": "Research/repos/abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus.git",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "path": "Research/repos/AsyncFuncAI/deepwiki-open",
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open.git",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "sverweij/dependency-cruiser",
+      "path": "Research/repos/sverweij/dependency-cruiser",
+      "url": "https://github.com/sverweij/dependency-cruiser.git",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:28+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "Agents365-ai/drawio-skill",
+      "path": "Research/repos/Agents365-ai/drawio-skill",
+      "url": "https://github.com/Agents365-ai/drawio-skill.git",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "yctimlin/mcp_excalidraw",
+      "path": "Research/repos/yctimlin/mcp_excalidraw",
+      "url": "https://github.com/yctimlin/mcp_excalidraw.git",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "lukilabs/beautiful-mermaid",
+      "path": "Research/repos/lukilabs/beautiful-mermaid",
+      "url": "https://github.com/lukilabs/beautiful-mermaid.git",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "plait-board/drawnix",
+      "path": "Research/repos/plait-board/drawnix",
+      "url": "https://github.com/plait-board/drawnix.git",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:57+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "awslabs/diagram-as-code",
+      "path": "Research/repos/awslabs/diagram-as-code",
+      "url": "https://github.com/awslabs/diagram-as-code.git",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "path": "Research/repos/aws-samples/sample-architecture-diagram-mcp-server",
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server.git",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "drawdb-io/drawdb",
+      "path": "Research/repos/drawdb-io/drawdb",
+      "url": "https://github.com/drawdb-io/drawdb.git",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "chartdb/chartdb",
+      "path": "Research/repos/chartdb/chartdb",
+      "url": "https://github.com/chartdb/chartdb.git",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "role": "primary",
+      "checkout_scope": "full",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      }
+    },
+    {
+      "repository": "liam-hq/liam",
+      "path": "Research/repos/liam-hq/liam",
+      "url": "https://github.com/liam-hq/liam.git",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:59+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/frontend/",
+        "!/frontend/*/",
+        "/frontend/apps/",
+        "!/frontend/apps/*/",
+        "/frontend/apps/docs/",
+        "!/frontend/apps/docs/*/",
+        "/frontend/apps/docs/content/",
+        "!/frontend/apps/docs/content/*/",
+        "/frontend/apps/docs/content/docs/",
+        "!/frontend/apps/docs/content/docs/*/",
+        "/frontend/packages/",
+        "!/frontend/packages/*/",
+        "/frontend/packages/cli/",
+        "!/frontend/packages/cli/*/",
+        "/frontend/packages/cli/src/",
+        "!/frontend/packages/cli/src/*/",
+        "/frontend/packages/cli/src/cli/",
+        "!/frontend/packages/cli/src/cli/*/",
+        "/frontend/packages/erd-core/",
+        "!/frontend/packages/erd-core/*/",
+        "/frontend/packages/erd-core/src/",
+        "!/frontend/packages/erd-core/src/*/",
+        "/frontend/packages/erd-core/src/features/",
+        "!/frontend/packages/erd-core/src/features/*/",
+        "/frontend/packages/erd-core/src/features/erd/",
+        "!/frontend/packages/erd-core/src/features/erd/*/",
+        "/frontend/packages/erd-core/src/features/erd/utils/",
+        "!/frontend/packages/erd-core/src/features/erd/utils/*/",
+        "/frontend/packages/schema/",
+        "!/frontend/packages/schema/*/",
+        "/frontend/packages/schema/src/",
+        "!/frontend/packages/schema/src/*/",
+        "/frontend/apps/docs/content/docs/parser/",
+        "/frontend/packages/cli/src/cli/erdCommand/",
+        "/frontend/packages/db-structure/",
+        "/frontend/packages/erd-core/src/features/erd/utils/computeAutoLayout/",
+        "/frontend/packages/schema/src/parser/"
+      ]
+    },
+    {
+      "repository": "toeverything/AFFiNE",
+      "path": "Research/repos/toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE.git",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "role": "primary",
+      "checkout_scope": "sparse",
+      "shallow": true,
+      "retrieved_at_utc": "2026-10-14T20:55:57+00:00",
+      "acquisition": {
+        "method": "Direct shallow Git clone in Research/repos, registered as a fixed submodule; no source copied to a temporary directory.",
+        "content_modified": false
+      },
+      "sparse_patterns": [
+        "/*",
+        "!/*/",
+        "/blocksuite/",
+        "!/blocksuite/*/",
+        "/blocksuite/affine/",
+        "!/blocksuite/affine/*/",
+        "/blocksuite/affine/blocks/",
+        "!/blocksuite/affine/blocks/*/",
+        "/blocksuite/affine/blocks/root/",
+        "!/blocksuite/affine/blocks/root/*/",
+        "/blocksuite/affine/blocks/root/src/",
+        "!/blocksuite/affine/blocks/root/src/*/",
+        "/blocksuite/affine/gfx/",
+        "!/blocksuite/affine/gfx/*/",
+        "/blocksuite/affine/gfx/mindmap/",
+        "!/blocksuite/affine/gfx/mindmap/*/",
+        "/blocksuite/affine/shared/",
+        "!/blocksuite/affine/shared/*/",
+        "/blocksuite/affine/shared/src/",
+        "!/blocksuite/affine/shared/src/*/",
+        "/packages/",
+        "!/packages/*/",
+        "/packages/backend/",
+        "!/packages/backend/*/",
+        "/packages/frontend/",
+        "!/packages/frontend/*/",
+        "/packages/frontend/core/",
+        "!/packages/frontend/core/*/",
+        "/packages/frontend/core/src/",
+        "!/packages/frontend/core/src/*/",
+        "/packages/frontend/core/src/blocksuite/",
+        "!/packages/frontend/core/src/blocksuite/*/",
+        "/packages/frontend/core/src/blocksuite/view-extensions/",
+        "!/packages/frontend/core/src/blocksuite/view-extensions/*/",
+        "/blocksuite/affine/blocks/root/src/edgeless/",
+        "/blocksuite/affine/gfx/mindmap/src/",
+        "/blocksuite/affine/shared/src/services/",
+        "/packages/backend/server/",
+        "/packages/frontend/core/src/blocksuite/view-extensions/editor-view/"
+      ]
     }
   ],
-  "updated_at_utc": "2026-10-14T20:42:34+00:00"
+  "updated_at_utc": "2026-10-14T21:05:02+00:00",
+  "tool_tree_note": "original_tool_tree_sha records the original migration snapshot; this gap review intentionally updates tool/README.md and tool/workflows/autodigest.md to persist the user preference for Archify."
 }

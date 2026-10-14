@@ -1,0 +1,1263 @@
+{
+  "generated_at_utc": "2026-10-14T20:54:02+00:00",
+  "scope": "Agent skills/MCP/natural-language drawing and editable system diagrams",
+  "method": "Discovery through web search, exact repository metadata via existing collect_github_metadata.collect(); source inspection recorded per candidate.",
+  "candidates": [
+    {
+      "repository": "awslabs/mcp",
+      "requested_repository": "awslabs/mcp",
+      "sha": "8e802d64a442d6759c921dc4373a94db02394264",
+      "local_path": null,
+      "status": "excluded",
+      "include_reason": null,
+      "exclude_reason": "旧 aws-diagram-mcp-server 模块已被官方声明弃用；合集仍维护，不把全仓 Stars 归给模块。",
+      "metadata_snapshot": {
+        "requested_slug": "awslabs/mcp",
+        "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/awslabs/mcp",
+          "head_commit": "https://api.github.com/repos/awslabs/mcp/commits/main",
+          "latest_release": "https://api.github.com/repos/awslabs/mcp/releases/latest"
+        },
+        "repository": {
+          "id": 952238700,
+          "full_name": "awslabs/mcp",
+          "html_url": "https://github.com/awslabs/mcp",
+          "description": "Open source MCP Servers for AWS",
+          "homepage": "https://awslabs.github.io/mcp/",
+          "stargazers_count": 9780,
+          "forks_count": 1806,
+          "subscribers_count": 82,
+          "open_issues_count": 240,
+          "language": "Python",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2025-03-21T00:39:00Z",
+          "updated_at": "2026-10-14T19:39:55Z",
+          "pushed_at": "2026-10-14T19:08:31Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "aws",
+            "mcp",
+            "mcp-client",
+            "mcp-clients",
+            "mcp-host",
+            "mcp-server",
+            "mcp-servers",
+            "mcp-tools",
+            "modelcontextprotocol"
+          ],
+          "size": 125188,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "8e802d64a442d6759c921dc4373a94db02394264",
+          "html_url": "https://github.com/awslabs/mcp/commit/8e802d64a442d6759c921dc4373a94db02394264",
+          "committed_at": "2026-10-14T18:43:13Z",
+          "subject": "feat(billing-cost-management-mcp-server): add retry_strategy and hint to tool error responses (#4771)"
+        },
+        "latest_release": {
+          "tag_name": "2026.10.20261012173232",
+          "name": "2026.10.20261012173232",
+          "html_url": "https://github.com/awslabs/mcp/releases/tag/2026.10.20261012173232",
+          "published_at": "2026-10-13T11:05:38Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/awslabs/mcp",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/awslabs/mcp"
+      ],
+      "screening_evidence_urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-aws-architecture-diagrams-using-amazon-q-cli-and-mcp/",
+        "https://github.com/awslabs/mcp/blob/8e802d64a442d6759c921dc4373a94db02394264/README.md#L10-L11",
+        "https://github.com/awslabs/agent-plugins/tree/main/plugins/deploy-on-aws/skills/aws-architecture-diagram"
+      ],
+      "stars_scope": "entire awslabs/mcp monorepo, not retired Diagram MCP module"
+    },
+    {
+      "repository": "awslabs/diagram-as-code",
+      "requested_repository": "awslabs/diagram-as-code",
+      "sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "local_path": "Research/repos/awslabs/diagram-as-code",
+      "status": "included",
+      "include_reason": "AWS YAML 建模、PNG 生成、Go CLI 与 MCP；AWS 图进入 Git/CI 或接 CloudFormation 时补充",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "awslabs/diagram-as-code",
+        "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/awslabs/diagram-as-code",
+          "head_commit": "https://api.github.com/repos/awslabs/diagram-as-code/commits/main",
+          "latest_release": "https://api.github.com/repos/awslabs/diagram-as-code/releases/latest"
+        },
+        "repository": {
+          "id": 760955460,
+          "full_name": "awslabs/diagram-as-code",
+          "html_url": "https://github.com/awslabs/diagram-as-code",
+          "description": "Diagram-as-code for AWS architecture.",
+          "homepage": "",
+          "stargazers_count": 1587,
+          "forks_count": 106,
+          "subscribers_count": 16,
+          "open_issues_count": 38,
+          "language": "Go",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2024-02-21T00:57:40Z",
+          "updated_at": "2026-10-14T16:25:37Z",
+          "pushed_at": "2026-09-16T04:58:20Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "aws",
+            "diagram-as-code"
+          ],
+          "size": 11369,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+          "html_url": "https://github.com/awslabs/diagram-as-code/commit/4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+          "committed_at": "2026-09-16T04:58:20Z",
+          "subject": "Merge pull request #299 from annaveretennykova/fix-examples-readme"
+        },
+        "latest_release": {
+          "tag_name": "v0.24",
+          "name": "v0.24",
+          "html_url": "https://github.com/awslabs/diagram-as-code/releases/tag/v0.24",
+          "published_at": "2026-08-26T07:42:16Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/awslabs/diagram-as-code",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "cmd/awsdac-mcp-server/main.go",
+          "line_start": 268,
+          "line_end": 335,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L268-L335"
+        },
+        {
+          "path": "internal/ctl/create.go",
+          "line_start": 199,
+          "line_end": 265,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/internal/ctl/create.go#L199-L265"
+        },
+        {
+          "path": "cmd/awsdac-mcp-server/main.go",
+          "line_start": 411,
+          "line_end": 429,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L411-L429"
+        },
+        {
+          "path": "internal/ctl/create.go",
+          "line_start": 316,
+          "line_end": 347,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/internal/ctl/create.go#L316-L347"
+        },
+        {
+          "path": "go.mod",
+          "line_start": 1,
+          "line_end": 16,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/go.mod#L1-L16"
+        },
+        {
+          "path": "README.md",
+          "line_start": 29,
+          "line_end": 36,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/README.md#L29-L36"
+        },
+        {
+          "path": "cmd/awsdac-mcp-server/main.go",
+          "line_start": 220,
+          "line_end": 229,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L220-L229"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 6,
+          "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/LICENSE#L1-L6"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/awslabs/diagram-as-code"
+      ]
+    },
+    {
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "requested_repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "local_path": "Research/repos/aws-samples/sample-architecture-diagram-mcp-server",
+      "status": "included",
+      "include_reason": "AWS 交互 HTML、引导讲解、ELK 布局、draw.io 输出；AWS 专题讲解与可编辑交付的低关注度候选",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "aws-samples/sample-architecture-diagram-mcp-server",
+        "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server",
+          "head_commit": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server/commits/main",
+          "latest_release": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server/releases/latest"
+        },
+        "repository": {
+          "id": 1308138495,
+          "full_name": "aws-samples/sample-architecture-diagram-mcp-server",
+          "html_url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 7,
+          "forks_count": 1,
+          "subscribers_count": 0,
+          "open_issues_count": 0,
+          "language": "JavaScript",
+          "license": {
+            "key": "mit-0",
+            "name": "MIT No Attribution",
+            "spdx_id": "MIT-0",
+            "url": "https://api.github.com/licenses/mit-0",
+            "node_id": "MDc6TGljZW5zZTQx"
+          },
+          "created_at": "2026-07-21T21:32:02Z",
+          "updated_at": "2026-10-07T18:07:02Z",
+          "pushed_at": "2026-09-30T04:44:57Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 9753,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+          "html_url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/commit/c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+          "committed_at": "2026-09-28T17:33:03Z",
+          "subject": "fix: clear the 26 dependency advisories on the default branch"
+        },
+        "latest_release": null
+      },
+      "canonical_url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "mcp-server.js",
+          "line_start": 118,
+          "line_end": 133,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/mcp-server.js#L118-L133"
+        },
+        {
+          "path": "lib/layout.js",
+          "line_start": 18,
+          "line_end": 57,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/layout.js#L18-L57"
+        },
+        {
+          "path": "lib/html-generator.js",
+          "line_start": 280,
+          "line_end": 301,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/html-generator.js#L280-L301"
+        },
+        {
+          "path": "lib/html-generator.js",
+          "line_start": 341,
+          "line_end": 348,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/html-generator.js#L341-L348"
+        },
+        {
+          "path": "mcp-server.js",
+          "line_start": 204,
+          "line_end": 222,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/mcp-server.js#L204-L222"
+        },
+        {
+          "path": "lib/validate.js",
+          "line_start": 111,
+          "line_end": 143,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/validate.js#L111-L143"
+        },
+        {
+          "path": "package.json",
+          "line_start": 37,
+          "line_end": 54,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/package.json#L37-L54"
+        },
+        {
+          "path": "README.md",
+          "line_start": 87,
+          "line_end": 103,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/README.md#L87-L103"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 16,
+          "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/LICENSE#L1-L16"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/aws-samples/sample-architecture-diagram-mcp-server"
+      ]
+    },
+    {
+      "repository": "lukilabs/beautiful-mermaid",
+      "requested_repository": "lukilabs/beautiful-mermaid",
+      "sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "local_path": "Research/repos/lukilabs/beautiful-mermaid",
+      "status": "included",
+      "include_reason": "独立 Mermaid 子集解析、SVG 与终端 ASCII/Unicode；把轻量结构图嵌入终端/聊天界面时补充",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "lukilabs/beautiful-mermaid",
+        "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/lukilabs/beautiful-mermaid",
+          "head_commit": "https://api.github.com/repos/lukilabs/beautiful-mermaid/commits/main",
+          "latest_release": "https://api.github.com/repos/lukilabs/beautiful-mermaid/releases/latest"
+        },
+        "repository": {
+          "id": 1144386801,
+          "full_name": "lukilabs/beautiful-mermaid",
+          "html_url": "https://github.com/lukilabs/beautiful-mermaid",
+          "description": null,
+          "homepage": null,
+          "stargazers_count": 11194,
+          "forks_count": 410,
+          "subscribers_count": 29,
+          "open_issues_count": 95,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2026-01-28T16:31:46Z",
+          "updated_at": "2026-10-14T19:51:13Z",
+          "pushed_at": "2026-05-06T10:53:19Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 1901,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+          "html_url": "https://github.com/lukilabs/beautiful-mermaid/commit/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+          "committed_at": "2026-05-06T10:53:19Z",
+          "subject": "Merge pull request #106 from lukilabs/fix/editor-link-script-regex"
+        },
+        "latest_release": {
+          "tag_name": "v1.1.2",
+          "name": "v1.1.2",
+          "html_url": "https://github.com/lukilabs/beautiful-mermaid/releases/tag/v1.1.2",
+          "published_at": "2026-02-26T14:05:31Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/lukilabs/beautiful-mermaid",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "src/index.ts",
+          "line_start": 22,
+          "line_end": 63,
+          "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/index.ts#L22-L63"
+        },
+        {
+          "path": "src/index.ts",
+          "line_start": 111,
+          "line_end": 166,
+          "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/index.ts#L111-L166"
+        },
+        {
+          "path": "src/elk-instance.ts",
+          "line_start": 85,
+          "line_end": 112,
+          "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/elk-instance.ts#L85-L112"
+        },
+        {
+          "path": "package.json",
+          "line_start": 38,
+          "line_end": 60,
+          "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/package.json#L38-L60"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 21,
+          "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/LICENSE#L1-L21"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/lukilabs/beautiful-mermaid"
+      ]
+    },
+    {
+      "repository": "plait-board/drawnix",
+      "requested_repository": "plait-board/drawnix",
+      "sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "local_path": "Research/repos/plait-board/drawnix",
+      "status": "included",
+      "include_reason": "Mermaid/Markdown 转可编辑白板，浏览器本地保存；面向手动整理、思维导图和讨论的相邻工具",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "plait-board/drawnix",
+        "retrieved_at_utc": "2026-10-14T20:53:57+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/plait-board/drawnix",
+          "head_commit": "https://api.github.com/repos/plait-board/drawnix/commits/develop",
+          "latest_release": "https://api.github.com/repos/plait-board/drawnix/releases/latest"
+        },
+        "repository": {
+          "id": 810364325,
+          "full_name": "plait-board/drawnix",
+          "html_url": "https://github.com/plait-board/drawnix",
+          "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
+          "homepage": "https://drawnix.com",
+          "stargazers_count": 14941,
+          "forks_count": 1298,
+          "subscribers_count": 58,
+          "open_issues_count": 33,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2024-06-04T14:49:58Z",
+          "updated_at": "2026-10-14T12:06:05Z",
+          "pushed_at": "2026-09-08T03:15:08Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "develop",
+          "topics": [
+            "collaboration",
+            "drawing",
+            "flowchart",
+            "localfirst",
+            "mind-map",
+            "mindmap",
+            "productivity",
+            "whiteboard"
+          ],
+          "size": 1949,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+          "html_url": "https://github.com/plait-board/drawnix/commit/b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+          "committed_at": "2026-09-07T13:39:55Z",
+          "subject": "test(drawnix): add shared testing board fixture (#468)"
+        },
+        "latest_release": {
+          "tag_name": "v0.4.0",
+          "name": "v0.4.0 is now live ! 🚀",
+          "html_url": "https://github.com/plait-board/drawnix/releases/tag/v0.4.0",
+          "published_at": "2026-04-19T13:29:06Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/plait-board/drawnix",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "packages/drawnix/src/components/ttd-dialog/mermaid-to-drawnix.tsx",
+          "line_start": 69,
+          "line_end": 116,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/components/ttd-dialog/mermaid-to-drawnix.tsx#L69-L116"
+        },
+        {
+          "path": "packages/drawnix/src/components/ttd-dialog/markdown-to-drawnix.tsx",
+          "line_start": 66,
+          "line_end": 108,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/components/ttd-dialog/markdown-to-drawnix.tsx#L66-L108"
+        },
+        {
+          "path": "apps/web/src/app/app.tsx",
+          "line_start": 20,
+          "line_end": 28,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/apps/web/src/app/app.tsx#L20-L28"
+        },
+        {
+          "path": "apps/web/src/app/app.tsx",
+          "line_start": 96,
+          "line_end": 105,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/apps/web/src/app/app.tsx#L96-L105"
+        },
+        {
+          "path": "packages/drawnix/src/data/json.ts",
+          "line_start": 18,
+          "line_end": 38,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/data/json.ts#L18-L38"
+        },
+        {
+          "path": "packages/drawnix/src/data/json.ts",
+          "line_start": 62,
+          "line_end": 72,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/data/json.ts#L62-L72"
+        },
+        {
+          "path": "package.json",
+          "line_start": 17,
+          "line_end": 41,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/package.json#L17-L41"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 21,
+          "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/LICENSE#L1-L21"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/plait-board/drawnix"
+      ]
+    },
+    {
+      "repository": "hustcc/mcp-mermaid",
+      "requested_repository": "hustcc/mcp-mermaid",
+      "sha": "13497062a98061295ed2f7546612bd6d235219eb",
+      "local_path": null,
+      "status": "deferred",
+      "include_reason": null,
+      "exclude_reason": "当前选定代码是 Mermaid 渲染集成封装；已有 Mermaid 本体，优先深入有独立模型/交付/编辑差异的六项。",
+      "metadata_snapshot": {
+        "requested_slug": "hustcc/mcp-mermaid",
+        "retrieved_at_utc": "2026-10-14T20:53:57+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/hustcc/mcp-mermaid",
+          "head_commit": "https://api.github.com/repos/hustcc/mcp-mermaid/commits/main",
+          "latest_release": "https://api.github.com/repos/hustcc/mcp-mermaid/releases/latest"
+        },
+        "repository": {
+          "id": 986972046,
+          "full_name": "hustcc/mcp-mermaid",
+          "html_url": "https://github.com/hustcc/mcp-mermaid",
+          "description": "❤️ Generate mermaid diagram and chart with AI MCP dynamically.",
+          "homepage": "https://github.com/hustcc/mcp-mermaid",
+          "stargazers_count": 642,
+          "forks_count": 60,
+          "subscribers_count": 3,
+          "open_issues_count": 10,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2025-05-20T11:43:48Z",
+          "updated_at": "2026-10-06T03:01:35Z",
+          "pushed_at": "2026-05-15T12:16:57Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "mcp",
+            "mcp-server",
+            "mermaid",
+            "mermaidjs"
+          ],
+          "size": 60,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "13497062a98061295ed2f7546612bd6d235219eb",
+          "html_url": "https://github.com/hustcc/mcp-mermaid/commit/13497062a98061295ed2f7546612bd6d235219eb",
+          "committed_at": "2026-05-15T12:16:57Z",
+          "subject": "feat: add handDrawn look option for sketch-style rendering (#46)"
+        },
+        "latest_release": {
+          "tag_name": "0.4.1",
+          "name": "0.4.1",
+          "html_url": "https://github.com/hustcc/mcp-mermaid/releases/tag/0.4.1",
+          "published_at": "2026-02-12T02:46:26Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/hustcc/mcp-mermaid",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/hustcc/mcp-mermaid"
+      ],
+      "screening_evidence_urls": [
+        "https://github.com/hustcc/mcp-mermaid/blob/13497062a98061295ed2f7546612bd6d235219eb/src/utils/render.ts#L19-L42"
+      ]
+    },
+    {
+      "repository": "hasibweb/OpenDraw",
+      "requested_repository": "hasibweb/OpenDraw",
+      "sha": "b64fb343bcd3d535586b97c6718aa34644f6f294",
+      "local_path": null,
+      "status": "excluded",
+      "include_reason": null,
+      "exclude_reason": "GitHub API fork=true，parent/source 为 Itz-Agasta/OpenDiagram。",
+      "metadata_snapshot": {
+        "requested_slug": "hasibweb/OpenDraw",
+        "retrieved_at_utc": "2026-10-14T20:53:58+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/hasibweb/OpenDraw",
+          "head_commit": "https://api.github.com/repos/hasibweb/OpenDraw/commits/main",
+          "latest_release": "https://api.github.com/repos/hasibweb/OpenDraw/releases/latest"
+        },
+        "repository": {
+          "id": 1349852464,
+          "full_name": "hasibweb/OpenDraw",
+          "html_url": "https://github.com/hasibweb/OpenDraw",
+          "description": "AI diagram generator for software architecture - the open-source Eraser.io alternative. Describe your system in plain English, get editable system design, sequence, ERD & cloud diagrams on an Excalidraw canvas. Self-hostable, bring your own key. Vibe diagramming for engineers.",
+          "homepage": "https://opendiagram.ink",
+          "stargazers_count": 2,
+          "forks_count": 0,
+          "subscribers_count": 0,
+          "open_issues_count": 0,
+          "language": "TypeScript",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2026-08-28T17:08:50Z",
+          "updated_at": "2026-10-09T18:43:40Z",
+          "pushed_at": "2026-08-31T04:01:03Z",
+          "archived": false,
+          "disabled": false,
+          "fork": true,
+          "default_branch": "main",
+          "topics": [],
+          "size": 65676,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "b64fb343bcd3d535586b97c6718aa34644f6f294",
+          "html_url": "https://github.com/hasibweb/OpenDraw/commit/b64fb343bcd3d535586b97c6718aa34644f6f294",
+          "committed_at": "2026-08-31T04:00:48Z",
+          "subject": "polish login visual and workspace header"
+        },
+        "latest_release": null
+      },
+      "canonical_url": "https://github.com/hasibweb/OpenDraw",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/hasibweb/OpenDraw"
+      ],
+      "fork_parent": "Itz-Agasta/OpenDiagram",
+      "fork_source": "Itz-Agasta/OpenDiagram",
+      "screening_evidence_urls": [
+        "https://api.github.com/repos/hasibweb/OpenDraw"
+      ]
+    },
+    {
+      "repository": "Mermaid-Chart/vscode-mermaid-chart",
+      "requested_repository": "Mermaid-Chart/vscode-mermaid-chart",
+      "sha": "39f4b3e374f1ebea956d9bcc341285a1e0d425b1",
+      "local_path": null,
+      "status": "deferred",
+      "include_reason": null,
+      "exclude_reason": "官方 VS Code 插件与官方远端 MCP 不同；本轮只做 README/身份筛查，未把远端服务当公开源码仓深入。",
+      "metadata_snapshot": {
+        "requested_slug": "Mermaid-Chart/vscode-mermaid-chart",
+        "retrieved_at_utc": "2026-10-14T20:53:59+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/Mermaid-Chart/vscode-mermaid-chart",
+          "head_commit": "https://api.github.com/repos/Mermaid-Chart/vscode-mermaid-chart/commits/main",
+          "latest_release": "https://api.github.com/repos/Mermaid-Chart/vscode-mermaid-chart/releases/latest"
+        },
+        "repository": {
+          "id": 659727751,
+          "full_name": "Mermaid-Chart/vscode-mermaid-chart",
+          "html_url": "https://github.com/Mermaid-Chart/vscode-mermaid-chart",
+          "description": "The code for the Mermaid Chart extension for Visual Studio Code",
+          "homepage": null,
+          "stargazers_count": 154,
+          "forks_count": 33,
+          "subscribers_count": 2,
+          "open_issues_count": 19,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2023-06-28T12:37:28Z",
+          "updated_at": "2026-10-12T10:34:35Z",
+          "pushed_at": "2026-10-12T09:58:57Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 27667,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "39f4b3e374f1ebea956d9bcc341285a1e0d425b1",
+          "html_url": "https://github.com/Mermaid-Chart/vscode-mermaid-chart/commit/39f4b3e374f1ebea956d9bcc341285a1e0d425b1",
+          "committed_at": "2026-10-12T09:58:56Z",
+          "subject": "fix: stop preview flicker with mermaid v12 (ELK layout) (#167)"
+        },
+        "latest_release": null
+      },
+      "canonical_url": "https://github.com/Mermaid-Chart/vscode-mermaid-chart",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/Mermaid-Chart/vscode-mermaid-chart"
+      ],
+      "screening_evidence_urls": [
+        "https://mermaid.ai/docs/ai/mcp-server",
+        "https://github.com/Mermaid-Chart/vscode-mermaid-chart/blob/39f4b3e374f1ebea956d9bcc341285a1e0d425b1/README.md#L1-L59"
+      ]
+    },
+    {
+      "repository": "lgboim/AI-Diagram",
+      "requested_repository": "lgboim/AI-Diagram",
+      "sha": "a1a3ed99c15c2d62cf6c625306f58d38f9054803",
+      "local_path": null,
+      "status": "excluded",
+      "include_reason": null,
+      "exclude_reason": "静态代码要求 Python 生成结果却以 DOT 交给 dot；README app.py 与实际 gras.py 不一致，不优先推荐。",
+      "metadata_snapshot": {
+        "requested_slug": "lgboim/AI-Diagram",
+        "retrieved_at_utc": "2026-10-14T20:54:02+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/lgboim/AI-Diagram",
+          "head_commit": "https://api.github.com/repos/lgboim/AI-Diagram/commits/main",
+          "latest_release": "https://api.github.com/repos/lgboim/AI-Diagram/releases/latest"
+        },
+        "repository": {
+          "id": 766263942,
+          "full_name": "lgboim/AI-Diagram",
+          "html_url": "https://github.com/lgboim/AI-Diagram",
+          "description": "AI-Diagram: Turn text into Graphviz diagrams using AI. Simplify architecture visualization with Groq API. Open-source and user-friendly.",
+          "homepage": "",
+          "stargazers_count": 2,
+          "forks_count": 0,
+          "subscribers_count": 1,
+          "open_issues_count": 0,
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2024-03-02T19:28:30Z",
+          "updated_at": "2025-07-04T13:40:38Z",
+          "pushed_at": "2024-03-02T19:53:57Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 8,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "a1a3ed99c15c2d62cf6c625306f58d38f9054803",
+          "html_url": "https://github.com/lgboim/AI-Diagram/commit/a1a3ed99c15c2d62cf6c625306f58d38f9054803",
+          "committed_at": "2024-03-02T19:53:57Z",
+          "subject": "Update requirements.txt"
+        },
+        "latest_release": null
+      },
+      "canonical_url": "https://github.com/lgboim/AI-Diagram",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/lgboim/AI-Diagram"
+      ],
+      "screening_evidence_urls": [
+        "https://github.com/lgboim/AI-Diagram/blob/a1a3ed99c15c2d62cf6c625306f58d38f9054803/gras.py#L13-L34"
+      ]
+    },
+    {
+      "repository": "Agents365-ai/drawio-skill",
+      "requested_repository": "Agents365-ai/drawio-skill",
+      "sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "local_path": "Research/repos/Agents365-ai/drawio-skill",
+      "status": "included",
+      "include_reason": "原生 draw.io 模型、源码导入、增量同步、规则检查；需要长期维护 `.drawio` 和人工布局时补充",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "Agents365-ai/drawio-skill",
+        "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/Agents365-ai/drawio-skill",
+          "head_commit": "https://api.github.com/repos/Agents365-ai/drawio-skill/commits/main",
+          "latest_release": "https://api.github.com/repos/Agents365-ai/drawio-skill/releases/latest"
+        },
+        "repository": {
+          "id": 1171833693,
+          "full_name": "Agents365-ai/drawio-skill",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill",
+          "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+          "homepage": "https://agents365-ai.github.io/drawio-skill/",
+          "stargazers_count": 10141,
+          "forks_count": 723,
+          "subscribers_count": 27,
+          "open_issues_count": 0,
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2026-03-03T16:54:59Z",
+          "updated_at": "2026-10-14T19:55:08Z",
+          "pushed_at": "2026-10-11T11:22:56Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "agent-skills",
+            "architecture",
+            "architecture-diagram",
+            "asyncapi",
+            "bpmn",
+            "c4-model",
+            "claude-code",
+            "diagram",
+            "diagrams-as-code",
+            "drawio",
+            "flowchart",
+            "github-actions",
+            "graphql",
+            "image-to-diagram",
+            "kubernetes",
+            "mcp-server",
+            "protobuf",
+            "sysml",
+            "terraform",
+            "uml"
+          ],
+          "size": 6665,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill/commit/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+          "committed_at": "2026-10-11T11:22:53Z",
+          "subject": "docs: correct skill installation layout and update commands (#139)"
+        },
+        "latest_release": {
+          "tag_name": "v3.4.2",
+          "name": "v3.4.2",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill/releases/tag/v3.4.2",
+          "published_at": "2026-10-11T10:08:11Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/Agents365-ai/drawio-skill",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "skills/drawio-skill/scripts/pyimports.py",
+          "line_start": 74,
+          "line_end": 100,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/pyimports.py#L74-L100"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagramctl.py",
+          "line_start": 168,
+          "line_end": 204,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagramctl.py#L168-L204"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagram_ir.py",
+          "line_start": 502,
+          "line_end": 540,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L502-L540"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagram_ir.py",
+          "line_start": 1137,
+          "line_end": 1217,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L1137-L1217"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagramctl_mcp.py",
+          "line_start": 260,
+          "line_end": 271,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagramctl_mcp.py#L260-L271"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagram_ir.py",
+          "line_start": 1064,
+          "line_end": 1097,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L1064-L1097"
+        },
+        {
+          "path": "skills/drawio-skill/scripts/validate.py",
+          "line_start": 92,
+          "line_end": 96,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/validate.py#L92-L96"
+        },
+        {
+          "path": "skills/drawio-skill/SKILL.md",
+          "line_start": 79,
+          "line_end": 98,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/SKILL.md#L79-L98"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 21,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE#L1-L21"
+        },
+        {
+          "path": "skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md",
+          "line_start": 1,
+          "line_end": 12,
+          "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md#L1-L12"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/Agents365-ai/drawio-skill"
+      ]
+    },
+    {
+      "repository": "Cocoon-AI/architecture-diagram-generator",
+      "requested_repository": "Cocoon-AI/architecture-diagram-generator",
+      "sha": "4b9087d55268c79a935105439dbcd37b630fc3f3",
+      "local_path": null,
+      "status": "excluded",
+      "include_reason": null,
+      "exclude_reason": "Archify 明确记录的原始上游设计，保留血缘与原仓入口，不作为独立新增主推荐重复计。",
+      "metadata_snapshot": {
+        "requested_slug": "Cocoon-AI/architecture-diagram-generator",
+        "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/Cocoon-AI/architecture-diagram-generator",
+          "head_commit": "https://api.github.com/repos/Cocoon-AI/architecture-diagram-generator/commits/main",
+          "latest_release": "https://api.github.com/repos/Cocoon-AI/architecture-diagram-generator/releases/latest"
+        },
+        "repository": {
+          "id": 1121262780,
+          "full_name": "Cocoon-AI/architecture-diagram-generator",
+          "html_url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+          "description": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.    ",
+          "homepage": "",
+          "stargazers_count": 7434,
+          "forks_count": 569,
+          "subscribers_count": 20,
+          "open_issues_count": 2,
+          "language": "HTML",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2025-12-22T17:40:16Z",
+          "updated_at": "2026-10-14T11:05:35Z",
+          "pushed_at": "2026-05-13T23:04:17Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 473,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "4b9087d55268c79a935105439dbcd37b630fc3f3",
+          "html_url": "https://github.com/Cocoon-AI/architecture-diagram-generator/commit/4b9087d55268c79a935105439dbcd37b630fc3f3",
+          "committed_at": "2026-05-13T23:04:16Z",
+          "subject": "Add 'Sister skill' section to README"
+        },
+        "latest_release": {
+          "tag_name": "1.1",
+          "name": "Built-in Export Toolbar",
+          "html_url": "https://github.com/Cocoon-AI/architecture-diagram-generator/releases/tag/1.1",
+          "published_at": "2026-05-09T02:08:10Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/Cocoon-AI/architecture-diagram-generator"
+      ],
+      "screening_evidence_urls": [
+        "https://github.com/Cocoon-AI/architecture-diagram-generator/blob/4b9087d55268c79a935105439dbcd37b630fc3f3/architecture-diagram/SKILL.md#L1-L10",
+        "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/CHANGELOG.md#L441-L455"
+      ]
+    },
+    {
+      "repository": "yctimlin/mcp_excalidraw",
+      "requested_repository": "yctimlin/mcp_excalidraw",
+      "sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "local_path": "Research/repos/yctimlin/mcp_excalidraw",
+      "status": "included",
+      "include_reason": "CLI/MCP 驱动实时画布、元素级修改、原生文件与离线渲染；需要人和 Agent 共同编辑 Excalidraw 时补充",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "yctimlin/mcp_excalidraw",
+        "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/yctimlin/mcp_excalidraw",
+          "head_commit": "https://api.github.com/repos/yctimlin/mcp_excalidraw/commits/main",
+          "latest_release": "https://api.github.com/repos/yctimlin/mcp_excalidraw/releases/latest"
+        },
+        "repository": {
+          "id": 949382051,
+          "full_name": "yctimlin/mcp_excalidraw",
+          "html_url": "https://github.com/yctimlin/mcp_excalidraw",
+          "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+          "homepage": "https://mcp-excalidraw-landing.vercel.app/",
+          "stargazers_count": 2538,
+          "forks_count": 285,
+          "subscribers_count": 13,
+          "open_issues_count": 36,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2025-03-16T10:34:34Z",
+          "updated_at": "2026-10-14T16:23:43Z",
+          "pushed_at": "2026-10-09T16:46:29Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 3742,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+          "html_url": "https://github.com/yctimlin/mcp_excalidraw/commit/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+          "committed_at": "2026-10-09T16:46:29Z",
+          "subject": "perf(docker): shrink MCP and canvas images by ~70-80% (#112)"
+        },
+        "latest_release": {
+          "tag_name": "v2.1.2",
+          "name": "v2.1.2",
+          "html_url": "https://github.com/yctimlin/mcp_excalidraw/releases/tag/v2.1.2",
+          "published_at": "2026-10-04T06:51:34Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "canonical_url": "https://github.com/yctimlin/mcp_excalidraw",
+      "review_depth": "README + selected implementation paths + dependency/license files + selected test source; static only, no install/build/server/test execution",
+      "source_evidence": [
+        {
+          "path": "src/server.ts",
+          "line_start": 350,
+          "line_end": 378,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/server.ts#L350-L378"
+        },
+        {
+          "path": "src/core/scene-io.ts",
+          "line_start": 24,
+          "line_end": 47,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/scene-io.ts#L24-L47"
+        },
+        {
+          "path": "src/core/render/index.ts",
+          "line_start": 135,
+          "line_end": 197,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/render/index.ts#L135-L197"
+        },
+        {
+          "path": "src/core/canvas-persistence.ts",
+          "line_start": 122,
+          "line_end": 138,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/canvas-persistence.ts#L122-L138"
+        },
+        {
+          "path": "package.json",
+          "line_start": 35,
+          "line_end": 46,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/package.json#L35-L46"
+        },
+        {
+          "path": "package.json",
+          "line_start": 101,
+          "line_end": 103,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/package.json#L101-L103"
+        },
+        {
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 21,
+          "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/LICENSE#L1-L21"
+        }
+      ],
+      "checkout_scope": "full",
+      "shallow": true,
+      "local_head_verified": true,
+      "upstream_worktree_clean": true,
+      "discovery_sources": [
+        "https://github.com/yctimlin/mcp_excalidraw"
+      ]
+    },
+    {
+      "repository": "Itz-Agasta/OpenDiagram",
+      "requested_repository": "Itz-Agasta/OpenDiagram",
+      "sha": "5ff811e3cbcb7b2dd47465278a3a9d6c993ca426",
+      "local_path": null,
+      "status": "deferred",
+      "include_reason": null,
+      "exclude_reason": "原仓有独立 DiagramSpec/ELK/renderer 应用栈，但本轮仅做 README/源码树筛选，尚未深入实现，不把宣传作为验证。",
+      "metadata_snapshot": {
+        "requested_slug": "Itz-Agasta/OpenDiagram",
+        "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/Itz-Agasta/OpenDiagram",
+          "head_commit": "https://api.github.com/repos/Itz-Agasta/OpenDiagram/commits/main",
+          "latest_release": "https://api.github.com/repos/Itz-Agasta/OpenDiagram/releases/latest"
+        },
+        "repository": {
+          "id": 1283594666,
+          "full_name": "Itz-Agasta/OpenDiagram",
+          "html_url": "https://github.com/Itz-Agasta/OpenDiagram",
+          "description": "AI diagram generator for software architecture - the open-source Eraser.io alternative. Describe your system in plain English, get editable system design, sequence, ERD & cloud diagrams on an Excalidraw canvas. Self-hostable, bring your own key. Vibe diagramming for engineers.",
+          "homepage": "https://opendiagram.ink",
+          "stargazers_count": 52,
+          "forks_count": 10,
+          "subscribers_count": 0,
+          "open_issues_count": 43,
+          "language": "TypeScript",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "spdx_id": "AGPL-3.0",
+            "url": "https://api.github.com/licenses/agpl-3.0",
+            "node_id": "MDc6TGljZW5zZTE="
+          },
+          "created_at": "2026-06-29T04:16:05Z",
+          "updated_at": "2026-10-13T14:33:15Z",
+          "pushed_at": "2026-10-13T14:33:14Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "ai-agent",
+            "ai-diagram-generator",
+            "ai-diagrams",
+            "architecture-diagrams",
+            "developer-tools",
+            "diagram-generator",
+            "eraser-alternative",
+            "erd",
+            "excalidraw",
+            "flowchart",
+            "llm",
+            "mermaid-alternative",
+            "nextjs",
+            "self-hosted",
+            "sequence-diagram",
+            "system-design",
+            "text-to-diagram",
+            "typescript",
+            "vibe-diagramming",
+            "whiteboard"
+          ],
+          "size": 50845,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "5ff811e3cbcb7b2dd47465278a3a9d6c993ca426",
+          "html_url": "https://github.com/Itz-Agasta/OpenDiagram/commit/5ff811e3cbcb7b2dd47465278a3a9d6c993ca426",
+          "committed_at": "2026-10-13T14:33:04Z",
+          "subject": "chore(infra): read GitHub, Dodo and PostHog ids from Infisical"
+        },
+        "latest_release": null
+      },
+      "canonical_url": "https://github.com/Itz-Agasta/OpenDiagram",
+      "review_depth": "Discovery and scoped remote first-party README/API/source inspection only; not cloned or executed",
+      "discovery_sources": [
+        "https://github.com/Itz-Agasta/OpenDiagram"
+      ],
+      "screening_evidence_urls": [
+        "https://github.com/Itz-Agasta/OpenDiagram/blob/5ff811e3cbcb7b2dd47465278a3a9d6c993ca426/README.md",
+        "https://api.github.com/repos/Itz-Agasta/OpenDiagram/git/trees/5ff811e3cbcb7b2dd47465278a3a9d6c993ca426?recursive=1"
+      ]
+    }
+  ],
+  "candidate_count": 13,
+  "included_count": 6,
+  "included_repositories": [
+    "Agents365-ai/drawio-skill",
+    "yctimlin/mcp_excalidraw",
+    "awslabs/diagram-as-code",
+    "aws-samples/sample-architecture-diagram-mcp-server",
+    "lukilabs/beautiful-mermaid",
+    "plait-board/drawnix"
+  ],
+  "updated_at_utc": "2026-10-14T21:01:55+00:00",
+  "notes": [
+    "All metadata snapshots were obtained with the existing collect_github_metadata.collect() function; original batches elsewhere were not modified.",
+    "Six selected repositories were cloned directly under Research/repos; parent .gitmodules/index were not modified by this research worker.",
+    "Excluded/deferred repositories have no local checkout and are not claimed as deep implementation reviews.",
+    "GitHub stars of monorepositories belong to the whole repository; default-branch source can be newer than latest release."
+  ]
+}

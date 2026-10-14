@@ -1,0 +1,131 @@
+{
+  "method": "HTTP GET status/redirect check only; page content and capabilities assessed separately in source notes. GitHub repository and release URLs originate from REST metadata; fixed source links checked locally at the matching commits.",
+  "links": [
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-aws-architecture-diagrams-using-amazon-q-cli-and-mcp/",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/machine-learning/build-aws-architecture-diagrams-using-amazon-q-cli-and-mcp/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://c4model.com/tooling",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://c4model.com/tooling",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://docs.structurizr.com/",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://docs.structurizr.com/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://docs.structurizr.com/binaries",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://docs.structurizr.com/binaries",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://docs.structurizr.com/eol",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://docs.structurizr.com/eol",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://docs.structurizr.com/server",
+      "checked_at_utc": "2026-10-14T21:05:49+00:00",
+      "status": 200,
+      "final_url": "https://docs.structurizr.com/server",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://gitdiagram.com",
+      "checked_at_utc": "2026-10-14T21:05:51+00:00",
+      "status": 200,
+      "final_url": "https://gitdiagram.com",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://gitnexus.vercel.app",
+      "checked_at_utc": "2026-10-14T21:05:53+00:00",
+      "status": 200,
+      "final_url": "https://gitnexus.vercel.app",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://likec4.dev/",
+      "checked_at_utc": "2026-10-14T21:05:53+00:00",
+      "status": 200,
+      "final_url": "https://likec4.dev/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://likec4.dev/dsl/intro/",
+      "checked_at_utc": "2026-10-14T21:05:53+00:00",
+      "status": 200,
+      "final_url": "https://likec4.dev/dsl/intro/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://likec4.dev/dsl/views/",
+      "checked_at_utc": "2026-10-14T21:05:53+00:00",
+      "status": 200,
+      "final_url": "https://likec4.dev/dsl/views/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://mermaid.ai/docs/ai/mcp-server",
+      "checked_at_utc": "2026-10-14T21:05:53+00:00",
+      "status": 200,
+      "final_url": "https://mermaid.ai/docs/ai/mcp-server",
+      "content_type": "text/html"
+    },
+    {
+      "url": "https://patrickchugh.github.io/terravision/",
+      "checked_at_utc": "2026-10-14T21:05:54+00:00",
+      "status": 200,
+      "final_url": "https://patrickchugh.github.io/terravision/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://patrickchugh.github.io/terravision/gallery/",
+      "checked_at_utc": "2026-10-14T21:05:54+00:00",
+      "status": 200,
+      "final_url": "https://patrickchugh.github.io/terravision/gallery/",
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://playground.structurizr.com/",
+      "checked_at_utc": "2026-10-14T21:05:54+00:00",
+      "status": 200,
+      "final_url": "https://playground.structurizr.com/",
+      "content_type": "text/html;charset=UTF-8"
+    },
+    {
+      "url": "https://www.archimatetool.com/",
+      "checked_at_utc": "2026-10-14T21:05:54+00:00",
+      "status": 200,
+      "final_url": "https://www.archimatetool.com/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://www.archimatetool.com/download/",
+      "checked_at_utc": "2026-10-14T21:05:55+00:00",
+      "status": 200,
+      "final_url": "https://www.archimatetool.com/download/",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "url": "https://www.codeboarding.org",
+      "checked_at_utc": "2026-10-14T21:05:55+00:00",
+      "status": 200,
+      "final_url": "https://www.codeboarding.org",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}

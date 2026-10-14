@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "review_mode": "static source review only; no dependencies installed or project code executed",
+  "candidates": [
+    {
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram",
+      "status": "included_static_review_only",
+      "include_reason": "仓库源码采样、LLM结构化图生成、边证据处理与Mermaid编译均有独立实现；补快速架构概览入口。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "ahmedkhaleel2004/gitdiagram",
+        "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram",
+          "head_commit": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram/commits/main",
+          "latest_release": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram/releases/latest"
+        },
+        "repository": {
+          "id": 903700733,
+          "full_name": "ahmedkhaleel2004/gitdiagram",
+          "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+          "description": "Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' with 'diagram' in any GitHub URL.",
+          "homepage": "https://gitdiagram.com",
+          "stargazers_count": 18202,
+          "forks_count": 1403,
+          "subscribers_count": 62,
+          "open_issues_count": 47,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2024-12-15T10:32:03Z",
+          "updated_at": "2026-10-14T20:50:11Z",
+          "pushed_at": "2026-10-14T01:20:21Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "ai",
+            "architecture-diagram",
+            "code",
+            "code-visualization",
+            "codebase-visualization",
+            "developer-tools",
+            "diagram-generator",
+            "gemini-cli-extension",
+            "github",
+            "llm",
+            "mermaid",
+            "nextjs",
+            "repository-visualization",
+            "software-architecture",
+            "system-design",
+            "video"
+          ],
+          "size": 14690,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram/commit/310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "committed_at": "2026-10-14T01:20:09Z",
+          "subject": "Sponsors: a booking can buy a labelled line in the Markdown pages agents read"
+        },
+        "latest_release": null
+      },
+      "license_reviewed": "MIT",
+      "source_evidence": [
+        {
+          "repo": "ahmedkhaleel2004/gitdiagram",
+          "commit": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "path": "src/server/generate/source-context.ts",
+          "lines": "L225-L258",
+          "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram/src/server/generate/source-context.ts",
+          "sha256": "8739e4b0292b2303c9afd16317460040f7020d375b2bb9d2dcc758ecd634acfe",
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/source-context.ts#L225-L258",
+          "purpose": "fetchSourceContext"
+        },
+        {
+          "repo": "ahmedkhaleel2004/gitdiagram",
+          "commit": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "path": "src/server/generate/graph-planner.ts",
+          "lines": "L119-L221",
+          "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram/src/server/generate/graph-planner.ts",
+          "sha256": "ca2eb195aa4c13b9836a6c0cc35e0a598c6e0565a8927b2e655d1479c6ee47e2",
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/graph-planner.ts#L119-L221",
+          "purpose": "generateValidatedGraph"
+        },
+        {
+          "repo": "ahmedkhaleel2004/gitdiagram",
+          "commit": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "path": "src/server/generate/edge-evidence.ts",
+          "lines": "L26-L90",
+          "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram/src/server/generate/edge-evidence.ts",
+          "sha256": "a0a56e844f4beaff36c773bc876bdfe55bd269aef982cc05b51d6eb93a272a27",
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/edge-evidence.ts#L26-L90",
+          "purpose": "applyEdgeEvidence"
+        },
+        {
+          "repo": "ahmedkhaleel2004/gitdiagram",
+          "commit": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "path": "src/server/generate/graph.ts",
+          "lines": "L450-L512",
+          "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram/src/server/generate/graph.ts",
+          "sha256": "e8ea152eeeae75d7c43f43e0f2bcfaa06595cc9f872890a0bade53918582865a",
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/graph.ts#L450-L512",
+          "purpose": "compileDiagramGraph"
+        },
+        {
+          "repo": "ahmedkhaleel2004/gitdiagram",
+          "commit": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+          "path": "LICENSE",
+          "lines": "L1-L21",
+          "local_path": "Research/repos/ahmedkhaleel2004/gitdiagram/LICENSE",
+          "sha256": "1f4d0e04838dd51ef52d70211fd17f86bad26b2f6518497098524bc05f61af15",
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/LICENSE#L1-L21",
+          "purpose": "MIT"
+        }
+      ],
+      "verification": {
+        "review_mode": "static source review only",
+        "project_code_executed": false,
+        "dependencies_installed": false,
+        "remote_model_or_service_called": false,
+        "git_worktree_clean": true,
+        "git_detached_head": true,
+        "git_shallow": true,
+        "origin": "https://github.com/ahmedkhaleel2004/gitdiagram.git"
+      }
+    },
+    {
+      "repository": "CodeBoarding/CodeBoarding",
+      "sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "local_path": "Research/repos/CodeBoarding/CodeBoarding",
+      "status": "included_static_review_only",
+      "include_reason": "静态符号/调用/依赖与LLM语义分组明确分工，并有实际分层图文输出；可区分静态支持和语义解释关系。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "CodeBoarding/CodeBoarding",
+        "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/CodeBoarding/CodeBoarding",
+          "head_commit": "https://api.github.com/repos/CodeBoarding/CodeBoarding/commits/main",
+          "latest_release": "https://api.github.com/repos/CodeBoarding/CodeBoarding/releases/latest"
+        },
+        "repository": {
+          "id": 962871560,
+          "full_name": "CodeBoarding/CodeBoarding",
+          "html_url": "https://github.com/CodeBoarding/CodeBoarding",
+          "description": "Interactive architecture diagrams for codebases",
+          "homepage": "https://www.codeboarding.org",
+          "stargazers_count": 2577,
+          "forks_count": 213,
+          "subscribers_count": 11,
+          "open_issues_count": 55,
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2025-04-08T19:57:56Z",
+          "updated_at": "2026-10-14T18:36:49Z",
+          "pushed_at": "2026-10-14T15:22:52Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "agents",
+            "aiagentic",
+            "code-visualization",
+            "code-visualization-tool",
+            "codedocs",
+            "codedocumentator",
+            "diagrams-as-code",
+            "explainability",
+            "golang",
+            "hacktoberfest",
+            "language-server-client",
+            "language-server-protocol",
+            "llms",
+            "lsp",
+            "lsp-client",
+            "python3",
+            "static-analysis",
+            "typescipt",
+            "typescript",
+            "visualization"
+          ],
+          "size": 107092,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "57ac725575a82562a27e1b12302afaa337232b23",
+          "html_url": "https://github.com/CodeBoarding/CodeBoarding/commit/57ac725575a82562a27e1b12302afaa337232b23",
+          "committed_at": "2026-10-11T11:24:05Z",
+          "subject": "chore(codeboarding): sync analysis baseline"
+        },
+        "latest_release": {
+          "tag_name": "v0.14.2",
+          "name": "Release v0.14.2",
+          "html_url": "https://github.com/CodeBoarding/CodeBoarding/releases/tag/v0.14.2",
+          "published_at": "2026-09-16T20:57:41Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "license_reviewed": "MIT",
+      "source_evidence": [
+        {
+          "repo": "CodeBoarding/CodeBoarding",
+          "commit": "57ac725575a82562a27e1b12302afaa337232b23",
+          "path": "static_analyzer/engine/call_graph_builder.py",
+          "lines": "L49-L132",
+          "local_path": "Research/repos/CodeBoarding/CodeBoarding/static_analyzer/engine/call_graph_builder.py",
+          "sha256": "4558865ae0572f5c1631a2cf05f0038304eac616e3354f3e608879a14a63f2d5",
+          "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/static_analyzer/engine/call_graph_builder.py#L49-L132",
+          "purpose": "CallGraphBuilder.build"
+        },
+        {
+          "repo": "CodeBoarding/CodeBoarding",
+          "commit": "57ac725575a82562a27e1b12302afaa337232b23",
+          "path": "agents/scope_analysis_agent.py",
+          "lines": "L178-L244",
+          "local_path": "Research/repos/CodeBoarding/CodeBoarding/agents/scope_analysis_agent.py",
+          "sha256": "66cec4f97acc0f4d0a4993be186720ece7561faefdf736b0d88f5c94cae03097",
+          "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/agents/scope_analysis_agent.py#L178-L244",
+          "purpose": "ScopeAnalysisAgent.analyze"
+        },
+        {
+          "repo": "CodeBoarding/CodeBoarding",
+          "commit": "57ac725575a82562a27e1b12302afaa337232b23",
+          "path": "diagram_analysis/scope_assembly.py",
+          "lines": "L255-L293",
+          "local_path": "Research/repos/CodeBoarding/CodeBoarding/diagram_analysis/scope_assembly.py",
+          "sha256": "47168ba174aa030ee3923dcada1ba98ba27adf59b61bea3b7851e4b542b81fe3",
+          "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/diagram_analysis/scope_assembly.py#L255-L293",
+          "purpose": "ScopeAssembler 的关系合并"
+        },
+        {
+          "repo": "CodeBoarding/CodeBoarding",
+          "commit": "57ac725575a82562a27e1b12302afaa337232b23",
+          "path": "output_generators/markdown.py",
+          "lines": "L9-L40",
+          "local_path": "Research/repos/CodeBoarding/CodeBoarding/output_generators/markdown.py",
+          "sha256": "90b8982caaef8a50e656f72247ab9f831eacd97d1754a524e99406402a870365",
+          "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/output_generators/markdown.py#L9-L40",
+          "purpose": "Mermaid 生成器"
+        },
+        {
+          "repo": "CodeBoarding/CodeBoarding",
+          "commit": "57ac725575a82562a27e1b12302afaa337232b23",
+          "path": "LICENSE",
+          "lines": "L1-L21",
+          "local_path": "Research/repos/CodeBoarding/CodeBoarding/LICENSE",
+          "sha256": "7ca8b46929986079c008a0cd6b002a5f1dc67c7500c37bc1a39bfb23ac290263",
+          "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/LICENSE#L1-L21",
+          "purpose": "MIT"
+        }
+      ],
+      "verification": {
+        "review_mode": "static source review only",
+        "project_code_executed": false,
+        "dependencies_installed": false,
+        "remote_model_or_service_called": false,
+        "git_worktree_clean": true,
+        "git_detached_head": true,
+        "git_shallow": true,
+        "origin": "https://github.com/CodeBoarding/CodeBoarding.git"
+      }
+    },
+    {
+      "repository": "abhigyanpatwari/GitNexus",
+      "sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "local_path": "Research/repos/abhigyanpatwari/GitNexus",
+      "status": "included_static_review_only",
+      "include_reason": "本地Tree-sitter索引、知识图谱与候选调用路径查询构成独立事实层；保留Noncommercial许可限制说明。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "abhigyanpatwari/GitNexus",
+        "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/abhigyanpatwari/GitNexus",
+          "head_commit": "https://api.github.com/repos/abhigyanpatwari/GitNexus/commits/main",
+          "latest_release": "https://api.github.com/repos/abhigyanpatwari/GitNexus/releases/latest"
+        },
+        "repository": {
+          "id": 1031059905,
+          "full_name": "abhigyanpatwari/GitNexus",
+          "html_url": "https://github.com/abhigyanpatwari/GitNexus",
+          "description": "GitNexus: The Zero-Server Code Intelligence Engine ",
+          "homepage": "https://gitnexus.vercel.app",
+          "stargazers_count": 47882,
+          "forks_count": 5197,
+          "subscribers_count": 167,
+          "open_issues_count": 304,
+          "language": "TypeScript",
+          "license": {
+            "key": "other",
+            "name": "Other",
+            "spdx_id": "NOASSERTION",
+            "url": null,
+            "node_id": "MDc6TGljZW5zZTA="
+          },
+          "created_at": "2025-08-02T23:20:31Z",
+          "updated_at": "2026-10-14T19:58:33Z",
+          "pushed_at": "2026-10-14T14:06:27Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 106454,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "html_url": "https://github.com/abhigyanpatwari/GitNexus/commit/cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "committed_at": "2026-10-14T14:06:26Z",
+          "subject": "fix(mcp): reject corrupt query identities and refresh index metadata (#3571)"
+        },
+        "latest_release": {
+          "tag_name": "v1.6.12",
+          "name": "v1.6.12",
+          "html_url": "https://github.com/abhigyanpatwari/GitNexus/releases/tag/v1.6.12",
+          "published_at": "2026-09-12T21:40:04Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "license_reviewed": "PolyForm Noncommercial License 1.0.0",
+      "source_evidence": [
+        {
+          "repo": "abhigyanpatwari/GitNexus",
+          "commit": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "path": "gitnexus/src/core/tree-sitter/safe-parse.ts",
+          "lines": "L211-L249",
+          "local_path": "Research/repos/abhigyanpatwari/GitNexus/gitnexus/src/core/tree-sitter/safe-parse.ts",
+          "sha256": "724c55d7203c9821f232a1b7bb2b5ee4f578cf98f814cecf31eed5004da6e8a9",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/tree-sitter/safe-parse.ts#L211-L249",
+          "purpose": "parseSourceSafe"
+        },
+        {
+          "repo": "abhigyanpatwari/GitNexus",
+          "commit": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "path": "gitnexus/src/core/ingestion/pipeline.ts",
+          "lines": "L330-L365",
+          "local_path": "Research/repos/abhigyanpatwari/GitNexus/gitnexus/src/core/ingestion/pipeline.ts",
+          "sha256": "5b0d240bb09ad11136d3afd1336f3528c198e1b4a053d4167c65f188a18917ca",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/ingestion/pipeline.ts#L330-L365",
+          "purpose": "分析阶段注册"
+        },
+        {
+          "repo": "abhigyanpatwari/GitNexus",
+          "commit": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "path": "gitnexus/src/core/ingestion/process-processor.ts",
+          "lines": "L440-L679",
+          "local_path": "Research/repos/abhigyanpatwari/GitNexus/gitnexus/src/core/ingestion/process-processor.ts",
+          "sha256": "b649d4a550e379c89c7bc8e71762e5c85a18e0a417d0d061164b0230c3d643ac",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/ingestion/process-processor.ts#L440-L679",
+          "purpose": "process tracing 实现"
+        },
+        {
+          "repo": "abhigyanpatwari/GitNexus",
+          "commit": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "path": "gitnexus/src/core/wiki/llm-client.ts",
+          "lines": "L94-L140",
+          "local_path": "Research/repos/abhigyanpatwari/GitNexus/gitnexus/src/core/wiki/llm-client.ts",
+          "sha256": "c3fa5cede6623a0e382fe80205e1992d4e17c5f8c36fd0b780f7737bff33ba93",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/wiki/llm-client.ts#L94-L140",
+          "purpose": "wiki 模型配置"
+        },
+        {
+          "repo": "abhigyanpatwari/GitNexus",
+          "commit": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+          "path": "LICENSE",
+          "lines": "L1-L41",
+          "local_path": "Research/repos/abhigyanpatwari/GitNexus/LICENSE",
+          "sha256": "b3e617e5e5eea01b2e9153156c88706c14899e78b4a5d48b9fc14f4f10115c72",
+          "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/LICENSE#L1-L41",
+          "purpose": "PolyForm Noncommercial 1.0.0"
+        }
+      ],
+      "verification": {
+        "review_mode": "static source review only",
+        "project_code_executed": false,
+        "dependencies_installed": false,
+        "remote_model_or_service_called": false,
+        "git_worktree_clean": true,
+        "git_detached_head": true,
+        "git_shallow": true,
+        "origin": "https://github.com/abhigyanpatwari/GitNexus.git"
+      }
+    },
+    {
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "local_path": "Research/repos/AsyncFuncAI/deepwiki-open",
+      "status": "included_static_review_only",
+      "include_reason": "除wiki/RAG之外存在实际codemap两阶段生成、片段引用定位和Mermaid renderer，直接辅助问题驱动代码理解。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "AsyncFuncAI/deepwiki-open",
+        "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open",
+          "head_commit": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open/commits/main",
+          "latest_release": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open/releases/latest"
+        },
+        "repository": {
+          "id": 975318071,
+          "full_name": "AsyncFuncAI/deepwiki-open",
+          "html_url": "https://github.com/AsyncFuncAI/deepwiki-open",
+          "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
+          "homepage": "https://grok-wiki.com/",
+          "stargazers_count": 18197,
+          "forks_count": 2014,
+          "subscribers_count": 80,
+          "open_issues_count": 287,
+          "language": "Python",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2025-04-30T06:01:29Z",
+          "updated_at": "2026-10-14T18:42:50Z",
+          "pushed_at": "2026-09-03T20:29:26Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "ai",
+            "codex",
+            "gemini",
+            "github",
+            "grok-cli",
+            "ollama",
+            "open-source",
+            "openai",
+            "openrouter",
+            "self-hosted",
+            "wiki"
+          ],
+          "size": 4482,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "html_url": "https://github.com/AsyncFuncAI/deepwiki-open/commit/d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "committed_at": "2026-09-03T20:29:26Z",
+          "subject": "Add opt-in toggle for capturing prompts/responses in LiteLLM spend logs (#583)"
+        },
+        "latest_release": null
+      },
+      "license_reviewed": "MIT",
+      "source_evidence": [
+        {
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "path": "api/rag/pipeline.py",
+          "lines": "L230-L245",
+          "local_path": "Research/repos/AsyncFuncAI/deepwiki-open/api/rag/pipeline.py",
+          "sha256": "faf3966423f9c8bfd29975c431823afb1c83178288e1a602f7ce2f1ff44da770",
+          "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/rag/pipeline.py#L230-L245",
+          "purpose": "RAG 文档转换器"
+        },
+        {
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "path": "api/services/codemap.py",
+          "lines": "L224-L297",
+          "local_path": "Research/repos/AsyncFuncAI/deepwiki-open/api/services/codemap.py",
+          "sha256": "6472a8585d52a2d7c237e176375db1fb99f29dc24ad3957d486004681ed39cfe",
+          "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/services/codemap.py#L224-L297",
+          "purpose": "codemap 生成流程"
+        },
+        {
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "path": "api/services/codemap.py",
+          "lines": "L164-L208",
+          "local_path": "Research/repos/AsyncFuncAI/deepwiki-open/api/services/codemap.py",
+          "sha256": "6472a8585d52a2d7c237e176375db1fb99f29dc24ad3957d486004681ed39cfe",
+          "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/services/codemap.py#L164-L208",
+          "purpose": "引用定位"
+        },
+        {
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "path": "src/components/Mermaid.tsx",
+          "lines": "L356-L388",
+          "local_path": "Research/repos/AsyncFuncAI/deepwiki-open/src/components/Mermaid.tsx",
+          "sha256": "77f79b6eda6857043bf309b79c8adda30dd4db8bbc4abf5ec3e9a2e94ca3675f",
+          "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/src/components/Mermaid.tsx#L356-L388",
+          "purpose": "实际 Mermaid renderer"
+        },
+        {
+          "repo": "AsyncFuncAI/deepwiki-open",
+          "commit": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+          "path": "LICENSE",
+          "lines": "L1-L21",
+          "local_path": "Research/repos/AsyncFuncAI/deepwiki-open/LICENSE",
+          "sha256": "3c2f078eefdfddcaad30507416305733b9f7f5bcf083a3cd15d3e8aa9a90ca5f",
+          "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/LICENSE#L1-L21",
+          "purpose": "MIT"
+        }
+      ],
+      "verification": {
+        "review_mode": "static source review only",
+        "project_code_executed": false,
+        "dependencies_installed": false,
+        "remote_model_or_service_called": false,
+        "git_worktree_clean": true,
+        "git_detached_head": true,
+        "git_shallow": true,
+        "origin": "https://github.com/AsyncFuncAI/deepwiki-open.git"
+      }
+    },
+    {
+      "repository": "sverweij/dependency-cruiser",
+      "sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "local_path": "Research/repos/sverweij/dependency-cruiser",
+      "status": "included_static_review_only",
+      "include_reason": "不依赖LLM的JS/TS模块依赖提取、规则验证与图输出，补架构图可复核静态事实层。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "sverweij/dependency-cruiser",
+        "retrieved_at_utc": "2026-10-14T20:55:28+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/sverweij/dependency-cruiser",
+          "head_commit": "https://api.github.com/repos/sverweij/dependency-cruiser/commits/main",
+          "latest_release": "https://api.github.com/repos/sverweij/dependency-cruiser/releases/latest"
+        },
+        "repository": {
+          "id": 74299372,
+          "full_name": "sverweij/dependency-cruiser",
+          "html_url": "https://github.com/sverweij/dependency-cruiser",
+          "description": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD.",
+          "homepage": "https://npmjs.com/dependency-cruiser",
+          "stargazers_count": 7291,
+          "forks_count": 301,
+          "subscribers_count": 22,
+          "open_issues_count": 35,
+          "language": "JavaScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2016-11-20T20:05:37Z",
+          "updated_at": "2026-10-14T18:56:02Z",
+          "pushed_at": "2026-10-13T20:03:40Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "architecture-diagram",
+            "circular-dependencies",
+            "dependencies",
+            "dependency-analysis",
+            "dependency-cruiser",
+            "dependency-graph",
+            "javascript",
+            "jsx",
+            "static-analysis",
+            "tsx",
+            "typescript",
+            "vue"
+          ],
+          "size": 67565,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "html_url": "https://github.com/sverweij/dependency-cruiser/commit/c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "committed_at": "2026-10-13T20:03:37Z",
+          "subject": "fix(extract/swc): expands extensions swc can handle to all ts* variants (#1105)"
+        },
+        "latest_release": {
+          "tag_name": "v18.6.0",
+          "name": "",
+          "html_url": "https://github.com/sverweij/dependency-cruiser/releases/tag/v18.6.0",
+          "published_at": "2026-10-11T19:31:34Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "license_reviewed": "MIT",
+      "source_evidence": [
+        {
+          "repo": "sverweij/dependency-cruiser",
+          "commit": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "path": "src/extract/acorn/extract-es6-deps.mjs",
+          "lines": "L10-L66",
+          "local_path": "Research/repos/sverweij/dependency-cruiser/src/extract/acorn/extract-es6-deps.mjs",
+          "sha256": "ad0276f8892d4e1c0fd0e34a5afe5b4007f6ece37da464b5d276c7bd45798fc1",
+          "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/extract/acorn/extract-es6-deps.mjs#L10-L66",
+          "purpose": "ES module 依赖提取"
+        },
+        {
+          "repo": "sverweij/dependency-cruiser",
+          "commit": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "path": "src/main/cruise.mjs",
+          "lines": "L76-L108",
+          "local_path": "Research/repos/sverweij/dependency-cruiser/src/main/cruise.mjs",
+          "sha256": "dfa64203bbbfbdb0944062f02d3b977e2839283a451d075b7aa97968c8f667b7",
+          "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/main/cruise.mjs#L76-L108",
+          "purpose": "cruise 主流程"
+        },
+        {
+          "repo": "sverweij/dependency-cruiser",
+          "commit": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "path": "src/validate/index.mjs",
+          "lines": "L20-L101",
+          "local_path": "Research/repos/sverweij/dependency-cruiser/src/validate/index.mjs",
+          "sha256": "adf0ac519d25d7c5828f04a61e377c51801fc0d9a5c0db534de18a2d0fcf547e",
+          "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/validate/index.mjs#L20-L101",
+          "purpose": "规则验证器"
+        },
+        {
+          "repo": "sverweij/dependency-cruiser",
+          "commit": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "path": "src/report/mermaid.mjs",
+          "lines": "L158-L168",
+          "local_path": "Research/repos/sverweij/dependency-cruiser/src/report/mermaid.mjs",
+          "sha256": "a7d7997040ae07e866135213131082bd092fc0d74fd9be552cda026414f387fb",
+          "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/report/mermaid.mjs#L158-L168",
+          "purpose": "Mermaid reporter"
+        },
+        {
+          "repo": "sverweij/dependency-cruiser",
+          "commit": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+          "path": "LICENSE",
+          "lines": "L1-L21",
+          "local_path": "Research/repos/sverweij/dependency-cruiser/LICENSE",
+          "sha256": "046799de79c54f5366624ef97e3d5518afbefcd784a23aa74ef58d8f8bfcb2be",
+          "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/LICENSE#L1-L21",
+          "purpose": "MIT"
+        }
+      ],
+      "verification": {
+        "review_mode": "static source review only",
+        "project_code_executed": false,
+        "dependencies_installed": false,
+        "remote_model_or_service_called": false,
+        "git_worktree_clean": true,
+        "git_detached_head": true,
+        "git_shallow": true,
+        "origin": "https://github.com/sverweij/dependency-cruiser.git"
+      }
+    }
+  ],
+  "scope_notes": [
+    "Five independent implementations selected; no automatic Archify adapter was implemented or tested.",
+    "GitNexus is source-available under PolyForm Noncommercial 1.0.0, not classified as MIT.",
+    "glato/emerge and mindwalk/adrenaline remain adjacent unreviewed leads, not selected or source-validated.",
+    "Stars/Forks measure repository attention only; no runtime quality comparison was conducted."
+  ]
+}

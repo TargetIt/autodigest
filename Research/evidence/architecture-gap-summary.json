@@ -1,0 +1,182 @@
+[
+  {
+    "repository": "likec4/likec4",
+    "name": "LikeC4",
+    "category": "架构模型",
+    "function": "架构 DSL、共享模型、多视图、交互站点",
+    "boundary": "模型需维护；不能从 DSL 自动证明代码一致",
+    "note": "architecture-modeling-gaps.md",
+    "stars": 5875
+  },
+  {
+    "repository": "structurizr/structurizr",
+    "name": "Structurizr",
+    "category": "架构模型",
+    "function": "C4 模型、DSL、统一 CLI、本地浏览与导出",
+    "boundary": "使用当前主仓；旧仓归档，server 发行物有许可差异",
+    "note": "architecture-modeling-gaps.md",
+    "stars": 463
+  },
+  {
+    "repository": "plantuml-stdlib/C4-PlantUML",
+    "name": "C4-PlantUML",
+    "category": "架构模型",
+    "function": "为 PlantUML 增加 C4 的元素、边界与关系宏",
+    "boundary": "领域扩展；依赖 PlantUML，需固定递归 include 版本",
+    "note": "architecture-modeling-gaps.md",
+    "stars": 7433
+  },
+  {
+    "repository": "archimatetool/archi",
+    "name": "Archi",
+    "category": "架构模型",
+    "function": "ArchiMate 企业架构模型、共享实体、多视图、校验和报告",
+    "boundary": "不是 Archify；更适合业务/应用/技术的长期治理",
+    "note": "architecture-modeling-gaps.md",
+    "stars": 1286
+  },
+  {
+    "repository": "patrickchugh/terravision",
+    "name": "TerraVision",
+    "category": "基础设施",
+    "function": "Terraform 计划或云资源 JSON → 云架构图、draw.io、HTML",
+    "boundary": "部分路径运行 Terraform；图会合并和推断，非运行态扫描",
+    "note": "architecture-modeling-gaps.md",
+    "stars": 1655
+  },
+  {
+    "repository": "ahmedkhaleel2004/gitdiagram",
+    "name": "GitDiagram",
+    "category": "代码理解",
+    "function": "仓库源码采样 → 可点击架构概览与 Mermaid",
+    "boundary": "LLM 生成；有引用也不保证箭头正确",
+    "note": "codebase-architecture-gaps.md",
+    "stars": 18202
+  },
+  {
+    "repository": "CodeBoarding/CodeBoarding",
+    "name": "CodeBoarding",
+    "category": "代码理解",
+    "function": "静态符号/调用关系 + 模型语义分组 → 分层图文",
+    "boundary": "部分语义关系没有静态边支持，须分开标注",
+    "note": "codebase-architecture-gaps.md",
+    "stars": 2577
+  },
+  {
+    "repository": "abhigyanpatwari/GitNexus",
+    "name": "GitNexus",
+    "category": "代码理解",
+    "function": "代码知识图谱、候选调用路径、影响分析和 Agent 查询",
+    "boundary": "静态路径有截断；PolyForm Noncommercial 许可",
+    "note": "codebase-architecture-gaps.md",
+    "stars": 47882
+  },
+  {
+    "repository": "AsyncFuncAI/deepwiki-open",
+    "name": "DeepWiki-open",
+    "category": "代码理解",
+    "function": "检索增强的代码 wiki、问答、Mermaid 与问题驱动 codemap",
+    "boundary": "生成与 embedding 均需配置；引用不等于语义证明",
+    "note": "codebase-architecture-gaps.md",
+    "stars": 18197
+  },
+  {
+    "repository": "sverweij/dependency-cruiser",
+    "name": "dependency-cruiser",
+    "category": "代码理解",
+    "function": "JS/TS 模块依赖图、循环及架构规则检查，无需 LLM",
+    "boundary": "模块依赖不等于运行时调用或网络拓扑",
+    "note": "codebase-architecture-gaps.md",
+    "stars": 7291
+  },
+  {
+    "repository": "Agents365-ai/drawio-skill",
+    "name": "drawio-skill",
+    "category": "Agent 绘图",
+    "function": "源码导入、IR、多视图、增量同步与校验，产出原生 draw.io 图",
+    "boundary": "第三方 skill，与 jgraph 官方插件分别评估",
+    "note": "agent-diagram-gaps.md",
+    "stars": 10141
+  },
+  {
+    "repository": "yctimlin/mcp_excalidraw",
+    "name": "mcp_excalidraw",
+    "category": "Agent 绘图",
+    "function": "通过 MCP 操作 Excalidraw 画布、同步和导出",
+    "boundary": "第三方服务；与 Excalidraw 官方 MCP App 接入方式不同",
+    "note": "agent-diagram-gaps.md",
+    "stars": 2538
+  },
+  {
+    "repository": "lukilabs/beautiful-mermaid",
+    "name": "Beautiful Mermaid",
+    "category": "绘图渲染",
+    "function": "Mermaid 子集 → 可主题化 SVG / 文本图",
+    "boundary": "独立实现，不能视为完整 Mermaid 的等价替换",
+    "note": "agent-diagram-gaps.md",
+    "stars": 11194
+  },
+  {
+    "repository": "plait-board/drawnix",
+    "name": "Drawnix",
+    "category": "手工画图",
+    "function": "思维导图、流程图、自由画的一体化可编辑白板",
+    "boundary": "适合人工整理；模型语义与自动架构事实另行核对",
+    "note": "agent-diagram-gaps.md",
+    "stars": 14941
+  },
+  {
+    "repository": "awslabs/diagram-as-code",
+    "name": "AWS Diagram as Code",
+    "category": "云架构绘图",
+    "function": "用 YAML 声明 AWS 资源与布局，生成架构图",
+    "boundary": "负责渲染已写入的资源关系，不自动发现真实部署",
+    "note": "agent-diagram-gaps.md",
+    "stars": 1587
+  },
+  {
+    "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+    "name": "AWS 架构图 MCP 样例",
+    "category": "云架构绘图",
+    "function": "交互 HTML、引导讲解、ELK 自动布局和 draw.io 输出",
+    "boundary": "样例不等于托管产品或服务保障；关注度低仍保留来源",
+    "note": "agent-diagram-gaps.md",
+    "stars": 7
+  },
+  {
+    "repository": "drawdb-io/drawdb",
+    "name": "drawDB",
+    "category": "数据库 ERD",
+    "function": "可视编辑表/字段/关系、SQL 导入导出、迁移脚本",
+    "boundary": "AI 导入是可注入扩展；普通开源构建不保证带模型服务",
+    "note": "database-and-canvas-gaps.md",
+    "stars": 40016
+  },
+  {
+    "repository": "chartdb/chartdb",
+    "name": "ChartDB",
+    "category": "数据库 ERD",
+    "function": "数据库元数据查询 → 可编辑 ERD 与 SQL",
+    "boundary": "同方言和部分跨方言可本地转换，其他路径可用 AI",
+    "note": "database-and-canvas-gaps.md",
+    "stars": 22996
+  },
+  {
+    "repository": "liam-hq/liam",
+    "name": "Liam ERD",
+    "category": "数据库 ERD",
+    "function": "schema → ELK 布局的交互 ERD，可构建文档站点",
+    "boundary": "格式有差异；静态目录需 HTTP 服务，非单文件 HTML",
+    "note": "database-and-canvas-gaps.md",
+    "stars": 5138
+  },
+  {
+    "repository": "toeverything/AFFiNE",
+    "name": "AFFiNE",
+    "category": "知识画布",
+    "function": "文档、无限画布和思维导图组成知识工作区",
+    "boundary": "完整应用；许可按目录/发行物区分，非全仓 MIT",
+    "note": "database-and-canvas-gaps.md",
+    "stars": 73505
+  }
+]

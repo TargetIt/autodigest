@@ -2236,6 +2236,1229 @@
         "prerelease": false,
         "draft": false
       }
+    },
+    {
+      "requested_slug": "likec4/likec4",
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/likec4/likec4",
+        "head_commit": "https://api.github.com/repos/likec4/likec4/commits/main",
+        "latest_release": "https://api.github.com/repos/likec4/likec4/releases/latest"
+      },
+      "repository": {
+        "id": 618351200,
+        "full_name": "likec4/likec4",
+        "html_url": "https://github.com/likec4/likec4",
+        "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+        "homepage": "https://likec4.dev",
+        "stargazers_count": 5875,
+        "forks_count": 400,
+        "subscribers_count": 26,
+        "open_issues_count": 198,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2023-03-24T09:30:34Z",
+        "updated_at": "2026-10-14T17:18:16Z",
+        "pushed_at": "2026-10-14T09:32:53Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "architecture",
+          "architecture-as-code",
+          "c4",
+          "diagrams"
+        ],
+        "size": 243663,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "5385c577042988691f66cd82e65d60d13121d468",
+        "html_url": "https://github.com/likec4/likec4/commit/5385c577042988691f66cd82e65d60d13121d468",
+        "committed_at": "2026-10-13T11:56:22Z",
+        "subject": "clean prev artifacts"
+      },
+      "latest_release": {
+        "tag_name": "v1.59.4",
+        "name": "v1.59.4",
+        "html_url": "https://github.com/likec4/likec4/releases/tag/v1.59.4",
+        "published_at": "2026-09-21T22:39:56Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "structurizr/structurizr",
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/structurizr/structurizr",
+        "head_commit": "https://api.github.com/repos/structurizr/structurizr/commits/main",
+        "latest_release": "https://api.github.com/repos/structurizr/structurizr/releases/latest"
+      },
+      "repository": {
+        "id": 1106797061,
+        "full_name": "structurizr/structurizr",
+        "html_url": "https://github.com/structurizr/structurizr",
+        "description": "Structurizr is a \"models as code\" tool designed for the C4 model.",
+        "homepage": "https://docs.structurizr.com",
+        "stargazers_count": 463,
+        "forks_count": 68,
+        "subscribers_count": 3,
+        "open_issues_count": 3,
+        "language": "Java",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2025-11-30T00:39:23Z",
+        "updated_at": "2026-10-14T14:56:41Z",
+        "pushed_at": "2026-10-05T07:29:17Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "ai",
+          "c4model",
+          "mcp-server",
+          "software-architecture",
+          "structurizr"
+        ],
+        "size": 28465,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+        "html_url": "https://github.com/structurizr/structurizr/commit/da99caf2f2857e5373f7b58569152274f1725ba3",
+        "committed_at": "2026-10-05T07:29:15Z",
+        "subject": "re #131."
+      },
+      "latest_release": {
+        "tag_name": "v2026.09.19",
+        "name": "2026.09.19",
+        "html_url": "https://github.com/structurizr/structurizr/releases/tag/v2026.09.19",
+        "published_at": "2026-09-19T15:33:30Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "plantuml-stdlib/C4-PlantUML",
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML",
+        "head_commit": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML/commits/master",
+        "latest_release": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML/releases/latest"
+      },
+      "repository": {
+        "id": 147545986,
+        "full_name": "plantuml-stdlib/C4-PlantUML",
+        "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML",
+        "description": "C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures",
+        "homepage": "",
+        "stargazers_count": 7433,
+        "forks_count": 1170,
+        "subscribers_count": 105,
+        "open_issues_count": 0,
+        "language": "PlantUML",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2018-09-05T16:12:47Z",
+        "updated_at": "2026-10-13T20:52:31Z",
+        "pushed_at": "2026-10-13T09:44:08Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "architecture",
+          "c4",
+          "c4model",
+          "diagram",
+          "graphviz",
+          "plantuml",
+          "uml"
+        ],
+        "size": 8211,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+        "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML/commit/f998c46833daac592f3283ff08d7b8cd7e1558fb",
+        "committed_at": "2026-08-26T14:58:24Z",
+        "subject": "Merge pull request #421 from plantuml-stdlib/start-v2.15.0-beta1"
+      },
+      "latest_release": {
+        "tag_name": "v2.14.0",
+        "name": "Release v2.14.0",
+        "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML/releases/tag/v2.14.0",
+        "published_at": "2026-08-26T14:32:25Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "archimatetool/archi",
+      "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/archimatetool/archi",
+        "head_commit": "https://api.github.com/repos/archimatetool/archi/commits/master",
+        "latest_release": "https://api.github.com/repos/archimatetool/archi/releases/latest"
+      },
+      "repository": {
+        "id": 1547663,
+        "full_name": "archimatetool/archi",
+        "html_url": "https://github.com/archimatetool/archi",
+        "description": "Archi: ArchiMate Modelling Tool",
+        "homepage": "https://www.archimatetool.com",
+        "stargazers_count": 1286,
+        "forks_count": 344,
+        "subscribers_count": 85,
+        "open_issues_count": 199,
+        "language": "Java",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2011-03-30T19:18:13Z",
+        "updated_at": "2026-10-08T02:15:07Z",
+        "pushed_at": "2026-10-07T11:48:16Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "master",
+        "topics": [
+          "archimate",
+          "archimatetool"
+        ],
+        "size": 197294,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+        "html_url": "https://github.com/archimatetool/archi/commit/fbfa4474c414477ce88257c956999fb9efdf9e69",
+        "committed_at": "2026-10-02T15:54:38Z",
+        "subject": "Set default image upscale preference to true and rename helper method"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "patrickchugh/terravision",
+      "retrieved_at_utc": "2026-10-14T20:55:38+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/patrickchugh/terravision",
+        "head_commit": "https://api.github.com/repos/patrickchugh/terravision/commits/main",
+        "latest_release": "https://api.github.com/repos/patrickchugh/terravision/releases/latest"
+      },
+      "repository": {
+        "id": 469272572,
+        "full_name": "patrickchugh/terravision",
+        "html_url": "https://github.com/patrickchugh/terravision",
+        "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
+        "homepage": "https://patrickchugh.github.io/terravision/",
+        "stargazers_count": 1655,
+        "forks_count": 175,
+        "subscribers_count": 18,
+        "open_issues_count": 4,
+        "language": "Python",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2022-03-13T04:47:49Z",
+        "updated_at": "2026-10-14T17:31:42Z",
+        "pushed_at": "2026-10-06T20:54:54Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "agent-skill",
+          "architecture-diagram",
+          "architecture-diagram-generator",
+          "aws",
+          "azure",
+          "chatgpt",
+          "claude",
+          "cloud-architecture",
+          "cloud-architecture-diagram",
+          "codex",
+          "diagrams-as-code",
+          "docs-as-code",
+          "drawio",
+          "gcp",
+          "infrastructure-as-code",
+          "llm-tools",
+          "mcp",
+          "mcp-server",
+          "terraform",
+          "text-to-diagram"
+        ],
+        "size": 100360,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+        "html_url": "https://github.com/patrickchugh/terravision/commit/7abacaab1483ccdcd4e59470b0097d23d9a05955",
+        "committed_at": "2026-10-06T20:54:34Z",
+        "subject": "docs: Terraform-from-a-diagram row follows the idea row"
+      },
+      "latest_release": {
+        "tag_name": "v0.52.0",
+        "name": "v0.52.0",
+        "html_url": "https://github.com/patrickchugh/terravision/releases/tag/v0.52.0",
+        "published_at": "2026-10-02T20:36:24Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "ahmedkhaleel2004/gitdiagram",
+      "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram",
+        "head_commit": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram/commits/main",
+        "latest_release": "https://api.github.com/repos/ahmedkhaleel2004/gitdiagram/releases/latest"
+      },
+      "repository": {
+        "id": 903700733,
+        "full_name": "ahmedkhaleel2004/gitdiagram",
+        "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+        "description": "Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' with 'diagram' in any GitHub URL.",
+        "homepage": "https://gitdiagram.com",
+        "stargazers_count": 18202,
+        "forks_count": 1403,
+        "subscribers_count": 62,
+        "open_issues_count": 47,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2024-12-15T10:32:03Z",
+        "updated_at": "2026-10-14T20:50:11Z",
+        "pushed_at": "2026-10-14T01:20:21Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "ai",
+          "architecture-diagram",
+          "code",
+          "code-visualization",
+          "codebase-visualization",
+          "developer-tools",
+          "diagram-generator",
+          "gemini-cli-extension",
+          "github",
+          "llm",
+          "mermaid",
+          "nextjs",
+          "repository-visualization",
+          "software-architecture",
+          "system-design",
+          "video"
+        ],
+        "size": 14690,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+        "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram/commit/310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+        "committed_at": "2026-10-14T01:20:09Z",
+        "subject": "Sponsors: a booking can buy a labelled line in the Markdown pages agents read"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "CodeBoarding/CodeBoarding",
+      "retrieved_at_utc": "2026-10-14T20:53:23+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/CodeBoarding/CodeBoarding",
+        "head_commit": "https://api.github.com/repos/CodeBoarding/CodeBoarding/commits/main",
+        "latest_release": "https://api.github.com/repos/CodeBoarding/CodeBoarding/releases/latest"
+      },
+      "repository": {
+        "id": 962871560,
+        "full_name": "CodeBoarding/CodeBoarding",
+        "html_url": "https://github.com/CodeBoarding/CodeBoarding",
+        "description": "Interactive architecture diagrams for codebases",
+        "homepage": "https://www.codeboarding.org",
+        "stargazers_count": 2577,
+        "forks_count": 213,
+        "subscribers_count": 11,
+        "open_issues_count": 55,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2025-04-08T19:57:56Z",
+        "updated_at": "2026-10-14T18:36:49Z",
+        "pushed_at": "2026-10-14T15:22:52Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "agents",
+          "aiagentic",
+          "code-visualization",
+          "code-visualization-tool",
+          "codedocs",
+          "codedocumentator",
+          "diagrams-as-code",
+          "explainability",
+          "golang",
+          "hacktoberfest",
+          "language-server-client",
+          "language-server-protocol",
+          "llms",
+          "lsp",
+          "lsp-client",
+          "python3",
+          "static-analysis",
+          "typescipt",
+          "typescript",
+          "visualization"
+        ],
+        "size": 107092,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "57ac725575a82562a27e1b12302afaa337232b23",
+        "html_url": "https://github.com/CodeBoarding/CodeBoarding/commit/57ac725575a82562a27e1b12302afaa337232b23",
+        "committed_at": "2026-10-11T11:24:05Z",
+        "subject": "chore(codeboarding): sync analysis baseline"
+      },
+      "latest_release": {
+        "tag_name": "v0.14.2",
+        "name": "Release v0.14.2",
+        "html_url": "https://github.com/CodeBoarding/CodeBoarding/releases/tag/v0.14.2",
+        "published_at": "2026-09-16T20:57:41Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "abhigyanpatwari/GitNexus",
+      "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/abhigyanpatwari/GitNexus",
+        "head_commit": "https://api.github.com/repos/abhigyanpatwari/GitNexus/commits/main",
+        "latest_release": "https://api.github.com/repos/abhigyanpatwari/GitNexus/releases/latest"
+      },
+      "repository": {
+        "id": 1031059905,
+        "full_name": "abhigyanpatwari/GitNexus",
+        "html_url": "https://github.com/abhigyanpatwari/GitNexus",
+        "description": "GitNexus: The Zero-Server Code Intelligence Engine ",
+        "homepage": "https://gitnexus.vercel.app",
+        "stargazers_count": 47882,
+        "forks_count": 5197,
+        "subscribers_count": 167,
+        "open_issues_count": 304,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2025-08-02T23:20:31Z",
+        "updated_at": "2026-10-14T19:58:33Z",
+        "pushed_at": "2026-10-14T14:06:27Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 106454,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+        "html_url": "https://github.com/abhigyanpatwari/GitNexus/commit/cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+        "committed_at": "2026-10-14T14:06:26Z",
+        "subject": "fix(mcp): reject corrupt query identities and refresh index metadata (#3571)"
+      },
+      "latest_release": {
+        "tag_name": "v1.6.12",
+        "name": "v1.6.12",
+        "html_url": "https://github.com/abhigyanpatwari/GitNexus/releases/tag/v1.6.12",
+        "published_at": "2026-09-12T21:40:04Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "AsyncFuncAI/deepwiki-open",
+      "retrieved_at_utc": "2026-10-14T20:53:28+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open",
+        "head_commit": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open/commits/main",
+        "latest_release": "https://api.github.com/repos/AsyncFuncAI/deepwiki-open/releases/latest"
+      },
+      "repository": {
+        "id": 975318071,
+        "full_name": "AsyncFuncAI/deepwiki-open",
+        "html_url": "https://github.com/AsyncFuncAI/deepwiki-open",
+        "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
+        "homepage": "https://grok-wiki.com/",
+        "stargazers_count": 18197,
+        "forks_count": 2014,
+        "subscribers_count": 80,
+        "open_issues_count": 287,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2025-04-30T06:01:29Z",
+        "updated_at": "2026-10-14T18:42:50Z",
+        "pushed_at": "2026-09-03T20:29:26Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "ai",
+          "codex",
+          "gemini",
+          "github",
+          "grok-cli",
+          "ollama",
+          "open-source",
+          "openai",
+          "openrouter",
+          "self-hosted",
+          "wiki"
+        ],
+        "size": 4482,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+        "html_url": "https://github.com/AsyncFuncAI/deepwiki-open/commit/d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+        "committed_at": "2026-09-03T20:29:26Z",
+        "subject": "Add opt-in toggle for capturing prompts/responses in LiteLLM spend logs (#583)"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "sverweij/dependency-cruiser",
+      "retrieved_at_utc": "2026-10-14T20:55:28+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/sverweij/dependency-cruiser",
+        "head_commit": "https://api.github.com/repos/sverweij/dependency-cruiser/commits/main",
+        "latest_release": "https://api.github.com/repos/sverweij/dependency-cruiser/releases/latest"
+      },
+      "repository": {
+        "id": 74299372,
+        "full_name": "sverweij/dependency-cruiser",
+        "html_url": "https://github.com/sverweij/dependency-cruiser",
+        "description": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD.",
+        "homepage": "https://npmjs.com/dependency-cruiser",
+        "stargazers_count": 7291,
+        "forks_count": 301,
+        "subscribers_count": 22,
+        "open_issues_count": 35,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2016-11-20T20:05:37Z",
+        "updated_at": "2026-10-14T18:56:02Z",
+        "pushed_at": "2026-10-13T20:03:40Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "architecture-diagram",
+          "circular-dependencies",
+          "dependencies",
+          "dependency-analysis",
+          "dependency-cruiser",
+          "dependency-graph",
+          "javascript",
+          "jsx",
+          "static-analysis",
+          "tsx",
+          "typescript",
+          "vue"
+        ],
+        "size": 67565,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+        "html_url": "https://github.com/sverweij/dependency-cruiser/commit/c580daf6477aa5619bacad9c9091c9b7cc81882d",
+        "committed_at": "2026-10-13T20:03:37Z",
+        "subject": "fix(extract/swc): expands extensions swc can handle to all ts* variants (#1105)"
+      },
+      "latest_release": {
+        "tag_name": "v18.6.0",
+        "name": "",
+        "html_url": "https://github.com/sverweij/dependency-cruiser/releases/tag/v18.6.0",
+        "published_at": "2026-10-11T19:31:34Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "Agents365-ai/drawio-skill",
+      "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/Agents365-ai/drawio-skill",
+        "head_commit": "https://api.github.com/repos/Agents365-ai/drawio-skill/commits/main",
+        "latest_release": "https://api.github.com/repos/Agents365-ai/drawio-skill/releases/latest"
+      },
+      "repository": {
+        "id": 1171833693,
+        "full_name": "Agents365-ai/drawio-skill",
+        "html_url": "https://github.com/Agents365-ai/drawio-skill",
+        "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+        "homepage": "https://agents365-ai.github.io/drawio-skill/",
+        "stargazers_count": 10141,
+        "forks_count": 723,
+        "subscribers_count": 27,
+        "open_issues_count": 0,
+        "language": "Python",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-03-03T16:54:59Z",
+        "updated_at": "2026-10-14T19:55:08Z",
+        "pushed_at": "2026-10-11T11:22:56Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "agent-skills",
+          "architecture",
+          "architecture-diagram",
+          "asyncapi",
+          "bpmn",
+          "c4-model",
+          "claude-code",
+          "diagram",
+          "diagrams-as-code",
+          "drawio",
+          "flowchart",
+          "github-actions",
+          "graphql",
+          "image-to-diagram",
+          "kubernetes",
+          "mcp-server",
+          "protobuf",
+          "sysml",
+          "terraform",
+          "uml"
+        ],
+        "size": 6665,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+        "html_url": "https://github.com/Agents365-ai/drawio-skill/commit/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+        "committed_at": "2026-10-11T11:22:53Z",
+        "subject": "docs: correct skill installation layout and update commands (#139)"
+      },
+      "latest_release": {
+        "tag_name": "v3.4.2",
+        "name": "v3.4.2",
+        "html_url": "https://github.com/Agents365-ai/drawio-skill/releases/tag/v3.4.2",
+        "published_at": "2026-10-11T10:08:11Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "yctimlin/mcp_excalidraw",
+      "retrieved_at_utc": "2026-10-14T20:55:24+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/yctimlin/mcp_excalidraw",
+        "head_commit": "https://api.github.com/repos/yctimlin/mcp_excalidraw/commits/main",
+        "latest_release": "https://api.github.com/repos/yctimlin/mcp_excalidraw/releases/latest"
+      },
+      "repository": {
+        "id": 949382051,
+        "full_name": "yctimlin/mcp_excalidraw",
+        "html_url": "https://github.com/yctimlin/mcp_excalidraw",
+        "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+        "homepage": "https://mcp-excalidraw-landing.vercel.app/",
+        "stargazers_count": 2538,
+        "forks_count": 285,
+        "subscribers_count": 13,
+        "open_issues_count": 36,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2025-03-16T10:34:34Z",
+        "updated_at": "2026-10-14T16:23:43Z",
+        "pushed_at": "2026-10-09T16:46:29Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 3742,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+        "html_url": "https://github.com/yctimlin/mcp_excalidraw/commit/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+        "committed_at": "2026-10-09T16:46:29Z",
+        "subject": "perf(docker): shrink MCP and canvas images by ~70-80% (#112)"
+      },
+      "latest_release": {
+        "tag_name": "v2.1.2",
+        "name": "v2.1.2",
+        "html_url": "https://github.com/yctimlin/mcp_excalidraw/releases/tag/v2.1.2",
+        "published_at": "2026-10-04T06:51:34Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "lukilabs/beautiful-mermaid",
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/lukilabs/beautiful-mermaid",
+        "head_commit": "https://api.github.com/repos/lukilabs/beautiful-mermaid/commits/main",
+        "latest_release": "https://api.github.com/repos/lukilabs/beautiful-mermaid/releases/latest"
+      },
+      "repository": {
+        "id": 1144386801,
+        "full_name": "lukilabs/beautiful-mermaid",
+        "html_url": "https://github.com/lukilabs/beautiful-mermaid",
+        "description": null,
+        "homepage": null,
+        "stargazers_count": 11194,
+        "forks_count": 410,
+        "subscribers_count": 29,
+        "open_issues_count": 95,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2026-01-28T16:31:46Z",
+        "updated_at": "2026-10-14T19:51:13Z",
+        "pushed_at": "2026-05-06T10:53:19Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 1901,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+        "html_url": "https://github.com/lukilabs/beautiful-mermaid/commit/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+        "committed_at": "2026-05-06T10:53:19Z",
+        "subject": "Merge pull request #106 from lukilabs/fix/editor-link-script-regex"
+      },
+      "latest_release": {
+        "tag_name": "v1.1.2",
+        "name": "v1.1.2",
+        "html_url": "https://github.com/lukilabs/beautiful-mermaid/releases/tag/v1.1.2",
+        "published_at": "2026-02-26T14:05:31Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "plait-board/drawnix",
+      "retrieved_at_utc": "2026-10-14T20:53:57+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/plait-board/drawnix",
+        "head_commit": "https://api.github.com/repos/plait-board/drawnix/commits/develop",
+        "latest_release": "https://api.github.com/repos/plait-board/drawnix/releases/latest"
+      },
+      "repository": {
+        "id": 810364325,
+        "full_name": "plait-board/drawnix",
+        "html_url": "https://github.com/plait-board/drawnix",
+        "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
+        "homepage": "https://drawnix.com",
+        "stargazers_count": 14941,
+        "forks_count": 1298,
+        "subscribers_count": 58,
+        "open_issues_count": 33,
+        "language": "TypeScript",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "created_at": "2024-06-04T14:49:58Z",
+        "updated_at": "2026-10-14T12:06:05Z",
+        "pushed_at": "2026-09-08T03:15:08Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "develop",
+        "topics": [
+          "collaboration",
+          "drawing",
+          "flowchart",
+          "localfirst",
+          "mind-map",
+          "mindmap",
+          "productivity",
+          "whiteboard"
+        ],
+        "size": 1949,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+        "html_url": "https://github.com/plait-board/drawnix/commit/b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+        "committed_at": "2026-09-07T13:39:55Z",
+        "subject": "test(drawnix): add shared testing board fixture (#468)"
+      },
+      "latest_release": {
+        "tag_name": "v0.4.0",
+        "name": "v0.4.0 is now live ! 🚀",
+        "html_url": "https://github.com/plait-board/drawnix/releases/tag/v0.4.0",
+        "published_at": "2026-04-19T13:29:06Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "awslabs/diagram-as-code",
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/awslabs/diagram-as-code",
+        "head_commit": "https://api.github.com/repos/awslabs/diagram-as-code/commits/main",
+        "latest_release": "https://api.github.com/repos/awslabs/diagram-as-code/releases/latest"
+      },
+      "repository": {
+        "id": 760955460,
+        "full_name": "awslabs/diagram-as-code",
+        "html_url": "https://github.com/awslabs/diagram-as-code",
+        "description": "Diagram-as-code for AWS architecture.",
+        "homepage": "",
+        "stargazers_count": 1587,
+        "forks_count": 106,
+        "subscribers_count": 16,
+        "open_issues_count": 38,
+        "language": "Go",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2024-02-21T00:57:40Z",
+        "updated_at": "2026-10-14T16:25:37Z",
+        "pushed_at": "2026-09-16T04:58:20Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "aws",
+          "diagram-as-code"
+        ],
+        "size": 11369,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+        "html_url": "https://github.com/awslabs/diagram-as-code/commit/4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+        "committed_at": "2026-09-16T04:58:20Z",
+        "subject": "Merge pull request #299 from annaveretennykova/fix-examples-readme"
+      },
+      "latest_release": {
+        "tag_name": "v0.24",
+        "name": "v0.24",
+        "html_url": "https://github.com/awslabs/diagram-as-code/releases/tag/v0.24",
+        "published_at": "2026-08-26T07:42:16Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "aws-samples/sample-architecture-diagram-mcp-server",
+      "retrieved_at_utc": "2026-10-14T20:53:52+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server",
+        "head_commit": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server/commits/main",
+        "latest_release": "https://api.github.com/repos/aws-samples/sample-architecture-diagram-mcp-server/releases/latest"
+      },
+      "repository": {
+        "id": 1308138495,
+        "full_name": "aws-samples/sample-architecture-diagram-mcp-server",
+        "html_url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+        "description": null,
+        "homepage": null,
+        "stargazers_count": 7,
+        "forks_count": 1,
+        "subscribers_count": 0,
+        "open_issues_count": 0,
+        "language": "JavaScript",
+        "license": {
+          "key": "mit-0",
+          "name": "MIT No Attribution",
+          "spdx_id": "MIT-0",
+          "url": "https://api.github.com/licenses/mit-0",
+          "node_id": "MDc6TGljZW5zZTQx"
+        },
+        "created_at": "2026-07-21T21:32:02Z",
+        "updated_at": "2026-10-07T18:07:02Z",
+        "pushed_at": "2026-09-30T04:44:57Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [],
+        "size": 9753,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+        "html_url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/commit/c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+        "committed_at": "2026-09-28T17:33:03Z",
+        "subject": "fix: clear the 26 dependency advisories on the default branch"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "drawdb-io/drawdb",
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/drawdb-io/drawdb",
+        "head_commit": "https://api.github.com/repos/drawdb-io/drawdb/commits/main",
+        "latest_release": "https://api.github.com/repos/drawdb-io/drawdb/releases/latest"
+      },
+      "repository": {
+        "id": 667110339,
+        "full_name": "drawdb-io/drawdb",
+        "html_url": "https://github.com/drawdb-io/drawdb",
+        "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+        "homepage": "https://drawdb.app",
+        "stargazers_count": 40016,
+        "forks_count": 3311,
+        "subscribers_count": 149,
+        "open_issues_count": 242,
+        "language": "JavaScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2023-07-16T17:09:20Z",
+        "updated_at": "2026-10-14T20:39:19Z",
+        "pushed_at": "2026-10-12T17:07:07Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "database",
+          "database-design",
+          "database-diagram",
+          "database-schema",
+          "dbml",
+          "diagram-editor",
+          "editor",
+          "er-diagram",
+          "erd",
+          "erdiagram",
+          "indexeddb",
+          "mariadb",
+          "mcp",
+          "oracle-database",
+          "oracle-db",
+          "postgresql",
+          "schema-design",
+          "sql",
+          "sql-server",
+          "sqlite"
+        ],
+        "size": 7915,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+        "html_url": "https://github.com/drawdb-io/drawdb/commit/f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+        "committed_at": "2026-10-12T17:07:07Z",
+        "subject": "Add SQL headers tab (#1169)"
+      },
+      "latest_release": null
+    },
+    {
+      "requested_slug": "chartdb/chartdb",
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/chartdb/chartdb",
+        "head_commit": "https://api.github.com/repos/chartdb/chartdb/commits/main",
+        "latest_release": "https://api.github.com/repos/chartdb/chartdb/releases/latest"
+      },
+      "repository": {
+        "id": 838212912,
+        "full_name": "chartdb/chartdb",
+        "html_url": "https://github.com/chartdb/chartdb",
+        "description": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+        "homepage": "https://chartdb.io",
+        "stargazers_count": 22996,
+        "forks_count": 1501,
+        "subscribers_count": 89,
+        "open_issues_count": 174,
+        "language": "TypeScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2024-08-05T07:19:19Z",
+        "updated_at": "2026-10-14T19:40:44Z",
+        "pushed_at": "2026-09-13T08:43:19Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "database",
+          "db",
+          "db-migration",
+          "editor",
+          "erd",
+          "mariadb",
+          "mssql",
+          "mysql",
+          "postgresql",
+          "react",
+          "react-flow",
+          "schema-migrations",
+          "sql",
+          "sqlite",
+          "typescript",
+          "visualization",
+          "xyflow"
+        ],
+        "size": 67883,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+        "html_url": "https://github.com/chartdb/chartdb/commit/c24936a402bb3e24b4858f05282d69a04fcfe25b",
+        "committed_at": "2026-04-11T13:54:02Z",
+        "subject": "feat: add move-to-area and auto-arrange-area context menu options (#1120)"
+      },
+      "latest_release": {
+        "tag_name": "v1.20.1",
+        "name": "v1.20.1",
+        "html_url": "https://github.com/chartdb/chartdb/releases/tag/v1.20.1",
+        "published_at": "2026-04-07T14:40:49Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "liam-hq/liam",
+      "retrieved_at_utc": "2026-10-14T20:55:59+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/liam-hq/liam",
+        "head_commit": "https://api.github.com/repos/liam-hq/liam/commits/main",
+        "latest_release": "https://api.github.com/repos/liam-hq/liam/releases/latest"
+      },
+      "repository": {
+        "id": 839216423,
+        "full_name": "liam-hq/liam",
+        "html_url": "https://github.com/liam-hq/liam",
+        "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+        "homepage": "https://liambx.com",
+        "stargazers_count": 5138,
+        "forks_count": 241,
+        "subscribers_count": 18,
+        "open_issues_count": 26,
+        "language": "TypeScript",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        },
+        "created_at": "2024-08-07T07:11:45Z",
+        "updated_at": "2026-10-13T22:54:34Z",
+        "pushed_at": "2026-10-14T17:55:14Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "data-visualization",
+          "database",
+          "database-schema",
+          "documentation",
+          "documentation-tool",
+          "entity-relationship-diagram",
+          "er-diagram",
+          "erd",
+          "nodejs",
+          "orm",
+          "postgresql",
+          "prisma",
+          "react-flow",
+          "reactjs",
+          "ruby-on-rails",
+          "sql",
+          "tbls",
+          "typescript",
+          "visualization",
+          "webassembly"
+        ],
+        "size": 150515,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+        "html_url": "https://github.com/liam-hq/liam/commit/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+        "committed_at": "2026-10-13T22:49:04Z",
+        "subject": "Merge pull request #4140 from liam-hq/renovate/npm-modelcontextprotocol-sdk-vulnerability"
+      },
+      "latest_release": {
+        "tag_name": "@liam-hq/cli@0.7.24",
+        "name": "@liam-hq/cli@0.7.24",
+        "html_url": "https://github.com/liam-hq/liam/releases/tag/%40liam-hq/cli%400.7.24",
+        "published_at": "2025-11-25T02:37:34Z",
+        "prerelease": false,
+        "draft": false
+      }
+    },
+    {
+      "requested_slug": "toeverything/AFFiNE",
+      "retrieved_at_utc": "2026-10-14T20:55:57+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/toeverything/AFFiNE",
+        "head_commit": "https://api.github.com/repos/toeverything/AFFiNE/commits/canary",
+        "latest_release": "https://api.github.com/repos/toeverything/AFFiNE/releases/latest"
+      },
+      "repository": {
+        "id": 519859998,
+        "full_name": "toeverything/AFFiNE",
+        "html_url": "https://github.com/toeverything/AFFiNE",
+        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "homepage": "https://affine.pro",
+        "stargazers_count": 73505,
+        "forks_count": 5358,
+        "subscribers_count": 297,
+        "open_issues_count": 772,
+        "language": "TypeScript",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "created_at": "2022-07-31T18:45:21Z",
+        "updated_at": "2026-10-14T19:49:23Z",
+        "pushed_at": "2026-10-12T09:51:10Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "canary",
+        "topics": [
+          "app",
+          "crdt",
+          "editor",
+          "electron",
+          "knowledge-base",
+          "markdown",
+          "miro",
+          "notes",
+          "notion",
+          "notion-alternative",
+          "rust",
+          "rust-lang",
+          "rust-language",
+          "table",
+          "tableview",
+          "whiteboard",
+          "wiki",
+          "workspace"
+        ],
+        "size": 454981,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+        "html_url": "https://github.com/toeverything/AFFiNE/commit/0b69a6da21e8fd35beb85667bb8496d9b3852238",
+        "committed_at": "2026-10-11T14:49:18Z",
+        "subject": "fix(server): blob sync timing (#15704)"
+      },
+      "latest_release": {
+        "tag_name": "v0.27.4",
+        "name": "0.27.4",
+        "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+        "published_at": "2026-08-18T16:51:39Z",
+        "prerelease": false,
+        "draft": false
+      }
     }
   ],
   "incremental_collections": [
@@ -2243,6 +3466,33 @@
       "repository": "tt-a1i/archify",
       "retrieved_at_utc": "2026-10-14T20:41:13+00:00",
       "note": "Archify added after the original 39-repository batch; previous records and star snapshots were preserved."
+    },
+    {
+      "collection_started_at_utc": "2026-10-14T20:53:23+00:00",
+      "collection_finished_at_utc": "2026-10-14T20:55:59+00:00",
+      "repositories": [
+        "likec4/likec4",
+        "structurizr/structurizr",
+        "plantuml-stdlib/C4-PlantUML",
+        "archimatetool/archi",
+        "patrickchugh/terravision",
+        "ahmedkhaleel2004/gitdiagram",
+        "CodeBoarding/CodeBoarding",
+        "abhigyanpatwari/GitNexus",
+        "AsyncFuncAI/deepwiki-open",
+        "sverweij/dependency-cruiser",
+        "Agents365-ai/drawio-skill",
+        "yctimlin/mcp_excalidraw",
+        "lukilabs/beautiful-mermaid",
+        "plait-board/drawnix",
+        "awslabs/diagram-as-code",
+        "aws-samples/sample-architecture-diagram-mcp-server",
+        "drawdb-io/drawdb",
+        "chartdb/chartdb",
+        "liam-hq/liam",
+        "toeverything/AFFiNE"
+      ],
+      "note": "20 architecture/diagram gap additions; original 40 records retained unchanged. Static source review only for this batch."
     }
   ]
 }

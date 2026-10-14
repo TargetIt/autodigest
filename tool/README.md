@@ -24,8 +24,10 @@
 
 ## 仓库结构
 
+原有工具内容位于 `tool/`；调研报告和下载源码位于同级的 [`Research/`](../Research/README.md)。本页命令以 `tool/` 为工作目录。
+
 ```text
-autodigest/
+autodigest/tool/
   inbox/       临时材料、链接、摘录、想法。
   sources/     原始材料归档（手动放入）。
   digests/     按主题分目录，每个主题 4 个文件：输入锚定、核心消化、视角扩展、检视与输出。
@@ -75,6 +77,8 @@ digests/transformer-attention/
 - 未确认信息标注为「待确认」或「开放问题」。
 
 ## 使用建议
+
+画系统架构、组件关系和请求流程时，默认优先使用 [Archify](https://github.com/tt-a1i/archify)，保留 JSON 与 HTML、关键关系的来源，并检查实际渲染。其他绘图需求按 [架构与绘图工具补充调研](../Research/notes/architecture-gap-audit.md) 选择；具体规则见 [工作流](workflows/autodigest.md)。这里记录的是工具偏好，下载源码不代表已经安装或启用相关 skill。
 
 不要让大模型一轮生成全部内容。按 `prompts/digest.md` 的 6 轮分轮进行，核心解释完成后的用户验收轮不可跳过。这样可以避免模型为了满足模板而牺牲内容深度。
 

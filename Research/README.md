@@ -1,12 +1,14 @@
 # 帮助理解知识的 ShowMe 类 Skill 与可视化工具调研
 
-调研日期：**2026 年 10 月 15 日，Asia/Shanghai**。覆盖 **40 个 GitHub 仓库**（原 39 个，加本次补充的 Archify），包括解释型 skill、Agent 绘图集成、结构图工具、数学动画、交互实验和数据探索工具。
+调研日期：**2026 年 10 月 15 日，Asia/Shanghai**。覆盖 **60 个 GitHub 主仓库**（原 39 个、Archify，以及本轮系统查漏补入的 20 个），包括解释型 skill、Agent 绘图集成、结构图工具、数学动画、交互实验和数据探索工具。
 
-**目录入口：**原有 AutoDigest 内容在 [`../tool/`](../tool/)，本次报告、证据和下载源码都在 `Research/` 下。下载的 41 份源码（40 个主仓库 + `d3/d3-selection`）位于 [`repos/<owner>/<repo>/`](repos/README.md)，以固定提交的 Git 子模块保存。首次克隆后需初始化子模块才能在本地查看源码，具体命令见[源码目录说明](repos/README.md)。
+**目录入口：**原有 AutoDigest 内容在 [`../tool/`](../tool/)，本次报告、证据和下载源码都在 `Research/` 下。下载的 61 份源码（60 个主仓库 + `d3/d3-selection`）位于 [`repos/<owner>/<repo>/`](repos/README.md)，以固定提交的 Git 子模块保存。首次克隆后需初始化子模块才能在本地查看源码，具体命令见[源码目录说明](repos/README.md)。
 
-**优先建议：用 ShowMe 选择恰当的表达方式，用 Mermaid、Excalidraw 或 Archify 讲清结构，用 Mafs 或 marimo 检验参数变化，用带追问的教学流程确认自己真的理解了。** 工具各有分工，装得多不等于理解得深；最值得保留的是可修改的源文件、可复算的例子和能回到材料的依据。
+**按你的偏好，架构图、组件关系和请求流程默认优先用 Archify。** 用 ShowMe 选择表达方式，长期架构模型用 LikeC4 / Structurizr，手工编辑用 Excalidraw / draw.io，参数实验用 Mafs / marimo。Archify 偏好已写入 [AutoDigest 工作流](../tool/workflows/autodigest.md)。
 
-导航：[ShowMe 的身份](#1-showme-具体指什么) · [按问题选工具](#2-先按自己的理解障碍选工具) · [40 个仓库总览](#3-仓库总览与关注度) · [重点项目](#4-最值得深入看的几条路线) · [源码核实发现](#5-源码核实后需要纠正的印象) · [接入 AutoDigest](#6-如何用于-autodigest) · [方法与证据](#7-调研方法-证据与复核)
+**本轮查漏入口：[新增 20 项与选型结论](notes/architecture-gap-audit.md)。** 已补上架构模型、代码分析、Agent 绘图、云图、数据库 ERD 和知识画布。工具各有分工，装得多不等于理解得深；最值得保留的是可修改的源文件、可复算的例子和能回到材料的依据。
+
+导航：[ShowMe 的身份](#1-showme-具体指什么) · [按问题选工具](#2-先按自己的理解障碍选工具) · [60 个仓库总览](#3-仓库总览与关注度) · [重点项目](#4-最值得深入看的几条路线) · [源码核实发现](#5-源码核实后需要纠正的印象) · [接入 AutoDigest](#6-如何用于-autodigest) · [方法与证据](#7-调研方法-证据与复核)
 
 ## 1. ShowMe 具体指什么
 
@@ -33,9 +35,9 @@
 | --- | --- | --- | --- |
 | 一段解释太密，看不出主干 | HumanLayer ShowMe、visual-explainer | 一个聚焦的结构视图或解释页 | 隐藏正文后，能否用图复述关键机制 |
 | 材料很多，不知道概念分几层 | Markmap | 可折叠的知识层级 | 能否说清上下位关系；交叉依赖另画关系图 |
-| 不知道组件之间如何协作 | Mermaid、draw.io、D2；需要交互讲解时用 Archify | 有方向、标签、边界的结构或时序图 | 每条边究竟代表调用、数据、依赖还是因果 |
+| 不知道组件之间如何协作 | **Archify**；长期多视图模型用 LikeC4 / Structurizr | 有方向、标签、边界的结构或时序图 | 每条边究竟代表调用、数据、依赖还是因果 |
 | 图不对，想边学边改 | Excalidraw、draw.io、Next AI Draw.io | 保留源格式的可编辑图 | 能否改一个节点并同步修正相关连接 |
-| 看不懂实际代码怎么运行 | Archify、Ofori Show-me、OpenHop、交互架构 skill | 可逐步走读的路径，最好有源码引用 | 图中的路径是否真的在源码中存在 |
+| 看不懂代码的依赖与候选调用路径 | CodeBoarding / GitNexus 辅助核对；JS/TS 模块依赖用 dependency-cruiser；默认 Archify 讲解 | 固定源码版本的关系依据和可走读视图 | 静态候选路径不等于实际运行轨迹；关键边能否回源 |
 | 不懂变量变了为什么结果会变 | Mafs、marimo、Observable Framework | 滑块、拖拽点、真实重算、边界输入 | 先预测变化，再操作验证；允许得到反直觉结果 |
 | 数学变换太抽象 | Manim Community、ManimGL、Motion Canvas | 分步骤变换或时间轴动画 | 暂停时能否解释每一步，不只记住画面 |
 | 不理解反馈与连锁影响 | LOOPY | 可干预的正负反馈模型 | 能否解释回路；不把简化模型当现实预测 |
@@ -44,7 +46,7 @@
 
 ## 3. 仓库总览与关注度
 
-以下 Star 均为 GitHub REST API 的精确快照：**原 39 个仓库采于北京时间 2026-10-15 03:11 左右，Archify 增补采于同日 04:41:13**。两批时间分别保留，没有把旧数字伪装成同时刷新后的统计。Fork、默认分支提交日期、release、归档状态和许可证检测值见 [仓库元数据表](evidence/repository-index.md) 与 [JSON 证据](evidence/github-metadata.json)。
+以下 Star 均为 GitHub REST API 的精确快照：**原 39 个仓库采于北京时间 2026-10-15 03:11 左右，Archify 增补采于同日 04:41:13**。本轮新增 20 项另采于同日 04:53–04:55 左右，逐条精确 UTC 时间在元数据中。各批时间分别保留，没有把旧数字伪装成同时刷新后的统计。Fork、默认分支提交日期、release、归档状态和许可证检测值见 [仓库元数据表](evidence/repository-index.md) 与 [JSON 证据](evidence/github-metadata.json)。
 
 Star 反映关注度，不能直接代表教学质量、正确率、维护承诺或实际用户数量。**HumanLayer 和 Matt Pocock 的数字是整个 skills 合集的 Star，不能当成 `show-me` 或 `teach` 单项的热度。** 低 Star 的项目仍可能有值得借鉴的验证机制；高 Star 的基础库也未必能直接作为 skill 使用。
 
@@ -111,6 +113,33 @@ Star 反映关注度，不能直接代表教学质量、正确率、维护承诺
 | [Vega-Lite](https://github.com/vega/vega-lite) | 5,517 | 声明式统计图语法，编译为 Vega 运行时规格，支持选择交互 | 适合可复用数据表达；超出语法的交互需要下沉到其他层 |
 | [Apache ECharts](https://github.com/apache/echarts) | 67,509 | 成熟交互图表库，适合实验曲线、对比和数据探索 | 需要自己定义数据和交互；图表丰富不等于解释自动准确 |
 
+### 3.4 以 Archify 为起点补齐的架构与绘图工具
+
+这一轮新增 **20 个主仓**，每项都有固定版本源码审阅、API 快照和本地子模块。这些项目分别承担模型维护、关系提取、渲染与 Agent 接入、编辑器或知识工作区职责，不能当作20个可互换的 skill。[整体选型与筛选记录](notes/architecture-gap-audit.md)
+
+| 工具与仓库 | Star | 基本功能与理解价值 | 使用条件与主要边界 |
+| --- | ---: | --- | --- |
+| [LikeC4](https://github.com/likec4/likec4) | 5,875 | 架构 DSL、共享模型、多视图、交互站点 | 模型需维护；不能从 DSL 自动证明代码一致；[源码评估](notes/architecture-modeling-gaps.md) |
+| [Structurizr](https://github.com/structurizr/structurizr) | 463 | C4 模型、DSL、统一 CLI、本地浏览与导出 | 使用当前主仓；旧仓归档，server 发行物有许可差异；[源码评估](notes/architecture-modeling-gaps.md) |
+| [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) | 7,433 | 为 PlantUML 增加 C4 的元素、边界与关系宏 | 领域扩展；依赖 PlantUML，需固定递归 include 版本；[源码评估](notes/architecture-modeling-gaps.md) |
+| [Archi](https://github.com/archimatetool/archi) | 1,286 | ArchiMate 企业架构模型、共享实体、多视图、校验和报告 | 不是 Archify；更适合业务/应用/技术的长期治理；[源码评估](notes/architecture-modeling-gaps.md) |
+| [TerraVision](https://github.com/patrickchugh/terravision) | 1,655 | Terraform 计划或云资源 JSON → 云架构图、draw.io、HTML | 部分路径运行 Terraform；图会合并和推断，非运行态扫描；[源码评估](notes/architecture-modeling-gaps.md) |
+| [GitDiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | 18,202 | 仓库源码采样 → 可点击架构概览与 Mermaid | LLM 生成；有引用也不保证箭头正确；[源码评估](notes/codebase-architecture-gaps.md) |
+| [CodeBoarding](https://github.com/CodeBoarding/CodeBoarding) | 2,577 | 静态符号/调用关系 + 模型语义分组 → 分层图文 | 部分语义关系没有静态边支持，须分开标注；[源码评估](notes/codebase-architecture-gaps.md) |
+| [GitNexus](https://github.com/abhigyanpatwari/GitNexus) | 47,882 | 代码知识图谱、候选调用路径、影响分析和 Agent 查询 | 静态路径有截断；PolyForm Noncommercial 许可；[源码评估](notes/codebase-architecture-gaps.md) |
+| [DeepWiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | 18,197 | 检索增强的代码 wiki、问答、Mermaid 与问题驱动 codemap | 生成与 embedding 均需配置；引用不等于语义证明；[源码评估](notes/codebase-architecture-gaps.md) |
+| [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | 7,291 | JS/TS 模块依赖图、循环及架构规则检查，无需 LLM | 模块依赖不等于运行时调用或网络拓扑；[源码评估](notes/codebase-architecture-gaps.md) |
+| [drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 10,141 | 源码导入、IR、多视图、增量同步与校验，产出原生 draw.io 图 | 第三方 skill，与 jgraph 官方插件分别评估；[源码评估](notes/agent-diagram-gaps.md) |
+| [mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | 2,538 | 通过 MCP 操作 Excalidraw 画布、同步和导出 | 第三方服务；与 Excalidraw 官方 MCP App 接入方式不同；[源码评估](notes/agent-diagram-gaps.md) |
+| [Beautiful Mermaid](https://github.com/lukilabs/beautiful-mermaid) | 11,194 | Mermaid 子集 → 可主题化 SVG / 文本图 | 独立实现，不能视为完整 Mermaid 的等价替换；[源码评估](notes/agent-diagram-gaps.md) |
+| [Drawnix](https://github.com/plait-board/drawnix) | 14,941 | 思维导图、流程图、自由画的一体化可编辑白板 | 适合人工整理；模型语义与自动架构事实另行核对；[源码评估](notes/agent-diagram-gaps.md) |
+| [AWS Diagram as Code](https://github.com/awslabs/diagram-as-code) | 1,587 | 用 YAML 声明 AWS 资源与布局，生成架构图 | 负责渲染已写入的资源关系，不自动发现真实部署；[源码评估](notes/agent-diagram-gaps.md) |
+| [AWS 架构图 MCP 样例](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) | 7 | 交互 HTML、引导讲解、ELK 自动布局和 draw.io 输出 | 样例不等于托管产品或服务保障；关注度低仍保留来源；[源码评估](notes/agent-diagram-gaps.md) |
+| [drawDB](https://github.com/drawdb-io/drawdb) | 40,016 | 可视编辑表/字段/关系、SQL 导入导出、迁移脚本 | AI 导入是可注入扩展；普通开源构建不保证带模型服务；[源码评估](notes/database-and-canvas-gaps.md) |
+| [ChartDB](https://github.com/chartdb/chartdb) | 22,996 | 数据库元数据查询 → 可编辑 ERD 与 SQL | 同方言和部分跨方言可本地转换，其他路径可用 AI；[源码评估](notes/database-and-canvas-gaps.md) |
+| [Liam ERD](https://github.com/liam-hq/liam) | 5,138 | schema → ELK 布局的交互 ERD，可构建文档站点 | 格式有差异；静态目录需 HTTP 服务，非单文件 HTML；[源码评估](notes/database-and-canvas-gaps.md) |
+| [AFFiNE](https://github.com/toeverything/AFFiNE) | 73,505 | 文档、无限画布和思维导图组成知识工作区 | 完整应用；许可按目录/发行物区分，非全仓 MIT；[源码评估](notes/database-and-canvas-gaps.md) |
+
 ## 4. 最值得深入看的几条路线
 
 ### 4.1 先学 ShowMe 的表达选择 再考虑大型生成器
@@ -119,11 +148,11 @@ ShowMe 最值得借鉴的不是某一种图，而是“当前问题需要什么�
 
 如果需要一份独立解释页，`nicobailon/visual-explainer` 值得进一步试用；如果需要围绕已有理解反复提问、练习，`mattpocock/skills` 中的 `teach` 更接近学习流程。它们承担的角色不同：一个加强表达和产物，另一个组织学习互动。[源码依据与版本边界](notes/showme-skills.md)
 
-### 4.2 精确技术图保留 Mermaid Excalidraw 或 draw.io 源文件
+### 4.2 精确技术图保留可修改的源文件
 
 对于架构、算法和工程知识，能够检查节点、修改箭头、保留版本差异，通常比只有一张漂亮图片更实用。
 
-Mermaid 的文本适合嵌入 GitHub 文档。Excalidraw 适合自由草图和人工调整。draw.io 适合有正式图形、容器、工程符号需求的图。Agent 集成可以分别选择 Excalidraw Diagram Skill、官方 MCP、draw.io 官方插件或 Next AI Draw.io；**编辑器、skill、MCP 服务和 CLI 不应被当成同一个安装对象。** [绘图基础层](notes/diagram-tools.md) · [Agent 集成层](notes/agent-diagram-integrations.md)
+默认使用 Archify 时，保留 JSON 和生成的 HTML，便于核对、修改与重新交付。Mermaid 的文本适合嵌入 GitHub 文档。Excalidraw 适合自由草图和人工调整。draw.io 适合有正式图形、容器、工程符号需求的图。Agent 集成可以分别选择 Excalidraw Diagram Skill、官方 MCP、draw.io 官方插件或 Next AI Draw.io；**编辑器、skill、MCP 服务和 CLI 不应被当成同一个安装对象。** [绘图基础层](notes/diagram-tools.md) · [Agent 集成层](notes/agent-diagram-integrations.md)
 
 用于理解代码时，Ofori Show-me 的引用校验尤其值得借鉴：让图中重要论断关联文件和原文，再用程序检查引用存在。这能拦住一部分凭空编造，但仍需人判断“这段代码是否真的支持该解释”。本次其引用门禁和示例布局通过了针对性本地检查，详见 [验证记录](evidence/validation.md)。
 
@@ -139,9 +168,9 @@ LOOPY 很适合直观体会正反馈、负反馈和传播，但其代码是简�
 
 Eric Blue 的 skill 把内容转成详细图像提示并调用图片 API，适合做白板风插图和视觉摘要。但它与可编辑 XML、Excalidraw JSON 或可执行数学代码有不同的可验证性。公式、标签、数值、箭头和限定条件应另有可检查的文本/代码来源；多帧图片也不代表变量之间真的被计算过。[图片生成路径与版本问题](notes/agent-diagram-integrations.md)
 
-### 4.5 Archify 应列为架构与系统解释的优先候选
+### 4.5 Archify 是本项目架构与系统解释的默认首选
 
-**此前遗漏了 [tt-a1i/archify](https://github.com/tt-a1i/archify)，本次已补录。** 它很贴近“让 AI 帮我理解一个系统”：先把组件、边界和连接写进有 schema 的 JSON，再渲染成单文件 HTML。读者可以查看节点详情、追踪已定义的路径、切换主题和导出结果；需要回到代码时，可添加固定提交的文件与行号引用。v3.1.0 已支持架构、工作流、时序、数据流、生命周期、ERD、类、树、时间线和瀑布图，不能再按旧版的“五类图”介绍。
+**此前遗漏了 [tt-a1i/archify](https://github.com/tt-a1i/archify)，已补录并按你的偏好设为默认首选。** 它很贴近“让 AI 帮我理解一个系统”：先把组件、边界和连接写进有 schema 的 JSON，再渲染成单文件 HTML。读者可以查看节点详情、追踪已定义的路径、切换主题和导出结果；需要回到代码时，可添加固定提交的文件与行号引用。v3.1.0 已支持架构、工作流、时序、数据流、生命周期、ERD、类、树、时间线和瀑布图，不能再按旧版的“五类图”介绍。
 
 它适合架构讲解、请求链路和方案沟通。相对 ShowMe，它提供了更完整的渲染与校验实现；相对 Mermaid，它更侧重独立交互页面和阅读体验；相对 Excalidraw/draw.io，它主要通过 Agent 修改 JSON 迭代，使用方式并非自由拖拽编辑。
 
@@ -162,12 +191,12 @@ Eric Blue 的 skill 把内容转成详细图像提示并调用图片 API，适�
 
 ## 6. 如何用于 AutoDigest
 
-结合 [现有 AutoDigest 工作流](../tool/workflows/autodigest.md)，建议把可视化作为回答当前问题的手段，保留“核心解释—反馈—修复”的主线。下面是建议方案，本次调研没有改写现有工具流程。
+结合 [现有 AutoDigest 工作流](../tool/workflows/autodigest.md)，建议把可视化作为回答当前问题的手段，保留“核心解释—反馈—修复”的主线。架构与流程图的默认选择已加入工作流，保留 JSON、HTML、出处与渲染检查；其余仍按具体问题选用。下载调研源码不等于安装或启用这些 skill。
 
 | AutoDigest 阶段 | 可以加入的能力 | 应保留的产物 |
 | --- | --- | --- |
 | 输入锚定 | 写清读者卡在分类、机制、时序、数学还是证据 | 具体问题、材料位置和成功标准 |
-| 核心解释 | 用 ShowMe 选择一幅最能回答问题的图；复杂机制用原生可编辑格式 | 解释正文、图的源文件、关键论断的出处 |
+| 核心解释 | 用 ShowMe 选择表达；架构与请求流程默认 Archify，其他机制按问题选工具 | 解释正文、图的源文件、关键论断的出处 |
 | 用户反馈 | 让用户指出哪条边不懂，或在改变参数前先预测结果 | 原话反馈、预测与实际结果的差别 |
 | 修复 | 修改图和正文；必要时补一个可运行的小实验 | 与正文一致的图、计算代码和边界输入 |
 | 检视 | 分别检查事实、计算、视觉布局和运行条件 | 哪些已验证、哪些仍是简化或推测 |
@@ -176,31 +205,32 @@ Eric Blue 的 skill 把内容转成详细图像提示并调用图片 API，适�
 可以用三个具体题目做后续小规模选型，而不是一次安装全部工具：
 
 - **Transformer Attention**：Mermaid/Excalidraw 解释投影与矩阵形状；marimo，或 Framework 配合显式 JavaScript 计算，做小规模权重实验；Mafs 可辅助理解 Q/K 向量几何。检查维度、归一化、mask 和解释中的条件是否一致。
-- **一个仓库的请求链路**：比较 ShowMe 的时序图与 Ofori/OpenHop 的逐步走读。检查每个节点和连接能否定位到真实实现，能否覆盖异常路径。
+- **一个仓库的请求链路**：优先用 Archify 讲解；先核对源码，按需要用 dependency-cruiser / CodeBoarding / GitNexus 辅助取证。检查每个节点和连接能否定位到真实实现，能否覆盖异常路径。
 - **反馈系统**：LOOPY 帮助形成正负反馈直觉，再用明确的数学模型检查量纲和时间演化。分开标注示意关系与定量结果。
 
 建议的验收问题是：**我能否不看原文复述机制，预测一个新输入的结果，指出一个不适用边界，并找到图中关键结论的依据？** 如果只能说“图很好看”，还没有完成知识消化。
 
 ## 7. 调研方法 证据与复核
 
-本次完成了候选发现、官方仓定位、固定版本代码审阅、GitHub 元数据采集和部分针对性本地验证。40 个主仓均有源码或 skill 实体审阅；没有把仓库首页当成全部依据，也没有为所有项目安装依赖、连接模型服务或做完整端到端测试。
+本次完成了候选发现、官方仓定位、固定版本代码审阅、GitHub 元数据采集和部分针对性本地验证。60 个主仓均有源码或 skill 实体审阅；没有把仓库首页当成全部依据，也没有为所有项目安装依赖、连接模型服务或做完整端到端测试。
 
 **证据文件：**
 
 - [ShowMe 与解释型 skill 笔记](notes/showme-skills.md)：入口指令、运行时、引用校验、具体限制。
 - [绘图基础工具笔记](notes/diagram-tools.md)：解析、布局、编辑、渲染机制与许可差异。
 - [数学与交互学习笔记](notes/interactive-learning.md)：动画、拖拽、响应式执行和数据图语法。
+- [架构与绘图系统查漏](notes/architecture-gap-audit.md)：新增 20 项、分类选择、遗漏原因和候选取舍。
 - [Archify 专项补充](notes/archify.md)：官方身份、10 类图、布局与引用校验边界、局部实测。
 - [Agent 绘图集成笔记](notes/agent-diagram-integrations.md)：官方 MCP/CLI、Excalidraw skill、AI 绘图应用与 ECharts。
 - [仓库元数据表](evidence/repository-index.md)：Star、Fork、默认分支提交、API 许可检测、固定源码版本。
 - [原始字段快照](evidence/github-metadata.json) 与 [仓库清单](evidence/repositories.json)：保留采集时间和每个 API endpoint。
 - [验证记录](evidence/validation.md)：执行了什么、通过了什么，以及不能从测试推出什么。
 - [源码引用索引](evidence/source-index.json)：汇集固定 commit 的源码链接，用于复核文件与行号。
-- [下载源码与恢复方法](repos/README.md)：41 个本地源码入口及子模块初始化说明；[检出清单](evidence/source-checkouts.json)记录路径、固定版本和迁移核验结果。
+- [下载源码与恢复方法](repos/README.md)：61 个本地源码入口及子模块初始化说明；[检出清单](evidence/source-checkouts.json)记录路径、固定版本和迁移核验结果。
 
 源码笔记中的链接尽量固定到 **commit SHA + 文件 + 行号**。主文的仓库首页链接便于继续探索；后续版本可能变化，应以固定版本证据理解本报告的判断。**默认分支源码中的功能，不代表当前 npm/PyPI 包或 GitHub release 已包含。** 多包仓库的 `latest_release` 还可能是其中一个子包：本次 Mermaid 的该字段对应 tiny，xyflow 对应 Svelte，不能把它们当成整个仓库所有包的最新版本。
 
-Graphviz 是 Diagrams 等工具的重要依赖，但其官方主开发仓在 GitLab，因此没有把任意 GitHub 镜像作为额外的 GitHub 主仓统计。D3 的具体数据绑定实现额外读了 `d3/d3-selection`，它作为支撑依赖进入源码索引，不另计主工具数量。闭源服务和只有聚合列表、缺少实现可检查的项目没有混进这 40 个仓库。
+Graphviz 是 Diagrams 等工具的重要依赖，但其官方主开发仓在 GitLab，因此没有把任意 GitHub 镜像作为额外的 GitHub 主仓统计。D3 的具体数据绑定实现额外读了 `d3/d3-selection`，它作为支撑依赖进入源码索引，不另计主工具数量。闭源服务和只有聚合列表、缺少实现可检查的项目没有混进这 60 个主仓库。
 
 复采 Star 和仓库状态可在仓库根目录运行：
 

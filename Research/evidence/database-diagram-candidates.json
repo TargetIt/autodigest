@@ -1,0 +1,152 @@
+[
+  {
+    "repository": "drawdb-io/drawdb",
+    "sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+    "local_path": "Research/repos/drawdb-io/drawdb",
+    "status": "include",
+    "include_reason": "Database schema/ERD editing and import/export fill a concrete diagramming gap alongside Archify system explanations.",
+    "metadata_snapshot": {
+      "requested_slug": "drawdb-io/drawdb",
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/drawdb-io/drawdb",
+        "head_commit": "https://api.github.com/repos/drawdb-io/drawdb/commits/main",
+        "latest_release": "https://api.github.com/repos/drawdb-io/drawdb/releases/latest"
+      },
+      "repository": {
+        "id": 667110339,
+        "full_name": "drawdb-io/drawdb",
+        "html_url": "https://github.com/drawdb-io/drawdb",
+        "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+        "homepage": "https://drawdb.app",
+        "stargazers_count": 40016,
+        "forks_count": 3311,
+        "subscribers_count": 149,
+        "open_issues_count": 242,
+        "language": "JavaScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2023-07-16T17:09:20Z",
+        "updated_at": "2026-10-14T20:39:19Z",
+        "pushed_at": "2026-10-12T17:07:07Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "database",
+          "database-design",
+          "database-diagram",
+          "database-schema",
+          "dbml",
+          "diagram-editor",
+          "editor",
+          "er-diagram",
+          "erd",
+          "erdiagram",
+          "indexeddb",
+          "mariadb",
+          "mcp",
+          "oracle-database",
+          "oracle-db",
+          "postgresql",
+          "schema-design",
+          "sql",
+          "sql-server",
+          "sqlite"
+        ],
+        "size": 7915,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+        "html_url": "https://github.com/drawdb-io/drawdb/commit/f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+        "committed_at": "2026-10-12T17:07:07Z",
+        "subject": "Add SQL headers tab (#1169)"
+      },
+      "latest_release": null
+    }
+  },
+  {
+    "repository": "chartdb/chartdb",
+    "sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+    "local_path": "Research/repos/chartdb/chartdb",
+    "status": "include",
+    "include_reason": "Database schema/ERD editing and import/export fill a concrete diagramming gap alongside Archify system explanations.",
+    "metadata_snapshot": {
+      "requested_slug": "chartdb/chartdb",
+      "retrieved_at_utc": "2026-10-14T20:54:35+00:00",
+      "api_endpoints": {
+        "repository": "https://api.github.com/repos/chartdb/chartdb",
+        "head_commit": "https://api.github.com/repos/chartdb/chartdb/commits/main",
+        "latest_release": "https://api.github.com/repos/chartdb/chartdb/releases/latest"
+      },
+      "repository": {
+        "id": 838212912,
+        "full_name": "chartdb/chartdb",
+        "html_url": "https://github.com/chartdb/chartdb",
+        "description": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+        "homepage": "https://chartdb.io",
+        "stargazers_count": 22996,
+        "forks_count": 1501,
+        "subscribers_count": 89,
+        "open_issues_count": 174,
+        "language": "TypeScript",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "created_at": "2024-08-05T07:19:19Z",
+        "updated_at": "2026-10-14T19:40:44Z",
+        "pushed_at": "2026-09-13T08:43:19Z",
+        "archived": false,
+        "disabled": false,
+        "fork": false,
+        "default_branch": "main",
+        "topics": [
+          "database",
+          "db",
+          "db-migration",
+          "editor",
+          "erd",
+          "mariadb",
+          "mssql",
+          "mysql",
+          "postgresql",
+          "react",
+          "react-flow",
+          "schema-migrations",
+          "sql",
+          "sqlite",
+          "typescript",
+          "visualization",
+          "xyflow"
+        ],
+        "size": 67883,
+        "visibility": "public"
+      },
+      "default_branch_head": {
+        "sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+        "html_url": "https://github.com/chartdb/chartdb/commit/c24936a402bb3e24b4858f05282d69a04fcfe25b",
+        "committed_at": "2026-04-11T13:54:02Z",
+        "subject": "feat: add move-to-area and auto-arrange-area context menu options (#1120)"
+      },
+      "latest_release": {
+        "tag_name": "v1.20.1",
+        "name": "v1.20.1",
+        "html_url": "https://github.com/chartdb/chartdb/releases/tag/v1.20.1",
+        "published_at": "2026-04-07T14:40:49Z",
+        "prerelease": false,
+        "draft": false
+      }
+    }
+  }
+]

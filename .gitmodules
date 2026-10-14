@@ -121,3 +121,63 @@
 [submodule "tt-a1i/archify"]
 	path = Research/repos/tt-a1i/archify
 	url = https://github.com/tt-a1i/archify.git
+[submodule "likec4/likec4"]
+	path = Research/repos/likec4/likec4
+	url = https://github.com/likec4/likec4.git
+[submodule "structurizr/structurizr"]
+	path = Research/repos/structurizr/structurizr
+	url = https://github.com/structurizr/structurizr.git
+[submodule "plantuml-stdlib/C4-PlantUML"]
+	path = Research/repos/plantuml-stdlib/C4-PlantUML
+	url = https://github.com/plantuml-stdlib/C4-PlantUML.git
+[submodule "archimatetool/archi"]
+	path = Research/repos/archimatetool/archi
+	url = https://github.com/archimatetool/archi.git
+[submodule "patrickchugh/terravision"]
+	path = Research/repos/patrickchugh/terravision
+	url = https://github.com/patrickchugh/terravision.git
+[submodule "ahmedkhaleel2004/gitdiagram"]
+	path = Research/repos/ahmedkhaleel2004/gitdiagram
+	url = https://github.com/ahmedkhaleel2004/gitdiagram.git
+[submodule "CodeBoarding/CodeBoarding"]
+	path = Research/repos/CodeBoarding/CodeBoarding
+	url = https://github.com/CodeBoarding/CodeBoarding.git
+[submodule "abhigyanpatwari/GitNexus"]
+	path = Research/repos/abhigyanpatwari/GitNexus
+	url = https://github.com/abhigyanpatwari/GitNexus.git
+[submodule "AsyncFuncAI/deepwiki-open"]
+	path = Research/repos/AsyncFuncAI/deepwiki-open
+	url = https://github.com/AsyncFuncAI/deepwiki-open.git
+[submodule "sverweij/dependency-cruiser"]
+	path = Research/repos/sverweij/dependency-cruiser
+	url = https://github.com/sverweij/dependency-cruiser.git
+[submodule "Agents365-ai/drawio-skill"]
+	path = Research/repos/Agents365-ai/drawio-skill
+	url = https://github.com/Agents365-ai/drawio-skill.git
+[submodule "yctimlin/mcp_excalidraw"]
+	path = Research/repos/yctimlin/mcp_excalidraw
+	url = https://github.com/yctimlin/mcp_excalidraw.git
+[submodule "lukilabs/beautiful-mermaid"]
+	path = Research/repos/lukilabs/beautiful-mermaid
+	url = https://github.com/lukilabs/beautiful-mermaid.git
+[submodule "plait-board/drawnix"]
+	path = Research/repos/plait-board/drawnix
+	url = https://github.com/plait-board/drawnix.git
+[submodule "awslabs/diagram-as-code"]
+	path = Research/repos/awslabs/diagram-as-code
+	url = https://github.com/awslabs/diagram-as-code.git
+[submodule "aws-samples/sample-architecture-diagram-mcp-server"]
+	path = Research/repos/aws-samples/sample-architecture-diagram-mcp-server
+	url = https://github.com/aws-samples/sample-architecture-diagram-mcp-server.git
+[submodule "drawdb-io/drawdb"]
+	path = Research/repos/drawdb-io/drawdb
+	url = https://github.com/drawdb-io/drawdb.git
+[submodule "chartdb/chartdb"]
+	path = Research/repos/chartdb/chartdb
+	url = https://github.com/chartdb/chartdb.git
+[submodule "liam-hq/liam"]
+	path = Research/repos/liam-hq/liam
+	url = https://github.com/liam-hq/liam.git
+[submodule "toeverything/AFFiNE"]
+	path = Research/repos/toeverything/AFFiNE
+	url = https://github.com/toeverything/AFFiNE.git

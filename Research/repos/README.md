@@ -1,6 +1,6 @@
 # 调研下载源码
 
-此目录保存本次调研下载的 **41 份源码**：报告中的 40 个主仓库，以及核对 D3 数据绑定实现时使用的 `d3/d3-selection`。每份源码位于 `<owner>/<repo>/`，作为 Git 子模块固定到报告审阅的 commit，不跟随上游默认分支自动更新。
+此目录保存本次调研下载的 **61 份源码**：报告中的 60 个主仓库，以及核对 D3 数据绑定实现时使用的 `d3/d3-selection`。每份源码位于 `<owner>/<repo>/`，作为 Git 子模块固定到报告审阅的 commit，不跟随上游默认分支自动更新。
 
 AutoDigest 的目录分工为：
 
@@ -35,7 +35,7 @@ git submodule update --init --depth 1 --jobs 4
 git submodule update --init --depth 1 -- Research/repos/humanlayer/skills
 ```
 
-首次克隆并取得全部 41 个直接子模块：
+首次克隆并取得全部 61 个直接子模块：
 
 ```bash
 git clone https://github.com/TargetIt/autodigest.git
@@ -47,7 +47,7 @@ git submodule update --init --depth 1 --jobs 4
 
 ## 当前检出范围与核验
 
-原先的 40 份下载由 Git 检出和源码归档组成，已移入本目录；新增的 Archify 直接下载到本目录。部分大型 Git 仓库沿用调研时的**稀疏检出**，本地只展开选定源码和文档；每份仓库仍固定到完整上游提交。归档转为 Git 仓库时，保留已有文件内容，补齐缺失路径并恢复原始执行位。逐仓状态见 [`source-checkouts.json`](../evidence/source-checkouts.json)。
+原先的 40 份下载由 Git 检出和源码归档组成，已移入本目录；新增的 Archify 和本轮20项查漏源码均直接下载到本目录。部分大型 Git 仓库沿用调研时的**稀疏检出**，本地只展开选定源码和文档；每份仓库仍固定到完整上游提交。归档转为 Git 仓库时，保留已有文件内容，补齐缺失路径并恢复原始执行位。逐仓状态见 [`source-checkouts.json`](../evidence/source-checkouts.json)。
 
 子模块版本能够从上游重新获取；本次本地使用的稀疏配置属于检出设置，不会随父仓提交传播。新初始化的子模块默认展开完整受控文件。若要展开当前已有的稀疏检出，例如 D2：
 
@@ -55,7 +55,7 @@ git submodule update --init --depth 1 --jobs 4
 git -C Research/repos/d2lang/d2 sparse-checkout disable
 ```
 
-从 AutoDigest 仓库根目录执行以下命令，可核对 41 个子模块的版本、地址、干净状态，以及源码索引中全部引用的文件哈希和行号；此脚本不运行上游代码：
+从 AutoDigest 仓库根目录执行以下命令，可核对 61 个子模块的版本、地址、干净状态，以及源码索引中全部引用的文件哈希和行号；此脚本不运行上游代码：
 
 ```bash
 python3 Research/scripts/verify_source_checkouts.py
@@ -108,3 +108,23 @@ python3 Research/scripts/verify_source_checkouts.py
 | [xyflow/xyflow](https://github.com/xyflow/xyflow) | [打开目录](xyflow/xyflow/) | [3d35b5731757](https://github.com/xyflow/xyflow/tree/3d35b57317576b0916c0bfeaaedd573aaacc2839) |
 | [yuzutech/kroki](https://github.com/yuzutech/kroki) | [打开目录](yuzutech/kroki/) | [d161fd8e5735](https://github.com/yuzutech/kroki/tree/d161fd8e5735131f986da59f8f359c72f3fa770c) |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | [打开目录](tt-a1i/archify/) | [d0c8c7e9f4e0](https://github.com/tt-a1i/archify/tree/d0c8c7e9f4e06f303389f804208d387f27019ef5) |
+| [likec4/likec4](https://github.com/likec4/likec4) | [打开目录](likec4/likec4/) | [5385c5770429](https://github.com/likec4/likec4/tree/5385c577042988691f66cd82e65d60d13121d468) |
+| [structurizr/structurizr](https://github.com/structurizr/structurizr) | [打开目录](structurizr/structurizr/) | [da99caf2f285](https://github.com/structurizr/structurizr/tree/da99caf2f2857e5373f7b58569152274f1725ba3) |
+| [plantuml-stdlib/C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) | [打开目录](plantuml-stdlib/C4-PlantUML/) | [f998c46833da](https://github.com/plantuml-stdlib/C4-PlantUML/tree/f998c46833daac592f3283ff08d7b8cd7e1558fb) |
+| [archimatetool/archi](https://github.com/archimatetool/archi) | [打开目录](archimatetool/archi/) | [fbfa4474c414](https://github.com/archimatetool/archi/tree/fbfa4474c414477ce88257c956999fb9efdf9e69) |
+| [patrickchugh/terravision](https://github.com/patrickchugh/terravision) | [打开目录](patrickchugh/terravision/) | [7abacaab1483](https://github.com/patrickchugh/terravision/tree/7abacaab1483ccdcd4e59470b0097d23d9a05955) |
+| [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | [打开目录](ahmedkhaleel2004/gitdiagram/) | [310e2e696b19](https://github.com/ahmedkhaleel2004/gitdiagram/tree/310e2e696b1953cec0e76560cad5e9cd7ca5d964) |
+| [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding) | [打开目录](CodeBoarding/CodeBoarding/) | [57ac725575a8](https://github.com/CodeBoarding/CodeBoarding/tree/57ac725575a82562a27e1b12302afaa337232b23) |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | [打开目录](abhigyanpatwari/GitNexus/) | [cae60c2bd49e](https://github.com/abhigyanpatwari/GitNexus/tree/cae60c2bd49ed9176544d0d1a0810db6a552f2cc) |
+| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | [打开目录](AsyncFuncAI/deepwiki-open/) | [d92819a9c9f3](https://github.com/AsyncFuncAI/deepwiki-open/tree/d92819a9c9f3b99416e3580ff235fc9d3adf8b89) |
+| [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | [打开目录](sverweij/dependency-cruiser/) | [c580daf6477a](https://github.com/sverweij/dependency-cruiser/tree/c580daf6477aa5619bacad9c9091c9b7cc81882d) |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | [打开目录](Agents365-ai/drawio-skill/) | [57270820d3cd](https://github.com/Agents365-ai/drawio-skill/tree/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019) |
+| [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | [打开目录](yctimlin/mcp_excalidraw/) | [8084a1c8b410](https://github.com/yctimlin/mcp_excalidraw/tree/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f) |
+| [lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) | [打开目录](lukilabs/beautiful-mermaid/) | [2ac8bbbb060c](https://github.com/lukilabs/beautiful-mermaid/tree/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488) |
+| [plait-board/drawnix](https://github.com/plait-board/drawnix) | [打开目录](plait-board/drawnix/) | [b138ff867943](https://github.com/plait-board/drawnix/tree/b138ff867943ddff6c4c79560e10ab6ee3b5600e) |
+| [awslabs/diagram-as-code](https://github.com/awslabs/diagram-as-code) | [打开目录](awslabs/diagram-as-code/) | [4ec965cf8bdb](https://github.com/awslabs/diagram-as-code/tree/4ec965cf8bdb309d714bc6202e7954fc43338bbe) |
+| [aws-samples/sample-architecture-diagram-mcp-server](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) | [打开目录](aws-samples/sample-architecture-diagram-mcp-server/) | [c7af5d75322e](https://github.com/aws-samples/sample-architecture-diagram-mcp-server/tree/c7af5d75322ed10add9921dd3ca5786b512fdd3c) |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | [打开目录](drawdb-io/drawdb/) | [f7c92920faaf](https://github.com/drawdb-io/drawdb/tree/f7c92920faaf7aa699111a8c58eff1457ab7f6e0) |
+| [chartdb/chartdb](https://github.com/chartdb/chartdb) | [打开目录](chartdb/chartdb/) | [c24936a402bb](https://github.com/chartdb/chartdb/tree/c24936a402bb3e24b4858f05282d69a04fcfe25b) |
+| [liam-hq/liam](https://github.com/liam-hq/liam) | [打开目录](liam-hq/liam/) | [0c5e362c2cbd](https://github.com/liam-hq/liam/tree/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814) |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | [打开目录](toeverything/AFFiNE/) | [0b69a6da21e8](https://github.com/toeverything/AFFiNE/tree/0b69a6da21e8fd35beb85667bb8496d9b3852238) |

@@ -1,8 +1,8 @@
 {
   "method": "Validated pinned GitHub source links against locally retrieved source at the recorded SHA; line bounds and file SHA-256 recorded. This verifies citation location, not semantic entailment.",
-  "primary_repository_count": 40,
+  "primary_repository_count": 60,
   "supporting_dependency": "d3/d3-selection is inspected as a D3 implementation dependency, not an additional main tool.",
-  "source_link_count": 274,
+  "source_link_count": 418,
   "sources": [
     {
       "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/LICENSE.md#L1-L21",
@@ -3575,6 +3575,1879 @@
       "cited_by": [
         "Research/notes/diagram-tools.md"
       ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/pyimports.py#L74-L100",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/pyimports.py",
+      "line_start": 74,
+      "line_end": 100,
+      "file_lines": 197,
+      "file_sha256": "619a27f15e22995b323c28b6c2037fb02d9a9522e1bbbd1fe90680d98a46d9bd",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagramctl.py#L168-L204",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/diagramctl.py",
+      "line_start": 168,
+      "line_end": 204,
+      "file_lines": 639,
+      "file_sha256": "dd857659d23bc1ed672a8d405d69e83b76db1f604d3f506e6ed6f7b87487707c",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L502-L540",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/diagram_ir.py",
+      "line_start": 502,
+      "line_end": 540,
+      "file_lines": 1480,
+      "file_sha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L1137-L1217",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/diagram_ir.py",
+      "line_start": 1137,
+      "line_end": 1217,
+      "file_lines": 1480,
+      "file_sha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagramctl_mcp.py#L260-L271",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/diagramctl_mcp.py",
+      "line_start": 260,
+      "line_end": 271,
+      "file_lines": 458,
+      "file_sha256": "b2b270477ac04c29d9ed213f89662246e0fae9b6fa536e49b0808582a7fbb67c",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/diagram_ir.py#L1064-L1097",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/diagram_ir.py",
+      "line_start": 1064,
+      "line_end": 1097,
+      "file_lines": 1480,
+      "file_sha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/scripts/validate.py#L92-L96",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/scripts/validate.py",
+      "line_start": 92,
+      "line_end": 96,
+      "file_lines": 406,
+      "file_sha256": "3effc1cdfd5b43b672630d0dbbc6f233a4925f6469f808e271d8c623530b9540",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/SKILL.md#L79-L98",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/SKILL.md",
+      "line_start": 79,
+      "line_end": 98,
+      "file_lines": 148,
+      "file_sha256": "922d7863a09e6521236bffb6989ebe4e9bce045ebd0f82866c94375fccfd1c6b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/LICENSE#L1-L21",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/Agents365-ai/drawio-skill/blob/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019/skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md#L1-L12",
+      "repository": "Agents365-ai/drawio-skill",
+      "commit_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "path": "skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md",
+      "line_start": 1,
+      "line_end": 12,
+      "file_lines": 17,
+      "file_sha256": "dc6e070b9fd905c6a574614dd0c4403253ad8b7111e2f2f3892996b2729e26ab",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/server.ts#L350-L378",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "src/server.ts",
+      "line_start": 350,
+      "line_end": 378,
+      "file_lines": 1626,
+      "file_sha256": "913d628bac1e6b1cce04030b38be72529268f79fb164854489d5840182ee66d7",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/scene-io.ts#L24-L47",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "src/core/scene-io.ts",
+      "line_start": 24,
+      "line_end": 47,
+      "file_lines": 125,
+      "file_sha256": "710b06c03f01c321ff9604cc22cb641c57462e18a396ad67bfa5ba210055f79f",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/render/index.ts#L135-L197",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "src/core/render/index.ts",
+      "line_start": 135,
+      "line_end": 197,
+      "file_lines": 198,
+      "file_sha256": "9d7492f8b02440d356f332c8788a83cdc94e79c2ad2023d120e1d5488932020c",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/src/core/canvas-persistence.ts#L122-L138",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "src/core/canvas-persistence.ts",
+      "line_start": 122,
+      "line_end": 138,
+      "file_lines": 1030,
+      "file_sha256": "3ae726e97ff28079a6fd0948acddf205d3e37a04fa9a9f5d5f5e74496d596e23",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/package.json#L35-L46",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "package.json",
+      "line_start": 35,
+      "line_end": 46,
+      "file_lines": 117,
+      "file_sha256": "316d138f5dc466014b3fa47b35eda4ee242d84c986e6004b6952de1dcc0b5032",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/package.json#L101-L103",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "package.json",
+      "line_start": 101,
+      "line_end": 103,
+      "file_lines": 117,
+      "file_sha256": "316d138f5dc466014b3fa47b35eda4ee242d84c986e6004b6952de1dcc0b5032",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/yctimlin/mcp_excalidraw/blob/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f/LICENSE#L1-L21",
+      "repository": "yctimlin/mcp_excalidraw",
+      "commit_sha": "8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "df3e29d299ae422383974946f4bfb49243971ca087e270d67326869c9a1191a7",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L268-L335",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "cmd/awsdac-mcp-server/main.go",
+      "line_start": 268,
+      "line_end": 335,
+      "file_lines": 576,
+      "file_sha256": "dad500e4c0f55c202d22ba0c85d78f5f543969e0cba5b8517c7343028fa82e6f",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/internal/ctl/create.go#L199-L265",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "internal/ctl/create.go",
+      "line_start": 199,
+      "line_end": 265,
+      "file_lines": 947,
+      "file_sha256": "ebf912d982d7f9a9f6d33ef51447441336e104f81408d608645ffc4962e8874b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L411-L429",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "cmd/awsdac-mcp-server/main.go",
+      "line_start": 411,
+      "line_end": 429,
+      "file_lines": 576,
+      "file_sha256": "dad500e4c0f55c202d22ba0c85d78f5f543969e0cba5b8517c7343028fa82e6f",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/internal/ctl/create.go#L316-L347",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "internal/ctl/create.go",
+      "line_start": 316,
+      "line_end": 347,
+      "file_lines": 947,
+      "file_sha256": "ebf912d982d7f9a9f6d33ef51447441336e104f81408d608645ffc4962e8874b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/go.mod#L1-L16",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "go.mod",
+      "line_start": 1,
+      "line_end": 16,
+      "file_lines": 29,
+      "file_sha256": "7b704de66985b703d2bf0f6ac736d2b2adaf4638f0d1e908457dee1bb7f32e08",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/README.md#L29-L36",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "README.md",
+      "line_start": 29,
+      "line_end": 36,
+      "file_lines": 119,
+      "file_sha256": "7af368faa91f0429205c87c16382e52daf6cf3d39a2e1bc9a716f9cee69cb2b0",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/cmd/awsdac-mcp-server/main.go#L220-L229",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "cmd/awsdac-mcp-server/main.go",
+      "line_start": 220,
+      "line_end": 229,
+      "file_lines": 576,
+      "file_sha256": "dad500e4c0f55c202d22ba0c85d78f5f543969e0cba5b8517c7343028fa82e6f",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/awslabs/diagram-as-code/blob/4ec965cf8bdb309d714bc6202e7954fc43338bbe/LICENSE#L1-L6",
+      "repository": "awslabs/diagram-as-code",
+      "commit_sha": "4ec965cf8bdb309d714bc6202e7954fc43338bbe",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 6,
+      "file_lines": 175,
+      "file_sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/mcp-server.js#L118-L133",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "mcp-server.js",
+      "line_start": 118,
+      "line_end": 133,
+      "file_lines": 928,
+      "file_sha256": "a9270122c5bfc70e0b61596d618875d7b7e4f95fc705291301633d3f9882a1a6",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/layout.js#L18-L57",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "lib/layout.js",
+      "line_start": 18,
+      "line_end": 57,
+      "file_lines": 148,
+      "file_sha256": "b6e68cbae842568fc0621ed2090abca45591933d5006ee312b5e2936d3fde4c1",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/html-generator.js#L280-L301",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "lib/html-generator.js",
+      "line_start": 280,
+      "line_end": 301,
+      "file_lines": 369,
+      "file_sha256": "ee55af1bdf39d4d3a3cc995e2be043310dd77b0d712ee3e0c9ba9e41e4243b8b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/html-generator.js#L341-L348",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "lib/html-generator.js",
+      "line_start": 341,
+      "line_end": 348,
+      "file_lines": 369,
+      "file_sha256": "ee55af1bdf39d4d3a3cc995e2be043310dd77b0d712ee3e0c9ba9e41e4243b8b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/mcp-server.js#L204-L222",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "mcp-server.js",
+      "line_start": 204,
+      "line_end": 222,
+      "file_lines": 928,
+      "file_sha256": "a9270122c5bfc70e0b61596d618875d7b7e4f95fc705291301633d3f9882a1a6",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/lib/validate.js#L111-L143",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "lib/validate.js",
+      "line_start": 111,
+      "line_end": 143,
+      "file_lines": 224,
+      "file_sha256": "528bbadde34aae696393fc7a64acc207c592a26aa4b9d4c21f113a89d08faafc",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/package.json#L37-L54",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "package.json",
+      "line_start": 37,
+      "line_end": 54,
+      "file_lines": 83,
+      "file_sha256": "ced1c22ac821f16c0aa4df619f7745a072eaf88a9d8d3b7f7a5474ad53b8cdae",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/README.md#L87-L103",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "README.md",
+      "line_start": 87,
+      "line_end": 103,
+      "file_lines": 444,
+      "file_sha256": "5492e3bb651278176059353f68a37f9b0d88f1fc02edc95332d377c8ca5090d6",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server/blob/c7af5d75322ed10add9921dd3ca5786b512fdd3c/LICENSE#L1-L16",
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "commit_sha": "c7af5d75322ed10add9921dd3ca5786b512fdd3c",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 16,
+      "file_lines": 17,
+      "file_sha256": "7cb750713252efd1d578837ba8785b61319109906f0c10b87adab7cf4badfc42",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/index.ts#L22-L63",
+      "repository": "lukilabs/beautiful-mermaid",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "path": "src/index.ts",
+      "line_start": 22,
+      "line_end": 63,
+      "file_lines": 177,
+      "file_sha256": "2ebaafc1f915a96cc5a996b50c2c68ee147b5b4b8ae066a4ec125e06d2d0c2aa",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/index.ts#L111-L166",
+      "repository": "lukilabs/beautiful-mermaid",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "path": "src/index.ts",
+      "line_start": 111,
+      "line_end": 166,
+      "file_lines": 177,
+      "file_sha256": "2ebaafc1f915a96cc5a996b50c2c68ee147b5b4b8ae066a4ec125e06d2d0c2aa",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/src/elk-instance.ts#L85-L112",
+      "repository": "lukilabs/beautiful-mermaid",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "path": "src/elk-instance.ts",
+      "line_start": 85,
+      "line_end": 112,
+      "file_lines": 113,
+      "file_sha256": "b9dcdee434a53d6b14398321cc61d91002df87701c48326ae4ce79e2d4e5284e",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/package.json#L38-L60",
+      "repository": "lukilabs/beautiful-mermaid",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "path": "package.json",
+      "line_start": 38,
+      "line_end": 60,
+      "file_lines": 62,
+      "file_sha256": "2091539c1d6e8f1988423f8ac398514b8801477f9c463877f38aef2fb3786313",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/lukilabs/beautiful-mermaid/blob/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488/LICENSE#L1-L21",
+      "repository": "lukilabs/beautiful-mermaid",
+      "commit_sha": "2ac8bbbb060ca0a65a6a21f3200bd99b1587b488",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "f05f5a4009eae7fadfd4a55f77ffe10948f621982d56076667e68afbb54de894",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/components/ttd-dialog/mermaid-to-drawnix.tsx#L69-L116",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "packages/drawnix/src/components/ttd-dialog/mermaid-to-drawnix.tsx",
+      "line_start": 69,
+      "line_end": 116,
+      "file_lines": 200,
+      "file_sha256": "c0864ba8653ba323e7a21b35dc2347b73d07f470d39fdcd1cc5cfc7cb22fb8d8",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/components/ttd-dialog/markdown-to-drawnix.tsx#L66-L108",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "packages/drawnix/src/components/ttd-dialog/markdown-to-drawnix.tsx",
+      "line_start": 66,
+      "line_end": 108,
+      "file_lines": 141,
+      "file_sha256": "46682372e16deb4f3cb9774398a3e261c59dc01b762c13175622fc3576376a36",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/apps/web/src/app/app.tsx#L20-L28",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "apps/web/src/app/app.tsx",
+      "line_start": 20,
+      "line_end": 28,
+      "file_lines": 115,
+      "file_sha256": "f7cc6118c63901ef81c156e36e1ed2c4faa294eeda38de9a0cdebc0c8ca0202b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/apps/web/src/app/app.tsx#L96-L105",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "apps/web/src/app/app.tsx",
+      "line_start": 96,
+      "line_end": 105,
+      "file_lines": 115,
+      "file_sha256": "f7cc6118c63901ef81c156e36e1ed2c4faa294eeda38de9a0cdebc0c8ca0202b",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/data/json.ts#L18-L38",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "packages/drawnix/src/data/json.ts",
+      "line_start": 18,
+      "line_end": 38,
+      "file_lines": 73,
+      "file_sha256": "fdfc0075b5b5a232f90fd70356991298430fc6be411eaa6f3d3926a5a247729a",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/packages/drawnix/src/data/json.ts#L62-L72",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "packages/drawnix/src/data/json.ts",
+      "line_start": 62,
+      "line_end": 72,
+      "file_lines": 73,
+      "file_sha256": "fdfc0075b5b5a232f90fd70356991298430fc6be411eaa6f3d3926a5a247729a",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/package.json#L17-L41",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "package.json",
+      "line_start": 17,
+      "line_end": 41,
+      "file_lines": 80,
+      "file_sha256": "9fd6551ba4ffa5d0a4d94cd8ef263f5df3d597abaca18d4babe22f8ec0d032d4",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plait-board/drawnix/blob/b138ff867943ddff6c4c79560e10ab6ee3b5600e/LICENSE#L1-L21",
+      "repository": "plait-board/drawnix",
+      "commit_sha": "b138ff867943ddff6c4c79560e10ab6ee3b5600e",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "4f1a9d0d4be46b51a8127e6f34ff815a020c8bfbe7d7e65d6c333c25b5a26a94",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/tt-a1i/archify/blob/d0c8c7e9f4e06f303389f804208d387f27019ef5/CHANGELOG.md#L441-L455",
+      "repository": "tt-a1i/archify",
+      "commit_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
+      "path": "CHANGELOG.md",
+      "line_start": 441,
+      "line_end": 455,
+      "file_lines": 476,
+      "file_sha256": "f3544e78209b2d77332e4a87c788dd4e7f67fdaa4569bf1a71b57790f87f9886",
+      "cited_by": [
+        "Research/notes/agent-diagram-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/language-server/src/model/model-builder.ts#L179-L217",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/language-server/src/model/model-builder.ts",
+      "line_start": 179,
+      "line_end": 217,
+      "file_lines": 500,
+      "file_sha256": "50800666138be9faeff239e6a540ab69fd1e42068c6ea261fb66b1ca853a63b5",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/core/src/compute-view/compute-view.ts#L33-L84",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/core/src/compute-view/compute-view.ts",
+      "line_start": 33,
+      "line_end": 84,
+      "file_lines": 92,
+      "file_sha256": "272a074b3faf5b1418d004d08b412bf0129ee436c048e030c0392b8d5c9d3237",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/layouts/src/graphviz/GraphvizLayoter.ts#L71-L151",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/layouts/src/graphviz/GraphvizLayoter.ts",
+      "line_start": 71,
+      "line_end": 151,
+      "file_lines": 227,
+      "file_sha256": "1e5578b3ae38155c94a8ded20f0850d2318fa786e25e468d00de2df7630ac7ca",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/likec4/src/cli/build/index.ts#L79-L104",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/likec4/src/cli/build/index.ts",
+      "line_start": 79,
+      "line_end": 104,
+      "file_lines": 110,
+      "file_sha256": "c916a37288e0e13341302c58ca966c62e5f01f2ca7ae41075ddeaf4ec944dd9b",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/likec4/src/cli/export/png/handler.ts#L90-L115",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/likec4/src/cli/export/png/handler.ts",
+      "line_start": 90,
+      "line_end": 115,
+      "file_lines": 405,
+      "file_sha256": "afca0f0989094425cc284e377f612fc6656535723754bf1338f545c903d517a5",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/mcp/src/tools/render-view.ts#L17-L62",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/mcp/src/tools/render-view.ts",
+      "line_start": 17,
+      "line_end": 62,
+      "file_lines": 103,
+      "file_sha256": "682c5f98ff8ecfc617433db4dc270d5fac21032685b279c714dd7437399b5b35",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/mcp/src/tools/apply-semantic-layout.ts#L66-L130",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/mcp/src/tools/apply-semantic-layout.ts",
+      "line_start": 66,
+      "line_end": 130,
+      "file_lines": 156,
+      "file_sha256": "e4ebdbab20ecf3508c493bf87bfb367a4cc43ec899b7c44bacaffdf6a318d6d0",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/likec4/package.json#L244-L246",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/likec4/package.json",
+      "line_start": 244,
+      "line_end": 246,
+      "file_lines": 256,
+      "file_sha256": "06dbbaa8b2528f1902e6a172b1be036bbe1cbf4632d2bbe1e4bad978155df641",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/likec4/likec4/blob/5385c577042988691f66cd82e65d60d13121d468/packages/likec4/LICENSE#L1-L21",
+      "repository": "likec4/likec4",
+      "commit_sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "path": "packages/likec4/LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "536b1e1c961552038f0bda5c755fff467883f914c21535c5d20a7f08c2a5ead2",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-core/src/main/java/com/structurizr/Workspace.java#L20-L76",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-core/src/main/java/com/structurizr/Workspace.java",
+      "line_start": 20,
+      "line_end": 76,
+      "file_lines": 434,
+      "file_sha256": "572f8e07e1805bcb1868dbd6632886be1e1698533e326f86004458a4e8288d74",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-core/src/main/java/com/structurizr/view/ViewSet.java#L1191-L1218",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-core/src/main/java/com/structurizr/view/ViewSet.java",
+      "line_start": 1191,
+      "line_end": 1218,
+      "file_lines": 1309,
+      "file_sha256": "07cb935b2efc68b0618f9c3f0bb27ba9f1d3c703ecbfe134bd6f03176272912e",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-dsl/src/main/java/com/structurizr/dsl/StructurizrDslParser.java#L486-L524",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-dsl/src/main/java/com/structurizr/dsl/StructurizrDslParser.java",
+      "line_start": 486,
+      "line_end": 524,
+      "file_lines": 1682,
+      "file_sha256": "b139885d392dbeeb1ede47691ab2c4ca991c7e75e359b62819b2fbc9f4f756b5",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java#L43-L64",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java",
+      "line_start": 43,
+      "line_end": 64,
+      "file_lines": 314,
+      "file_sha256": "e5b235fa3d5355e4a31d1b8966c019abeac2824d7e8b991040a6580f93bc1926",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java#L123-L132",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java",
+      "line_start": 123,
+      "line_end": 132,
+      "file_lines": 314,
+      "file_sha256": "e5b235fa3d5355e4a31d1b8966c019abeac2824d7e8b991040a6580f93bc1926",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/structurizr-mcp/src/main/java/com/structurizr/mcp/DslTools.java#L29-L92",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "structurizr-mcp/src/main/java/com/structurizr/mcp/DslTools.java",
+      "line_start": 29,
+      "line_end": 92,
+      "file_lines": 95,
+      "file_sha256": "d6eef35511ea9127cbd89bf66f37e911a5c1d496444bf490bd69350ebc48a3a5",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/structurizr/structurizr/blob/da99caf2f2857e5373f7b58569152274f1725ba3/pom.xml#L11-L21",
+      "repository": "structurizr/structurizr",
+      "commit_sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "path": "pom.xml",
+      "line_start": 11,
+      "line_end": 21,
+      "file_lines": 172,
+      "file_sha256": "64ecb17e9155b04aadef0bd33c53d611c672cbc8e3c603b92f38691ae88d91d3",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4_Container.puml#L73-L97",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4_Container.puml",
+      "line_start": 73,
+      "line_end": 97,
+      "file_lines": 111,
+      "file_sha256": "219f235cd59307763aa00dfb8667d9c719c1fa1ab3f5e7b36cdc33ae3f363b84",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4.puml#L1234-L1244",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4.puml",
+      "line_start": 1234,
+      "line_end": 1244,
+      "file_lines": 1955,
+      "file_sha256": "ab12c815f4a7d12e90e3583a0967ffb88c3617803810d5569b06e136d701afc6",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4_Dynamic.puml#L29-L47",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4_Dynamic.puml",
+      "line_start": 29,
+      "line_end": 47,
+      "file_lines": 165,
+      "file_sha256": "a3b71fc6528c8d98145a5c9f6b65e2665f2bc7d397f056301cdfc41c3a6df732",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4.puml#L1922-L1947",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4.puml",
+      "line_start": 1922,
+      "line_end": 1947,
+      "file_lines": 1955,
+      "file_sha256": "ab12c815f4a7d12e90e3583a0967ffb88c3617803810d5569b06e136d701afc6",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4_Component.puml#L1-L6",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4_Component.puml",
+      "line_start": 1,
+      "line_end": 6,
+      "file_lines": 105,
+      "file_sha256": "c20a5cff063862cdb8d2955cca37e9225bf24f4b8b19bbca21774d5c7d3a5602",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/C4_Context.puml#L1-L6",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "C4_Context.puml",
+      "line_start": 1,
+      "line_end": 6,
+      "file_lines": 454,
+      "file_sha256": "7e0b039f1a669d7fc3d9f26e806e2387327781c92718764902ac30efe479ae47",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML/blob/f998c46833daac592f3283ff08d7b8cd7e1558fb/LICENSE#L1-L21",
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "commit_sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "72b90d259fedc994910705546590d07ab5bc850581f89e5a4d96ee4052e6747f",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/com.archimatetool.model/src/com/archimatetool/model/impl/DiagramModelArchimateObject.java#L255-L297",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "com.archimatetool.model/src/com/archimatetool/model/impl/DiagramModelArchimateObject.java",
+      "line_start": 255,
+      "line_end": 297,
+      "file_lines": 640,
+      "file_sha256": "459275f4a3ab1f4f6488b881b1eccaea9dc36c5d8a47ab4f3e5ca52438362f2c",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/com.archimatetool.hammer/src/com/archimatetool/hammer/validation/Validator.java#L71-L138",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "com.archimatetool.hammer/src/com/archimatetool/hammer/validation/Validator.java",
+      "line_start": 71,
+      "line_end": 138,
+      "file_lines": 194,
+      "file_sha256": "4e6e1794634ac32f1b1beebb3b726a599205e439646625732eef799034279dc3",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/com.archimatetool.hammer/src/com/archimatetool/hammer/validation/checkers/InvalidRelationsChecker.java#L43-L65",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "com.archimatetool.hammer/src/com/archimatetool/hammer/validation/checkers/InvalidRelationsChecker.java",
+      "line_start": 43,
+      "line_end": 65,
+      "file_lines": 71,
+      "file_sha256": "3bbaed8a66f6e28fe76ce55d9bf2ab2b77494012cf729d7333c24bf26587407d",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/com.archimatetool.reports/src/com/archimatetool/reports/html/HTMLReportExporter.java#L229-L274",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "com.archimatetool.reports/src/com/archimatetool/reports/html/HTMLReportExporter.java",
+      "line_start": 229,
+      "line_end": 274,
+      "file_lines": 591,
+      "file_sha256": "a835f7229dc0c5410b2b02fd38c5d6e7501b3647f77257973210693ece0b9b9f",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/org.opengroup.archimate.xmlexchange/src/org/opengroup/archimate/xmlexchange/XMLModelExporter.java#L217-L250",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "org.opengroup.archimate.xmlexchange/src/org/opengroup/archimate/xmlexchange/XMLModelExporter.java",
+      "line_start": 217,
+      "line_end": 250,
+      "file_lines": 1188,
+      "file_sha256": "82e8a36268fd13d1c0744b850b135f61ce9cb01bca9ef69d8d4a8d5db77ee9f4",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/archimatetool/archi/blob/fbfa4474c414477ce88257c956999fb9efdf9e69/License.txt#L1-L21",
+      "repository": "archimatetool/archi",
+      "commit_sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "path": "License.txt",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "e4b62b898fd8bb9d43baf10cc3cee161d5ba74a6a6477e4d576e1b74f4485c60",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/tfwrapper.py#L267-L297",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/tfwrapper.py",
+      "line_start": 267,
+      "line_end": 297,
+      "file_lines": 1020,
+      "file_sha256": "5cdc526f4e3973f6ae028d39b7137d07020f7bcb233b67137ff46d639a0b5596",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/tfwrapper.py#L320-L387",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/tfwrapper.py",
+      "line_start": 320,
+      "line_end": 387,
+      "file_lines": 1020,
+      "file_sha256": "5cdc526f4e3973f6ae028d39b7137d07020f7bcb233b67137ff46d639a0b5596",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/tfwrapper.py#L430-L466",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/tfwrapper.py",
+      "line_start": 430,
+      "line_end": 466,
+      "file_lines": 1020,
+      "file_sha256": "5cdc526f4e3973f6ae028d39b7137d07020f7bcb233b67137ff46d639a0b5596",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/terravision/terravision.py#L218-L226",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "terravision/terravision.py",
+      "line_start": 218,
+      "line_end": 226,
+      "file_lines": 972,
+      "file_sha256": "4f2d63840e209e5e7824eb19397bfea62a3bfa3f4f04748fd18c9c7c5a93325f",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/graphmaker.py#L1588-L1603",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/graphmaker.py",
+      "line_start": 1588,
+      "line_end": 1603,
+      "file_lines": 2903,
+      "file_sha256": "874c65d8192c947aba14b9e68ce5c36cd7ffcc9493932d971dc310424470b1ea",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/graphmaker.py#L1624-L1653",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/graphmaker.py",
+      "line_start": 1624,
+      "line_end": 1653,
+      "file_lines": 2903,
+      "file_sha256": "874c65d8192c947aba14b9e68ce5c36cd7ffcc9493932d971dc310424470b1ea",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/drawing.py#L2232-L2268",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/drawing.py",
+      "line_start": 2232,
+      "line_end": 2268,
+      "file_lines": 2302,
+      "file_sha256": "58d26b1426661bee1a0bde969652691268b39df2ddcefccab5e8497e83214e7b",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/html_renderer.py#L496-L533",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/html_renderer.py",
+      "line_start": 496,
+      "line_end": 533,
+      "file_lines": 535,
+      "file_sha256": "cdf83a11f1c56fe966cf6dc56fcdce4e9c7354bcbb2529f7e1af8160d7ea81ec",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/modules/mcp_server.py#L516-L550",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "modules/mcp_server.py",
+      "line_start": 516,
+      "line_end": 550,
+      "file_lines": 662,
+      "file_sha256": "965421a65d7a96e5b92cfca3a1bc3941a17586c3ac22739581db83ad8e2d012e",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/skills/terravision-cloud-diagrams/SKILL.md#L198-L203",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "skills/terravision-cloud-diagrams/SKILL.md",
+      "line_start": 198,
+      "line_end": 203,
+      "file_lines": 205,
+      "file_sha256": "156075b617802e4fcf703ec561a5ac9e61cf6a5be0c6ed0ef02cf06a30a33304",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/pyproject.toml#L5-L12",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "pyproject.toml",
+      "line_start": 5,
+      "line_end": 12,
+      "file_lines": 130,
+      "file_sha256": "5885402f9f2cf81bcd3de9bd6e05adfd1f732900c8b475c3fb39a38a39f8d901",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/patrickchugh/terravision/blob/7abacaab1483ccdcd4e59470b0097d23d9a05955/skills/terravision-cloud-diagrams/SKILL.md#L65-L80",
+      "repository": "patrickchugh/terravision",
+      "commit_sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "path": "skills/terravision-cloud-diagrams/SKILL.md",
+      "line_start": 65,
+      "line_end": 80,
+      "file_lines": 205,
+      "file_sha256": "156075b617802e4fcf703ec561a5ac9e61cf6a5be0c6ed0ef02cf06a30a33304",
+      "cited_by": [
+        "Research/notes/architecture-modeling-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/source-context.ts#L225-L258",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "path": "src/server/generate/source-context.ts",
+      "line_start": 225,
+      "line_end": 258,
+      "file_lines": 523,
+      "file_sha256": "8739e4b0292b2303c9afd16317460040f7020d375b2bb9d2dcc758ecd634acfe",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/graph-planner.ts#L119-L221",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "path": "src/server/generate/graph-planner.ts",
+      "line_start": 119,
+      "line_end": 221,
+      "file_lines": 285,
+      "file_sha256": "ca2eb195aa4c13b9836a6c0cc35e0a598c6e0565a8927b2e655d1479c6ee47e2",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/edge-evidence.ts#L26-L90",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "path": "src/server/generate/edge-evidence.ts",
+      "line_start": 26,
+      "line_end": 90,
+      "file_lines": 100,
+      "file_sha256": "a0a56e844f4beaff36c773bc876bdfe55bd269aef982cc05b51d6eb93a272a27",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/src/server/generate/graph.ts#L450-L512",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "path": "src/server/generate/graph.ts",
+      "line_start": 450,
+      "line_end": 512,
+      "file_lines": 544,
+      "file_sha256": "e8ea152eeeae75d7c43f43e0f2bcfaa06595cc9f872890a0bade53918582865a",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/310e2e696b1953cec0e76560cad5e9cd7ca5d964/LICENSE#L1-L21",
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "commit_sha": "310e2e696b1953cec0e76560cad5e9cd7ca5d964",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "1f4d0e04838dd51ef52d70211fd17f86bad26b2f6518497098524bc05f61af15",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/static_analyzer/engine/call_graph_builder.py#L49-L132",
+      "repository": "CodeBoarding/CodeBoarding",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "path": "static_analyzer/engine/call_graph_builder.py",
+      "line_start": 49,
+      "line_end": 132,
+      "file_lines": 395,
+      "file_sha256": "4558865ae0572f5c1631a2cf05f0038304eac616e3354f3e608879a14a63f2d5",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/agents/scope_analysis_agent.py#L178-L244",
+      "repository": "CodeBoarding/CodeBoarding",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "path": "agents/scope_analysis_agent.py",
+      "line_start": 178,
+      "line_end": 244,
+      "file_lines": 247,
+      "file_sha256": "66cec4f97acc0f4d0a4993be186720ece7561faefdf736b0d88f5c94cae03097",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/diagram_analysis/scope_assembly.py#L255-L293",
+      "repository": "CodeBoarding/CodeBoarding",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "path": "diagram_analysis/scope_assembly.py",
+      "line_start": 255,
+      "line_end": 293,
+      "file_lines": 408,
+      "file_sha256": "47168ba174aa030ee3923dcada1ba98ba27adf59b61bea3b7851e4b542b81fe3",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/output_generators/markdown.py#L9-L40",
+      "repository": "CodeBoarding/CodeBoarding",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "path": "output_generators/markdown.py",
+      "line_start": 9,
+      "line_end": 40,
+      "file_lines": 158,
+      "file_sha256": "90b8982caaef8a50e656f72247ab9f831eacd97d1754a524e99406402a870365",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/CodeBoarding/CodeBoarding/blob/57ac725575a82562a27e1b12302afaa337232b23/LICENSE#L1-L21",
+      "repository": "CodeBoarding/CodeBoarding",
+      "commit_sha": "57ac725575a82562a27e1b12302afaa337232b23",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "7ca8b46929986079c008a0cd6b002a5f1dc67c7500c37bc1a39bfb23ac290263",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/tree-sitter/safe-parse.ts#L211-L249",
+      "repository": "abhigyanpatwari/GitNexus",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "path": "gitnexus/src/core/tree-sitter/safe-parse.ts",
+      "line_start": 211,
+      "line_end": 249,
+      "file_lines": 286,
+      "file_sha256": "724c55d7203c9821f232a1b7bb2b5ee4f578cf98f814cecf31eed5004da6e8a9",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/ingestion/pipeline.ts#L330-L365",
+      "repository": "abhigyanpatwari/GitNexus",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "path": "gitnexus/src/core/ingestion/pipeline.ts",
+      "line_start": 330,
+      "line_end": 365,
+      "file_lines": 563,
+      "file_sha256": "5b0d240bb09ad11136d3afd1336f3528c198e1b4a053d4167c65f188a18917ca",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/ingestion/process-processor.ts#L440-L679",
+      "repository": "abhigyanpatwari/GitNexus",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "path": "gitnexus/src/core/ingestion/process-processor.ts",
+      "line_start": 440,
+      "line_end": 679,
+      "file_lines": 963,
+      "file_sha256": "b649d4a550e379c89c7bc8e71762e5c85a18e0a417d0d061164b0230c3d643ac",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/gitnexus/src/core/wiki/llm-client.ts#L94-L140",
+      "repository": "abhigyanpatwari/GitNexus",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "path": "gitnexus/src/core/wiki/llm-client.ts",
+      "line_start": 94,
+      "line_end": 140,
+      "file_lines": 529,
+      "file_sha256": "c3fa5cede6623a0e382fe80205e1992d4e17c5f8c36fd0b780f7737bff33ba93",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus/blob/cae60c2bd49ed9176544d0d1a0810db6a552f2cc/LICENSE#L1-L41",
+      "repository": "abhigyanpatwari/GitNexus",
+      "commit_sha": "cae60c2bd49ed9176544d0d1a0810db6a552f2cc",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 41,
+      "file_lines": 73,
+      "file_sha256": "b3e617e5e5eea01b2e9153156c88706c14899e78b4a5d48b9fc14f4f10115c72",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/rag/pipeline.py#L230-L245",
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "path": "api/rag/pipeline.py",
+      "line_start": 230,
+      "line_end": 245,
+      "file_lines": 493,
+      "file_sha256": "faf3966423f9c8bfd29975c431823afb1c83178288e1a602f7ce2f1ff44da770",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/services/codemap.py#L224-L297",
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "path": "api/services/codemap.py",
+      "line_start": 224,
+      "line_end": 297,
+      "file_lines": 298,
+      "file_sha256": "6472a8585d52a2d7c237e176375db1fb99f29dc24ad3957d486004681ed39cfe",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/api/services/codemap.py#L164-L208",
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "path": "api/services/codemap.py",
+      "line_start": 164,
+      "line_end": 208,
+      "file_lines": 298,
+      "file_sha256": "6472a8585d52a2d7c237e176375db1fb99f29dc24ad3957d486004681ed39cfe",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/src/components/Mermaid.tsx#L356-L388",
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "path": "src/components/Mermaid.tsx",
+      "line_start": 356,
+      "line_end": 388,
+      "file_lines": 491,
+      "file_sha256": "77f79b6eda6857043bf309b79c8adda30dd4db8bbc4abf5ec3e9a2e94ca3675f",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open/blob/d92819a9c9f3b99416e3580ff235fc9d3adf8b89/LICENSE#L1-L21",
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "commit_sha": "d92819a9c9f3b99416e3580ff235fc9d3adf8b89",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "3c2f078eefdfddcaad30507416305733b9f7f5bcf083a3cd15d3e8aa9a90ca5f",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/extract/acorn/extract-es6-deps.mjs#L10-L66",
+      "repository": "sverweij/dependency-cruiser",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "path": "src/extract/acorn/extract-es6-deps.mjs",
+      "line_start": 10,
+      "line_end": 66,
+      "file_lines": 67,
+      "file_sha256": "ad0276f8892d4e1c0fd0e34a5afe5b4007f6ece37da464b5d276c7bd45798fc1",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/main/cruise.mjs#L76-L108",
+      "repository": "sverweij/dependency-cruiser",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "path": "src/main/cruise.mjs",
+      "line_start": 76,
+      "line_end": 108,
+      "file_lines": 114,
+      "file_sha256": "dfa64203bbbfbdb0944062f02d3b977e2839283a451d075b7aa97968c8f667b7",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/validate/index.mjs#L20-L101",
+      "repository": "sverweij/dependency-cruiser",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "path": "src/validate/index.mjs",
+      "line_start": 20,
+      "line_end": 101,
+      "file_lines": 111,
+      "file_sha256": "adf0ac519d25d7c5828f04a61e377c51801fc0d9a5c0db534de18a2d0fcf547e",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/src/report/mermaid.mjs#L158-L168",
+      "repository": "sverweij/dependency-cruiser",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "path": "src/report/mermaid.mjs",
+      "line_start": 158,
+      "line_end": 168,
+      "file_lines": 183,
+      "file_sha256": "a7d7997040ae07e866135213131082bd092fc0d74fd9be552cda026414f387fb",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/sverweij/dependency-cruiser/blob/c580daf6477aa5619bacad9c9091c9b7cc81882d/LICENSE#L1-L21",
+      "repository": "sverweij/dependency-cruiser",
+      "commit_sha": "c580daf6477aa5619bacad9c9091c9b7cc81882d",
+      "path": "LICENSE",
+      "line_start": 1,
+      "line_end": 21,
+      "file_lines": 21,
+      "file_sha256": "046799de79c54f5366624ef97e3d5518afbefcd784a23aa74ef58d8f8bfcb2be",
+      "cited_by": [
+        "Research/notes/codebase-architecture-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/utils/importSQL/index.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/utils/importSQL/index.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 39,
+      "file_sha256": "c1b4a1c08fe2d10354ba525b9371e690000101a8260161f96c0008fd687b4a3a",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/utils/exportSQL/index.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/utils/exportSQL/index.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 32,
+      "file_sha256": "280e3134e2f51ae5bdfc13958e2aa54422e09de09f9b167c415e8f66a709dac2",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/data/db.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/data/db.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 27,
+      "file_sha256": "a242bd058fb79b3e23e18f48c1b4b3d2c092ad136b53a060ff13383f50732000",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/utils/exportAs/mermaid.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/utils/exportAs/mermaid.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 54,
+      "file_sha256": "51e922dd96967f115eac954e4c06325533b9013c76a52ca8726b7b1d77c8dace",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/utils/migrations/diffToSQL.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/utils/migrations/diffToSQL.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 948,
+      "file_sha256": "0b2d7cf1fb65bea76499d68efbe29649eea48212a688b612f7b8654d2333b26e",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/context/ExtensionsContext.jsx",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/context/ExtensionsContext.jsx",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 14,
+      "file_sha256": "46ae0266ec347caccde987cecd20286f777892233ec32d47c8f0353cbe4a784f",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/components/EditorHeader/Modal/Modal.jsx",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/components/EditorHeader/Modal/Modal.jsx",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 470,
+      "file_sha256": "de672892cf82af035a7ffeb54f094a327e95158361d80195816489c1505b6073",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/src/utils/importAiDiagram.js",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "src/utils/importAiDiagram.js",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 117,
+      "file_sha256": "f796ef971c1023ac4abf6d315d5bbc0196e5ab0e212e3aafb854adeb8c8976a1",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/drawdb-io/drawdb/blob/f7c92920faaf7aa699111a8c58eff1457ab7f6e0/LICENSE",
+      "repository": "drawdb-io/drawdb",
+      "commit_sha": "f7c92920faaf7aa699111a8c58eff1457ab7f6e0",
+      "path": "LICENSE",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 661,
+      "file_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/lib/data/import-metadata/scripts/postgres-script.ts",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/lib/data/import-metadata/scripts/postgres-script.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 408,
+      "file_sha256": "f4d20d8182641198e142774d9755ce9b0340dc84c047348d2f042251e893aff3",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/lib/data/import-metadata/import/index.ts",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/lib/data/import-metadata/import/index.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 91,
+      "file_sha256": "441cd2ab32b76ecf7a02b9f5bf27f08e79159d4080c96dfc98729987d9b12685",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/lib/data/import-metadata/import/relationships.ts",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/lib/data/import-metadata/import/relationships.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 88,
+      "file_sha256": "4b445a96bc7ad96780a698cd0d0dbc42af5003c5049ebdb42b735e0182e3a3b2",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/dialogs/export-sql-dialog/export-sql-dialog.tsx#L146-L160",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/dialogs/export-sql-dialog/export-sql-dialog.tsx",
+      "line_start": 146,
+      "line_end": 160,
+      "file_lines": 342,
+      "file_sha256": "7a5736dc12d2cc594701748d97c66587a15d8c9909e700606bae38e7f7b01973",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/lib/data/sql-export/cross-dialect/index.ts#L32-L42",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/lib/data/sql-export/cross-dialect/index.ts",
+      "line_start": 32,
+      "line_end": 42,
+      "file_lines": 90,
+      "file_sha256": "6d99fab7bb9b6e128486ab565acdc195b0d8c9803febc6bee0d7462097dc2621",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/context/storage-context/storage-provider.tsx",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/context/storage-context/storage-provider.tsx",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 933,
+      "file_sha256": "c950393f2c254aedd24a778b35ed652840f237b154a158aa59d961662e09e689",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/src/lib/data/sql-export/export-sql-script.ts",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "src/lib/data/sql-export/export-sql-script.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 1003,
+      "file_sha256": "1f331b442f731e0e83170a03dd764cd94638773e0c3649b4c7e25a8321b08245",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/chartdb/chartdb/blob/c24936a402bb3e24b4858f05282d69a04fcfe25b/LICENSE",
+      "repository": "chartdb/chartdb",
+      "commit_sha": "c24936a402bb3e24b4858f05282d69a04fcfe25b",
+      "path": "LICENSE",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 661,
+      "file_sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/packages/schema/src/parser/index.ts",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/packages/schema/src/parser/index.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 42,
+      "file_sha256": "1bd03766e8f36c588910f00f0897d465a920954953c86f69105bdaec517a85ce",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/packages/schema/src/parser/sql/postgresql/parser.ts",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/packages/schema/src/parser/sql/postgresql/parser.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 58,
+      "file_sha256": "55a52049479397872ed86a86d2686ea13cb1886f49d86f034880b328bfefbfb2",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/apps/docs/content/docs/parser/supported-formats/mysql.mdx",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/apps/docs/content/docs/parser/supported-formats/mysql.mdx",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 40,
+      "file_sha256": "62308939e76b1e420a3fc9b508e8dff8aef501888e5d0a5e2ba0535a04910254",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/packages/cli/src/cli/erdCommand/runPreprocess.ts",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/packages/cli/src/cli/erdCommand/runPreprocess.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 101,
+      "file_sha256": "d77324a500f2ee45f8868f126b90327ce80119d5c2da0b0c28c280045ab3ead0",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/packages/cli/src/cli/erdCommand/buildCommand/index.ts",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/packages/cli/src/cli/erdCommand/buildCommand/index.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 69,
+      "file_sha256": "3ef5f0ccf2fac7ec8980fc39e30b32f019939025fae3a97c69aff17aaac78203",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/frontend/packages/erd-core/src/features/erd/utils/computeAutoLayout/getElkLayout.ts",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "frontend/packages/erd-core/src/features/erd/utils/computeAutoLayout/getElkLayout.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 44,
+      "file_sha256": "0f0773ca148bccea10611abd6e4c26d50be56cc909285de508b7ac880addf2c0",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/liam-hq/liam/blob/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814/LICENSE",
+      "repository": "liam-hq/liam",
+      "commit_sha": "0c5e362c2cbda0e17b3ac8d9707d2a421d64f814",
+      "path": "LICENSE",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 178,
+      "file_sha256": "51f8d29f4597ef46812f96da168917bc213838d32ec7cd3c0a6b5df24d17daa0",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/blocksuite/affine/shared/src/services/doc-mode-service.ts",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "blocksuite/affine/shared/src/services/doc-mode-service.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 109,
+      "file_sha256": "95f08f47199d97a5ba8a935a1a76067ee1a161cdd4d9defcd0cd5116dc61ed52",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/packages/frontend/core/src/blocksuite/view-extensions/editor-view/doc-mode-service.ts",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "packages/frontend/core/src/blocksuite/view-extensions/editor-view/doc-mode-service.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 54,
+      "file_sha256": "fbee91ea9b941670e58c342af0c2a75715bd9e8506566ddb480db21b41c0cbb6",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/blocksuite/affine/blocks/root/src/edgeless/edgeless-root-block.ts",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "blocksuite/affine/blocks/root/src/edgeless/edgeless-root-block.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 528,
+      "file_sha256": "07ad7409181e8b949a39fef1cb4565e7d38d6d2128aad52898c622eacd756bc5",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/blocksuite/affine/gfx/mindmap/src/view/layout.ts",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "blocksuite/affine/gfx/mindmap/src/view/layout.ts",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 201,
+      "file_sha256": "8e142553f85e2063de6101a103b3342a5cac104877e769164a709dc657620505",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/LICENSE",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "LICENSE",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 25,
+      "file_sha256": "c107c8088fe42bce6def95d313cfe7b5984d3bb2c1608b67f855327da45f497b",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
+    },
+    {
+      "url": "https://github.com/toeverything/AFFiNE/blob/0b69a6da21e8fd35beb85667bb8496d9b3852238/packages/backend/server/LICENSE",
+      "repository": "toeverything/AFFiNE",
+      "commit_sha": "0b69a6da21e8fd35beb85667bb8496d9b3852238",
+      "path": "packages/backend/server/LICENSE",
+      "line_start": null,
+      "line_end": null,
+      "file_lines": 44,
+      "file_sha256": "5a644f9defc017ffd484413598d1edf65bc78718e4011ac33a0e1fcae629e25d",
+      "cited_by": [
+        "Research/notes/database-and-canvas-gaps.md"
+      ]
     }
-  ]
+  ],
+  "updated_at_utc": "2026-10-14T21:05:02+00:00"
 }

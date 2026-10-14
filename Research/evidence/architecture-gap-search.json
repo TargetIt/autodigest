@@ -1,0 +1,635 @@
+{
+  "scope": "Discovery cross-check for architecture/agent diagramming, codebase visualization, whiteboards and database diagrams. Top 20 per query are a bounded candidate pool, not an exhaustive GitHub inventory. Star thresholds are discovery filters, not inclusion rules. Supplemented with official docs and agent-led semantic searches.",
+  "queries": [
+    {
+      "query": "topic:architecture-diagram stars:>1000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:13+00:00",
+      "total_count": 5,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "tt-a1i/archify",
+          "html_url": "https://github.com/tt-a1i/archify",
+          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+          "stargazers_count": 83480,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "ahmedkhaleel2004/gitdiagram",
+          "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+          "description": "Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' with 'diagram' in any GitHub URL.",
+          "stargazers_count": 18202,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "Agents365-ai/drawio-skill",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill",
+          "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+          "stargazers_count": 10141,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "sverweij/dependency-cruiser",
+          "html_url": "https://github.com/sverweij/dependency-cruiser",
+          "description": "Validate and visualize dependencies. Your rules. JavaScript, TypeScript, CoffeeScript. ES6, CommonJS, AMD.",
+          "stargazers_count": 7291,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "patrickchugh/terravision",
+          "html_url": "https://github.com/patrickchugh/terravision",
+          "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
+          "stargazers_count": 1655,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "topic:diagrams-as-code stars:>1000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:13+00:00",
+      "total_count": 7,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "mermaid-js/mermaid",
+          "html_url": "https://github.com/mermaid-js/mermaid",
+          "description": "Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown",
+          "stargazers_count": 90655,
+          "fork": false,
+          "archived": false,
+          "default_branch": "develop",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "tt-a1i/archify",
+          "html_url": "https://github.com/tt-a1i/archify",
+          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+          "stargazers_count": 83480,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "plantuml/plantuml",
+          "html_url": "https://github.com/plantuml/plantuml",
+          "description": "Generate diagrams from textual description",
+          "stargazers_count": 13364,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "Agents365-ai/drawio-skill",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill",
+          "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+          "stargazers_count": 10141,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "CodeBoarding/CodeBoarding",
+          "html_url": "https://github.com/CodeBoarding/CodeBoarding",
+          "description": "Interactive architecture diagrams for codebases",
+          "stargazers_count": 2577,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "coldteadotai/pr-lens",
+          "html_url": "https://github.com/coldteadotai/pr-lens",
+          "description": "Review code 100X faster. Lens draws every PR as animated architecture and data-flow walkthroughs, inside the pull request itself. Use it as a GitHub App, GitHub Action, CLI, or a Skill for your coding agent",
+          "stargazers_count": 1961,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "patrickchugh/terravision",
+          "html_url": "https://github.com/patrickchugh/terravision",
+          "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
+          "stargazers_count": 1655,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "diagram mcp stars:>1000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:14+00:00",
+      "total_count": 7,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "drawdb-io/drawdb",
+          "html_url": "https://github.com/drawdb-io/drawdb",
+          "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+          "stargazers_count": 40016,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "yctimlin/mcp_excalidraw",
+          "html_url": "https://github.com/yctimlin/mcp_excalidraw",
+          "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+          "stargazers_count": 2538,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "ZenNotes/zennotes",
+          "html_url": "https://github.com/ZenNotes/zennotes",
+          "description": "Keyboard-first local Markdown notes with Vim motions, diagrams, and MCP integration.",
+          "stargazers_count": 2531,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "llmsresearch/paperbanana",
+          "html_url": "https://github.com/llmsresearch/paperbanana",
+          "description": "Open source implementation and extension of Google Research’s PaperBanana for automated academic figures, diagrams, and research visuals, expanded to new domains like slide generation.",
+          "stargazers_count": 2400,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "nimbalyst/nimbalyst",
+          "html_url": "https://github.com/nimbalyst/nimbalyst",
+          "description": "Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks. Free, MIT-licensed desktop app for macOS, Windows, Linux, with mobile companion for iOS and Android.",
+          "stargazers_count": 1901,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "dineug/erd-editor",
+          "html_url": "https://github.com/dineug/erd-editor",
+          "description": "ERD Editor: design database schemas visually, import SQL DDL, GraphQL, DBML and AML, export DDL and code for 22 languages. Web app, Google Drive, VS Code, IntelliJ, Obsidian, a custom element, and an MCP server that lets coding agents edit diagrams live.",
+          "stargazers_count": 1723,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "patrickchugh/terravision",
+          "html_url": "https://github.com/patrickchugh/terravision",
+          "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
+          "stargazers_count": 1655,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "codebase visualization stars:>1000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:14+00:00",
+      "total_count": 8,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "tt-a1i/archify",
+          "html_url": "https://github.com/tt-a1i/archify",
+          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+          "stargazers_count": 83480,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "ahmedkhaleel2004/gitdiagram",
+          "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+          "description": "Visualize any GitHub codebase: free interactive architecture diagrams and one-minute explainer videos. Replace 'hub' with 'diagram' in any GitHub URL.",
+          "stargazers_count": 18202,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "shobrook/adrenaline",
+          "html_url": "https://github.com/shobrook/adrenaline",
+          "description": "Chat with (and visualize) your codebase",
+          "stargazers_count": 3738,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "CodeBoarding/CodeBoarding",
+          "html_url": "https://github.com/CodeBoarding/CodeBoarding",
+          "description": "Interactive architecture diagrams for codebases",
+          "stargazers_count": 2577,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "cosmtrek/mindwalk",
+          "html_url": "https://github.com/cosmtrek/mindwalk",
+          "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
+          "stargazers_count": 1369,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "unslop-xyz/noodles",
+          "html_url": "https://github.com/unslop-xyz/noodles",
+          "description": "Your codebase was probably AI-generated. Get a better handle on it. Noodles creates interactive diagrams that visualize how your code actually works, so you can understand what the AI built without reading every line.",
+          "stargazers_count": 1356,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "KaihuaTang/Scene-Graph-Benchmark.pytorch",
+          "html_url": "https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch",
+          "description": "A new codebase for popular Scene Graph Generation methods (2020). Visualization & Scene Graph Extraction on custom images/datasets are provided. It's also a PyTorch implementation of paper “Unbiased Scene Graph Generation from Biased Training CVPR 2020”",
+          "stargazers_count": 1199,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "glato/emerge",
+          "html_url": "https://github.com/glato/emerge",
+          "description": "Emerge is a browser-based interactive codebase and dependency visualization tool for many different programming languages. It supports some basic code quality and graph metrics and provides a simple and intuitive way to explore and analyze a codebase by using graph structures.",
+          "stargazers_count": 1166,
+          "fork": false,
+          "archived": false,
+          "default_branch": "dev",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "whiteboard stars:>5000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:16+00:00",
+      "total_count": 11,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "excalidraw/excalidraw",
+          "html_url": "https://github.com/excalidraw/excalidraw",
+          "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+          "stargazers_count": 133880,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "toeverything/AFFiNE",
+          "html_url": "https://github.com/toeverything/AFFiNE",
+          "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+          "stargazers_count": 73505,
+          "fork": false,
+          "archived": false,
+          "default_branch": "canary",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "poteto/hiring-without-whiteboards",
+          "html_url": "https://github.com/poteto/hiring-without-whiteboards",
+          "description": "⭐️  Companies that don't have a broken hiring process",
+          "stargazers_count": 52688,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "tldraw/tldraw",
+          "html_url": "https://github.com/tldraw/tldraw",
+          "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+          "stargazers_count": 50921,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "plait-board/drawnix",
+          "html_url": "https://github.com/plait-board/drawnix",
+          "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
+          "stargazers_count": 14941,
+          "fork": false,
+          "archived": false,
+          "default_branch": "develop",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "konvajs/konva",
+          "html_url": "https://github.com/konvajs/konva",
+          "description": "Konva.js is an HTML5 Canvas JavaScript framework for interactive graphics, design editors, whiteboards, and diagrams. Scene graph with events, drag and drop, transforms, animations, and export.",
+          "stargazers_count": 14866,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "Agents365-ai/drawio-skill",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill",
+          "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+          "stargazers_count": 10141,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "jgraph/drawio",
+          "html_url": "https://github.com/jgraph/drawio",
+          "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
+          "stargazers_count": 8763,
+          "fork": false,
+          "archived": false,
+          "default_branch": "dev",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "mbrlabs/Lorien",
+          "html_url": "https://github.com/mbrlabs/Lorien",
+          "description": "Infinite canvas drawing/whiteboarding app for Windows, Linux and macOS. Made with Godot.",
+          "stargazers_count": 6848,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "netless-io/flat",
+          "html_url": "https://github.com/netless-io/flat",
+          "description": "Project flat is the Web, Windows and macOS client of Agora Flat open source classroom.",
+          "stargazers_count": 6439,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "konvajs/react-konva",
+          "html_url": "https://github.com/konvajs/react-konva",
+          "description": "React components for the Konva 2d canvas library. Build interactive graphics, design editors, and whiteboards with JSX.",
+          "stargazers_count": 6434,
+          "fork": false,
+          "archived": false,
+          "default_branch": "master",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "database diagram stars:>5000 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:16+00:00",
+      "total_count": 3,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "drawdb-io/drawdb",
+          "html_url": "https://github.com/drawdb-io/drawdb",
+          "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+          "stargazers_count": 40016,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "chartdb/chartdb",
+          "html_url": "https://github.com/chartdb/chartdb",
+          "description": "Database diagrams editor that allows you to visualize and design your DB with a single query.",
+          "stargazers_count": 22996,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "liam-hq/liam",
+          "html_url": "https://github.com/liam-hq/liam",
+          "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+          "stargazers_count": 5138,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        }
+      ]
+    },
+    {
+      "query": "diagram skill stars:>500 fork:false",
+      "retrieved_at_utc": "2026-10-14T20:54:18+00:00",
+      "total_count": 15,
+      "incomplete_results": false,
+      "sort": "stars descending",
+      "per_page": 20,
+      "items": [
+        {
+          "full_name": "tt-a1i/archify",
+          "html_url": "https://github.com/tt-a1i/archify",
+          "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+          "stargazers_count": 83480,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "nicobailon/visual-explainer",
+          "html_url": "https://github.com/nicobailon/visual-explainer",
+          "description": "Agent skill that generates rich HTML pages or slide decks for diagrams, diff reviews, plan audits, data tables, and project recaps",
+          "stargazers_count": 10429,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "Agents365-ai/drawio-skill",
+          "html_url": "https://github.com/Agents365-ai/drawio-skill",
+          "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
+          "stargazers_count": 10141,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "Cocoon-AI/architecture-diagram-generator",
+          "html_url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+          "description": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.    ",
+          "stargazers_count": 7434,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "coleam00/excalidraw-diagram-skill",
+          "html_url": "https://github.com/coleam00/excalidraw-diagram-skill",
+          "description": "Skill to give Claude Code (and any coding agent) the ability to generate beautiful and practical Excalidraw diagrams.",
+          "stargazers_count": 5014,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": true
+        },
+        {
+          "full_name": "plannotator/effective-html",
+          "html_url": "https://github.com/plannotator/effective-html",
+          "description": "Agent skills for useful HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.",
+          "stargazers_count": 3651,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "axtonliu/axton-obsidian-visual-skills",
+          "html_url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
+          "description": "Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code",
+          "stargazers_count": 3648,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "markdown-viewer/skills",
+          "html_url": "https://github.com/markdown-viewer/skills",
+          "description": "Opinionated skills for AI coding agents to create stunning diagrams and visualizations directly in Markdown. These skills extend agent capabilities across diagram generation, data visualization, and technical documentation.",
+          "stargazers_count": 3363,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "QingYunA/answer-me-with-html",
+          "html_url": "https://github.com/QingYunA/answer-me-with-html",
+          "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+          "stargazers_count": 3362,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "yctimlin/mcp_excalidraw",
+          "html_url": "https://github.com/yctimlin/mcp_excalidraw",
+          "description": "MCP server and Claude Code skill for Excalidraw — programmatic canvas toolkit to create, edit, and export diagrams via AI agents with real-time canvas sync.",
+          "stargazers_count": 2538,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "c-narcissus/paper-framework-figure-studio-pro",
+          "html_url": "https://github.com/c-narcissus/paper-framework-figure-studio-pro",
+          "description": "A multi-round co-design skill for publication-ready paper framework diagrams and method overview figures.",
+          "stargazers_count": 2264,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "imxv/Pretty-mermaid-skills",
+          "html_url": "https://github.com/imxv/Pretty-mermaid-skills",
+          "description": "AI Agent Skill to generate and render beautiful Mermaid diagrams as SVG or terminal ASCII — 15 themes, 6 diagram types, batch CLI, no browser.",
+          "stargazers_count": 1529,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "cclank/lanshu-animated-architecture-diagram",
+          "html_url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+          "description": "Premium hand-drawn animated architecture diagram Codex skill",
+          "stargazers_count": 996,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "ythx-101/live-panel-skill",
+          "html_url": "https://github.com/ythx-101/live-panel-skill",
+          "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
+          "stargazers_count": 714,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        },
+        {
+          "full_name": "bybit-exchange/svg-diagram",
+          "html_url": "https://github.com/bybit-exchange/svg-diagram",
+          "description": "Agent skill that draws architecture, flowchart, sequence, data-flow and lifecycle diagrams as hand-placed SVG, to one linted house style.",
+          "stargazers_count": 626,
+          "fork": false,
+          "archived": false,
+          "default_branch": "main",
+          "already_in_catalog": false
+        }
+      ]
+    }
+  ]
+}

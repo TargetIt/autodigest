@@ -1,0 +1,1027 @@
+{
+  "schema_version": 1,
+  "scope": "architecture-modeling gap review",
+  "collected_at_utc": "2026-10-14T20:53:37+00:00",
+  "candidates": [
+    {
+      "repository": "likec4/likec4",
+      "sha": "5385c577042988691f66cd82e65d60d13121d468",
+      "local_path": "Research/repos/likec4/likec4",
+      "status": "include",
+      "include_reason": "补足自定义架构 DSL、多文件单一模型、多视图和交互发布；与 Archify 的单次图解交付形成互补。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "likec4/likec4",
+        "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/likec4/likec4",
+          "head_commit": "https://api.github.com/repos/likec4/likec4/commits/main",
+          "latest_release": "https://api.github.com/repos/likec4/likec4/releases/latest"
+        },
+        "repository": {
+          "id": 618351200,
+          "full_name": "likec4/likec4",
+          "html_url": "https://github.com/likec4/likec4",
+          "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+          "homepage": "https://likec4.dev",
+          "stargazers_count": 5875,
+          "forks_count": 400,
+          "subscribers_count": 26,
+          "open_issues_count": 198,
+          "language": "TypeScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2023-03-24T09:30:34Z",
+          "updated_at": "2026-10-14T17:18:16Z",
+          "pushed_at": "2026-10-14T09:32:53Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "architecture",
+            "architecture-as-code",
+            "c4",
+            "diagrams"
+          ],
+          "size": 243663,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "html_url": "https://github.com/likec4/likec4/commit/5385c577042988691f66cd82e65d60d13121d468",
+          "committed_at": "2026-10-13T11:56:22Z",
+          "subject": "clean prev artifacts"
+        },
+        "latest_release": {
+          "tag_name": "v1.59.4",
+          "name": "v1.59.4",
+          "html_url": "https://github.com/likec4/likec4/releases/tag/v1.59.4",
+          "published_at": "2026-09-21T22:39:56Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "review_method": "Static source review only; no upstream code, installer, skill, render process, or updater executed.",
+      "checkout_kind": "shallow partial clone with sparse checkout",
+      "source_evidence": [
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/language-server/src/model/model-builder.ts",
+          "line_start": 179,
+          "line_end": 217
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/core/src/compute-view/compute-view.ts",
+          "line_start": 33,
+          "line_end": 84
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/layouts/src/graphviz/GraphvizLayoter.ts",
+          "line_start": 71,
+          "line_end": 151
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/likec4/src/cli/build/index.ts",
+          "line_start": 79,
+          "line_end": 104
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/likec4/src/cli/export/png/handler.ts",
+          "line_start": 90,
+          "line_end": 115
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/mcp/src/tools/render-view.ts",
+          "line_start": 17,
+          "line_end": 62
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/mcp/src/tools/apply-semantic-layout.ts",
+          "line_start": 66,
+          "line_end": 130
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/likec4/package.json",
+          "line_start": 244,
+          "line_end": 246
+        },
+        {
+          "repository": "likec4/likec4",
+          "sha": "5385c577042988691f66cd82e65d60d13121d468",
+          "path": "packages/likec4/LICENSE",
+          "line_start": 1,
+          "line_end": 21
+        }
+      ],
+      "checkout_clean": true,
+      "source_sha_matches_metadata": true
+    },
+    {
+      "repository": "structurizr/structurizr",
+      "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+      "local_path": "Research/repos/structurizr/structurizr",
+      "status": "include",
+      "include_reason": "补足 C4 参考实现、共享架构模型、多视图及现行统一工具链，纠正旧 CLI/Lite 仓库归档导致的推荐过时。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/structurizr",
+        "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/structurizr",
+          "head_commit": "https://api.github.com/repos/structurizr/structurizr/commits/main",
+          "latest_release": "https://api.github.com/repos/structurizr/structurizr/releases/latest"
+        },
+        "repository": {
+          "id": 1106797061,
+          "full_name": "structurizr/structurizr",
+          "html_url": "https://github.com/structurizr/structurizr",
+          "description": "Structurizr is a \"models as code\" tool designed for the C4 model.",
+          "homepage": "https://docs.structurizr.com",
+          "stargazers_count": 463,
+          "forks_count": 68,
+          "subscribers_count": 3,
+          "open_issues_count": 3,
+          "language": "Java",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2025-11-30T00:39:23Z",
+          "updated_at": "2026-10-14T14:56:41Z",
+          "pushed_at": "2026-10-05T07:29:17Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "ai",
+            "c4model",
+            "mcp-server",
+            "software-architecture",
+            "structurizr"
+          ],
+          "size": 28465,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "html_url": "https://github.com/structurizr/structurizr/commit/da99caf2f2857e5373f7b58569152274f1725ba3",
+          "committed_at": "2026-10-05T07:29:15Z",
+          "subject": "re #131."
+        },
+        "latest_release": {
+          "tag_name": "v2026.09.19",
+          "name": "2026.09.19",
+          "html_url": "https://github.com/structurizr/structurizr/releases/tag/v2026.09.19",
+          "published_at": "2026-09-19T15:33:30Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "review_method": "Static source review only; no upstream code, installer, skill, render process, or updater executed.",
+      "checkout_kind": "shallow partial clone with sparse checkout",
+      "source_evidence": [
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-core/src/main/java/com/structurizr/Workspace.java",
+          "line_start": 20,
+          "line_end": 76
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-core/src/main/java/com/structurizr/view/ViewSet.java",
+          "line_start": 1191,
+          "line_end": 1218
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-dsl/src/main/java/com/structurizr/dsl/StructurizrDslParser.java",
+          "line_start": 486,
+          "line_end": 524
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java",
+          "line_start": 43,
+          "line_end": 64
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-application/src/main/java/com/structurizr/command/ExportCommand.java",
+          "line_start": 123,
+          "line_end": 132
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "structurizr-mcp/src/main/java/com/structurizr/mcp/DslTools.java",
+          "line_start": 29,
+          "line_end": 92
+        },
+        {
+          "repository": "structurizr/structurizr",
+          "sha": "da99caf2f2857e5373f7b58569152274f1725ba3",
+          "path": "pom.xml",
+          "line_start": 11,
+          "line_end": 21
+        }
+      ],
+      "checkout_clean": true,
+      "source_sha_matches_metadata": true
+    },
+    {
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+      "local_path": "Research/repos/plantuml-stdlib/C4-PlantUML",
+      "status": "include",
+      "include_reason": "作为 PlantUML 的 C4 领域扩展单独介绍，不重复计算 PlantUML 引擎；适合规范化架构图与既有文档流水线。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "plantuml-stdlib/C4-PlantUML",
+        "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML",
+          "head_commit": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML/commits/master",
+          "latest_release": "https://api.github.com/repos/plantuml-stdlib/C4-PlantUML/releases/latest"
+        },
+        "repository": {
+          "id": 147545986,
+          "full_name": "plantuml-stdlib/C4-PlantUML",
+          "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML",
+          "description": "C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures",
+          "homepage": "",
+          "stargazers_count": 7433,
+          "forks_count": 1170,
+          "subscribers_count": 105,
+          "open_issues_count": 0,
+          "language": "PlantUML",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2018-09-05T16:12:47Z",
+          "updated_at": "2026-10-13T20:52:31Z",
+          "pushed_at": "2026-10-13T09:44:08Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "master",
+          "topics": [
+            "architecture",
+            "c4",
+            "c4model",
+            "diagram",
+            "graphviz",
+            "plantuml",
+            "uml"
+          ],
+          "size": 8211,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML/commit/f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "committed_at": "2026-08-26T14:58:24Z",
+          "subject": "Merge pull request #421 from plantuml-stdlib/start-v2.15.0-beta1"
+        },
+        "latest_release": {
+          "tag_name": "v2.14.0",
+          "name": "Release v2.14.0",
+          "html_url": "https://github.com/plantuml-stdlib/C4-PlantUML/releases/tag/v2.14.0",
+          "published_at": "2026-08-26T14:32:25Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "review_method": "Static source review only; no upstream code, installer, skill, render process, or updater executed.",
+      "checkout_kind": "shallow partial clone with sparse checkout",
+      "source_evidence": [
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4_Container.puml",
+          "line_start": 73,
+          "line_end": 97
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4.puml",
+          "line_start": 1234,
+          "line_end": 1244
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4_Dynamic.puml",
+          "line_start": 29,
+          "line_end": 47
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4.puml",
+          "line_start": 1922,
+          "line_end": 1947
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4_Component.puml",
+          "line_start": 1,
+          "line_end": 6
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "C4_Context.puml",
+          "line_start": 1,
+          "line_end": 6
+        },
+        {
+          "repository": "plantuml-stdlib/C4-PlantUML",
+          "sha": "f998c46833daac592f3283ff08d7b8cd7e1558fb",
+          "path": "LICENSE",
+          "line_start": 1,
+          "line_end": 21
+        }
+      ],
+      "checkout_clean": true,
+      "source_sha_matches_metadata": true
+    },
+    {
+      "repository": "archimatetool/archi",
+      "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+      "local_path": "Research/repos/archimatetool/archi",
+      "status": "include",
+      "include_reason": "补足 ArchiMate 企业架构模型编辑、多视图共享元素与模型规则校验；与 Archify 同名相近但用途不同。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "archimatetool/archi",
+        "retrieved_at_utc": "2026-10-14T20:53:31+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/archimatetool/archi",
+          "head_commit": "https://api.github.com/repos/archimatetool/archi/commits/master",
+          "latest_release": "https://api.github.com/repos/archimatetool/archi/releases/latest"
+        },
+        "repository": {
+          "id": 1547663,
+          "full_name": "archimatetool/archi",
+          "html_url": "https://github.com/archimatetool/archi",
+          "description": "Archi: ArchiMate Modelling Tool",
+          "homepage": "https://www.archimatetool.com",
+          "stargazers_count": 1286,
+          "forks_count": 344,
+          "subscribers_count": 85,
+          "open_issues_count": 199,
+          "language": "Java",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2011-03-30T19:18:13Z",
+          "updated_at": "2026-10-08T02:15:07Z",
+          "pushed_at": "2026-10-07T11:48:16Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "master",
+          "topics": [
+            "archimate",
+            "archimatetool"
+          ],
+          "size": 197294,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "html_url": "https://github.com/archimatetool/archi/commit/fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "committed_at": "2026-10-02T15:54:38Z",
+          "subject": "Set default image upscale preference to true and rename helper method"
+        },
+        "latest_release": null
+      },
+      "review_method": "Static source review only; no upstream code, installer, skill, render process, or updater executed.",
+      "checkout_kind": "shallow partial clone with sparse checkout",
+      "source_evidence": [
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "com.archimatetool.model/src/com/archimatetool/model/impl/DiagramModelArchimateObject.java",
+          "line_start": 255,
+          "line_end": 297
+        },
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "com.archimatetool.hammer/src/com/archimatetool/hammer/validation/Validator.java",
+          "line_start": 71,
+          "line_end": 138
+        },
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "com.archimatetool.hammer/src/com/archimatetool/hammer/validation/checkers/InvalidRelationsChecker.java",
+          "line_start": 43,
+          "line_end": 65
+        },
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "com.archimatetool.reports/src/com/archimatetool/reports/html/HTMLReportExporter.java",
+          "line_start": 229,
+          "line_end": 274
+        },
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "org.opengroup.archimate.xmlexchange/src/org/opengroup/archimate/xmlexchange/XMLModelExporter.java",
+          "line_start": 217,
+          "line_end": 250
+        },
+        {
+          "repository": "archimatetool/archi",
+          "sha": "fbfa4474c414477ce88257c956999fb9efdf9e69",
+          "path": "License.txt",
+          "line_start": 1,
+          "line_end": 21
+        }
+      ],
+      "checkout_clean": true,
+      "source_sha_matches_metadata": true
+    },
+    {
+      "repository": "structurizr/cli",
+      "sha": "64464b193376e8f902383204c96c2ea53bb618b4",
+      "local_path": null,
+      "status": "exclude_archived",
+      "include_reason": null,
+      "exclude_reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation.",
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/cli",
+        "retrieved_at_utc": "2026-10-14T20:53:34+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/cli",
+          "head_commit": "https://api.github.com/repos/structurizr/cli/commits/master",
+          "latest_release": "https://api.github.com/repos/structurizr/cli/releases/latest"
+        },
+        "repository": {
+          "id": 269618549,
+          "full_name": "structurizr/cli",
+          "html_url": "https://github.com/structurizr/cli",
+          "description": "A command line utility for Structurizr.",
+          "homepage": "https://docs.structurizr.com",
+          "stargazers_count": 565,
+          "forks_count": 90,
+          "subscribers_count": 7,
+          "open_issues_count": 1,
+          "language": "Java",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2020-06-05T11:45:49Z",
+          "updated_at": "2026-10-06T17:57:39Z",
+          "pushed_at": "2026-02-01T14:27:37Z",
+          "archived": true,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "master",
+          "topics": [
+            "adrs",
+            "architecture-decision-records",
+            "architecture-diagrams",
+            "architecture-doc",
+            "asciidoc",
+            "c4model",
+            "markdown",
+            "plantuml",
+            "software-architecture",
+            "structurizr",
+            "websequencediagrams"
+          ],
+          "size": 1616,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "64464b193376e8f902383204c96c2ea53bb618b4",
+          "html_url": "https://github.com/structurizr/cli/commit/64464b193376e8f902383204c96c2ea53bb618b4",
+          "committed_at": "2026-02-01T14:27:36Z",
+          "subject": "."
+        },
+        "latest_release": {
+          "tag_name": "v2025.11.09",
+          "name": "v2025.11.09",
+          "html_url": "https://github.com/structurizr/cli/releases/tag/v2025.11.09",
+          "published_at": "2025-11-09T12:24:39Z",
+          "prerelease": false,
+          "draft": false
+        }
+      }
+    },
+    {
+      "repository": "structurizr/lite",
+      "sha": "cdcbb1ba784fad75d3c05fa1a3364ab17b221e51",
+      "local_path": null,
+      "status": "exclude_archived",
+      "include_reason": null,
+      "exclude_reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation.",
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/lite",
+        "retrieved_at_utc": "2026-10-14T20:53:34+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/lite",
+          "head_commit": "https://api.github.com/repos/structurizr/lite/commits/main",
+          "latest_release": "https://api.github.com/repos/structurizr/lite/releases/latest"
+        },
+        "repository": {
+          "id": 532493797,
+          "full_name": "structurizr/lite",
+          "html_url": "https://github.com/structurizr/lite",
+          "description": "Structurizr Lite",
+          "homepage": "https://docs.structurizr.com",
+          "stargazers_count": 383,
+          "forks_count": 61,
+          "subscribers_count": 7,
+          "open_issues_count": 6,
+          "language": "Java",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2022-09-04T09:29:18Z",
+          "updated_at": "2026-09-01T22:15:48Z",
+          "pushed_at": "2026-02-01T14:25:09Z",
+          "archived": true,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "c4-model",
+            "c4model",
+            "softwarearchitecture",
+            "structurizr"
+          ],
+          "size": 389,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "cdcbb1ba784fad75d3c05fa1a3364ab17b221e51",
+          "html_url": "https://github.com/structurizr/lite/commit/cdcbb1ba784fad75d3c05fa1a3364ab17b221e51",
+          "committed_at": "2026-02-01T14:25:08Z",
+          "subject": "."
+        },
+        "latest_release": {
+          "tag_name": "v2025.11.08",
+          "name": "v2025.11.08",
+          "html_url": "https://github.com/structurizr/lite/releases/tag/v2025.11.08",
+          "published_at": "2025-11-08T07:59:19Z",
+          "prerelease": false,
+          "draft": false
+        }
+      }
+    },
+    {
+      "repository": "structurizr/java",
+      "sha": "5783db719d701978e3a833bd5596736e69545121",
+      "local_path": null,
+      "status": "exclude_archived",
+      "include_reason": null,
+      "exclude_reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation.",
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/java",
+        "retrieved_at_utc": "2026-10-14T20:53:34+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/java",
+          "head_commit": "https://api.github.com/repos/structurizr/java/commits/master",
+          "latest_release": "https://api.github.com/repos/structurizr/java/releases/latest"
+        },
+        "repository": {
+          "id": 20656032,
+          "full_name": "structurizr/java",
+          "html_url": "https://github.com/structurizr/java",
+          "description": "Structurizr for Java",
+          "homepage": "https://docs.structurizr.com/java",
+          "stargazers_count": 1135,
+          "forks_count": 320,
+          "subscribers_count": 54,
+          "open_issues_count": 1,
+          "language": "Java",
+          "license": {
+            "key": "apache-2.0",
+            "name": "Apache License 2.0",
+            "spdx_id": "Apache-2.0",
+            "url": "https://api.github.com/licenses/apache-2.0",
+            "node_id": "MDc6TGljZW5zZTI="
+          },
+          "created_at": "2014-06-09T17:44:57Z",
+          "updated_at": "2026-10-02T15:16:25Z",
+          "pushed_at": "2026-02-01T14:29:40Z",
+          "archived": true,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "master",
+          "topics": [
+            "architecture-diagrams",
+            "c4model",
+            "software-architecture",
+            "structurizr"
+          ],
+          "size": 35580,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "5783db719d701978e3a833bd5596736e69545121",
+          "html_url": "https://github.com/structurizr/java/commit/5783db719d701978e3a833bd5596736e69545121",
+          "committed_at": "2026-02-01T14:29:39Z",
+          "subject": "."
+        },
+        "latest_release": {
+          "tag_name": "v5.0.3",
+          "name": "",
+          "html_url": "https://github.com/structurizr/java/releases/tag/v5.0.3",
+          "published_at": "2025-11-21T14:17:22Z",
+          "prerelease": false,
+          "draft": false
+        }
+      }
+    },
+    {
+      "repository": "structurizr/ui",
+      "sha": "3b2582c106f1a836e78696b7226fc5869fe9bad1",
+      "local_path": null,
+      "status": "exclude_archived",
+      "include_reason": null,
+      "exclude_reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation.",
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/ui",
+        "retrieved_at_utc": "2026-10-14T20:53:35+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/ui",
+          "head_commit": "https://api.github.com/repos/structurizr/ui/commits/main",
+          "latest_release": "https://api.github.com/repos/structurizr/ui/releases/latest"
+        },
+        "repository": {
+          "id": 591086575,
+          "full_name": "structurizr/ui",
+          "html_url": "https://github.com/structurizr/ui",
+          "description": "UI code for Structurizr Lite, on-premises, and cloud service.",
+          "homepage": "https://docs.structurizr.com/ui",
+          "stargazers_count": 64,
+          "forks_count": 45,
+          "subscribers_count": 4,
+          "open_issues_count": 22,
+          "language": "JavaScript",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2023-01-19T22:18:49Z",
+          "updated_at": "2026-06-08T12:04:47Z",
+          "pushed_at": "2026-01-14T14:01:27Z",
+          "archived": true,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [],
+          "size": 4900,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "3b2582c106f1a836e78696b7226fc5869fe9bad1",
+          "html_url": "https://github.com/structurizr/ui/commit/3b2582c106f1a836e78696b7226fc5869fe9bad1",
+          "committed_at": "2025-11-04T19:48:08Z",
+          "subject": "Adds fallback fonts, and includes font definitions when exporting SVGs."
+        },
+        "latest_release": null
+      }
+    },
+    {
+      "repository": "structurizr/onpremises",
+      "sha": "d0de84817c96f0eb1867601414a19dd58ab5f066",
+      "local_path": null,
+      "status": "exclude_archived",
+      "include_reason": null,
+      "exclude_reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation.",
+      "metadata_snapshot": {
+        "requested_slug": "structurizr/onpremises",
+        "retrieved_at_utc": "2026-10-14T20:53:37+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/structurizr/onpremises",
+          "head_commit": "https://api.github.com/repos/structurizr/onpremises/commits/main",
+          "latest_release": "https://api.github.com/repos/structurizr/onpremises/releases/latest"
+        },
+        "repository": {
+          "id": 532494235,
+          "full_name": "structurizr/onpremises",
+          "html_url": "https://github.com/structurizr/onpremises",
+          "description": "Structurizr on-premises installation",
+          "homepage": "https://docs.structurizr.com/onpremises",
+          "stargazers_count": 222,
+          "forks_count": 76,
+          "subscribers_count": 8,
+          "open_issues_count": 2,
+          "language": "Java",
+          "license": {
+            "key": "mit",
+            "name": "MIT License",
+            "spdx_id": "MIT",
+            "url": "https://api.github.com/licenses/mit",
+            "node_id": "MDc6TGljZW5zZTEz"
+          },
+          "created_at": "2022-09-04T09:31:24Z",
+          "updated_at": "2026-08-13T17:32:19Z",
+          "pushed_at": "2026-03-27T17:05:30Z",
+          "archived": true,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "c4-model",
+            "c4model",
+            "softwarearchitecture",
+            "structurizr"
+          ],
+          "size": 3859,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "d0de84817c96f0eb1867601414a19dd58ab5f066",
+          "html_url": "https://github.com/structurizr/onpremises/commit/d0de84817c96f0eb1867601414a19dd58ab5f066",
+          "committed_at": "2026-03-27T17:05:29Z",
+          "subject": "Wording tweak."
+        },
+        "latest_release": {
+          "tag_name": "v2025.11.09",
+          "name": "v2025.11.09",
+          "html_url": "https://github.com/structurizr/onpremises/releases/tag/v2025.11.09",
+          "published_at": "2025-11-09T14:35:34Z",
+          "prerelease": false,
+          "draft": false
+        }
+      }
+    },
+    {
+      "repository": "patrickchugh/terravision",
+      "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+      "local_path": "Research/repos/patrickchugh/terravision",
+      "status": "include",
+      "include_reason": "补足从 Terraform 计划和依赖图生成云基础设施架构图的 IaC 路线；区分计划态和云端实际运行态。",
+      "exclude_reason": null,
+      "metadata_snapshot": {
+        "requested_slug": "patrickchugh/terravision",
+        "retrieved_at_utc": "2026-10-14T20:55:38+00:00",
+        "api_endpoints": {
+          "repository": "https://api.github.com/repos/patrickchugh/terravision",
+          "head_commit": "https://api.github.com/repos/patrickchugh/terravision/commits/main",
+          "latest_release": "https://api.github.com/repos/patrickchugh/terravision/releases/latest"
+        },
+        "repository": {
+          "id": 469272572,
+          "full_name": "patrickchugh/terravision",
+          "html_url": "https://github.com/patrickchugh/terravision",
+          "description": "Cloud architecture diagrams in both directions: AI prompt or JSON to diagram, diagram to Terraform via MCP server, and Terraform to diagram via CLI or CI/CD. Using Official AWS, Azure and GCP icons.",
+          "homepage": "https://patrickchugh.github.io/terravision/",
+          "stargazers_count": 1655,
+          "forks_count": 175,
+          "subscribers_count": 18,
+          "open_issues_count": 4,
+          "language": "Python",
+          "license": {
+            "key": "agpl-3.0",
+            "name": "GNU Affero General Public License v3.0",
+            "spdx_id": "AGPL-3.0",
+            "url": "https://api.github.com/licenses/agpl-3.0",
+            "node_id": "MDc6TGljZW5zZTE="
+          },
+          "created_at": "2022-03-13T04:47:49Z",
+          "updated_at": "2026-10-14T17:31:42Z",
+          "pushed_at": "2026-10-06T20:54:54Z",
+          "archived": false,
+          "disabled": false,
+          "fork": false,
+          "default_branch": "main",
+          "topics": [
+            "agent-skill",
+            "architecture-diagram",
+            "architecture-diagram-generator",
+            "aws",
+            "azure",
+            "chatgpt",
+            "claude",
+            "cloud-architecture",
+            "cloud-architecture-diagram",
+            "codex",
+            "diagrams-as-code",
+            "docs-as-code",
+            "drawio",
+            "gcp",
+            "infrastructure-as-code",
+            "llm-tools",
+            "mcp",
+            "mcp-server",
+            "terraform",
+            "text-to-diagram"
+          ],
+          "size": 100360,
+          "visibility": "public"
+        },
+        "default_branch_head": {
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "html_url": "https://github.com/patrickchugh/terravision/commit/7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "committed_at": "2026-10-06T20:54:34Z",
+          "subject": "docs: Terraform-from-a-diagram row follows the idea row"
+        },
+        "latest_release": {
+          "tag_name": "v0.52.0",
+          "name": "v0.52.0",
+          "html_url": "https://github.com/patrickchugh/terravision/releases/tag/v0.52.0",
+          "published_at": "2026-10-02T20:36:24Z",
+          "prerelease": false,
+          "draft": false
+        }
+      },
+      "review_method": "Static source review only; no upstream code, installer, skill, render process, or updater executed.",
+      "checkout_kind": "shallow partial clone with sparse checkout",
+      "source_evidence": [
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/tfwrapper.py",
+          "line_start": 267,
+          "line_end": 297
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/tfwrapper.py",
+          "line_start": 320,
+          "line_end": 387
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/tfwrapper.py",
+          "line_start": 430,
+          "line_end": 466
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "terravision/terravision.py",
+          "line_start": 218,
+          "line_end": 226
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/graphmaker.py",
+          "line_start": 1588,
+          "line_end": 1603
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/graphmaker.py",
+          "line_start": 1624,
+          "line_end": 1653
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/drawing.py",
+          "line_start": 2232,
+          "line_end": 2268
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/html_renderer.py",
+          "line_start": 496,
+          "line_end": 533
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "modules/mcp_server.py",
+          "line_start": 516,
+          "line_end": 550
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "skills/terravision-cloud-diagrams/SKILL.md",
+          "line_start": 198,
+          "line_end": 203
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "pyproject.toml",
+          "line_start": 5,
+          "line_end": 12
+        },
+        {
+          "repository": "patrickchugh/terravision",
+          "sha": "7abacaab1483ccdcd4e59470b0097d23d9a05955",
+          "path": "skills/terravision-cloud-diagrams/SKILL.md",
+          "line_start": 65,
+          "line_end": 80
+        }
+      ],
+      "checkout_clean": true,
+      "source_sha_matches_metadata": true
+    }
+  ],
+  "unavailable_predecessors": [
+    {
+      "requested_repository": "structurizr/dsl",
+      "status": "http_404",
+      "checked_at_utc": "2026-10-14T20:54:10+00:00",
+      "api_endpoint": "https://api.github.com/repos/structurizr/dsl",
+      "exit_code": 1,
+      "response": {
+        "message": "Not Found",
+        "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+        "status": "404"
+      },
+      "stderr": "gh: Not Found (HTTP 404)",
+      "interpretation": "URL currently unavailable; this alone does not establish whether deleted, renamed, or made private."
+    }
+  ],
+  "official_sources": [
+    {
+      "url": "https://docs.structurizr.com/eol",
+      "finding": "Lite -> local; CLI -> unified commands; on-premises -> server; old cloud service has no replacement."
+    },
+    {
+      "url": "https://docs.structurizr.com/server",
+      "finding": "Apache-licensed open core available when built from source; prebuilt server binaries add enterprise features and require a license."
+    },
+    {
+      "url": "https://docs.structurizr.com/binaries",
+      "finding": "2026.09.19 published binaries; Java 21 or Docker; PNG/SVG export requires Playwright-enabled build."
+    },
+    {
+      "url": "https://www.archimatetool.com/download/",
+      "finding": "Archi 5.10.0 (2026-09-03), ArchiMate 3.2; latest_release null on source repo is not evidence of no software release."
+    },
+    {
+      "url": "https://likec4.dev/dsl/intro/",
+      "finding": "LikeC4 is a DSL, merges .c4/.likec4 sources into a model; not automatic reverse engineering of arbitrary application source."
+    },
+    {
+      "url": "https://c4model.com/tooling",
+      "finding": "C4 creator tooling directory identifies Structurizr and C4-PlantUML."
+    }
+  ],
+  "source_evidence_validation": {
+    "links_checked": 41,
+    "issues": [],
+    "method": "Resolve each pinned permalink to local checkout SHA, file and inclusive line range; no upstream code execution."
+  }
+}

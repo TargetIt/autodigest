@@ -1,0 +1,767 @@
+{
+  "recorded_at_utc": "2026-10-14T21:05:02+00:00",
+  "scope": "Union of the seven stored GitHub queries and explicit domain/official/ecosystem candidates; not an exhaustive list of GitHub projects. Stars in discovery results are not the formal metadata snapshot.",
+  "candidate_count": 65,
+  "new_primary_count": 20,
+  "candidates": [
+    {
+      "repository": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "discovered_by": [
+        {
+          "query": "topic:architecture-diagram stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        },
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "ahmedkhaleel2004/gitdiagram",
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+      "discovered_by": [
+        {
+          "query": "topic:architecture-diagram stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/codebase-architecture-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "仓库源码采样、LLM结构化图生成、边证据处理与Mermaid编译均有独立实现；补快速架构概览入口。"
+    },
+    {
+      "repository": "Agents365-ai/drawio-skill",
+      "url": "https://github.com/Agents365-ai/drawio-skill",
+      "discovered_by": [
+        {
+          "query": "topic:architecture-diagram stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        },
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "原生 draw.io 模型、源码导入、增量同步、规则检查；需要长期维护 `.drawio` 和人工布局时补充"
+    },
+    {
+      "repository": "sverweij/dependency-cruiser",
+      "url": "https://github.com/sverweij/dependency-cruiser",
+      "discovered_by": [
+        {
+          "query": "topic:architecture-diagram stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/codebase-architecture-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "不依赖LLM的JS/TS模块依赖提取、规则验证与图输出，补架构图可复核静态事实层。"
+    },
+    {
+      "repository": "patrickchugh/terravision",
+      "url": "https://github.com/patrickchugh/terravision",
+      "discovered_by": [
+        {
+          "query": "topic:architecture-diagram stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "补足从 Terraform 计划和依赖图生成云基础设施架构图的 IaC 路线；区分计划态和云端实际运行态。"
+    },
+    {
+      "repository": "mermaid-js/mermaid",
+      "url": "https://github.com/mermaid-js/mermaid",
+      "discovered_by": [
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "plantuml/plantuml",
+      "url": "https://github.com/plantuml/plantuml",
+      "discovered_by": [
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "CodeBoarding/CodeBoarding",
+      "url": "https://github.com/CodeBoarding/CodeBoarding",
+      "discovered_by": [
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        },
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/codebase-architecture-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "静态符号/调用/依赖与LLM语义分组明确分工，并有实际分层图文输出；可区分静态支持和语义解释关系。"
+    },
+    {
+      "repository": "coldteadotai/pr-lens",
+      "url": "https://github.com/coldteadotai/pr-lens",
+      "discovered_by": [
+        {
+          "query": "topic:diagrams-as-code stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:13+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "drawdb-io/drawdb",
+      "url": "https://github.com/drawdb-io/drawdb",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        },
+        {
+          "query": "database diagram stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/database-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "Database schema/ERD editing and import/export fill a concrete diagramming gap alongside Archify system explanations."
+    },
+    {
+      "repository": "yctimlin/mcp_excalidraw",
+      "url": "https://github.com/yctimlin/mcp_excalidraw",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        },
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "CLI/MCP 驱动实时画布、元素级修改、原生文件与离线渲染；需要人和 Agent 共同编辑 Excalidraw 时补充"
+    },
+    {
+      "repository": "ZenNotes/zennotes",
+      "url": "https://github.com/ZenNotes/zennotes",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "llmsresearch/paperbanana",
+      "url": "https://github.com/llmsresearch/paperbanana",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "nimbalyst/nimbalyst",
+      "url": "https://github.com/nimbalyst/nimbalyst",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "dineug/erd-editor",
+      "url": "https://github.com/dineug/erd-editor",
+      "discovered_by": [
+        {
+          "query": "diagram mcp stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "shobrook/adrenaline",
+      "url": "https://github.com/shobrook/adrenaline",
+      "discovered_by": [
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "cosmtrek/mindwalk",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "discovered_by": [
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "unslop-xyz/noodles",
+      "url": "https://github.com/unslop-xyz/noodles",
+      "discovered_by": [
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "KaihuaTang/Scene-Graph-Benchmark.pytorch",
+      "url": "https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch",
+      "discovered_by": [
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "search_noise_not_reviewed",
+      "reason": "Search description concerns interview practices or computer-vision scene-graph benchmarking, outside this architecture/knowledge diagram review."
+    },
+    {
+      "repository": "glato/emerge",
+      "url": "https://github.com/glato/emerge",
+      "discovered_by": [
+        {
+          "query": "codebase visualization stars:>1000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:14+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "excalidraw/excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/adjacent-visualization-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "Document and canvas knowledge workspace with actual mind-map layout and editing; adjacent knowledge-understanding use case, not an automatic architecture analyzer."
+    },
+    {
+      "repository": "poteto/hiring-without-whiteboards",
+      "url": "https://github.com/poteto/hiring-without-whiteboards",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "search_noise_not_reviewed",
+      "reason": "Search description concerns interview practices or computer-vision scene-graph benchmarking, outside this architecture/knowledge diagram review."
+    },
+    {
+      "repository": "tldraw/tldraw",
+      "url": "https://github.com/tldraw/tldraw",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "plait-board/drawnix",
+      "url": "https://github.com/plait-board/drawnix",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "Mermaid/Markdown 转可编辑白板，浏览器本地保存；面向手动整理、思维导图和讨论的相邻工具"
+    },
+    {
+      "repository": "konvajs/konva",
+      "url": "https://github.com/konvajs/konva",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "jgraph/drawio",
+      "url": "https://github.com/jgraph/drawio",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "mbrlabs/Lorien",
+      "url": "https://github.com/mbrlabs/Lorien",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "netless-io/flat",
+      "url": "https://github.com/netless-io/flat",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "konvajs/react-konva",
+      "url": "https://github.com/konvajs/react-konva",
+      "discovered_by": [
+        {
+          "query": "whiteboard stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "chartdb/chartdb",
+      "url": "https://github.com/chartdb/chartdb",
+      "discovered_by": [
+        {
+          "query": "database diagram stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/database-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "Database schema/ERD editing and import/export fill a concrete diagramming gap alongside Archify system explanations."
+    },
+    {
+      "repository": "liam-hq/liam",
+      "url": "https://github.com/liam-hq/liam",
+      "discovered_by": [
+        {
+          "query": "database diagram stars:>5000 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:16+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/adjacent-visualization-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "Schema parser to interactive ERD with static-site CLI, distinct from a general diagram renderer."
+    },
+    {
+      "repository": "nicobailon/visual-explainer",
+      "url": "https://github.com/nicobailon/visual-explainer",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "Cocoon-AI/architecture-diagram-generator",
+      "url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "excluded",
+      "reason": "Archify 明确记录的原始上游设计，保留血缘与原仓入口，不作为独立新增主推荐重复计。"
+    },
+    {
+      "repository": "coleam00/excalidraw-diagram-skill",
+      "url": "https://github.com/coleam00/excalidraw-diagram-skill",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "already_in_catalog",
+      "reason": "Already reviewed in the original 40; not counted as a new tool and original metric snapshot retained."
+    },
+    {
+      "repository": "plannotator/effective-html",
+      "url": "https://github.com/plannotator/effective-html",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "axtonliu/axton-obsidian-visual-skills",
+      "url": "https://github.com/axtonliu/axton-obsidian-visual-skills",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "markdown-viewer/skills",
+      "url": "https://github.com/markdown-viewer/skills",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "QingYunA/answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "c-narcissus/paper-framework-figure-studio-pro",
+      "url": "https://github.com/c-narcissus/paper-framework-figure-studio-pro",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "imxv/Pretty-mermaid-skills",
+      "url": "https://github.com/imxv/Pretty-mermaid-skills",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "cclank/lanshu-animated-architecture-diagram",
+      "url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "ythx-101/live-panel-skill",
+      "url": "https://github.com/ythx-101/live-panel-skill",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "bybit-exchange/svg-diagram",
+      "url": "https://github.com/bybit-exchange/svg-diagram",
+      "discovered_by": [
+        {
+          "query": "diagram skill stars:>500 fork:false",
+          "retrieved_at_utc": "2026-10-14T20:54:18+00:00"
+        }
+      ],
+      "status": "adjacent_not_source_reviewed",
+      "reason": "Discovered as an adjacent library, product or workflow; no deep source review or capability conclusion in this round. Kept visible, not silently treated as a tested or inferior tool."
+    },
+    {
+      "repository": "awslabs/mcp",
+      "url": "https://github.com/awslabs/mcp",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "excluded",
+      "reason": "旧 aws-diagram-mcp-server 模块已被官方声明弃用；合集仍维护，不把全仓 Stars 归给模块。"
+    },
+    {
+      "repository": "awslabs/diagram-as-code",
+      "url": "https://github.com/awslabs/diagram-as-code",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "AWS YAML 建模、PNG 生成、Go CLI 与 MCP；AWS 图进入 Git/CI 或接 CloudFormation 时补充"
+    },
+    {
+      "repository": "aws-samples/sample-architecture-diagram-mcp-server",
+      "url": "https://github.com/aws-samples/sample-architecture-diagram-mcp-server",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "AWS 交互 HTML、引导讲解、ELK 布局、draw.io 输出；AWS 专题讲解与可编辑交付的低关注度候选"
+    },
+    {
+      "repository": "lukilabs/beautiful-mermaid",
+      "url": "https://github.com/lukilabs/beautiful-mermaid",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "独立 Mermaid 子集解析、SVG 与终端 ASCII/Unicode；把轻量结构图嵌入终端/聊天界面时补充"
+    },
+    {
+      "repository": "hustcc/mcp-mermaid",
+      "url": "https://github.com/hustcc/mcp-mermaid",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "deferred",
+      "reason": "当前选定代码是 Mermaid 渲染集成封装；已有 Mermaid 本体，优先深入有独立模型/交付/编辑差异的六项。"
+    },
+    {
+      "repository": "hasibweb/OpenDraw",
+      "url": "https://github.com/hasibweb/OpenDraw",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "excluded",
+      "reason": "GitHub API fork=true，parent/source 为 Itz-Agasta/OpenDiagram。"
+    },
+    {
+      "repository": "Mermaid-Chart/vscode-mermaid-chart",
+      "url": "https://github.com/Mermaid-Chart/vscode-mermaid-chart",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "deferred",
+      "reason": "官方 VS Code 插件与官方远端 MCP 不同；本轮只做 README/身份筛查，未把远端服务当公开源码仓深入。"
+    },
+    {
+      "repository": "lgboim/AI-Diagram",
+      "url": "https://github.com/lgboim/AI-Diagram",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "excluded",
+      "reason": "静态代码要求 Python 生成结果却以 DOT 交给 dot；README app.py 与实际 gras.py 不一致，不优先推荐。"
+    },
+    {
+      "repository": "Itz-Agasta/OpenDiagram",
+      "url": "https://github.com/Itz-Agasta/OpenDiagram",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/agent-diagram-candidates.json",
+      "status": "deferred",
+      "reason": "原仓有独立 DiagramSpec/ELK/renderer 应用栈，但本轮仅做 README/源码树筛选，尚未深入实现，不把宣传作为验证。"
+    },
+    {
+      "repository": "likec4/likec4",
+      "url": "https://github.com/likec4/likec4",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "补足自定义架构 DSL、多文件单一模型、多视图和交互发布；与 Archify 的单次图解交付形成互补。"
+    },
+    {
+      "repository": "structurizr/structurizr",
+      "url": "https://github.com/structurizr/structurizr",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "补足 C4 参考实现、共享架构模型、多视图及现行统一工具链，纠正旧 CLI/Lite 仓库归档导致的推荐过时。"
+    },
+    {
+      "repository": "plantuml-stdlib/C4-PlantUML",
+      "url": "https://github.com/plantuml-stdlib/C4-PlantUML",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "作为 PlantUML 的 C4 领域扩展单独介绍，不重复计算 PlantUML 引擎；适合规范化架构图与既有文档流水线。"
+    },
+    {
+      "repository": "archimatetool/archi",
+      "url": "https://github.com/archimatetool/archi",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "补足 ArchiMate 企业架构模型编辑、多视图共享元素与模型规则校验；与 Archify 同名相近但用途不同。"
+    },
+    {
+      "repository": "structurizr/cli",
+      "url": "https://github.com/structurizr/cli",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "exclude_archived",
+      "reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation."
+    },
+    {
+      "repository": "structurizr/lite",
+      "url": "https://github.com/structurizr/lite",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "exclude_archived",
+      "reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation."
+    },
+    {
+      "repository": "structurizr/java",
+      "url": "https://github.com/structurizr/java",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "exclude_archived",
+      "reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation."
+    },
+    {
+      "repository": "structurizr/ui",
+      "url": "https://github.com/structurizr/ui",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "exclude_archived",
+      "reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation."
+    },
+    {
+      "repository": "structurizr/onpremises",
+      "url": "https://github.com/structurizr/onpremises",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/architecture-modeling-candidates.json",
+      "status": "exclude_archived",
+      "reason": "Archived predecessor; current implementation is structurizr/structurizr, not counted as a separate recommendation."
+    },
+    {
+      "repository": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/codebase-architecture-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "本地Tree-sitter索引、知识图谱与候选调用路径查询构成独立事实层；保留Noncommercial许可限制说明。"
+    },
+    {
+      "repository": "AsyncFuncAI/deepwiki-open",
+      "url": "https://github.com/AsyncFuncAI/deepwiki-open",
+      "discovered_by": [],
+      "candidate_evidence": "Research/evidence/codebase-architecture-candidates.json",
+      "status": "included_fixed_source_review",
+      "reason": "除wiki/RAG之外存在实际codemap两阶段生成、片段引用定位和Mermaid renderer，直接辅助问题驱动代码理解。"
+    },
+    {
+      "repository": "k1LoW/tbls",
+      "url": "https://github.com/k1LoW/tbls",
+      "discovered_by": [
+        {
+          "source": "Liam official MySQL integration documentation"
+        }
+      ],
+      "status": "supporting_ecosystem_not_source_reviewed",
+      "reason": "Liam uses tbls JSON for some database dialects. Independent tbls implementation was not reviewed or cloned in this round."
+    }
+  ]
+}

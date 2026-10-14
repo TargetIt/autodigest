@@ -1,6 +1,6 @@
 # GitHub 仓库元数据与源码版本
 
-原 39 仓采集区间：2026-10-14T19:11:04+00:00 至 2026-10-14T19:11:29+00:00（UTC）。北京时间为 2026-10-15 03:11 左右。Archify 单独增补于 2026-10-14T20:41:13+00:00（北京时间 04:41:13）；原批次数字保持不变。
+原 39 仓采集区间：2026-10-14T19:11:04+00:00 至 2026-10-14T19:11:29+00:00（UTC）。北京时间为 2026-10-15 03:11 左右。Archify 单独增补于 2026-10-14T20:41:13+00:00（北京时间 04:41:13）；原批次数字保持不变。本轮再增补20仓，采集区间 2026-10-14T20:53:23+00:00 至 2026-10-14T20:55:59+00:00（UTC），总计60主仓。
 
 全部为仓库级指标；合集 Star 不代表单项 skill。下表“许可检测”是 GitHub API 原值，具体文件解释见分组源码笔记及 Archify 专项补充。默认分支 HEAD 日期与 release 日期分列，不用 pushed_at 或 updated_at 代替代码维护时间。
 
@@ -48,9 +48,31 @@
 | [vega/vega-lite](https://github.com/vega/vega-lite) | 5,517 | 726 | 2026-10-08 | [v6.5.0](https://github.com/vega/vega-lite/releases/tag/v6.5.0) · 2026-10-08 | BSD-3-Clause | [85fab8d12c87](https://github.com/vega/vega-lite/commit/85fab8d12c873b3b224ef9a33c807642953325ba) |
 | [apache/echarts](https://github.com/apache/echarts) | 67,509 | 19,816 | 2026-10-04 | [6.1.0](https://github.com/apache/echarts/releases/tag/6.1.0) · 2026-05-19 | Apache-2.0 | [34f4d927eafe](https://github.com/apache/echarts/commit/34f4d927eafe251f26f63afd3aeefa30f2feba30) |
 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 83,478 | 5,647 | 2026-10-14 | [v3.1.0](https://github.com/tt-a1i/archify/releases/tag/v3.1.0) · 2026-10-13 | MIT | [d0c8c7e9f4e0](https://github.com/tt-a1i/archify/commit/d0c8c7e9f4e06f303389f804208d387f27019ef5) |
+| [likec4/likec4](https://github.com/likec4/likec4) | 5,875 | 400 | 2026-10-13 | [v1.59.4](https://github.com/likec4/likec4/releases/tag/v1.59.4) · 2026-09-21 | MIT | [5385c5770429](https://github.com/likec4/likec4/commit/5385c577042988691f66cd82e65d60d13121d468) |
+| [structurizr/structurizr](https://github.com/structurizr/structurizr) | 463 | 68 | 2026-10-05 | [v2026.09.19](https://github.com/structurizr/structurizr/releases/tag/v2026.09.19) · 2026-09-19 | Apache-2.0 | [da99caf2f285](https://github.com/structurizr/structurizr/commit/da99caf2f2857e5373f7b58569152274f1725ba3) |
+| [plantuml-stdlib/C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) | 7,433 | 1,170 | 2026-08-26 | [v2.14.0](https://github.com/plantuml-stdlib/C4-PlantUML/releases/tag/v2.14.0) · 2026-08-26 | MIT | [f998c46833da](https://github.com/plantuml-stdlib/C4-PlantUML/commit/f998c46833daac592f3283ff08d7b8cd7e1558fb) |
+| [archimatetool/archi](https://github.com/archimatetool/archi) | 1,286 | 344 | 2026-10-02 | API 无 latest release | MIT | [fbfa4474c414](https://github.com/archimatetool/archi/commit/fbfa4474c414477ce88257c956999fb9efdf9e69) |
+| [patrickchugh/terravision](https://github.com/patrickchugh/terravision) | 1,655 | 175 | 2026-10-06 | [v0.52.0](https://github.com/patrickchugh/terravision/releases/tag/v0.52.0) · 2026-10-02 | AGPL-3.0 | [7abacaab1483](https://github.com/patrickchugh/terravision/commit/7abacaab1483ccdcd4e59470b0097d23d9a05955) |
+| [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | 18,202 | 1,403 | 2026-10-14 | API 无 latest release | MIT | [310e2e696b19](https://github.com/ahmedkhaleel2004/gitdiagram/commit/310e2e696b1953cec0e76560cad5e9cd7ca5d964) |
+| [CodeBoarding/CodeBoarding](https://github.com/CodeBoarding/CodeBoarding) | 2,577 | 213 | 2026-10-11 | [v0.14.2](https://github.com/CodeBoarding/CodeBoarding/releases/tag/v0.14.2) · 2026-09-16 | MIT | [57ac725575a8](https://github.com/CodeBoarding/CodeBoarding/commit/57ac725575a82562a27e1b12302afaa337232b23) |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | 47,882 | 5,197 | 2026-10-14 | [v1.6.12](https://github.com/abhigyanpatwari/GitNexus/releases/tag/v1.6.12) · 2026-09-12 | NOASSERTION | [cae60c2bd49e](https://github.com/abhigyanpatwari/GitNexus/commit/cae60c2bd49ed9176544d0d1a0810db6a552f2cc) |
+| [AsyncFuncAI/deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open) | 18,197 | 2,014 | 2026-09-03 | API 无 latest release | MIT | [d92819a9c9f3](https://github.com/AsyncFuncAI/deepwiki-open/commit/d92819a9c9f3b99416e3580ff235fc9d3adf8b89) |
+| [sverweij/dependency-cruiser](https://github.com/sverweij/dependency-cruiser) | 7,291 | 301 | 2026-10-13 | [v18.6.0](https://github.com/sverweij/dependency-cruiser/releases/tag/v18.6.0) · 2026-10-11 | MIT | [c580daf6477a](https://github.com/sverweij/dependency-cruiser/commit/c580daf6477aa5619bacad9c9091c9b7cc81882d) |
+| [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 10,141 | 723 | 2026-10-11 | [v3.4.2](https://github.com/Agents365-ai/drawio-skill/releases/tag/v3.4.2) · 2026-10-11 | MIT | [57270820d3cd](https://github.com/Agents365-ai/drawio-skill/commit/57270820d3cd71cbdf4fb6b2f7091d4fb37bb019) |
+| [yctimlin/mcp_excalidraw](https://github.com/yctimlin/mcp_excalidraw) | 2,538 | 285 | 2026-10-09 | [v2.1.2](https://github.com/yctimlin/mcp_excalidraw/releases/tag/v2.1.2) · 2026-10-04 | MIT | [8084a1c8b410](https://github.com/yctimlin/mcp_excalidraw/commit/8084a1c8b410d625fcfd59d5cffb32f3a86a2a6f) |
+| [lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) | 11,194 | 410 | 2026-05-06 | [v1.1.2](https://github.com/lukilabs/beautiful-mermaid/releases/tag/v1.1.2) · 2026-02-26 | MIT | [2ac8bbbb060c](https://github.com/lukilabs/beautiful-mermaid/commit/2ac8bbbb060ca0a65a6a21f3200bd99b1587b488) |
+| [plait-board/drawnix](https://github.com/plait-board/drawnix) | 14,941 | 1,298 | 2026-09-07 | [v0.4.0](https://github.com/plait-board/drawnix/releases/tag/v0.4.0) · 2026-04-19 | MIT | [b138ff867943](https://github.com/plait-board/drawnix/commit/b138ff867943ddff6c4c79560e10ab6ee3b5600e) |
+| [awslabs/diagram-as-code](https://github.com/awslabs/diagram-as-code) | 1,587 | 106 | 2026-09-16 | [v0.24](https://github.com/awslabs/diagram-as-code/releases/tag/v0.24) · 2026-08-26 | Apache-2.0 | [4ec965cf8bdb](https://github.com/awslabs/diagram-as-code/commit/4ec965cf8bdb309d714bc6202e7954fc43338bbe) |
+| [aws-samples/sample-architecture-diagram-mcp-server](https://github.com/aws-samples/sample-architecture-diagram-mcp-server) | 7 | 1 | 2026-09-28 | API 无 latest release | MIT-0 | [c7af5d75322e](https://github.com/aws-samples/sample-architecture-diagram-mcp-server/commit/c7af5d75322ed10add9921dd3ca5786b512fdd3c) |
+| [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 40,016 | 3,311 | 2026-10-12 | API 无 latest release | AGPL-3.0 | [f7c92920faaf](https://github.com/drawdb-io/drawdb/commit/f7c92920faaf7aa699111a8c58eff1457ab7f6e0) |
+| [chartdb/chartdb](https://github.com/chartdb/chartdb) | 22,996 | 1,501 | 2026-04-11 | [v1.20.1](https://github.com/chartdb/chartdb/releases/tag/v1.20.1) · 2026-04-07 | AGPL-3.0 | [c24936a402bb](https://github.com/chartdb/chartdb/commit/c24936a402bb3e24b4858f05282d69a04fcfe25b) |
+| [liam-hq/liam](https://github.com/liam-hq/liam) | 5,138 | 241 | 2026-10-13 | [@liam-hq/cli@0.7.24](https://github.com/liam-hq/liam/releases/tag/%40liam-hq/cli%400.7.24) · 2025-11-25 | Apache-2.0 | [0c5e362c2cbd](https://github.com/liam-hq/liam/commit/0c5e362c2cbda0e17b3ac8d9707d2a421d64f814) |
+| [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 73,505 | 5,358 | 2026-10-11 | [v0.27.4](https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4) · 2026-08-18 | NOASSERTION | [0b69a6da21e8](https://github.com/toeverything/AFFiNE/commit/0b69a6da21e8fd35beb85667bb8496d9b3852238) |
 
-当前收录的 40 个主仓在各自采集时均未归档；这不构成未来维护承诺。默认分支代码不一定已经进入最新 release/npm/PyPI 分发包。
+当前收录的 60 个主仓在各自采集时均未归档；这不构成未来维护承诺。默认分支代码不一定已经进入最新 release/npm/PyPI 分发包。
 
 需要结合源文件解释的许可检测：bentossell/visualise 的 README 声明 MIT；coleam00/excalidraw-diagram-skill 未见 LICENSE；Excalidraw MCP 的 README/package 声明 MIT 但未见独立 LICENSE；PlantUML 有多种发行许可；Quarto CLI 的 COPYING.md 为 MIT；tldraw 使用自有许可。draw.io 图形资产也有独立条件。
 
 完整字段、每条采集时间和 API endpoint 见 [JSON 快照](github-metadata.json)。源码文件的固定链接和哈希见 [源码索引](source-index.json)。
+
+本轮特别核对：GitNexus 为 PolyForm Noncommercial；TerraVision 为 AGPL-3.0-only；AFFiNE 按目录及 CE/EE 分开；Structurizr 开源核心和官方 server 发行物不同。API 字段不能替代这些具体范围。详见四组补充笔记。
